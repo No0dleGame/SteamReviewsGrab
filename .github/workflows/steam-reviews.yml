@@ -30,6 +30,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*.json || true
+          # 递归提交 data/ 下所有更新（包括 data/<appid>/*）
+          git add data -A || true
           git commit -m "chore(data): refresh Steam reviews $(date -u '+%Y-%m-%d')" || echo "No changes to commit"
           git push || true
