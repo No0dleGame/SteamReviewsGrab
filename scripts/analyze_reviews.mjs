@@ -50,6 +50,42 @@ const topHelpfulReviews = reviews
     review_snippet: (r.review || '').slice(0, 200)
   }));
 
+// 词频统计（基础版）
+const stopwordsZh = new Set(['的','了','和','是','在','我','你','他','她','它','不','很','也','这','那','就','都','可以','一个','没有','还有','吗','啊','呢','吧','着','给','让','会','把','被','比','到']);
+const stopwordsEn = new Set(['the','and','a','to','of','in','is','it','that','this','for','on','with','as','was','are','be','at','by','or','an','from','so','if','but','not','very','really','just']);
+
+function tokenize(review, language) {
+  if (!review || typeof review !== 'string') return [];
+  if (language === 'schinese' || language === 'tchinese') {
+    const han = review.match(/[\u4e00-\u9fff]+/g);
+    if (!han) return [];
+    const grams = [];
+    for (const seg of han) {
+      // 生成双字词，过滤停用词
+      for (let i = 0; i < seg.length - 1; i++) {
+        const w = seg.slice(i, i + 2);
+        if (!stopwordsZh.has(w)) grams.push(w);
+      }
+    }
+    return grams;
+  }
+  // 英文及其他语言：按单词分割并去停用词
+  const words = review.toLowerCase().match(/[a-z]{2,}/g) || [];
+  return words.filter(w => !stopwordsEn.has(w));
+}
+
+const freq = new Map();
+for (const r of reviews) {
+  const tokens = tokenize(r.review, r.language);
+  for (const t of tokens) {
+    freq.set(t, (freq.get(t) || 0) + 1);
+  }
+}
+const topWords = Array.from(freq.entries())
+  .map(([word, count]) => ({ word, count }))
+  .sort((a, b) => b.count - a.count)
+  .slice(0, 30);
+
 const summary = {
   appid: raw.appid,
   fetched_at: raw.fetched_at,
@@ -57,6 +93,11 @@ const summary = {
   positive_rate: positiveRate,
   language_distribution: languageDistribution,
   top_helpful_reviews: topHelpfulReviews,
+  sentiment_distribution: [
+    { label: '好评', count: positive },
+    { label: '差评', count: negative }
+  ],
+  top_words: topWords,
   query_summary: raw.query_summary ?? null
 };
 

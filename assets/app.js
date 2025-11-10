@@ -74,6 +74,61 @@ async function loadSummary() {
       }
     });
 
+    // 语言饼图
+    const langPieEl = document.getElementById('langPie');
+    if (langPieEl) {
+      const langPieCtx = langPieEl.getContext('2d');
+      new Chart(langPieCtx, {
+        type: 'doughnut',
+        data: {
+          labels,
+          datasets: [{
+            data: values,
+            backgroundColor: labels.map((_, i) => `hsl(${(i * 37) % 360}deg 70% 55%)`)
+          }]
+        },
+        options: {
+          plugins: { legend: { position: 'bottom' } }
+        }
+      });
+    }
+
+    // 情绪饼图（好评/差评）
+    const sentPieEl = document.getElementById('sentPie');
+    if (sentPieEl) {
+      const sentPieCtx = sentPieEl.getContext('2d');
+      const sentDist = summary.sentiment_distribution || [];
+      new Chart(sentPieCtx, {
+        type: 'doughnut',
+        data: {
+          labels: sentDist.map(s => s.label),
+          datasets: [{
+            data: sentDist.map(s => s.count),
+            backgroundColor: ['#52c41a', '#ff4d4f']
+          }]
+        },
+        options: {
+          plugins: { legend: { position: 'bottom' } }
+        }
+      });
+    }
+
+    // 高频词列表
+    const topWordsEl = document.getElementById('topWords');
+    if (topWordsEl) {
+      const words = summary.top_words || [];
+      if (words.length === 0) {
+        topWordsEl.innerHTML = '<li class="muted">暂无词频数据</li>';
+      } else {
+        topWordsEl.innerHTML = '';
+        words.forEach(w => {
+          const li = document.createElement('li');
+          li.innerHTML = `<div class="top-line"><div>${escapeHtml(w.word)}</div><div class="muted">${w.count}</div></div>`;
+          topWordsEl.appendChild(li);
+        });
+      }
+    }
+
     // 已移除热门评论区块，改由“评论列表”采用排序=热门来查看
   } catch (err) {
     metaEl.textContent = '未检测到分析数据，请先运行抓取与分析流程。';

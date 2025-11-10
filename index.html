@@ -28,6 +28,16 @@
       <section class="chart">
         <h2>语言分布</h2>
         <canvas id="langChart" height="120"></canvas>
+        <div class="split">
+          <div class="panel">
+            <h3>语言饼图</h3>
+            <canvas id="langPie" height="160"></canvas>
+          </div>
+          <div class="panel">
+            <h3>好评/差评饼图</h3>
+            <canvas id="sentPie" height="160"></canvas>
+          </div>
+        </div>
       </section>
 
       
@@ -55,6 +65,11 @@
           <span id="pageInfo" class="muted"></span>
           <button id="nextBtn">下一页</button>
         </div>
+      </section>
+
+      <section class="keywords">
+        <h2>高频词 Top 30</h2>
+        <ul id="topWords" class="top-list"></ul>
       </section>
     </main>
 
