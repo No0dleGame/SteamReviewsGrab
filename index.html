@@ -17,7 +17,7 @@
       <section class="stats" id="stats">
         <h2>数据概览</h2>
         <div class="grid">
-          <div class="card"><div class="label">总评论数</div><div class="value" id="total">—</div></div>
+          <div class="card"><div class="label">总评论数（Steam）</div><div class="value" id="total">—</div></div>
           <div class="card"><div class="label">好评数</div><div class="value" id="positive">—</div></div>
           <div class="card"><div class="label">差评数</div><div class="value" id="negative">—</div></div>
           <div class="card"><div class="label">好评率</div><div class="value" id="positiveRate">—</div></div>
@@ -30,9 +30,31 @@
         <canvas id="langChart" height="120"></canvas>
       </section>
 
-      <section class="list">
-        <h2>热门评论（Top 10）</h2>
-        <ul id="topList" class="top-list"></ul>
+      
+
+      <section class="controls">
+        <h2>评论列表</h2>
+        <div class="filters">
+          <label>排序：
+            <select id="sortSelect">
+              <option value="latest">最新</option>
+              <option value="popular">热门</option>
+            </select>
+          </label>
+          <label>类型：
+            <select id="typeSelect">
+              <option value="all">全部</option>
+              <option value="positive">好评</option>
+              <option value="negative">差评</option>
+            </select>
+          </label>
+        </div>
+        <ul id="allList" class="top-list"></ul>
+        <div class="pager">
+          <button id="prevBtn">上一页</button>
+          <span id="pageInfo" class="muted"></span>
+          <button id="nextBtn">下一页</button>
+        </div>
       </section>
     </main>
 

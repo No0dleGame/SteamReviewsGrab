@@ -35,8 +35,17 @@ main { padding: 20px; max-width: 1000px; margin: 0 auto; }
 .snippet { margin-top: 6px; color: var(--text); font-size: 14px; }
 .muted { color: var(--muted); }
 
+.controls { margin-top: 20px; }
+.filters { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+.filters label { background: var(--panel); border: 1px solid var(--border); padding: 8px 10px; border-radius: 8px; }
+.filters select { background: transparent; color: var(--text); border: none; outline: none; }
+.pager { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
+.pager button { background: var(--panel); border: 1px solid var(--border); color: var(--text); padding: 6px 10px; border-radius: 8px; cursor: pointer; }
+.pager button:disabled { opacity: 0.5; cursor: default; }
+
 footer { padding: 14px 20px; color: var(--muted); border-top: 1px solid var(--border); margin-top: 24px; }
 
 @media (max-width: 720px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
 }
+/* 热门评论折叠区块已移除 */
