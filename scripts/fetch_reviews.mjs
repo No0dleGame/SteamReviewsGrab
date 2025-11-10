@@ -24,8 +24,9 @@ async function fetchPage(cursor = '*') {
   url.searchParams.set('purchase_type', 'all');
   url.searchParams.set('num_per_page', '100');
   url.searchParams.set('cursor', cursor);
-  // 使用创建时间排序，便于分页
-  url.searchParams.set('review_date_preference', 'created');
+  // 建议使用 recent，并包含“离题评论活动”，避免被过滤导致总量偏少
+  url.searchParams.set('filter', 'recent');
+  url.searchParams.set('filter_offtopic_activity', '1');
 
   const res = await fetch(url.toString(), {
     headers: {
@@ -51,6 +52,7 @@ async function fetchAll() {
     all.push(...batch);
     cursor = resp.cursor;
     page += 1;
+    console.log(`Page ${page}: ${batch.length} reviews, cursor=${cursor?.slice(0, 24) || ''}...`);
     // 控制速率，避免被限流
     await delay(delayMs);
   }

@@ -35,7 +35,8 @@ async function loadSummary() {
     const summary = await res.json();
 
     // 概览
-    const steamTotal = summary.query_summary?.num_reviews ?? summary.counts?.total ?? '--';
+    // 使用 Steam 接口提供的总评论数（total_reviews）；缺失时回退到本次抓取数
+    const steamTotal = summary.query_summary?.total_reviews ?? summary.counts?.total ?? '--';
     const positive = summary.query_summary?.total_positive ?? summary.counts?.positive ?? '--';
     const negative = summary.query_summary?.total_negative ?? summary.counts?.negative ?? '--';
     const rate = summary.positive_rate != null ? `${(summary.positive_rate * 100).toFixed(1)}%` : '--';
