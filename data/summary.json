@@ -1,0 +1,161 @@
+{
+  "appid": 2589500,
+  "fetched_at": "2025-11-10T04:48:26.889Z",
+  "counts": {
+    "total": 8424,
+    "positive": 8184,
+    "negative": 240
+  },
+  "positive_rate": 0.9715099715099715,
+  "language_distribution": [
+    {
+      "language": "english",
+      "count": 4523
+    },
+    {
+      "language": "schinese",
+      "count": 2281
+    },
+    {
+      "language": "koreana",
+      "count": 360
+    },
+    {
+      "language": "spanish",
+      "count": 240
+    },
+    {
+      "language": "brazilian",
+      "count": 200
+    },
+    {
+      "language": "japanese",
+      "count": 180
+    },
+    {
+      "language": "tchinese",
+      "count": 160
+    },
+    {
+      "language": "russian",
+      "count": 140
+    },
+    {
+      "language": "german",
+      "count": 120
+    },
+    {
+      "language": "thai",
+      "count": 60
+    },
+    {
+      "language": "turkish",
+      "count": 40
+    },
+    {
+      "language": "french",
+      "count": 40
+    },
+    {
+      "language": "latam",
+      "count": 20
+    },
+    {
+      "language": "portuguese",
+      "count": 20
+    },
+    {
+      "language": "ukrainian",
+      "count": 20
+    },
+    {
+      "language": "polish",
+      "count": 20
+    }
+  ],
+  "top_helpful_reviews": [
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    },
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    },
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    },
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    },
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    },
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    },
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    },
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    },
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    },
+    {
+      "recommendationid": "203084101",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 182,
+      "playtime_hours": 5.15,
+      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+    }
+  ],
+  "query_summary": {
+    "num_reviews": 100
+  }
+}
