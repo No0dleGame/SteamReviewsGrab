@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Steam Reviews Grab</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Steam Reviews Grab</h1>
+      <p>按月自动抓取并分析指定 Steam 游戏的评论</p>
+    </header>
+
+    <main>
+      <section class="stats" id="stats">
+        <h2>数据概览</h2>
+        <div class="grid">
+          <div class="card"><div class="label">总评论数</div><div class="value" id="total">—</div></div>
+          <div class="card"><div class="label">好评数</div><div class="value" id="positive">—</div></div>
+          <div class="card"><div class="label">差评数</div><div class="value" id="negative">—</div></div>
+          <div class="card"><div class="label">好评率</div><div class="value" id="positiveRate">—</div></div>
+        </div>
+        <div class="meta" id="meta">等待分析数据...</div>
+      </section>
+
+      <section class="chart">
+        <h2>语言分布</h2>
+        <canvas id="langChart" height="120"></canvas>
+      </section>
+
+      <section class="list">
+        <h2>热门评论（Top 10）</h2>
+        <ul id="topList" class="top-list"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <small>数据来源：Steam 官方评论接口（经 GitHub Actions 抓取与分析）</small>
+    </footer>
+
+    <script src="assets/app.js"></script>
+  </body>
+  </html>
