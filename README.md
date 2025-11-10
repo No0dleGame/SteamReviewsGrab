@@ -49,27 +49,8 @@
 
 ## 重要说明
 - Steam 评论接口：`https://store.steampowered.com/appreviews/<appid>?json=1&language=all&review_type=all&purchase_type=all&num_per_page=100&cursor=...`
-- 由于评论量可能非常大，默认限制 `max_pages` 为 30（约 3000 条）。你可以按需上调，但请注意仓库膨胀与速率限制。
 - 网页端不直接跨域抓取 Steam（受 CORS 限制），而是读取本仓库中由 Actions 生成的 `summary.json`。
-
-## 本地调试（手动运行脚本）
-确保已安装 Node.js 18+。在项目根目录执行：
-
-```
-node scripts/fetch_reviews.mjs
-node scripts/analyze_reviews.mjs
-```
-
 完成后将在 `data/` 生成 `raw_reviews.json` 与 `summary.json`，再通过静态服务器预览网页即可。
-
-## 配置文件示例（config.json）
-```
-{
-  "appid": 570,
-  "max_pages": 30,
-  "delay_ms": 600
-}
-```
 
 ## 许可
 本项目仅用于学习与数据展示，请合理控制抓取频率与数据规模，遵循相关服务条款。
