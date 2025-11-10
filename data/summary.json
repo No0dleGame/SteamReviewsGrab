@@ -1,91 +1,75 @@
 {
   "appid": 2589500,
-  "fetched_at": "2025-11-10T05:28:01.418Z",
+  "fetched_at": "2025-11-10T05:45:34.182Z",
   "counts": {
-    "total": 2727,
-    "positive": 2637,
-    "negative": 90
+    "total": 421,
+    "positive": 409,
+    "negative": 12
   },
-  "positive_rate": 0.966996699669967,
+  "positive_rate": 0.9714964370546318,
   "language_distribution": [
     {
       "language": "english",
-      "count": 1230
+      "count": 226
     },
     {
       "language": "schinese",
-      "count": 1112
-    },
-    {
-      "language": "japanese",
-      "count": 65
-    },
-    {
-      "language": "tchinese",
-      "count": 59
+      "count": 114
     },
     {
       "language": "koreana",
-      "count": 51
-    },
-    {
-      "language": "brazilian",
-      "count": 43
-    },
-    {
-      "language": "spanish",
-      "count": 36
-    },
-    {
-      "language": "german",
-      "count": 33
-    },
-    {
-      "language": "russian",
-      "count": 24
-    },
-    {
-      "language": "french",
       "count": 18
     },
     {
+      "language": "spanish",
+      "count": 12
+    },
+    {
+      "language": "brazilian",
+      "count": 10
+    },
+    {
+      "language": "japanese",
+      "count": 9
+    },
+    {
+      "language": "tchinese",
+      "count": 8
+    },
+    {
+      "language": "russian",
+      "count": 7
+    },
+    {
+      "language": "german",
+      "count": 6
+    },
+    {
       "language": "thai",
-      "count": 13
-    },
-    {
-      "language": "latam",
-      "count": 6
-    },
-    {
-      "language": "turkish",
-      "count": 6
-    },
-    {
-      "language": "dutch",
-      "count": 6
-    },
-    {
-      "language": "ukrainian",
-      "count": 5
-    },
-    {
-      "language": "swedish",
-      "count": 5
-    },
-    {
-      "language": "italian",
-      "count": 4
-    },
-    {
-      "language": "norwegian",
-      "count": 4
-    },
-    {
-      "language": "polish",
       "count": 3
     },
     {
+      "language": "turkish",
+      "count": 2
+    },
+    {
+      "language": "french",
+      "count": 2
+    },
+    {
+      "language": "latam",
+      "count": 1
+    },
+    {
       "language": "portuguese",
+      "count": 1
+    },
+    {
+      "language": "ukrainian",
+      "count": 1
+    },
+    {
+      "language": "polish",
       "count": 1
     }
   ],
@@ -155,23 +139,155 @@
       "review_snippet": "i would recommend this game, but i do have complicated feelings about it. \nthis game is incredibly charming and reeaallyyy fun. the unpacking mechanics are so nice and having the different levels make"
     },
     {
-      "recommendationid": "203720668",
-      "language": "schinese",
-      "voted_up": true,
-      "votes_up": 67,
-      "playtime_hours": 19.95,
-      "review_snippet": "气死我了，本来写了一大半结果闪退了，又要重新写\r\n奔着可以装修来玩的游戏，其实我本来想点不推荐，但是《呓语小镇》也没有难玩到那种地步。我非常乐意把我认为的几个缺点写出来，给大家提供一个参考。\r\n1，剧情（暗线）逻辑混乱，断断续续。涉及剧透\r\n这是制作组需要改进的，我没有玩过demo，但是在主播的实况里了解了一些剧情。我能理解作者想要添加一点黑深残（没有很多）来丰富游戏内容，在demo里确实很有意思"
-    },
-    {
       "recommendationid": "203240545",
       "language": "english",
       "voted_up": true,
       "votes_up": 67,
       "playtime_hours": 20.8,
       "review_snippet": "Have you ever wanted to move to a mysterious town to become a housekeeper, interior designer, and paranormal investigator all at once? Well boy do I have the game for you! Whisper of the House drops y"
+    },
+    {
+      "recommendationid": "203720668",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 67,
+      "playtime_hours": 19.95,
+      "review_snippet": "气死我了，本来写了一大半结果闪退了，又要重新写\r\n奔着可以装修来玩的游戏，其实我本来想点不推荐，但是《呓语小镇》也没有难玩到那种地步。我非常乐意把我认为的几个缺点写出来，给大家提供一个参考。\r\n1，剧情（暗线）逻辑混乱，断断续续。涉及剧透\r\n这是制作组需要改进的，我没有玩过demo，但是在主播的实况里了解了一些剧情。我能理解作者想要添加一点黑深残（没有很多）来丰富游戏内容，在demo里确实很有意思"
+    }
+  ],
+  "sentiment_distribution": [
+    {
+      "label": "好评",
+      "count": 409
+    },
+    {
+      "label": "差评",
+      "count": 12
+    }
+  ],
+  "top_words": [
+    {
+      "word": "won",
+      "count": 1338
+    },
+    {
+      "word": "game",
+      "count": 379
+    },
+    {
+      "word": "you",
+      "count": 312
+    },
+    {
+      "word": "游戏",
+      "count": 134
+    },
+    {
+      "word": "unpacking",
+      "count": 122
+    },
+    {
+      "word": "can",
+      "count": 104
+    },
+    {
+      "word": "like",
+      "count": 102
+    },
+    {
+      "word": "more",
+      "count": 102
+    },
+    {
+      "word": "love",
+      "count": 93
+    },
+    {
+      "word": "there",
+      "count": 83
+    },
+    {
+      "word": "fun",
+      "count": 83
+    },
+    {
+      "word": "me",
+      "count": 81
+    },
+    {
+      "word": "cute",
+      "count": 80
+    },
+    {
+      "word": "have",
+      "count": 77
+    },
+    {
+      "word": "story",
+      "count": 69
+    },
+    {
+      "word": "装修",
+      "count": 69
+    },
+    {
+      "word": "cozy",
+      "count": 68
+    },
+    {
+      "word": "some",
+      "count": 67
+    },
+    {
+      "word": "all",
+      "count": 65
+    },
+    {
+      "word": "my",
+      "count": 63
+    },
+    {
+      "word": "items",
+      "count": 61
+    },
+    {
+      "word": "家具",
+      "count": 61
+    },
+    {
+      "word": "one",
+      "count": 60
+    },
+    {
+      "word": "little",
+      "count": 60
+    },
+    {
+      "word": "de",
+      "count": 60
+    },
+    {
+      "word": "get",
+      "count": 57
+    },
+    {
+      "word": "喜欢",
+      "count": 54
+    },
+    {
+      "word": "also",
+      "count": 53
+    },
+    {
+      "word": "much",
+      "count": 48
+    },
+    {
+      "word": "would",
+      "count": 48
     }
   ],
   "query_summary": {
-    "num_reviews": 0
+    "num_reviews": 100
   }
 }
