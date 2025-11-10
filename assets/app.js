@@ -26,6 +26,7 @@ const state = {
   sort: 'latest', // latest | popular
   type: 'all',     // all | positive | negative
   lang: 'all',     // 按语言过滤
+  showLang: true,  // 是否显示语言徽章
   currentApp: 'default',
   games: [],
   charts: {},
@@ -311,6 +312,7 @@ function attachFilterEvents() {
   const sortSelect = document.getElementById('sortSelect');
   const typeSelect = document.getElementById('typeSelect');
   const langSelect = document.getElementById('listLangSelect');
+  const toggleLang = document.getElementById('toggleLangBadge');
   const pageLeft = document.getElementById('pageLeft');
   const pageRight = document.getElementById('pageRight');
   const pageJumpInput = document.getElementById('pageJumpInput');
@@ -334,6 +336,14 @@ function attachFilterEvents() {
       state.page = 1;
       updateFiltered();
       renderList();
+    });
+  }
+  if (toggleLang) {
+    toggleLang.checked = state.showLang;
+    toggleLang.addEventListener('change', () => {
+      state.showLang = !!toggleLang.checked;
+      const list = document.getElementById('allList');
+      list.classList.toggle('hide-lang', !state.showLang);
     });
   }
   pageLeft.addEventListener('click', () => {
@@ -401,18 +411,25 @@ function renderList() {
   if (pageItems.length === 0) {
     list.innerHTML = '<li class="muted">无匹配的评论</li>';
   } else {
+    list.classList.toggle('hide-lang', !state.showLang);
     list.innerHTML = '';
     pageItems.forEach(r => {
       const li = document.createElement('li');
+      li.classList.add(r.voted_up ? 'positive' : 'negative');
       const langLabel = langZh[r.language] || r.language || '未知';
       const snippet = (r.review || '').slice(0, 300);
       const created = r.timestamp_created ? new Date(r.timestamp_created * 1000) : null;
       const createdStr = created ? created.toLocaleString() : '';
       const playHours = r.author?.playtime_forever ? (r.author.playtime_forever / 60).toFixed(1) : '0.0';
+      const votesUp = r.votes_up || 0;
       li.innerHTML = `
         <div class="top-line">
-          <div><strong>${r.voted_up ? '好评' : '差评'}</strong> · <span class="lang">${langLabel}</span></div>
-          <div class="muted">👍 ${r.votes_up || 0} · ⌛ ${playHours}h · ${createdStr}</div>
+          <div class="left"><span class="sentiment ${r.voted_up ? 'positive' : 'negative'}">${r.voted_up ? '好评' : '差评'}</span><span class="lang">${langLabel}</span></div>
+          <div class="meta-row">
+            <span class="meta-item">👍 ${votesUp}</span>
+            <span class="meta-item">⌛ ${playHours}h</span>
+            <span class="meta-item">${createdStr}</span>
+          </div>
         </div>
         <div class="snippet">${escapeHtml(snippet)}</div>
       `;

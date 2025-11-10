@@ -5,6 +5,13 @@
   --muted: #98a2b3;
   --accent: #4ea1ff;
   --border: #222833;
+  /* 柔和红绿（降低饱和度，适合深色背景） */
+  --good-muted: #83b69f; /* 绿偏灰 */
+  --bad-muted: #d19393;  /* 红偏灰 */
+  --good-tint: rgba(131, 182, 159, 0.10); /* 卡片底色轻微偏绿 */
+  --bad-tint: rgba(209, 147, 147, 0.10);  /* 卡片底色轻微偏红 */
+  --good-border-tint: rgba(131, 182, 159, 0.35);
+  --bad-border-tint: rgba(209, 147, 147, 0.35);
 }
 
 * { box-sizing: border-box; }
@@ -40,10 +47,34 @@ main { padding: 20px; max-width: 1000px; margin: 0 auto; }
 .panel .filters { margin-bottom: 8px; }
 .panel .filters select { padding: 6px 8px; border-radius: 6px; background: var(--panel); color: var(--text); border: 1px solid var(--border); }
 .top-list { list-style: none; padding: 0; margin: 0; }
-.top-list li { background: var(--panel); border: 1px solid var(--border); padding: 12px; border-radius: 10px; margin-bottom: 10px; }
-.top-line { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
-.top-line .lang { color: var(--muted); font-size: 12px; }
+.top-list li { background: var(--panel); border: 1px solid var(--border); padding: 14px; border-radius: 12px; margin-bottom: 12px; }
+.top-list.hide-lang .lang { display: none; }
+.top-list li.positive { background: linear-gradient(0deg, var(--good-tint), var(--good-tint)), var(--panel); }
+.top-list li.negative { background: linear-gradient(0deg, var(--bad-tint), var(--bad-tint)), var(--panel); }
+.top-line { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+/* 左侧：评价 + 语言徽章 */
+.top-line .left { display: flex; align-items: center; gap: 10px; }
+.top-line .left strong { font-weight: 700; }
+.sentiment { font-weight: 700; letter-spacing: .2px; }
+.sentiment.positive { color: var(--good-muted); }
+.sentiment.negative { color: var(--bad-muted); }
+.top-line .lang {
+  font-size: 12px;
+  color: var(--text);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+/* 语言徽章跟随情绪变色（低饱和度） */
+.top-list li.positive .lang { color: var(--good-muted); background: rgba(131,182,159,0.12); border-color: var(--good-border-tint); }
+.top-list li.negative .lang { color: var(--bad-muted); background: rgba(209,147,147,0.12); border-color: var(--bad-border-tint); }
+/* 右侧：点赞/时长/日期分项 */
+.meta-row { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 12px; }
+.meta-item { display: inline-flex; align-items: center; gap: 6px; }
 .snippet { margin-top: 6px; color: #cfd6e2; font-size: 14px; line-height: 1.6; }
+.top-list li.positive .snippet { color: #d6e4df; }
+.top-list li.negative .snippet { color: #e3d6d6; }
 .muted { color: var(--muted); }
 
 .controls { margin-top: 20px; }
@@ -58,6 +89,8 @@ main { padding: 20px; max-width: 1000px; margin: 0 auto; }
   padding: 6px 28px 6px 8px;
   border-radius: 6px;
 }
+/* 复选框与下拉保持一致视觉尺寸 */
+.filters input[type="checkbox"] { width: 16px; height: 16px; vertical-align: middle; margin-left: 6px; }
 /* 下拉选项的颜色（不同浏览器支持度略有差异） */
 .filters select option { background: var(--panel); color: var(--text); }
 .filters select:focus { border-color: var(--accent); }
