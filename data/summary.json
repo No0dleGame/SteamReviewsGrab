@@ -1,76 +1,76 @@
 {
   "appid": 2589500,
-  "fetched_at": "2025-11-10T04:48:26.889Z",
+  "fetched_at": "2025-11-10T04:57:28.090Z",
   "counts": {
-    "total": 8424,
-    "positive": 8184,
-    "negative": 240
+    "total": 421,
+    "positive": 409,
+    "negative": 12
   },
-  "positive_rate": 0.9715099715099715,
+  "positive_rate": 0.9714964370546318,
   "language_distribution": [
     {
       "language": "english",
-      "count": 4523
+      "count": 226
     },
     {
       "language": "schinese",
-      "count": 2281
+      "count": 114
     },
     {
       "language": "koreana",
-      "count": 360
+      "count": 18
     },
     {
       "language": "spanish",
-      "count": 240
+      "count": 12
     },
     {
       "language": "brazilian",
-      "count": 200
+      "count": 10
     },
     {
       "language": "japanese",
-      "count": 180
+      "count": 9
     },
     {
       "language": "tchinese",
-      "count": 160
+      "count": 8
     },
     {
       "language": "russian",
-      "count": 140
+      "count": 7
     },
     {
       "language": "german",
-      "count": 120
+      "count": 6
     },
     {
       "language": "thai",
-      "count": 60
+      "count": 3
     },
     {
       "language": "turkish",
-      "count": 40
+      "count": 2
     },
     {
       "language": "french",
-      "count": 40
+      "count": 2
     },
     {
       "language": "latam",
-      "count": 20
+      "count": 1
     },
     {
       "language": "portuguese",
-      "count": 20
+      "count": 1
     },
     {
       "language": "ukrainian",
-      "count": 20
+      "count": 1
     },
     {
       "language": "polish",
-      "count": 20
+      "count": 1
     }
   ],
   "top_helpful_reviews": [
@@ -83,76 +83,76 @@
       "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
     },
     {
-      "recommendationid": "203084101",
-      "language": "schinese",
+      "recommendationid": "203302918",
+      "language": "english",
       "voted_up": true,
-      "votes_up": 182,
-      "playtime_hours": 5.15,
-      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+      "votes_up": 174,
+      "playtime_hours": 12.066666666666666,
+      "review_snippet": "I couldn't take my hands off of my keyboard and mouse. \r\n\r\nWhen I finished the game, I felt EMPTY deep inside. \r\n\r\nI am craving for more, it's scratching a spot I didn't even know existed. I sincerely"
     },
     {
-      "recommendationid": "203084101",
-      "language": "schinese",
+      "recommendationid": "204503611",
+      "language": "english",
       "voted_up": true,
-      "votes_up": 182,
-      "playtime_hours": 5.15,
-      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+      "votes_up": 115,
+      "playtime_hours": 12.9,
+      "review_snippet": "If you've ever played Unpacking and wished there were more levels, the ability to design your own rooms, and/or underlying mysteries, this is the game for you!"
     },
     {
-      "recommendationid": "203084101",
-      "language": "schinese",
+      "recommendationid": "203155184",
+      "language": "english",
       "voted_up": true,
-      "votes_up": 182,
-      "playtime_hours": 5.15,
-      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+      "votes_up": 114,
+      "playtime_hours": 5.333333333333333,
+      "review_snippet": "At its core its obviously heavily inspired by \"unpacking\". but it offers a much more varieties of gameplay, some levels can be finished with your brain completely shut down, but some require certain l"
     },
     {
-      "recommendationid": "203084101",
+      "recommendationid": "203371641",
       "language": "schinese",
       "voted_up": true,
-      "votes_up": 182,
-      "playtime_hours": 5.15,
-      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+      "votes_up": 105,
+      "playtime_hours": 37.96666666666667,
+      "review_snippet": "内容太少了，不仅是剧情，房型、家具种类、可互动建筑都太少，地图空空的，比如地毯店旁边的车，很适合做店铺或者剧情的类地标竟然只能戳一下。无论是盲盒还是图鉴能不能做个收集度的百分比条有时候以为抽全了但是差一个，因为UI做的不明显又分不清那是黑色家具还是没抽出来的，盲盒比较有创意但是没有做出盲盒的精髓，纯疲惫式抽家具，要不咱们把基础家具直接售卖，盲盒做成真盲盒，分成几个主题盲盒，内容是一些特别有设计的家"
     },
     {
-      "recommendationid": "203084101",
-      "language": "schinese",
+      "recommendationid": "205608421",
+      "language": "koreana",
       "voted_up": true,
-      "votes_up": 182,
-      "playtime_hours": 5.15,
-      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+      "votes_up": 103,
+      "playtime_hours": 6.183333333333334,
+      "review_snippet": "https://blog.naver.com/gusrud6151/224009195747 한글패치 뭔가 검색해도 잘 안나오드라고요 여기에 유저한글패치 있어요"
     },
     {
-      "recommendationid": "203084101",
-      "language": "schinese",
+      "recommendationid": "203777790",
+      "language": "english",
       "voted_up": true,
-      "votes_up": 182,
-      "playtime_hours": 5.15,
-      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+      "votes_up": 101,
+      "playtime_hours": 6.7,
+      "review_snippet": "A game about helping sort their house/business, but with a mystery looming in the background. It looks beautiful, and it is so much fun to uncover more and more. No missable achievements and completio"
     },
     {
-      "recommendationid": "203084101",
-      "language": "schinese",
+      "recommendationid": "203171838",
+      "language": "english",
       "voted_up": true,
-      "votes_up": 182,
-      "playtime_hours": 5.15,
-      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+      "votes_up": 70,
+      "playtime_hours": 6.366666666666666,
+      "review_snippet": "i would recommend this game, but i do have complicated feelings about it. \nthis game is incredibly charming and reeaallyyy fun. the unpacking mechanics are so nice and having the different levels make"
     },
     {
-      "recommendationid": "203084101",
-      "language": "schinese",
+      "recommendationid": "203240545",
+      "language": "english",
       "voted_up": true,
-      "votes_up": 182,
-      "playtime_hours": 5.15,
-      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+      "votes_up": 67,
+      "playtime_hours": 20.8,
+      "review_snippet": "Have you ever wanted to move to a mysterious town to become a housekeeper, interior designer, and paranormal investigator all at once? Well boy do I have the game for you! Whisper of the House drops y"
     },
     {
-      "recommendationid": "203084101",
+      "recommendationid": "203720668",
       "language": "schinese",
       "voted_up": true,
-      "votes_up": 182,
-      "playtime_hours": 5.15,
-      "review_snippet": "很喜欢这游戏，希望我朋友也喜欢。很温馨！\r\n我朋友很喜欢装修房间，收纳房间！起初买这个游戏就想着都在一个家庭组里，她也可以玩。\r\n嘿嘿，我超喜欢她！\r\n希望她好好的。"
+      "votes_up": 67,
+      "playtime_hours": 19.95,
+      "review_snippet": "气死我了，本来写了一大半结果闪退了，又要重新写\r\n奔着可以装修来玩的游戏，其实我本来想点不推荐，但是《呓语小镇》也没有难玩到那种地步。我非常乐意把我认为的几个缺点写出来，给大家提供一个参考。\r\n1，剧情（暗线）逻辑混乱，断断续续。涉及剧透\r\n这是制作组需要改进的，我没有玩过demo，但是在主播的实况里了解了一些剧情。我能理解作者想要添加一点黑深残（没有很多）来丰富游戏内容，在demo里确实很有意思"
     }
   ],
   "query_summary": {
