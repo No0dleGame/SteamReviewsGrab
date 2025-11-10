@@ -1,6 +1,6 @@
 {
   "appid": 2589500,
-  "fetched_at": "2025-11-10T05:18:53.792Z",
+  "fetched_at": "2025-11-10T05:28:01.418Z",
   "count": 2727,
   "query_summary": {
     "num_reviews": 0
@@ -29377,7 +29377,7 @@
       "author": {
         "steamid": "76561199201517068",
         "num_games_owned": 33,
-        "num_reviews": 1,
+        "num_reviews": 2,
         "playtime_forever": 1202,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 607,
@@ -32281,7 +32281,7 @@
       "recommendationid": "203801999",
       "author": {
         "steamid": "76561198826731429",
-        "num_games_owned": 83,
+        "num_games_owned": 84,
         "num_reviews": 12,
         "playtime_forever": 478,
         "playtime_last_two_weeks": 0,
@@ -36060,7 +36060,7 @@
       "recommendationid": "203622777",
       "author": {
         "steamid": "76561198406695341",
-        "num_games_owned": 3538,
+        "num_games_owned": 3539,
         "num_reviews": 784,
         "playtime_forever": 220,
         "playtime_last_two_weeks": 0,
@@ -38586,7 +38586,7 @@
       "recommendationid": "203496648",
       "author": {
         "steamid": "76561198856601739",
-        "num_games_owned": 855,
+        "num_games_owned": 856,
         "num_reviews": 66,
         "playtime_forever": 325,
         "playtime_last_two_weeks": 0,
@@ -41591,7 +41591,7 @@
       "recommendationid": "203421512",
       "author": {
         "steamid": "76561198367471798",
-        "num_games_owned": 28296,
+        "num_games_owned": 28297,
         "num_reviews": 6949,
         "playtime_forever": 1420,
         "playtime_last_two_weeks": 0,
@@ -45293,7 +45293,7 @@
       "recommendationid": "203338684",
       "author": {
         "steamid": "76561198138131350",
-        "num_games_owned": 116,
+        "num_games_owned": 117,
         "num_reviews": 4,
         "playtime_forever": 1690,
         "playtime_last_two_weeks": 0,
@@ -45544,7 +45544,7 @@
       "recommendationid": "203329910",
       "author": {
         "steamid": "76561199821297889",
-        "num_games_owned": 106,
+        "num_games_owned": 107,
         "num_reviews": 4,
         "playtime_forever": 729,
         "playtime_last_two_weeks": 0,
@@ -62162,7 +62162,7 @@
       "recommendationid": "203040948",
       "author": {
         "steamid": "76561198967354524",
-        "num_games_owned": 462,
+        "num_games_owned": 463,
         "num_reviews": 3,
         "playtime_forever": 1695,
         "playtime_last_two_weeks": 0,
