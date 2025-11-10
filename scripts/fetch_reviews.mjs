@@ -10,13 +10,24 @@ const cfg = existsSync(cfgPath)
   ? JSON.parse(readFileSync(cfgPath, 'utf-8'))
   : { appid: 570, max_pages: 30, delay_ms: 600 };
 
-const appid = cfg.appid;
 const maxPages = cfg.max_pages ?? 30;
 const delayMs = cfg.delay_ms ?? 600;
+// 读取 games.json（如存在）以支持批量抓取
+let appids = [];
+const gamesPath = path.join(dataDir, 'games.json');
+if (existsSync(gamesPath)) {
+  try {
+    const arr = JSON.parse(readFileSync(gamesPath, 'utf-8'));
+    if (Array.isArray(arr)) {
+      appids = arr.map(g => String(g.appid)).filter(Boolean);
+    }
+  } catch (_) {}
+}
+if (appids.length === 0 && cfg.appid != null) appids = [String(cfg.appid)];
 
 async function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-async function fetchPage(cursor = '*') {
+async function fetchPage(appid, cursor = '*') {
   const url = new URL(`https://store.steampowered.com/appreviews/${appid}`);
   url.searchParams.set('json', '1');
   url.searchParams.set('language', 'all');
@@ -37,14 +48,14 @@ async function fetchPage(cursor = '*') {
   return /** @type {{success:number, cursor:string, reviews:any[], query_summary?:any}} */(await res.json());
 }
 
-async function fetchAll() {
+async function fetchAll(appid) {
   const all = [];
   let cursor = '*';
   let page = 0;
   let firstQuerySummary = null;
 
   while (page < maxPages) {
-    const resp = await fetchPage(cursor);
+    const resp = await fetchPage(appid, cursor);
     if (resp.success !== 1) break;
     if (!firstQuerySummary && resp.query_summary) {
       // 仅保存首页 query_summary，包含 total_reviews/total_positive/total_negative
@@ -84,7 +95,21 @@ async function fetchAll() {
   console.log(`Saved ${unique.length} unique reviews (from ${all.length}) -> data/${appid}/raw_reviews.json`);
 }
 
-fetchAll().catch(err => {
-  console.error('Fetch failed:', err);
+async function runBatch() {
+  for (const id of appids) {
+    console.log(`\n=== Fetching appid=${id} (max_pages=${maxPages}, delay=${delayMs}ms) ===`);
+    try {
+      await fetchAll(id);
+    } catch (err) {
+      console.error(`Fetch failed for appid=${id}:`, err);
+      // 不中断批量，继续下一个
+    }
+    // 不同 app 之间稍作停顿
+    await delay(1000);
+  }
+}
+
+runBatch().catch(err => {
+  console.error('Batch fetch failed:', err);
   process.exitCode = 1;
 });

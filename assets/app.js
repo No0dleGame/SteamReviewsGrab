@@ -27,7 +27,8 @@ const state = {
   type: 'all',     // all | positive | negative
   currentApp: 'default',
   games: [],
-  charts: {}
+  charts: {},
+  eventsBound: false
 };
 
 async function fetchJsonSequential(urls) {
@@ -239,8 +240,8 @@ async function loadRaw(appid) {
     ]);
     state.raw = Array.isArray(raw.reviews) ? raw.reviews : [];
     updateFiltered();
+    clampPage();
     renderList();
-    attachFilterEvents();
   } catch (err) {
     const allList = document.getElementById('allList');
     allList.innerHTML = '<li class="muted">未检测到原始评论数据</li>';
@@ -273,9 +274,11 @@ async function initGames() {
   select.value = state.currentApp;
   await loadSummary(state.currentApp);
   await loadRaw(state.currentApp);
+  attachFilterEvents();
   // 切换事件
   select.addEventListener('change', async () => {
     state.currentApp = select.value;
+    state.page = 1; // 切换游戏时重置到第一页
     await loadSummary(state.currentApp);
     await loadRaw(state.currentApp);
   });
@@ -284,10 +287,13 @@ async function initGames() {
 initGames();
 
 function attachFilterEvents() {
+  if (state.eventsBound) return; // 防止重复绑定
   const sortSelect = document.getElementById('sortSelect');
   const typeSelect = document.getElementById('typeSelect');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
+  const pageLeft = document.getElementById('pageLeft');
+  const pageRight = document.getElementById('pageRight');
+  const pageJumpInput = document.getElementById('pageJumpInput');
+  const pageJumpBtn = document.getElementById('pageJumpBtn');
 
   sortSelect.addEventListener('change', () => {
     state.sort = sortSelect.value;
@@ -301,19 +307,33 @@ function attachFilterEvents() {
     updateFiltered();
     renderList();
   });
-  prevBtn.addEventListener('click', () => {
+  pageLeft.addEventListener('click', () => {
     if (state.page > 1) {
       state.page -= 1;
       renderList();
     }
   });
-  nextBtn.addEventListener('click', () => {
+  pageRight.addEventListener('click', () => {
     const totalPages = Math.ceil(state.filtered.length / state.pageSize) || 1;
     if (state.page < totalPages) {
       state.page += 1;
       renderList();
     }
   });
+  pageJumpBtn.addEventListener('click', () => {
+    const totalPages = Math.ceil(state.filtered.length / state.pageSize) || 1;
+    const v = parseInt(pageJumpInput.value, 10);
+    if (!Number.isNaN(v)) {
+      state.page = Math.max(1, Math.min(totalPages, v));
+      renderList();
+    }
+  });
+  pageJumpInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      pageJumpBtn.click();
+    }
+  });
+  state.eventsBound = true;
 }
 
 function updateFiltered() {
@@ -329,13 +349,21 @@ function updateFiltered() {
   state.filtered = arr;
 }
 
+function clampPage() {
+  const totalPages = Math.ceil(state.filtered.length / state.pageSize) || 1;
+  if (state.page < 1) state.page = 1;
+  if (state.page > totalPages) state.page = totalPages;
+}
+
 function renderList() {
   const list = document.getElementById('allList');
   const pageInfo = document.getElementById('pageInfo');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
+  const pageLeft = document.getElementById('pageLeft');
+  const pageRight = document.getElementById('pageRight');
+  const pageCurrent = document.getElementById('pageCurrent');
 
   const totalPages = Math.ceil(state.filtered.length / state.pageSize) || 1;
+  clampPage();
   const start = (state.page - 1) * state.pageSize;
   const end = start + state.pageSize;
   const pageItems = state.filtered.slice(start, end);
@@ -362,6 +390,22 @@ function renderList() {
     });
   }
   pageInfo.textContent = `第 ${state.page} / ${totalPages} 页（共 ${state.filtered.length} 条）`;
-  prevBtn.disabled = state.page <= 1;
-  nextBtn.disabled = state.page >= totalPages;
+  // 更新数字分页显示：左、当前、右
+  pageCurrent.textContent = String(state.page);
+  // 左页
+  if (state.page > 1) {
+    pageLeft.textContent = String(state.page - 1);
+    pageLeft.disabled = false;
+  } else {
+    pageLeft.textContent = '—';
+    pageLeft.disabled = true;
+  }
+  // 右页
+  if (state.page < totalPages) {
+    pageRight.textContent = String(state.page + 1);
+    pageRight.disabled = false;
+  } else {
+    pageRight.textContent = '—';
+    pageRight.disabled = true;
+  }
 }

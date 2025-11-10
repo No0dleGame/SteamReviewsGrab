@@ -7,18 +7,29 @@ const cfgPath = path.join(root, 'config.json');
 const cfg = existsSync(cfgPath)
   ? JSON.parse(readFileSync(cfgPath, 'utf-8'))
   : { appid: 570 };
-const appid = cfg.appid;
-const appDir = path.join(dataDir, String(appid));
-const rawPathPreferred = path.join(appDir, 'raw_reviews.json');
-const rawPathFallback = path.join(dataDir, 'raw_reviews.json');
-const rawPath = existsSync(rawPathPreferred) ? rawPathPreferred : rawPathFallback;
-
-if (!existsSync(rawPath)) {
-  console.error('No raw_reviews.json found. Run fetch_reviews.mjs first.');
-  process.exit(1);
+// 读取 games.json（如存在）以支持批量分析
+let appids = [];
+const gamesPath = path.join(dataDir, 'games.json');
+if (existsSync(gamesPath)) {
+  try {
+    const arr = JSON.parse(readFileSync(gamesPath, 'utf-8'));
+    if (Array.isArray(arr)) {
+      appids = arr.map(g => String(g.appid)).filter(Boolean);
+    }
+  } catch (_) {}
 }
+if (appids.length === 0 && cfg.appid != null) appids = [String(cfg.appid)];
 
-const raw = JSON.parse(readFileSync(rawPath, 'utf-8'));
+function analyzeOne(appid) {
+  const appDir = path.join(dataDir, String(appid));
+  const rawPathPreferred = path.join(appDir, 'raw_reviews.json');
+  const rawPathFallback = path.join(dataDir, 'raw_reviews.json');
+  const rawPath = existsSync(rawPathPreferred) ? rawPathPreferred : rawPathFallback;
+  if (!existsSync(rawPath)) {
+    console.error(`No raw_reviews.json for appid=${appid}. Run fetch first.`);
+    return;
+  }
+  const raw = JSON.parse(readFileSync(rawPath, 'utf-8'));
 // 再次去重，增强稳健性
 const baseReviews = raw.reviews ?? [];
 const idMap = new Map();
@@ -28,24 +39,24 @@ for (const r of baseReviews) {
 }
 const reviews = Array.from(idMap.values());
 
-const total = reviews.length;
+  const total = reviews.length;
 const positive = reviews.filter(r => r.voted_up).length;
 const negative = total - positive;
 const positiveRate = total > 0 ? positive / total : 0;
 
 // 语言分布统计
-const langMap = new Map();
+  const langMap = new Map();
 for (const r of reviews) {
   const lang = r.language || 'unknown';
   langMap.set(lang, (langMap.get(lang) || 0) + 1);
 }
-const languageDistribution = Array.from(langMap.entries())
+  const languageDistribution = Array.from(langMap.entries())
   .map(([language, count]) => ({ language, count }))
   .sort((a, b) => b.count - a.count)
   .slice(0, 20);
 
 // Top 热门评论（按 votes_up）
-const topHelpfulReviews = reviews
+  const topHelpfulReviews = reviews
   .slice()
   .sort((a, b) => (b.votes_up || 0) - (a.votes_up || 0))
   .slice(0, 10)
@@ -59,10 +70,10 @@ const topHelpfulReviews = reviews
   }));
 
 // 词频统计（基础版）
-const stopwordsZh = new Set(['的','了','和','是','在','我','你','他','她','它','不','很','也','这','那','就','都','可以','一个','没有','还有','吗','啊','呢','吧','着','给','让','会','把','被','比','到']);
-const stopwordsEn = new Set(['the','and','a','to','of','in','is','it','that','this','for','on','with','as','was','are','be','at','by','or','an','from','so','if','but','not','very','really','just']);
+  const stopwordsZh = new Set(['的','了','和','是','在','我','你','他','她','它','不','很','也','这','那','就','都','可以','一个','没有','还有','吗','啊','呢','吧','着','给','让','会','把','被','比','到']);
+  const stopwordsEn = new Set(['the','and','a','to','of','in','is','it','that','this','for','on','with','as','was','are','be','at','by','or','an','from','so','if','but','not','very','really','just']);
 
-function tokenize(review, language) {
+  function tokenize(review, language) {
   if (!review || typeof review !== 'string') return [];
   if (language === 'schinese' || language === 'tchinese') {
     const han = review.match(/[\u4e00-\u9fff]+/g);
@@ -82,8 +93,8 @@ function tokenize(review, language) {
   return words.filter(w => !stopwordsEn.has(w));
 }
 
-const freq = new Map();
-const freqByLang = new Map(); // language -> Map(word -> count)
+  const freq = new Map();
+  const freqByLang = new Map(); // language -> Map(word -> count)
 for (const r of reviews) {
   const tokens = tokenize(r.review, r.language);
   for (const t of tokens) {
@@ -94,13 +105,13 @@ for (const r of reviews) {
     m.set(t, (m.get(t) || 0) + 1);
   }
 }
-const topWords = Array.from(freq.entries())
+  const topWords = Array.from(freq.entries())
   .map(([word, count]) => ({ word, count }))
   .sort((a, b) => b.count - a.count)
   .slice(0, 30);
 
 // 按语言的 Top 词
-const topWordsByLanguage = {};
+  const topWordsByLanguage = {};
 for (const [lang, m] of freqByLang.entries()) {
   const arr = Array.from(m.entries())
     .map(([word, count]) => ({ word, count }))
@@ -109,24 +120,30 @@ for (const [lang, m] of freqByLang.entries()) {
   topWordsByLanguage[lang] = arr;
 }
 
-const summary = {
-  appid: raw.appid,
-  fetched_at: raw.fetched_at,
-  counts: { total, positive, negative },
-  positive_rate: positiveRate,
-  language_distribution: languageDistribution,
-  top_helpful_reviews: topHelpfulReviews,
-  sentiment_distribution: [
-    { label: '好评', count: positive },
-    { label: '差评', count: negative }
-  ],
-  top_words: topWords,
-  top_words_by_language: topWordsByLanguage,
-  query_summary: raw.query_summary ?? null
-};
+  const summary = {
+    appid: raw.appid,
+    fetched_at: raw.fetched_at,
+    counts: { total, positive, negative },
+    positive_rate: positiveRate,
+    language_distribution: languageDistribution,
+    top_helpful_reviews: topHelpfulReviews,
+    sentiment_distribution: [
+      { label: '好评', count: positive },
+      { label: '差评', count: negative }
+    ],
+    top_words: topWords,
+    top_words_by_language: topWordsByLanguage,
+    query_summary: raw.query_summary ?? null
+  };
 
-// 输出到与 raw_reviews.json 相同目录（优先 data/<appid>/summary.json）
-const outDir = path.dirname(rawPath);
-if (!existsSync(outDir)) mkdirSync(outDir);
-writeFileSync(path.join(outDir, 'summary.json'), JSON.stringify(summary, null, 2));
-console.log(`Saved analysis -> ${path.relative(root, path.join(outDir, 'summary.json'))}`);
+  // 输出到与 raw_reviews.json 相同目录（优先 data/<appid>/summary.json）
+  const outDir = path.dirname(rawPath);
+  if (!existsSync(outDir)) mkdirSync(outDir);
+  writeFileSync(path.join(outDir, 'summary.json'), JSON.stringify(summary, null, 2));
+  console.log(`Saved analysis -> ${path.relative(root, path.join(outDir, 'summary.json'))}`);
+}
+
+for (const id of appids) {
+  console.log(`\n=== Analyze appid=${id} ===`);
+  analyzeOne(id);
+}

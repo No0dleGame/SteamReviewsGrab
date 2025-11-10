@@ -68,9 +68,18 @@
         </div>
         <ul id="allList" class="top-list"></ul>
         <div class="pager">
-          <button id="prevBtn">上一页</button>
-          <span id="pageInfo" class="muted"></span>
-          <button id="nextBtn">下一页</button>
+          <div class="page-numbers">
+            <button id="pageLeft" class="page-btn">—</button>
+            <span id="pageCurrent" class="page-current">1</span>
+            <button id="pageRight" class="page-btn">—</button>
+          </div>
+          <div class="page-jump">
+            <label>跳转：
+              <input id="pageJumpInput" type="number" min="1" step="1" />
+              <button id="pageJumpBtn">Go</button>
+            </label>
+            <span id="pageInfo" class="muted"></span>
+          </div>
         </div>
       </section>
 
