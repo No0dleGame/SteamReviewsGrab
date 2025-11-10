@@ -75,16 +75,31 @@ function tokenize(review, language) {
 }
 
 const freq = new Map();
+const freqByLang = new Map(); // language -> Map(word -> count)
 for (const r of reviews) {
   const tokens = tokenize(r.review, r.language);
   for (const t of tokens) {
     freq.set(t, (freq.get(t) || 0) + 1);
+    const lang = r.language || 'unknown';
+    if (!freqByLang.has(lang)) freqByLang.set(lang, new Map());
+    const m = freqByLang.get(lang);
+    m.set(t, (m.get(t) || 0) + 1);
   }
 }
 const topWords = Array.from(freq.entries())
   .map(([word, count]) => ({ word, count }))
   .sort((a, b) => b.count - a.count)
   .slice(0, 30);
+
+// 按语言的 Top 词
+const topWordsByLanguage = {};
+for (const [lang, m] of freqByLang.entries()) {
+  const arr = Array.from(m.entries())
+    .map(([word, count]) => ({ word, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 60);
+  topWordsByLanguage[lang] = arr;
+}
 
 const summary = {
   appid: raw.appid,
@@ -98,6 +113,7 @@ const summary = {
     { label: '差评', count: negative }
   ],
   top_words: topWords,
+  top_words_by_language: topWordsByLanguage,
   query_summary: raw.query_summary ?? null
 };
 

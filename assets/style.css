@@ -53,3 +53,10 @@ footer { padding: 14px 20px; color: var(--muted); border-top: 1px solid var(--bo
 }
 /* 热门评论折叠区块已移除 */
 .keywords { margin-top: 20px; }
+
+/* 词云布局 */
+.clouds { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.cloud-card { background: rgba(255,255,255,0.02); border: 1px dashed var(--border); border-radius: 10px; padding: 10px; }
+.cloud-card .title { font-size: 14px; margin-bottom: 6px; color: var(--muted); }
+.cloud { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: flex-start; }
+.cloud span { line-height: 1; display: inline-block; padding: 2px 4px; border-radius: 6px; }

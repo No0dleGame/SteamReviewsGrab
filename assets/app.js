@@ -93,24 +93,47 @@ async function loadSummary() {
       });
     }
 
-    // 情绪饼图（好评/差评）
-    const sentPieEl = document.getElementById('sentPie');
-    if (sentPieEl) {
-      const sentPieCtx = sentPieEl.getContext('2d');
-      const sentDist = summary.sentiment_distribution || [];
-      new Chart(sentPieCtx, {
-        type: 'doughnut',
-        data: {
-          labels: sentDist.map(s => s.label),
-          datasets: [{
-            data: sentDist.map(s => s.count),
-            backgroundColor: ['#52c41a', '#ff4d4f']
-          }]
-        },
-        options: {
-          plugins: { legend: { position: 'bottom' } }
-        }
-      });
+    // 按语言词云
+    const cloudsEl = document.getElementById('wordClouds');
+    if (cloudsEl) {
+      const byLang = summary.top_words_by_language || {};
+      // 依据语言分布排序，优先展示评论量多的语言
+      const dist = summary.language_distribution || [];
+      const order = dist.map(d => d.language);
+      const entries = Object.entries(byLang).sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]));
+      cloudsEl.innerHTML = '';
+      const showLimit = Math.min(entries.length, 6);
+      for (let i = 0; i < showLimit; i++) {
+        const [lang, words] = entries[i];
+        if (!words || words.length === 0) continue;
+        const card = document.createElement('div');
+        card.className = 'cloud-card';
+        const title = document.createElement('div');
+        title.className = 'title';
+        title.textContent = langZh[lang] || lang;
+        const cloud = document.createElement('div');
+        cloud.className = 'cloud';
+        // 计算大小范围
+        const counts = words.map(w => w.count);
+        const min = Math.min(...counts), max = Math.max(...counts);
+        const scale = c => {
+          if (max === min) return 20;
+          const t = (c - min) / (max - min);
+          return 14 + Math.round(t * 28); // 14px ~ 42px
+        };
+        words.slice(0, 60).forEach((w, idx) => {
+          const span = document.createElement('span');
+          const fontSize = scale(w.count);
+          const hue = (idx * 23) % 360;
+          span.style.fontSize = fontSize + 'px';
+          span.style.color = `hsl(${hue}deg 80% 60%)`;
+          span.textContent = w.word;
+          cloud.appendChild(span);
+        });
+        card.appendChild(title);
+        card.appendChild(cloud);
+        cloudsEl.appendChild(card);
+      }
     }
 
     // 高频词列表
