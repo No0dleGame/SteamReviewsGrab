@@ -24,15 +24,29 @@ const state = {
   page: 1,
   pageSize: 20,
   sort: 'latest', // latest | popular
-  type: 'all'     // all | positive | negative
+  type: 'all',     // all | positive | negative
+  currentApp: 'default',
+  games: [],
+  charts: {}
 };
 
-async function loadSummary() {
+async function fetchJsonSequential(urls) {
+  for (const url of urls) {
+    try {
+      const res = await fetch(url, { cache: 'no-store' });
+      if (res.ok) return await res.json();
+    } catch (_) { /* ignore */ }
+  }
+  throw new Error('No json available: ' + urls.join(', '));
+}
+
+async function loadSummary(appid) {
   const metaEl = document.getElementById('meta');
   try {
-    const res = await fetch('data/summary.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const summary = await res.json();
+    const summary = await fetchJsonSequential([
+      `data/${appid}/summary.json`,
+      'data/summary.json'
+    ]);
 
     // 概览
     // 使用 Steam 接口提供的总评论数（total_reviews）；缺失时回退到本次抓取数
@@ -46,7 +60,8 @@ async function loadSummary() {
     document.getElementById('positive').textContent = positive;
     document.getElementById('negative').textContent = negative;
     document.getElementById('positiveRate').textContent = rate;
-    metaEl.textContent = `appid: ${summary.appid} | 抓取时间: ${summary.fetched_at} | 总评论数(steam): ${steamTotal} | 本次抓取数: ${grabbedTotal}`;
+    const gameName = (state.games.find(g => String(g.appid) === String(appid)) || {}).name || '未命名';
+    metaEl.textContent = `游戏: ${gameName} (appid: ${summary.appid}) | 抓取时间: ${summary.fetched_at} | 总评论数(steam): ${steamTotal} | 本次抓取数: ${grabbedTotal}`;
 
     // 语言分布图
     const dist = summary.language_distribution || [];
@@ -54,7 +69,8 @@ async function loadSummary() {
     const values = dist.map(d => d.count);
 
     const ctx = document.getElementById('langChart').getContext('2d');
-    new Chart(ctx, {
+    if (state.charts.langChart) { state.charts.langChart.destroy(); }
+    state.charts.langChart = new Chart(ctx, {
       type: 'bar',
       data: {
         labels,
@@ -78,18 +94,50 @@ async function loadSummary() {
     const langPieEl = document.getElementById('langPie');
     if (langPieEl) {
       const langPieCtx = langPieEl.getContext('2d');
-      new Chart(langPieCtx, {
+      const outerBorderPlugin = {
+        id: 'outerBorder',
+        afterDraw(chart) {
+          const meta = chart.getDatasetMeta(0);
+          if (!meta || !meta.data || meta.data.length === 0) return;
+          const arc = meta.data[0];
+          const { ctx } = chart;
+          const x = arc.x, y = arc.y, r = arc.outerRadius;
+          ctx.save();
+          ctx.strokeStyle = '#222833';
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.arc(x, y, r, 0, Math.PI * 2);
+          ctx.stroke();
+          ctx.restore();
+        }
+      };
+      if (state.charts.langPie) { state.charts.langPie.destroy(); }
+      state.charts.langPie = new Chart(langPieCtx, {
         type: 'doughnut',
         data: {
           labels,
           datasets: [{
             data: values,
-            backgroundColor: labels.map((_, i) => `hsl(${(i * 37) % 360}deg 70% 55%)`)
+            backgroundColor: labels.map((_, i) => `hsl(${(i * 37) % 360}deg 70% 55%)`),
+            borderColor: 'transparent',
+            borderWidth: 0
           }]
         },
         options: {
-          plugins: { legend: { position: 'bottom' } }
-        }
+          cutout: '45%',
+          plugins: {
+            legend: {
+              position: 'bottom',
+              labels: {
+                boxWidth: 12,
+                boxHeight: 8,
+                padding: 10,
+                font: { size: 11 }
+              }
+            }
+          }
+        },
+        plugins: [outerBorderPlugin]
       });
     }
 
@@ -183,13 +231,12 @@ function escapeHtml(str) {
     .replaceAll('>', '&gt;');
 }
 
-loadSummary();
-loadRaw();
-async function loadRaw() {
+async function loadRaw(appid) {
   try {
-    const res = await fetch('data/raw_reviews.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const raw = await res.json();
+    const raw = await fetchJsonSequential([
+      `data/${appid}/raw_reviews.json`,
+      'data/raw_reviews.json'
+    ]);
     state.raw = Array.isArray(raw.reviews) ? raw.reviews : [];
     updateFiltered();
     renderList();
@@ -199,6 +246,42 @@ async function loadRaw() {
     allList.innerHTML = '<li class="muted">未检测到原始评论数据</li>';
   }
 }
+
+async function initGames() {
+  const select = document.getElementById('appSelect');
+  let games = [];
+  try {
+    const res = await fetch('data/games.json', { cache: 'no-store' });
+    if (res.ok) {
+      games = await res.json();
+      if (!Array.isArray(games)) games = [];
+    }
+  } catch (_) { /* ignore */ }
+  if (games.length === 0) {
+    games = [{ appid: 'default', name: '当前游戏' }];
+  }
+  state.games = games;
+  select.innerHTML = '';
+  games.forEach(g => {
+    const opt = document.createElement('option');
+    opt.value = String(g.appid);
+    opt.textContent = g.name || String(g.appid);
+    select.appendChild(opt);
+  });
+  // 默认选中第一项
+  state.currentApp = String(games[0].appid);
+  select.value = state.currentApp;
+  await loadSummary(state.currentApp);
+  await loadRaw(state.currentApp);
+  // 切换事件
+  select.addEventListener('change', async () => {
+    state.currentApp = select.value;
+    await loadSummary(state.currentApp);
+    await loadRaw(state.currentApp);
+  });
+}
+
+initGames();
 
 function attachFilterEvents() {
   const sortSelect = document.getElementById('sortSelect');
