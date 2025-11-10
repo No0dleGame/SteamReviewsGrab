@@ -1,6 +1,6 @@
 {
   "appid": 2589500,
-  "fetched_at": "2025-11-10T05:45:34.182Z",
+  "fetched_at": "2025-11-10T05:57:49.548Z",
   "count": 421,
   "query_summary": {
     "num_reviews": 100
@@ -73,9 +73,9 @@
       "timestamp_created": 1760997683,
       "timestamp_updated": 1760997683,
       "voted_up": true,
-      "votes_up": 40,
+      "votes_up": 41,
       "votes_funny": 42,
-      "weighted_vote_score": "0.819161832332611084",
+      "weighted_vote_score": "0.797860205173492432",
       "comment_count": 0,
       "steam_purchase": true,
       "received_for_free": false,
@@ -214,7 +214,7 @@
         "num_games_owned": 0,
         "num_reviews": 2,
         "playtime_forever": 1034,
-        "playtime_last_two_weeks": 550,
+        "playtime_last_two_weeks": 549,
         "playtime_at_review": 465,
         "deck_playtime_at_review": 465,
         "last_played": 1762540503
@@ -2246,7 +2246,7 @@
         "num_games_owned": 48,
         "num_reviews": 4,
         "playtime_forever": 1068,
-        "playtime_last_two_weeks": 422,
+        "playtime_last_two_weeks": 421,
         "playtime_at_review": 895,
         "last_played": 1761723222
       },
@@ -2346,7 +2346,7 @@
         "num_games_owned": 178,
         "num_reviews": 84,
         "playtime_forever": 1051,
-        "playtime_last_two_weeks": 628,
+        "playtime_last_two_weeks": 559,
         "playtime_at_review": 362,
         "deck_playtime_at_review": 362,
         "last_played": 1762665009
@@ -5398,10 +5398,10 @@
         "steamid": "76561199705848603",
         "num_games_owned": 0,
         "num_reviews": 2,
-        "playtime_forever": 1452,
-        "playtime_last_two_weeks": 918,
+        "playtime_forever": 1536,
+        "playtime_last_two_weeks": 1001,
         "playtime_at_review": 1452,
-        "last_played": 1762749032
+        "last_played": 1762754039
       },
       "language": "english",
       "review": "When the creators of Unpacking said they had no intention of making a follow up game, I was stung. This game soothed that burn. It's relaxed, comforting, and highly interactive. I beat the main story and still have some little areas to work on, which I fully intend to do. I deeply enjoyed this game. With that being said, yes I'm going to be that person. It would have been nice to have a customized character. There really isn't a reason why we have to choose between two genders and one skin tone in 2025. It could have just been pick the body frame, pick the skin tone, pick the hair, and be done with it. That was my only hang up with this game. That, and a tiny bit more guidance could have been given.  However, this game easily paid for itself.",
@@ -5774,7 +5774,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 85,
-        "playtime_last_two_weeks": 29,
+        "playtime_last_two_weeks": 23,
         "playtime_at_review": 85,
         "last_played": 1761703158
       },
@@ -5849,7 +5849,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 1320,
-        "playtime_last_two_weeks": 539,
+        "playtime_last_two_weeks": 472,
         "playtime_at_review": 781,
         "last_played": 1761830741
       },
@@ -6498,10 +6498,10 @@
         "steamid": "76561199835104965",
         "num_games_owned": 12,
         "num_reviews": 5,
-        "playtime_forever": 267,
-        "playtime_last_two_weeks": 267,
+        "playtime_forever": 303,
+        "playtime_last_two_weeks": 303,
         "playtime_at_review": 206,
-        "last_played": 1762749456
+        "last_played": 1762751635
       },
       "language": "schinese",
       "review": "非常好玩，适合摸鱼（QWQ）",
@@ -6799,7 +6799,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 3466,
-        "playtime_last_two_weeks": 986,
+        "playtime_last_two_weeks": 984,
         "playtime_at_review": 3429,
         "last_played": 1762711716
       },
@@ -7286,7 +7286,7 @@
       "voted_up": false,
       "votes_up": 5,
       "votes_funny": 0,
-      "weighted_vote_score": "0.550471007823944092",
+      "weighted_vote_score": "0.528858542442321777",
       "comment_count": 0,
       "steam_purchase": true,
       "received_for_free": false,
@@ -9349,7 +9349,7 @@
       "recommendationid": "203305190",
       "author": {
         "steamid": "76561199034104505",
-        "num_games_owned": 408,
+        "num_games_owned": 410,
         "num_reviews": 82,
         "playtime_forever": 495,
         "playtime_last_two_weeks": 0,
