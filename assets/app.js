@@ -25,6 +25,7 @@ const state = {
   pageSize: 20,
   sort: 'latest', // latest | popular
   type: 'all',     // all | positive | negative
+  lang: 'all',     // 按语言过滤
   currentApp: 'default',
   games: [],
   charts: {},
@@ -68,6 +69,25 @@ async function loadSummary(appid) {
     const dist = summary.language_distribution || [];
     const labels = dist.map(d => langZh[d.language] || d.language);
     const values = dist.map(d => d.count);
+
+    // 评论列表语言筛选下拉
+    const listLangSel = document.getElementById('listLangSelect');
+    if (listLangSel) {
+      const langs = dist.map(d => d.language);
+      listLangSel.innerHTML = '';
+      const optAll = document.createElement('option');
+      optAll.value = 'all';
+      optAll.textContent = '全部';
+      listLangSel.appendChild(optAll);
+      langs.forEach(l => {
+        const opt = document.createElement('option');
+        opt.value = l;
+        opt.textContent = langZh[l] || l;
+        listLangSel.appendChild(opt);
+      });
+      listLangSel.value = 'all';
+      state.lang = 'all';
+    }
 
     const ctx = document.getElementById('langChart').getContext('2d');
     if (state.charts.langChart) { state.charts.langChart.destroy(); }
@@ -290,6 +310,7 @@ function attachFilterEvents() {
   if (state.eventsBound) return; // 防止重复绑定
   const sortSelect = document.getElementById('sortSelect');
   const typeSelect = document.getElementById('typeSelect');
+  const langSelect = document.getElementById('listLangSelect');
   const pageLeft = document.getElementById('pageLeft');
   const pageRight = document.getElementById('pageRight');
   const pageJumpInput = document.getElementById('pageJumpInput');
@@ -307,6 +328,14 @@ function attachFilterEvents() {
     updateFiltered();
     renderList();
   });
+  if (langSelect) {
+    langSelect.addEventListener('change', () => {
+      state.lang = langSelect.value || 'all';
+      state.page = 1;
+      updateFiltered();
+      renderList();
+    });
+  }
   pageLeft.addEventListener('click', () => {
     if (state.page > 1) {
       state.page -= 1;
@@ -340,6 +369,7 @@ function updateFiltered() {
   let arr = state.raw.slice();
   if (state.type === 'positive') arr = arr.filter(r => !!r.voted_up);
   if (state.type === 'negative') arr = arr.filter(r => !r.voted_up);
+  if (state.lang && state.lang !== 'all') arr = arr.filter(r => (r.language || 'unknown') === state.lang);
 
   if (state.sort === 'latest') {
     arr.sort((a, b) => (b.timestamp_created || 0) - (a.timestamp_created || 0));
