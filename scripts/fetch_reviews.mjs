@@ -24,8 +24,8 @@ async function fetchPage(cursor = '*') {
   url.searchParams.set('purchase_type', 'all');
   url.searchParams.set('num_per_page', '100');
   url.searchParams.set('cursor', cursor);
-  // 建议使用 recent，并包含“离题评论活动”，避免被过滤导致总量偏少
-  url.searchParams.set('filter', 'recent');
+  // 使用 all，完整抓取历史评论；包含“离题评论活动”避免被隐藏
+  url.searchParams.set('filter', 'all');
   url.searchParams.set('filter_offtopic_activity', '1');
 
   const res = await fetch(url.toString(), {

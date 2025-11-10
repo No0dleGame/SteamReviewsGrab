@@ -37,6 +37,7 @@ async function loadSummary() {
     // 概览
     // 使用 Steam 接口提供的总评论数（total_reviews）；缺失时回退到本次抓取数
     const steamTotal = summary.query_summary?.total_reviews ?? summary.counts?.total ?? '--';
+    const grabbedTotal = summary.counts?.total ?? '--';
     const positive = summary.query_summary?.total_positive ?? summary.counts?.positive ?? '--';
     const negative = summary.query_summary?.total_negative ?? summary.counts?.negative ?? '--';
     const rate = summary.positive_rate != null ? `${(summary.positive_rate * 100).toFixed(1)}%` : '--';
@@ -45,7 +46,7 @@ async function loadSummary() {
     document.getElementById('positive').textContent = positive;
     document.getElementById('negative').textContent = negative;
     document.getElementById('positiveRate').textContent = rate;
-    metaEl.textContent = `appid: ${summary.appid} | 抓取时间: ${summary.fetched_at}`;
+    metaEl.textContent = `appid: ${summary.appid} | 抓取时间: ${summary.fetched_at} | 总评论数(steam): ${steamTotal} | 本次抓取数: ${grabbedTotal}`;
 
     // 语言分布图
     const dist = summary.language_distribution || [];
