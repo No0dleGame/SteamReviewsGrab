@@ -93,27 +93,54 @@ async function loadSummary() {
       });
     }
 
-    // 按语言词云
-    const cloudsEl = document.getElementById('wordClouds');
-    if (cloudsEl) {
+    // 按语言词云（下拉选择）
+    const selectEl = document.getElementById('cloudLangSelect');
+    const cloudEl = document.getElementById('wordCloud');
+    if (selectEl && cloudEl) {
       const byLang = summary.top_words_by_language || {};
-      // 依据语言分布排序，优先展示评论量多的语言
       const dist = summary.language_distribution || [];
       const order = dist.map(d => d.language);
-      const entries = Object.entries(byLang).sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]));
-      cloudsEl.innerHTML = '';
-      const showLimit = Math.min(entries.length, 6);
-      for (let i = 0; i < showLimit; i++) {
-        const [lang, words] = entries[i];
-        if (!words || words.length === 0) continue;
-        const card = document.createElement('div');
-        card.className = 'cloud-card';
-        const title = document.createElement('div');
-        title.className = 'title';
-        title.textContent = langZh[lang] || lang;
-        const cloud = document.createElement('div');
-        cloud.className = 'cloud';
-        // 计算大小范围
+      const langs = Object.keys(byLang).sort((a, b) => order.indexOf(a) - order.indexOf(b));
+
+      // 填充下拉选项
+      selectEl.innerHTML = '';
+      // 全部选项
+      const optAll = document.createElement('option');
+      optAll.value = 'all';
+      optAll.textContent = '全部';
+      selectEl.appendChild(optAll);
+      langs.forEach(l => {
+        const opt = document.createElement('option');
+        opt.value = l;
+        opt.textContent = langZh[l] || l;
+        selectEl.appendChild(opt);
+      });
+
+      function renderCloud(lang) {
+        let words = [];
+        if (lang === 'all') {
+          // 优先使用汇总 top_words；缺失时合并各语言词频的前60条再聚合
+          const overall = summary.top_words || [];
+          if (overall.length > 0) {
+            words = overall;
+          } else {
+            const acc = new Map();
+            Object.values(byLang).forEach(arr => {
+              (arr || []).slice(0, 60).forEach(w => {
+                acc.set(w.word, (acc.get(w.word) || 0) + (w.count || 0));
+              });
+            });
+            words = Array.from(acc.entries()).map(([word, count]) => ({ word, count }))
+              .sort((a, b) => b.count - a.count).slice(0, 60);
+          }
+        } else {
+          words = byLang[lang] || [];
+        }
+        cloudEl.innerHTML = '';
+        if (!words.length) {
+          cloudEl.innerHTML = '<span class="muted">暂无词频数据</span>';
+          return;
+        }
         const counts = words.map(w => w.count);
         const min = Math.min(...counts), max = Math.max(...counts);
         const scale = c => {
@@ -128,29 +155,20 @@ async function loadSummary() {
           span.style.fontSize = fontSize + 'px';
           span.style.color = `hsl(${hue}deg 80% 60%)`;
           span.textContent = w.word;
-          cloud.appendChild(span);
+          cloudEl.appendChild(span);
         });
-        card.appendChild(title);
-        card.appendChild(cloud);
-        cloudsEl.appendChild(card);
       }
+
+      // 初始显示第一项
+      const initial = langs[0];
+      if (initial) {
+        selectEl.value = initial;
+        renderCloud(initial);
+      }
+      selectEl.addEventListener('change', () => renderCloud(selectEl.value));
     }
 
-    // 高频词列表
-    const topWordsEl = document.getElementById('topWords');
-    if (topWordsEl) {
-      const words = summary.top_words || [];
-      if (words.length === 0) {
-        topWordsEl.innerHTML = '<li class="muted">暂无词频数据</li>';
-      } else {
-        topWordsEl.innerHTML = '';
-        words.forEach(w => {
-          const li = document.createElement('li');
-          li.innerHTML = `<div class="top-line"><div>${escapeHtml(w.word)}</div><div class="muted">${w.count}</div></div>`;
-          topWordsEl.appendChild(li);
-        });
-      }
-    }
+    // 已移除“高频词 Top 30”列表，改为按语言词云
 
     // 已移除热门评论区块，改由“评论列表”采用排序=热门来查看
   } catch (err) {

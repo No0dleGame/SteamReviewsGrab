@@ -41,12 +41,15 @@ async function fetchAll() {
   const all = [];
   let cursor = '*';
   let page = 0;
-  let lastQuerySummary = null;
+  let firstQuerySummary = null;
 
   while (page < maxPages) {
     const resp = await fetchPage(cursor);
     if (resp.success !== 1) break;
-    lastQuerySummary = resp.query_summary ?? lastQuerySummary;
+    if (!firstQuerySummary && resp.query_summary) {
+      // 仅保存首页 query_summary，包含 total_reviews/total_positive/total_negative
+      firstQuerySummary = resp.query_summary;
+    }
     const batch = resp.reviews ?? [];
     if (batch.length === 0) break;
     all.push(...batch);
@@ -62,7 +65,7 @@ async function fetchAll() {
     fetched_at: new Date().toISOString(),
     // 按 recommendationid 去重，Steam 接口在分页时可能返回重复记录
     count: undefined,
-    query_summary: lastQuerySummary,
+    query_summary: firstQuerySummary,
     reviews: undefined
   };
   const uniqueMap = new Map();

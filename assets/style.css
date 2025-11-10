@@ -31,6 +31,8 @@ main { padding: 20px; max-width: 1000px; margin: 0 auto; }
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
 .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 12px; }
 .panel h3 { margin: 0 0 8px; font-size: 16px; }
+.panel .filters { margin-bottom: 8px; }
+.panel .filters select { padding: 6px 8px; border-radius: 6px; background: var(--panel); color: var(--text); border: 1px solid var(--border); }
 .top-list { list-style: none; padding: 0; margin: 0; }
 .top-list li { background: var(--panel); border: 1px solid var(--border); padding: 12px; border-radius: 10px; margin-bottom: 10px; }
 .top-line { display: flex; justify-content: space-between; align-items: center; gap: 8px; }

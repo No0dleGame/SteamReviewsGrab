@@ -35,7 +35,10 @@
           </div>
           <div class="panel">
             <h3>按语言词云</h3>
-            <div id="wordClouds" class="clouds"></div>
+            <div class="filters"><label>语言：
+              <select id="cloudLangSelect"></select>
+            </label></div>
+            <div id="wordCloud" class="cloud"></div>
           </div>
         </div>
       </section>
@@ -67,10 +70,7 @@
         </div>
       </section>
 
-      <section class="keywords">
-        <h2>高频词 Top 30</h2>
-        <ul id="topWords" class="top-list"></ul>
-      </section>
+      
     </main>
 
     <footer>
