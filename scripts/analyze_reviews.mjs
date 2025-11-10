@@ -11,7 +11,14 @@ if (!existsSync(rawPath)) {
 }
 
 const raw = JSON.parse(readFileSync(rawPath, 'utf-8'));
-const reviews = raw.reviews ?? [];
+// 再次去重，增强稳健性
+const baseReviews = raw.reviews ?? [];
+const idMap = new Map();
+for (const r of baseReviews) {
+  if (!r || !r.recommendationid) continue;
+  idMap.set(r.recommendationid, r);
+}
+const reviews = Array.from(idMap.values());
 
 const total = reviews.length;
 const positive = reviews.filter(r => r.voted_up).length;

@@ -58,12 +58,22 @@ async function fetchAll() {
   const out = {
     appid,
     fetched_at: new Date().toISOString(),
-    count: all.length,
+    // 按 recommendationid 去重，Steam 接口在分页时可能返回重复记录
+    count: undefined,
     query_summary: lastQuerySummary,
-    reviews: all
+    reviews: undefined
   };
+  const uniqueMap = new Map();
+  for (const r of all) {
+    if (!r || !r.recommendationid) continue;
+    uniqueMap.set(r.recommendationid, r);
+  }
+  const unique = Array.from(uniqueMap.values());
+  out.count = unique.length;
+  out.reviews = unique;
+
   writeFileSync(path.join(dataDir, 'raw_reviews.json'), JSON.stringify(out, null, 2));
-  console.log(`Saved ${all.length} reviews -> data/raw_reviews.json`);
+  console.log(`Saved ${unique.length} unique reviews (from ${all.length}) -> data/raw_reviews.json`);
 }
 
 fetchAll().catch(err => {
