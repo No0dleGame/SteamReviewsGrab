@@ -1,6 +1,6 @@
 {
   "appid": 2589500,
-  "fetched_at": "2025-11-10T05:57:49.548Z",
+  "fetched_at": "2025-11-10T06:09:58.725Z",
   "counts": {
     "total": 421,
     "positive": 409,
@@ -2724,6 +2724,11 @@
     ]
   },
   "query_summary": {
-    "num_reviews": 100
+    "num_reviews": 100,
+    "review_score": 9,
+    "review_score_desc": "Overwhelmingly Positive",
+    "total_positive": 2637,
+    "total_negative": 90,
+    "total_reviews": 2727
   }
 }

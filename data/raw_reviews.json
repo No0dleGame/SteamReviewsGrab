@@ -1,9 +1,14 @@
 {
   "appid": 2589500,
-  "fetched_at": "2025-11-10T05:57:49.548Z",
+  "fetched_at": "2025-11-10T06:09:58.725Z",
   "count": 421,
   "query_summary": {
-    "num_reviews": 100
+    "num_reviews": 100,
+    "review_score": 9,
+    "review_score_desc": "Overwhelmingly Positive",
+    "total_positive": 2637,
+    "total_negative": 90,
+    "total_reviews": 2727
   },
   "reviews": [
     {
@@ -58,31 +63,6 @@
       "primarily_steam_deck": false
     },
     {
-      "recommendationid": "207200470",
-      "author": {
-        "steamid": "76561198118512491",
-        "num_games_owned": 0,
-        "num_reviews": 17,
-        "playtime_forever": 345,
-        "playtime_last_two_weeks": 0,
-        "playtime_at_review": 275,
-        "last_played": 1761195716
-      },
-      "language": "english",
-      "review": "The only whisper here is my mouse begging for mercy. Clicky clicky clack, baby.",
-      "timestamp_created": 1760997683,
-      "timestamp_updated": 1760997683,
-      "voted_up": true,
-      "votes_up": 41,
-      "votes_funny": 42,
-      "weighted_vote_score": "0.797860205173492432",
-      "comment_count": 0,
-      "steam_purchase": true,
-      "received_for_free": false,
-      "written_during_early_access": false,
-      "primarily_steam_deck": false
-    },
-    {
       "recommendationid": "207230102",
       "author": {
         "steamid": "76561198043786771",
@@ -103,6 +83,31 @@
       "weighted_vote_score": "0.657142877578735352",
       "comment_count": 0,
       "steam_purchase": false,
+      "received_for_free": false,
+      "written_during_early_access": false,
+      "primarily_steam_deck": false
+    },
+    {
+      "recommendationid": "207200470",
+      "author": {
+        "steamid": "76561198118512491",
+        "num_games_owned": 0,
+        "num_reviews": 17,
+        "playtime_forever": 345,
+        "playtime_last_two_weeks": 0,
+        "playtime_at_review": 275,
+        "last_played": 1761195716
+      },
+      "language": "english",
+      "review": "The only whisper here is my mouse begging for mercy. Clicky clicky clack, baby.",
+      "timestamp_created": 1760997683,
+      "timestamp_updated": 1760997683,
+      "voted_up": true,
+      "votes_up": 41,
+      "votes_funny": 42,
+      "weighted_vote_score": "0.797860205173492432",
+      "comment_count": 0,
+      "steam_purchase": true,
       "received_for_free": false,
       "written_during_early_access": false,
       "primarily_steam_deck": false
@@ -7269,31 +7274,6 @@
       "primarily_steam_deck": false
     },
     {
-      "recommendationid": "208778650",
-      "author": {
-        "steamid": "76561199210867509",
-        "num_games_owned": 0,
-        "num_reviews": 12,
-        "playtime_forever": 67,
-        "playtime_last_two_weeks": 67,
-        "playtime_at_review": 67,
-        "last_played": 1762666681
-      },
-      "language": "schinese",
-      "review": "不推荐",
-      "timestamp_created": 1762666914,
-      "timestamp_updated": 1762666914,
-      "voted_up": false,
-      "votes_up": 5,
-      "votes_funny": 0,
-      "weighted_vote_score": "0.528858542442321777",
-      "comment_count": 0,
-      "steam_purchase": true,
-      "received_for_free": false,
-      "written_during_early_access": false,
-      "primarily_steam_deck": false
-    },
-    {
       "recommendationid": "208318859",
       "author": {
         "steamid": "76561199386402837",
@@ -7414,6 +7394,31 @@
       "weighted_vote_score": 0.5,
       "comment_count": 0,
       "steam_purchase": false,
+      "received_for_free": false,
+      "written_during_early_access": false,
+      "primarily_steam_deck": false
+    },
+    {
+      "recommendationid": "208778650",
+      "author": {
+        "steamid": "76561199210867509",
+        "num_games_owned": 0,
+        "num_reviews": 12,
+        "playtime_forever": 67,
+        "playtime_last_two_weeks": 67,
+        "playtime_at_review": 67,
+        "last_played": 1762666681
+      },
+      "language": "schinese",
+      "review": "不推荐",
+      "timestamp_created": 1762666914,
+      "timestamp_updated": 1762666914,
+      "voted_up": false,
+      "votes_up": 5,
+      "votes_funny": 0,
+      "weighted_vote_score": "0.528858542442321777",
+      "comment_count": 0,
+      "steam_purchase": true,
       "received_for_free": false,
       "written_during_early_access": false,
       "primarily_steam_deck": false
