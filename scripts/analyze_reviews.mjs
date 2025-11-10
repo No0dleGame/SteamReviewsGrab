@@ -1,9 +1,17 @@
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import path from 'node:path';
 
 const root = path.resolve('.');
 const dataDir = path.join(root, 'data');
-const rawPath = path.join(dataDir, 'raw_reviews.json');
+const cfgPath = path.join(root, 'config.json');
+const cfg = existsSync(cfgPath)
+  ? JSON.parse(readFileSync(cfgPath, 'utf-8'))
+  : { appid: 570 };
+const appid = cfg.appid;
+const appDir = path.join(dataDir, String(appid));
+const rawPathPreferred = path.join(appDir, 'raw_reviews.json');
+const rawPathFallback = path.join(dataDir, 'raw_reviews.json');
+const rawPath = existsSync(rawPathPreferred) ? rawPathPreferred : rawPathFallback;
 
 if (!existsSync(rawPath)) {
   console.error('No raw_reviews.json found. Run fetch_reviews.mjs first.');
@@ -117,5 +125,8 @@ const summary = {
   query_summary: raw.query_summary ?? null
 };
 
-writeFileSync(path.join(dataDir, 'summary.json'), JSON.stringify(summary, null, 2));
-console.log('Saved analysis -> data/summary.json');
+// 输出到与 raw_reviews.json 相同目录（优先 data/<appid>/summary.json）
+const outDir = path.dirname(rawPath);
+if (!existsSync(outDir)) mkdirSync(outDir);
+writeFileSync(path.join(outDir, 'summary.json'), JSON.stringify(summary, null, 2));
+console.log(`Saved analysis -> ${path.relative(root, path.join(outDir, 'summary.json'))}`);

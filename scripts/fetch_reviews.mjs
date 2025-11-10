@@ -77,8 +77,11 @@ async function fetchAll() {
   out.count = unique.length;
   out.reviews = unique;
 
-  writeFileSync(path.join(dataDir, 'raw_reviews.json'), JSON.stringify(out, null, 2));
-  console.log(`Saved ${unique.length} unique reviews (from ${all.length}) -> data/raw_reviews.json`);
+  // 按 appid 分目录保存，便于前端切换不同游戏
+  const appDir = path.join(dataDir, String(appid));
+  if (!existsSync(appDir)) mkdirSync(appDir);
+  writeFileSync(path.join(appDir, 'raw_reviews.json'), JSON.stringify(out, null, 2));
+  console.log(`Saved ${unique.length} unique reviews (from ${all.length}) -> data/${appid}/raw_reviews.json`);
 }
 
 fetchAll().catch(err => {
