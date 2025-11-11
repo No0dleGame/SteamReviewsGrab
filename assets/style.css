@@ -31,10 +31,10 @@ header p { margin: 0; color: var(--muted); }
 .app-switch label { color: var(--muted); margin-right: 8px; }
 .app-switch select { padding: 6px 8px; border-radius: 6px; background: var(--panel); color: var(--text); border: 1px solid var(--border); }
 
-main { padding: 20px; max-width: 1000px; margin: 0 auto; }
+main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
 .stats h2, .chart h2, .list h2 { margin: 0 0 12px; font-size: 18px; }
 
-.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
 .card { background: var(--panel); border: 1px solid var(--border); padding: 14px; border-radius: 10px; }
 .label { color: var(--muted); font-size: 13px; }
 .value { font-size: 22px; font-weight: 600; margin-top: 6px; color: var(--accent); }
@@ -71,8 +71,22 @@ main { padding: 20px; max-width: 1000px; margin: 0 auto; }
 .top-list li.negative .lang { color: var(--bad-muted); background: rgba(209,147,147,0.12); border-color: var(--bad-border-tint); }
 /* 右侧：点赞/时长/日期分项 */
 .meta-row { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 12px; }
-.meta-item { display: inline-flex; align-items: center; gap: 6px; }
+/* 右侧信息采用与语言徽章一致的外观 */
+.meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+/* 跟随情绪低饱和变色，与 .lang 一致 */
+.top-list li.positive .meta-item { color: var(--good-muted); background: rgba(131,182,159,0.12); border-color: var(--good-border-tint); }
+.top-list li.negative .meta-item { color: var(--bad-muted); background: rgba(209,147,147,0.12); border-color: var(--bad-border-tint); }
 .snippet { margin-top: 6px; color: #cfd6e2; font-size: 14px; line-height: 1.6; }
+.snippet mark { background: rgba(78,161,255,0.22); color: var(--text); border-radius: 4px; padding: 0 2px; }
 .top-list li.positive .snippet { color: #d6e4df; }
 .top-list li.negative .snippet { color: #e3d6d6; }
 .muted { color: var(--muted); }
@@ -91,6 +105,16 @@ main { padding: 20px; max-width: 1000px; margin: 0 auto; }
 }
 /* 复选框与下拉保持一致视觉尺寸 */
 .filters input[type="checkbox"] { width: 16px; height: 16px; vertical-align: middle; margin-left: 6px; }
+/* 文本搜索输入框，风格与下拉一致 */
+.filters input[type="text"] {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  outline: none;
+  padding: 6px 8px;
+  border-radius: 6px;
+  min-width: 200px;
+}
 /* 下拉选项的颜色（不同浏览器支持度略有差异） */
 .filters select option { background: var(--panel); color: var(--text); }
 .filters select:focus { border-color: var(--accent); }
@@ -108,6 +132,14 @@ footer { padding: 14px 20px; color: var(--muted); border-top: 1px solid var(--bo
 
 @media (max-width: 720px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* 在更宽屏幕时，左右面板留更多空间 */
+@media (min-width: 1280px) {
+  .split { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1600px) {
+  .split { grid-template-columns: 1.2fr 1.8fr; }
 }
 /* 热门评论折叠区块已移除 */
 .keywords { margin-top: 20px; }

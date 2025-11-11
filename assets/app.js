@@ -26,6 +26,7 @@ const state = {
   sort: 'latest', // latest | popular
   type: 'all',     // all | positive | negative
   lang: 'all',     // 按语言过滤
+  search: '',      // 文本搜索
   showLang: true,  // 是否显示语言徽章
   currentApp: 'default',
   games: [],
@@ -67,7 +68,8 @@ async function loadSummary(appid) {
     document.getElementById('negative').textContent = negative;
     document.getElementById('positiveRate').textContent = rate;
     const gameName = (state.games.find(g => String(g.appid) === String(appid)) || {}).name || '未命名';
-    metaEl.textContent = `游戏: ${gameName} (appid: ${summary.appid}) | 抓取时间: ${summary.fetched_at} | 总评论数(steam): ${steamTotal} | 本次抓取数: ${grabbedTotal}`;
+    const fetchedAtStr = summary.fetched_at ? formatDateShort(new Date(summary.fetched_at)) : '';
+    metaEl.textContent = `游戏: ${gameName} (appid: ${summary.appid}) | 抓取时间: ${fetchedAtStr} | 总评论数(steam): ${steamTotal} | 本次抓取数: ${grabbedTotal}`;
 
     // 语言分布图
     const dist = summary.language_distribution || [];
@@ -256,6 +258,29 @@ function escapeHtml(str) {
     .replaceAll('>', '&gt;');
 }
 
+function escapeRegExp(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function debounce(fn, delay = 300) {
+  let t = null;
+  return (...args) => {
+    clearTimeout(t);
+    t = setTimeout(() => fn(...args), delay);
+  };
+}
+
+function pad2(n) { return String(n).padStart(2, '0'); }
+function formatDateShort(d) {
+  if (!(d instanceof Date) || isNaN(d)) return '';
+  const yy = pad2(d.getFullYear() % 100);
+  const MM = pad2(d.getMonth() + 1);
+  const DD = pad2(d.getDate());
+  const hh = pad2(d.getHours());
+  const mm = pad2(d.getMinutes());
+  return `${yy}/${MM}/${DD} ${hh}:${mm}`;
+}
+
 async function loadRaw(appid) {
   try {
     const raw = await fetchJsonSequential([
@@ -320,6 +345,7 @@ function attachFilterEvents() {
   const pageRight = document.getElementById('pageRight');
   const pageJumpInput = document.getElementById('pageJumpInput');
   const pageJumpBtn = document.getElementById('pageJumpBtn');
+  const searchInput = document.getElementById('searchInput');
 
   sortSelect.addEventListener('change', () => {
     state.sort = sortSelect.value;
@@ -348,6 +374,16 @@ function attachFilterEvents() {
       const list = document.getElementById('allList');
       list.classList.toggle('hide-lang', !state.showLang);
     });
+  }
+  if (searchInput) {
+    searchInput.value = state.search;
+    const onSearch = debounce(() => {
+      state.search = (searchInput.value || '').trim();
+      state.page = 1;
+      updateFiltered();
+      renderList();
+    }, 250);
+    searchInput.addEventListener('input', onSearch);
   }
   pageLeft.addEventListener('click', () => {
     if (state.page > 1) {
@@ -383,6 +419,10 @@ function updateFiltered() {
   if (state.type === 'positive') arr = arr.filter(r => !!r.voted_up);
   if (state.type === 'negative') arr = arr.filter(r => !r.voted_up);
   if (state.lang && state.lang !== 'all') arr = arr.filter(r => (r.language || 'unknown') === state.lang);
+  if (state.search) {
+    const kw = state.search.toLowerCase();
+    arr = arr.filter(r => (r.review || '').toLowerCase().includes(kw));
+  }
 
   if (state.sort === 'latest') {
     arr.sort((a, b) => (b.timestamp_created || 0) - (a.timestamp_created || 0));
@@ -421,8 +461,11 @@ function renderList() {
       li.classList.add(r.voted_up ? 'positive' : 'negative');
       const langLabel = langZh[r.language] || r.language || '未知';
       const snippet = (r.review || '').slice(0, 300);
+      const term = state.search.trim();
+      const safe = escapeHtml(snippet);
+      const highlighted = term ? safe.replace(new RegExp(escapeRegExp(term), 'ig'), m => `<mark>${m}</mark>`) : safe;
       const created = r.timestamp_created ? new Date(r.timestamp_created * 1000) : null;
-      const createdStr = created ? created.toLocaleString() : '';
+      const createdStr = created ? formatDateShort(created) : '';
       const playHours = r.author?.playtime_forever ? (r.author.playtime_forever / 60).toFixed(1) : '0.0';
       const votesUp = r.votes_up || 0;
       li.innerHTML = `
@@ -434,7 +477,7 @@ function renderList() {
             <span class="meta-item">${createdStr}</span>
           </div>
         </div>
-        <div class="snippet">${escapeHtml(snippet)}</div>
+        <div class="snippet">${highlighted}</div>
       `;
       list.appendChild(li);
     });
