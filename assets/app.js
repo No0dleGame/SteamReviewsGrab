@@ -341,15 +341,13 @@ async function loadSummary(appid) {
         });
       }
 
-      // 初始显示第一项
-      const initial = langs[0] || 'all';
-      // 初始化两个下拉
+      // 初始化两个下拉，语言默认选择“全部”
       if (timeSel) {
         timeSel.value = 'all';
         timeSel.addEventListener('change', () => renderCloud(selectEl.value, timeSel.value));
       }
-      if (initial) selectEl.value = initial;
-      renderCloud(selectEl.value, (timeSel && timeSel.value) || 'all');
+      selectEl.value = 'all';
+      renderCloud('all', (timeSel && timeSel.value) || 'all');
       selectEl.addEventListener('change', () => renderCloud(selectEl.value, (timeSel && timeSel.value) || 'all'));
     }
 
