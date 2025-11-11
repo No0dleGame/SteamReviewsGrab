@@ -53,6 +53,8 @@ async function fetchAll(appid) {
   let cursor = '*';
   let page = 0;
   let firstQuerySummary = null;
+  // 动态目标页数：默认取配置的 maxPages，拿到首屏后根据 total_reviews 调整
+  let targetPages = maxPages;
 
   while (page < maxPages) {
     const resp = await fetchPage(appid, cursor);
@@ -60,12 +62,21 @@ async function fetchAll(appid) {
     if (!firstQuerySummary && resp.query_summary) {
       // 仅保存首页 query_summary，包含 total_reviews/total_positive/total_negative
       firstQuerySummary = resp.query_summary;
+      const total = Number(firstQuerySummary.total_reviews || 0);
+      const maxNeeded = total > 0 ? Math.ceil(total / 100) : maxPages; // 每页 100 条
+      targetPages = Math.min(maxNeeded, maxPages);
+      console.log(`Determined targetPages=${targetPages} from total_reviews=${total}`);
     }
     const batch = resp.reviews ?? [];
     if (batch.length === 0) break;
     all.push(...batch);
     cursor = resp.cursor;
     page += 1;
+    // 达到目标页数则提前结束，避免不必要的分页请求
+    if (page >= targetPages) {
+      console.log(`Reached targetPages=${targetPages}, stopping early.`);
+      break;
+    }
     console.log(`Page ${page}: ${batch.length} reviews, cursor=${cursor?.slice(0, 24) || ''}...`);
     // 控制速率，避免被限流
     await delay(delayMs);

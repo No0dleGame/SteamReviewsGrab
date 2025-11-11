@@ -58,8 +58,11 @@ async function loadSummary(appid) {
     const positive = summary.query_summary?.total_positive ?? summary.counts?.positive ?? '--';
     const negative = summary.query_summary?.total_negative ?? summary.counts?.negative ?? '--';
     const rate = summary.positive_rate != null ? `${(summary.positive_rate * 100).toFixed(1)}%` : '--';
+    const monthly = summary.counts_this_month ?? '--';
 
     document.getElementById('total').textContent = steamTotal;
+    const monthlyEl = document.getElementById('monthly');
+    if (monthlyEl) monthlyEl.textContent = monthly;
     document.getElementById('positive').textContent = positive;
     document.getElementById('negative').textContent = negative;
     document.getElementById('positiveRate').textContent = rate;

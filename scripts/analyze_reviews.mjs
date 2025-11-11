@@ -40,9 +40,20 @@ for (const r of baseReviews) {
 const reviews = Array.from(idMap.values());
 
   const total = reviews.length;
-const positive = reviews.filter(r => r.voted_up).length;
-const negative = total - positive;
-const positiveRate = total > 0 ? positive / total : 0;
+  const positive = reviews.filter(r => r.voted_up).length;
+  const negative = total - positive;
+  const positiveRate = total > 0 ? positive / total : 0;
+
+  // 本月评论数（按 UTC，以 fetched_at 的月份为基准）
+  const fetchedAt = new Date(raw.fetched_at || Date.now());
+  const startMonthUtc = Date.UTC(fetchedAt.getUTCFullYear(), fetchedAt.getUTCMonth(), 1, 0, 0, 0);
+  const nextMonthUtc = Date.UTC(fetchedAt.getUTCFullYear(), fetchedAt.getUTCMonth() + 1, 1, 0, 0, 0);
+  const thisMonthCount = reviews.filter(r => {
+    const ts = r.timestamp_created || r.timestamp_updated;
+    if (!ts) return false;
+    const ms = ts * 1000; // Steam 时间戳为秒
+    return ms >= startMonthUtc && ms < nextMonthUtc;
+  }).length;
 
 // 语言分布统计
   const langMap = new Map();
@@ -124,6 +135,7 @@ for (const [lang, m] of freqByLang.entries()) {
     appid: raw.appid,
     fetched_at: raw.fetched_at,
     counts: { total, positive, negative },
+    counts_this_month: thisMonthCount,
     positive_rate: positiveRate,
     language_distribution: languageDistribution,
     top_helpful_reviews: topHelpfulReviews,

@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# 取消重复运行排队：新的触发会取消同组正在运行的工作流
+concurrency:
+  group: steam-reviews
+  cancel-in-progress: true
+
 jobs:
   fetch_and_analyze:
     runs-on: ubuntu-latest

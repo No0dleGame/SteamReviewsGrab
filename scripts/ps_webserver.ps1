@@ -1,4 +1,3 @@
-Add-Type -AssemblyName System.Net.HttpListener
 $root = Get-Location
 $prefix = 'http://localhost:8080/'
 $listener = New-Object System.Net.HttpListener
