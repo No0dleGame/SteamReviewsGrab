@@ -28,6 +28,8 @@ const state = {
   lang: 'all',     // 按语言过滤
   search: '',      // 文本搜索
   showLang: true,  // 是否显示语言徽章
+  listTime: 'all', // 列表时间窗口：all | month | week
+  fetchedAtMs: Date.now(),
   currentApp: 'default',
   games: [],
   charts: {},
@@ -70,11 +72,49 @@ async function loadSummary(appid) {
     const gameName = (state.games.find(g => String(g.appid) === String(appid)) || {}).name || '未命名';
     const fetchedAtStr = summary.fetched_at ? formatDateShort(new Date(summary.fetched_at)) : '';
     metaEl.textContent = `游戏: ${gameName} (appid: ${summary.appid}) | 抓取时间: ${fetchedAtStr} | 总评论数(steam): ${steamTotal} | 本次抓取数: ${grabbedTotal}`;
+    // 保存抓取时间戳供时间窗口过滤使用
+    state.fetchedAtMs = summary.fetched_at ? new Date(summary.fetched_at).getTime() : Date.now();
 
     // 语言分布图
     const dist = summary.language_distribution || [];
+    const baseOrder = dist.map(d => d.language);
     const labels = dist.map(d => langZh[d.language] || d.language);
     const values = dist.map(d => d.count);
+
+    // 计算指定时间窗口的语言分布（优先使用 summary 于 all）
+    function computeLangCounts(range) {
+      if (range === 'all' && dist.length) {
+        return {
+          labels: dist.map(d => langZh[d.language] || d.language),
+          rawLabels: dist.map(d => d.language),
+          values: dist.map(d => d.count)
+        };
+      }
+      const reviews = Array.isArray(state.raw) ? state.raw : [];
+      const fetchedAt = new Date(summary.fetched_at || Date.now());
+      const endMs = +fetchedAt;
+      let startMs = 0;
+      if (range === 'week') startMs = endMs - 7 * 24 * 3600 * 1000;
+      if (range === 'month') startMs = endMs - 30 * 24 * 3600 * 1000;
+      const acc = new Map();
+      for (const r of reviews) {
+        const ts = (r.timestamp_created || r.timestamp_updated || 0) * 1000;
+        if (range !== 'all' && (ts < startMs || ts > endMs)) continue;
+        const lg = r.language || 'unknown';
+        acc.set(lg, (acc.get(lg) || 0) + 1);
+      }
+      const langs = Array.from(acc.keys());
+      // 使用 summary 的顺序，未知语言排在最后
+      langs.sort((a, b) => {
+        const ia = baseOrder.indexOf(a);
+        const ib = baseOrder.indexOf(b);
+        return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+      });
+      const rawLabels = langs;
+      const lbs = langs.map(l => langZh[l] || l);
+      const vals = langs.map(l => acc.get(l) || 0);
+      return { labels: lbs, rawLabels, values: vals };
+    }
 
     // 评论列表语言筛选下拉
     const listLangSel = document.getElementById('listLangSelect');
@@ -116,6 +156,19 @@ async function loadSummary(appid) {
         }
       }
     });
+
+    // 绑定语言分布时间选择
+    const distTimeSel = document.getElementById('distTimeSelect');
+    if (distTimeSel) {
+      distTimeSel.value = 'all';
+      distTimeSel.addEventListener('change', () => {
+        const range = distTimeSel.value || 'all';
+        const { labels: lb, values: vs } = computeLangCounts(range);
+        state.charts.langChart.data.labels = lb;
+        state.charts.langChart.data.datasets[0].data = vs;
+        state.charts.langChart.update();
+      });
+    }
 
     // 语言饼图
     const langPieEl = document.getElementById('langPie');
@@ -166,16 +219,30 @@ async function loadSummary(appid) {
         },
         plugins: [outerBorderPlugin]
       });
+
+      // 绑定饼图时间选择
+      const pieTimeSel = document.getElementById('pieTimeSelect');
+      if (pieTimeSel) {
+        pieTimeSel.value = 'all';
+        pieTimeSel.addEventListener('change', () => {
+          const range = pieTimeSel.value || 'all';
+          const { labels: lb, values: vs } = computeLangCounts(range);
+          state.charts.langPie.data.labels = lb;
+          state.charts.langPie.data.datasets[0].data = vs;
+          state.charts.langPie.update();
+        });
+      }
     }
 
     // 按语言词云（下拉选择）
-    const selectEl = document.getElementById('cloudLangSelect');
-    const cloudEl = document.getElementById('wordCloud');
-    if (selectEl && cloudEl) {
-      const byLang = summary.top_words_by_language || {};
-      const dist = summary.language_distribution || [];
-      const order = dist.map(d => d.language);
-      const langs = Object.keys(byLang).sort((a, b) => order.indexOf(a) - order.indexOf(b));
+  const selectEl = document.getElementById('cloudLangSelect');
+  const cloudEl = document.getElementById('wordCloud');
+  const timeSel = document.getElementById('cloudTimeSelect');
+  if (selectEl && cloudEl) {
+    const byLang = summary.top_words_by_language || {};
+    const dist = summary.language_distribution || [];
+    const order = dist.map(d => d.language);
+    const langs = Object.keys(byLang).sort((a, b) => order.indexOf(a) - order.indexOf(b));
 
       // 填充下拉选项
       selectEl.innerHTML = '';
@@ -191,26 +258,63 @@ async function loadSummary(appid) {
         selectEl.appendChild(opt);
       });
 
-      function renderCloud(lang) {
-        let words = [];
-        if (lang === 'all') {
-          // 优先使用汇总 top_words；缺失时合并各语言词频的前60条再聚合
-          const overall = summary.top_words || [];
-          if (overall.length > 0) {
-            words = overall;
-          } else {
-            const acc = new Map();
-            Object.values(byLang).forEach(arr => {
-              (arr || []).slice(0, 60).forEach(w => {
-                acc.set(w.word, (acc.get(w.word) || 0) + (w.count || 0));
-              });
-            });
-            words = Array.from(acc.entries()).map(([word, count]) => ({ word, count }))
-              .sort((a, b) => b.count - a.count).slice(0, 60);
+      // 分词与词频（与分析脚本对齐）
+      const stopwordsZh = new Set(['的','了','和','是','在','我','你','他','她','它','不','很','也','这','那','就','都','可以','一个','没有','还有','吗','啊','呢','吧','着','给','让','会','把','被','比','到']);
+      const stopwordsEn = new Set(['the','and','a','to','of','in','is','it','that','this','for','on','with','as','was','are','be','at','by','or','an','from','so','if','but','not','very','really','just']);
+      function tokenize(review, language) {
+        if (!review || typeof review !== 'string') return [];
+        if (language === 'schinese' || language === 'tchinese') {
+          const han = review.match(/[\u4e00-\u9fff]+/g);
+          if (!han) return [];
+          const grams = [];
+          for (const seg of han) {
+            for (let i = 0; i < seg.length - 1; i++) {
+              const w = seg.slice(i, i + 2);
+              if (!stopwordsZh.has(w)) grams.push(w);
+            }
           }
-        } else {
-          words = byLang[lang] || [];
+          return grams;
         }
+        // 英文：保留撇号作为单词内部字符，won't 作为一个词，不拆成 won + t
+        const norm = review.toLowerCase().replace(/[’`]/g, "'");
+        const words = norm.match(/[a-z]{2,}(?:'[a-z]{2,})*/g) || [];
+        return words.filter(w => !stopwordsEn.has(w));
+      }
+
+      function computeTopWords(range, lang) {
+        // all 范围优先使用 summary 预计算（更快），否则基于 state.raw 重算
+        if (range === 'all') {
+          if (lang === 'all') {
+            const overall = summary.top_words || [];
+            if (overall.length) return overall;
+          } else if (byLang[lang] && byLang[lang].length) {
+            return byLang[lang];
+          }
+        }
+        const reviews = Array.isArray(state.raw) ? state.raw : [];
+        if (!reviews.length) return [];
+        const fetchedAt = new Date(summary.fetched_at || Date.now());
+        const endMs = +fetchedAt;
+        let startMs = 0;
+        if (range === 'week') startMs = endMs - 7 * 24 * 3600 * 1000;
+        if (range === 'month') startMs = endMs - 30 * 24 * 3600 * 1000;
+
+        const freq = new Map();
+        for (const r of reviews) {
+          if (lang !== 'all' && (r.language || 'unknown') !== lang) continue;
+          const ts = (r.timestamp_created || r.timestamp_updated || 0) * 1000;
+          if (range !== 'all' && (ts < startMs || ts > endMs)) continue;
+          const tokens = tokenize(r.review, r.language);
+          for (const t of tokens) freq.set(t, (freq.get(t) || 0) + 1);
+        }
+        return Array.from(freq.entries())
+          .map(([word, count]) => ({ word, count }))
+          .sort((a, b) => b.count - a.count)
+          .slice(0, 60);
+      }
+
+      function renderCloud(lang, range) {
+        let words = computeTopWords(range, lang);
         cloudEl.innerHTML = '';
         if (!words.length) {
           cloudEl.innerHTML = '<span class="muted">暂无词频数据</span>';
@@ -230,17 +334,23 @@ async function loadSummary(appid) {
           span.style.fontSize = fontSize + 'px';
           span.style.color = `hsl(${hue}deg 80% 60%)`;
           span.textContent = w.word;
+          // 悬停显示该词出现次数
+          span.title = `${w.word}: ${w.count} 条`;
+          span.setAttribute('aria-label', `${w.word}: ${w.count} 条`);
           cloudEl.appendChild(span);
         });
       }
 
       // 初始显示第一项
-      const initial = langs[0];
-      if (initial) {
-        selectEl.value = initial;
-        renderCloud(initial);
+      const initial = langs[0] || 'all';
+      // 初始化两个下拉
+      if (timeSel) {
+        timeSel.value = 'all';
+        timeSel.addEventListener('change', () => renderCloud(selectEl.value, timeSel.value));
       }
-      selectEl.addEventListener('change', () => renderCloud(selectEl.value));
+      if (initial) selectEl.value = initial;
+      renderCloud(selectEl.value, (timeSel && timeSel.value) || 'all');
+      selectEl.addEventListener('change', () => renderCloud(selectEl.value, (timeSel && timeSel.value) || 'all'));
     }
 
     // 已移除“高频词 Top 30”列表，改为按语言词云
@@ -291,6 +401,19 @@ async function loadRaw(appid) {
     updateFiltered();
     clampPage();
     renderList();
+    // 原始数据加载后，刷新词云以启用时间窗口筛选
+    const timeSel = document.getElementById('cloudTimeSelect');
+    const langSel = document.getElementById('cloudLangSelect');
+    if (timeSel) {
+      timeSel.dispatchEvent(new Event('change'));
+    } else if (langSel) {
+      langSel.dispatchEvent(new Event('change'));
+    }
+    // 同步刷新：语言分布与饼图的时间窗口
+    const distTimeSel = document.getElementById('distTimeSelect');
+    if (distTimeSel) distTimeSel.dispatchEvent(new Event('change'));
+    const pieTimeSel = document.getElementById('pieTimeSelect');
+    if (pieTimeSel) pieTimeSel.dispatchEvent(new Event('change'));
   } catch (err) {
     const allList = document.getElementById('allList');
     allList.innerHTML = '<li class="muted">未检测到原始评论数据</li>';
@@ -340,12 +463,16 @@ function attachFilterEvents() {
   const sortSelect = document.getElementById('sortSelect');
   const typeSelect = document.getElementById('typeSelect');
   const langSelect = document.getElementById('listLangSelect');
+  const timeSelect = document.getElementById('listTimeSelect');
   const toggleLang = document.getElementById('toggleLangBadge');
   const pageLeft = document.getElementById('pageLeft');
   const pageRight = document.getElementById('pageRight');
+  const pageFirst = document.getElementById('pageFirst');
+  const pageLast = document.getElementById('pageLast');
   const pageJumpInput = document.getElementById('pageJumpInput');
   const pageJumpBtn = document.getElementById('pageJumpBtn');
   const searchInput = document.getElementById('searchInput');
+  const searchBtn = document.getElementById('searchBtn');
 
   sortSelect.addEventListener('change', () => {
     state.sort = sortSelect.value;
@@ -367,6 +494,15 @@ function attachFilterEvents() {
       renderList();
     });
   }
+  if (timeSelect) {
+    timeSelect.value = state.listTime;
+    timeSelect.addEventListener('change', () => {
+      state.listTime = timeSelect.value || 'all';
+      state.page = 1;
+      updateFiltered();
+      renderList();
+    });
+  }
   if (toggleLang) {
     toggleLang.checked = state.showLang;
     toggleLang.addEventListener('change', () => {
@@ -377,13 +513,14 @@ function attachFilterEvents() {
   }
   if (searchInput) {
     searchInput.value = state.search;
-    const onSearch = debounce(() => {
+    const doSearch = () => {
       state.search = (searchInput.value || '').trim();
       state.page = 1;
       updateFiltered();
       renderList();
-    }, 250);
-    searchInput.addEventListener('input', onSearch);
+    };
+    if (searchBtn) searchBtn.addEventListener('click', doSearch);
+    searchInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') doSearch(); });
   }
   pageLeft.addEventListener('click', () => {
     if (state.page > 1) {
@@ -398,6 +535,23 @@ function attachFilterEvents() {
       renderList();
     }
   });
+  if (pageFirst) {
+    pageFirst.addEventListener('click', () => {
+      if (state.page !== 1) {
+        state.page = 1;
+        renderList();
+      }
+    });
+  }
+  if (pageLast) {
+    pageLast.addEventListener('click', () => {
+      const totalPages = Math.ceil(state.filtered.length / state.pageSize) || 1;
+      if (state.page !== totalPages) {
+        state.page = totalPages;
+        renderList();
+      }
+    });
+  }
   pageJumpBtn.addEventListener('click', () => {
     const totalPages = Math.ceil(state.filtered.length / state.pageSize) || 1;
     const v = parseInt(pageJumpInput.value, 10);
@@ -419,6 +573,17 @@ function updateFiltered() {
   if (state.type === 'positive') arr = arr.filter(r => !!r.voted_up);
   if (state.type === 'negative') arr = arr.filter(r => !r.voted_up);
   if (state.lang && state.lang !== 'all') arr = arr.filter(r => (r.language || 'unknown') === state.lang);
+  // 时间窗口过滤（基于 fetchedAtMs 为右边界）
+  if (state.listTime && state.listTime !== 'all') {
+    const endMs = state.fetchedAtMs || Date.now();
+    const startMs = state.listTime === 'week'
+      ? endMs - 7 * 24 * 3600 * 1000
+      : endMs - 30 * 24 * 3600 * 1000;
+    arr = arr.filter(r => {
+      const ts = (r.timestamp_created || r.timestamp_updated || 0) * 1000;
+      return ts >= startMs && ts <= endMs;
+    });
+  }
   if (state.search) {
     const kw = state.search.toLowerCase();
     arr = arr.filter(r => (r.review || '').toLowerCase().includes(kw));
@@ -443,6 +608,8 @@ function renderList() {
   const pageInfo = document.getElementById('pageInfo');
   const pageLeft = document.getElementById('pageLeft');
   const pageRight = document.getElementById('pageRight');
+  const pageFirst = document.getElementById('pageFirst');
+  const pageLast = document.getElementById('pageLast');
   const pageCurrent = document.getElementById('pageCurrent');
 
   const totalPages = Math.ceil(state.filtered.length / state.pageSize) || 1;
@@ -483,6 +650,8 @@ function renderList() {
     });
   }
   pageInfo.textContent = `第 ${state.page} / ${totalPages} 页（共 ${state.filtered.length} 条）`;
+  const listTotalEl = document.getElementById('listTotal');
+  if (listTotalEl) listTotalEl.textContent = `共 ${state.filtered.length} 条`;
   // 更新数字分页显示：左、当前、右
   pageCurrent.textContent = String(state.page);
   // 左页
@@ -501,4 +670,7 @@ function renderList() {
     pageRight.textContent = '—';
     pageRight.disabled = true;
   }
+  // 首/尾页按钮禁用状态
+  if (pageFirst) pageFirst.disabled = state.page === 1;
+  if (pageLast) pageLast.disabled = state.page === totalPages;
 }

@@ -36,8 +36,11 @@ header p { margin: 0; color: var(--muted); }
 
 main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
 .stats h2, .chart h2, .list h2 { margin: 0 0 12px; font-size: 18px; }
+.section-title { display: flex; align-items: baseline; gap: 8px; }
+.section-title .subcount { color: var(--muted); font-size: 14px; }
 
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.stats .grid { max-width: 1000px; }
 .card { background: var(--panel); border: 1px solid var(--border); padding: 14px; border-radius: 10px; }
 .label { color: var(--muted); font-size: 13px; }
 .value { font-size: 22px; font-weight: 600; margin-top: 6px; color: var(--accent); }
@@ -130,6 +133,10 @@ main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
 .page-btn:hover { background: rgba(255,255,255,0.06); }
 .page-jump { display: flex; gap: 10px; align-items: center; }
 .page-jump input { width: 64px; padding: 6px 8px; border-radius: 6px; border: 1px solid var(--border); background: var(--panel); color: var(--text); }
+/* 隐藏数字输入的系统上下箭头，统一风格 */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+input[type="number"] { -moz-appearance: textfield; }
 
 footer { padding: 14px 20px; color: var(--muted); border-top: 1px solid var(--border); margin-top: 24px; }
 
@@ -153,3 +160,15 @@ footer { padding: 14px 20px; color: var(--muted); border-top: 1px solid var(--bo
 .cloud-card .title { font-size: 14px; margin-bottom: 6px; color: var(--muted); }
 .cloud { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: flex-start; }
 .cloud span { line-height: 1; display: inline-block; padding: 2px 4px; border-radius: 6px; }
+
+/* 新增：搜索“确定”按钮样式，与筛选区一致 */
+.filters button { background: var(--panel); border: 1px solid var(--border); color: var(--text); padding: 6px 10px; border-radius: 8px; cursor: pointer; }
+.filters button:hover { background: rgba(255,255,255,0.06); }
+
+/* 新增：将“确定”按钮嵌入输入框内部 */
+.filters .search-wrap { position: relative; display: inline-block; }
+.filters .search-wrap input[type="text"] { padding-right: 72px; }
+.filters .search-wrap .in-input {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+  padding: 4px 10px; border-radius: 6px;
+}

@@ -99,8 +99,9 @@ for (const r of reviews) {
     }
     return grams;
   }
-  // 英文及其他语言：按单词分割并去停用词
-  const words = review.toLowerCase().match(/[a-z]{2,}/g) || [];
+  // 英文及其他语言：保留撇号作为单词内部字符（won't 作为一个词）
+  const norm = review.toLowerCase().replace(/[’`]/g, "'");
+  const words = norm.match(/[a-z]{2,}(?:'[a-z]{2,})*/g) || [];
   return words.filter(w => !stopwordsEn.has(w));
 }
 

@@ -36,17 +36,44 @@
 
       <section class="chart">
         <h2>语言分布</h2>
+        <div class="filters">
+          <label>时间：
+            <select id="distTimeSelect">
+              <option value="all">全部</option>
+              <option value="month">一月内</option>
+              <option value="week">一周内</option>
+            </select>
+          </label>
+        </div>
         <canvas id="langChart" height="120"></canvas>
         <div class="split">
           <div class="panel">
             <h3>语言饼图</h3>
+            <div class="filters">
+              <label>时间：
+                <select id="pieTimeSelect">
+                  <option value="all">全部</option>
+                  <option value="month">一月内</option>
+                  <option value="week">一周内</option>
+                </select>
+              </label>
+            </div>
             <canvas id="langPie" height="160"></canvas>
           </div>
           <div class="panel">
             <h3>按语言词云</h3>
-            <div class="filters"><label>语言：
-              <select id="cloudLangSelect"></select>
-            </label></div>
+            <div class="filters">
+              <label>语言：
+                <select id="cloudLangSelect"></select>
+              </label>
+              <label>时间：
+                <select id="cloudTimeSelect">
+                  <option value="all">全部</option>
+                  <option value="month">一月内</option>
+                  <option value="week">一周内</option>
+                </select>
+              </label>
+            </div>
             <div id="wordCloud" class="cloud"></div>
           </div>
         </div>
@@ -55,12 +82,19 @@
       
 
       <section class="controls">
-        <h2>评论列表</h2>
+        <h2 class="section-title">评论列表 <span id="listTotal" class="subcount"></span></h2>
         <div class="filters">
           <label>排序：
             <select id="sortSelect">
               <option value="latest">最新</option>
               <option value="popular">热门</option>
+            </select>
+          </label>
+          <label>时间：
+            <select id="listTimeSelect">
+              <option value="all">全部</option>
+              <option value="month">一月内</option>
+              <option value="week">一周内</option>
             </select>
           </label>
           <label>类型：
@@ -74,7 +108,10 @@
             <select id="listLangSelect"></select>
           </label>
           <label>搜索：
-            <input type="text" id="searchInput" placeholder="搜索评论内容" />
+            <span class="search-wrap">
+              <input type="text" id="searchInput" placeholder="搜索评论内容" />
+              <button id="searchBtn" class="in-input">确定</button>
+            </span>
           </label>
           <label>
             显示语言：
@@ -84,9 +121,11 @@
         <ul id="allList" class="top-list"></ul>
         <div class="pager">
           <div class="page-numbers">
+            <button id="pageFirst" class="page-btn">首页</button>
             <button id="pageLeft" class="page-btn">—</button>
             <span id="pageCurrent" class="page-current">1</span>
             <button id="pageRight" class="page-btn">—</button>
+            <button id="pageLast" class="page-btn">尾页</button>
           </div>
           <div class="page-jump">
             <label>跳转：
