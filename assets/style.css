@@ -26,6 +26,9 @@ header h1 { margin: 0; font-size: 20px; }
 header p { margin: 0; color: var(--muted); }
 /* 头部：标题 + 右上角下拉 */
 .header-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+/* 标题行：主标题 + 副标题在右侧一行显示 */
+.title-line { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.subtitle { color: var(--muted); font-size: 14px; }
 /* 顶部游戏切换 */
 .app-switch { margin: 8px 0 6px; }
 .app-switch label { color: var(--muted); margin-right: 8px; }
