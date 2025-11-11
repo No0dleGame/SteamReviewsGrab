@@ -37,6 +37,10 @@ async function fetchPage(appid, cursor = '*') {
   url.searchParams.set('cursor', cursor);
   // 使用 all，完整抓取历史评论；包含“离题评论活动”避免被隐藏
   url.searchParams.set('filter', 'all');
+  // Steam 的评论接口在未指定 day_range 时，通常仅返回一个“近期窗口”（~几百条）。
+  // 这里将 day_range 设为极大值，确保游标可以遍历至最早的评论。
+  // 参考社区实践：9223372036854775807（约等于 Long.MaxValue）。
+  url.searchParams.set('day_range', '9223372036854775807');
   url.searchParams.set('filter_offtopic_activity', '1');
 
   const res = await fetch(url.toString(), {
