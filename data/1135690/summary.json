@@ -1,6 +1,6 @@
 {
   "appid": "1135690",
-  "fetched_at": "2025-11-11T03:46:09.256Z",
+  "fetched_at": "2025-11-11T05:56:28.639Z",
   "counts": {
     "total": 25000,
     "positive": 22859,
@@ -189,11 +189,11 @@
     },
     {
       "word": "you",
-      "count": 14334
+      "count": 12815
     },
     {
       "word": "story",
-      "count": 7205
+      "count": 7204
     },
     {
       "word": "more",
@@ -205,7 +205,7 @@
     },
     {
       "word": "there",
-      "count": 4601
+      "count": 4582
     },
     {
       "word": "me",
@@ -232,10 +232,6 @@
       "count": 3940
     },
     {
-      "word": "would",
-      "count": 3832
-    },
-    {
       "word": "love",
       "count": 3792
     },
@@ -244,8 +240,12 @@
       "count": 3772
     },
     {
+      "word": "would",
+      "count": 3754
+    },
+    {
       "word": "unpacking",
-      "count": 3746
+      "count": 3742
     },
     {
       "word": "cute",
@@ -253,7 +253,7 @@
     },
     {
       "word": "de",
-      "count": 3674
+      "count": 3670
     },
     {
       "word": "short",
@@ -269,7 +269,7 @@
     },
     {
       "word": "all",
-      "count": 2968
+      "count": 2965
     },
     {
       "word": "little",
@@ -554,11 +554,11 @@
       },
       {
         "word": "you",
-        "count": 13913
+        "count": 12419
       },
       {
         "word": "story",
-        "count": 6917
+        "count": 6916
       },
       {
         "word": "more",
@@ -570,7 +570,7 @@
       },
       {
         "word": "there",
-        "count": 4502
+        "count": 4483
       },
       {
         "word": "like",
@@ -593,10 +593,6 @@
         "count": 3827
       },
       {
-        "word": "would",
-        "count": 3734
-      },
-      {
         "word": "me",
         "count": 3702
       },
@@ -607,6 +603,10 @@
       {
         "word": "have",
         "count": 3663
+      },
+      {
+        "word": "would",
+        "count": 3658
       },
       {
         "word": "cute",
@@ -685,10 +685,6 @@
         "count": 2399
       },
       {
-        "word": "they",
-        "count": 2397
-      },
-      {
         "word": "what",
         "count": 2380
       },
@@ -702,7 +698,7 @@
       },
       {
         "word": "your",
-        "count": 2291
+        "count": 2290
       },
       {
         "word": "how",
@@ -715,6 +711,10 @@
       {
         "word": "when",
         "count": 2232
+      },
+      {
+        "word": "they",
+        "count": 2201
       },
       {
         "word": "out",
@@ -1530,7 +1530,7 @@
       },
       {
         "word": "est",
-        "count": 640
+        "count": 637
       },
       {
         "word": "le",
@@ -1538,11 +1538,11 @@
       },
       {
         "word": "un",
-        "count": 548
+        "count": 529
       },
       {
         "word": "une",
-        "count": 398
+        "count": 393
       },
       {
         "word": "pour",
@@ -1558,7 +1558,7 @@
       },
       {
         "word": "en",
-        "count": 354
+        "count": 352
       },
       {
         "word": "tr",
@@ -1589,10 +1589,6 @@
         "count": 238
       },
       {
-        "word": "il",
-        "count": 232
-      },
-      {
         "word": "qui",
         "count": 226
       },
@@ -1609,12 +1605,16 @@
         "count": 175
       },
       {
-        "word": "au",
+        "word": "ai",
         "count": 172
       },
       {
-        "word": "ai",
-        "count": 172
+        "word": "au",
+        "count": 170
+      },
+      {
+        "word": "il",
+        "count": 164
       },
       {
         "word": "vie",
@@ -1623,10 +1623,6 @@
       {
         "word": "me",
         "count": 157
-      },
-      {
-        "word": "qu",
-        "count": 156
       },
       {
         "word": "plus",
@@ -1725,11 +1721,11 @@
         "count": 76
       },
       {
-        "word": "unpacking",
-        "count": 75
+        "word": "peut",
+        "count": 74
       },
       {
-        "word": "peut",
+        "word": "unpacking",
         "count": 74
       },
       {
@@ -1754,7 +1750,11 @@
       },
       {
         "word": "re",
-        "count": 69
+        "count": 68
+      },
+      {
+        "word": "qu'il",
+        "count": 66
       }
     ],
     "spanish": [
@@ -2122,14 +2122,14 @@
       },
       {
         "word": "you",
-        "count": 28
-      },
-      {
-        "word": "re",
-        "count": 28
+        "count": 27
       },
       {
         "word": "rzeczy",
+        "count": 27
+      },
+      {
+        "word": "re",
         "count": 27
       },
       {
@@ -2443,10 +2443,6 @@
         "count": 111
       },
       {
-        "word": "you",
-        "count": 108
-      },
-      {
         "word": "leider",
         "count": 105
       },
@@ -2460,6 +2456,10 @@
       },
       {
         "word": "super",
+        "count": 101
+      },
+      {
+        "word": "you",
         "count": 101
       },
       {
@@ -2732,7 +2732,7 @@
       },
       {
         "word": "oyun",
-        "count": 476
+        "count": 473
       },
       {
         "word": "ve",
@@ -2744,7 +2744,7 @@
       },
       {
         "word": "de",
-        "count": 228
+        "count": 224
       },
       {
         "word": "da",
@@ -2767,12 +2767,12 @@
         "count": 156
       },
       {
-        "word": "ya",
+        "word": "yor",
         "count": 124
       },
       {
-        "word": "yor",
-        "count": 124
+        "word": "ya",
+        "count": 123
       },
       {
         "word": "tatl",
@@ -2899,10 +2899,6 @@
         "count": 50
       },
       {
-        "word": "unpacking",
-        "count": 49
-      },
-      {
         "word": "hikaye",
         "count": 47
       },
@@ -2923,6 +2919,10 @@
         "count": 46
       },
       {
+        "word": "unpacking",
+        "count": 46
+      },
+      {
         "word": "olarak",
         "count": 45
       },
@@ -2939,19 +2939,15 @@
         "count": 44
       },
       {
-        "word": "lar",
-        "count": 43
-      },
-      {
         "word": "ho",
         "count": 42
       },
       {
-        "word": "re",
+        "word": "zaman",
         "count": 41
       },
       {
-        "word": "zaman",
+        "word": "lar",
         "count": 41
       },
       {
@@ -2961,6 +2957,10 @@
       {
         "word": "oynad",
         "count": 41
+      },
+      {
+        "word": "re",
+        "count": 40
       },
       {
         "word": "oyunlar",
@@ -2981,16 +2981,16 @@
         "count": 87
       },
       {
-        "word": "un",
-        "count": 84
-      },
-      {
         "word": "gioco",
         "count": 83
       },
       {
         "word": "il",
         "count": 80
+      },
+      {
+        "word": "un",
+        "count": 78
       },
       {
         "word": "la",
@@ -4675,11 +4675,11 @@
         "count": 18
       },
       {
-        "word": "you",
-        "count": 18
+        "word": "relaxing",
+        "count": 17
       },
       {
-        "word": "relaxing",
+        "word": "you",
         "count": 17
       },
       {
@@ -4727,10 +4727,6 @@
         "count": 9
       },
       {
-        "word": "would",
-        "count": 9
-      },
-      {
         "word": "wish",
         "count": 9
       },
@@ -4740,6 +4736,10 @@
       },
       {
         "word": "like",
+        "count": 8
+      },
+      {
+        "word": "would",
         "count": 8
       },
       {
@@ -4910,7 +4910,7 @@
       },
       {
         "word": "you",
-        "count": 50
+        "count": 48
       },
       {
         "word": "het",
@@ -6120,7 +6120,7 @@
       },
       {
         "word": "you",
-        "count": 25
+        "count": 24
       },
       {
         "word": "relaxing",
@@ -6358,7 +6358,7 @@
     "danish": [
       {
         "word": "you",
-        "count": 41
+        "count": 37
       },
       {
         "word": "game",
@@ -6493,10 +6493,6 @@
         "count": 5
       },
       {
-        "word": "re",
-        "count": 5
-      },
-      {
         "word": "great",
         "count": 5
       },
@@ -6554,6 +6550,10 @@
       },
       {
         "word": "get",
+        "count": 4
+      },
+      {
+        "word": "you're",
         "count": 4
       },
       {

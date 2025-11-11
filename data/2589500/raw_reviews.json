@@ -1,6 +1,6 @@
 {
   "appid": "2589500",
-  "fetched_at": "2025-11-11T03:42:01.129Z",
+  "fetched_at": "2025-11-11T05:52:12.909Z",
   "count": 2735,
   "query_summary": {
     "num_reviews": 100,
@@ -1668,7 +1668,7 @@
       "recommendationid": "203255915",
       "author": {
         "steamid": "76561199259255320",
-        "num_games_owned": 10,
+        "num_games_owned": 11,
         "num_reviews": 1,
         "playtime_forever": 539,
         "playtime_last_two_weeks": 0,
@@ -2620,10 +2620,10 @@
         "steamid": "76561199073073441",
         "num_games_owned": 0,
         "num_reviews": 3,
-        "playtime_forever": 622,
-        "playtime_last_two_weeks": 0,
+        "playtime_forever": 706,
+        "playtime_last_two_weeks": 83,
         "playtime_at_review": 594,
-        "last_played": 1757170606
+        "last_played": 1762839557
       },
       "language": "schinese",
       "review": "满分10分的话个人给7分吧，整体不错，所以还是推荐游喜欢收纳的人玩\r\n\r\n悬疑tag纯属莫名其妙，也就初版pv和demo有点悬疑了，正式版说有悬疑基本属于碰瓷）\r\n\r\n吐槽几个我个人不太满意的点：\r\n①收纳\r\n个人觉得没有unpacking玩得舒服，切房间必须闪过场动画很让我难受，很多摆放吸附也不是很顺畅，有种点着很累的感觉……\r\n像便利店货架那种有明显视角区别的物品，摆放后会被明显卡视角这点，让我玩得有点强迫症发作……\r\n②流程\r\n太短了，9h就全成就了，不知道会不会有后续更新之类的\r\n③剧情\r\n有一种既想按照原先设想的黑暗风走，又不敢得罪大部分不爱看黑暗风玩家的寸止感……\r\n如果说纯收纳＋小解密我愿意给8.5分，那剧情能让我倒扣1分（还有-0.5给流程）\r\n感觉主线结尾超级无聊，作为一个常年玩剧情向游戏的，觉得这种剧情已经是不如不写的程度了……如果真可惜废案当初就别废，既然都妥协了，这种东西就顶多应该出现在彩蛋而不是主线末尾里……",
@@ -3320,7 +3320,7 @@
       "recommendationid": "202984626",
       "author": {
         "steamid": "76561198318385571",
-        "num_games_owned": 525,
+        "num_games_owned": 526,
         "num_reviews": 350,
         "playtime_forever": 676,
         "playtime_last_two_weeks": 0,
@@ -3397,7 +3397,7 @@
       "author": {
         "steamid": "76561198208838212",
         "num_games_owned": 0,
-        "num_reviews": 41,
+        "num_reviews": 42,
         "playtime_forever": 415,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 415,
@@ -7628,7 +7628,7 @@
       "recommendationid": "203229626",
       "author": {
         "steamid": "76561199773806487",
-        "num_games_owned": 97,
+        "num_games_owned": 98,
         "num_reviews": 38,
         "playtime_forever": 847,
         "playtime_last_two_weeks": 0,
@@ -9882,7 +9882,7 @@
       "recommendationid": "207683203",
       "author": {
         "steamid": "76561199027460276",
-        "num_games_owned": 225,
+        "num_games_owned": 226,
         "num_reviews": 4,
         "playtime_forever": 341,
         "playtime_last_two_weeks": 0,
@@ -10210,7 +10210,7 @@
       "author": {
         "steamid": "76561198059346900",
         "num_games_owned": 0,
-        "num_reviews": 1226,
+        "num_reviews": 1230,
         "playtime_forever": 207,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 207,
@@ -10614,7 +10614,7 @@
         "num_games_owned": 0,
         "num_reviews": 5,
         "playtime_forever": 641,
-        "playtime_last_two_weeks": 567,
+        "playtime_last_two_weeks": 465,
         "playtime_at_review": 641,
         "last_played": 1762397348
       },
@@ -11615,7 +11615,7 @@
         "num_games_owned": 0,
         "num_reviews": 5,
         "playtime_forever": 372,
-        "playtime_last_two_weeks": 233,
+        "playtime_last_two_weeks": 139,
         "playtime_at_review": 232,
         "last_played": 1761781948
       },
@@ -11665,7 +11665,7 @@
         "num_games_owned": 495,
         "num_reviews": 8,
         "playtime_forever": 947,
-        "playtime_last_two_weeks": 703,
+        "playtime_last_two_weeks": 665,
         "playtime_at_review": 608,
         "last_played": 1761838588
       },
@@ -11715,7 +11715,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 1197,
-        "playtime_last_two_weeks": 1186,
+        "playtime_last_two_weeks": 1071,
         "playtime_at_review": 652,
         "last_played": 1762144094
       },
@@ -11790,7 +11790,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 299,
-        "playtime_last_two_weeks": 158,
+        "playtime_last_two_weeks": 115,
         "playtime_at_review": 184,
         "last_played": 1761791598
       },
@@ -11940,7 +11940,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 1164,
-        "playtime_last_two_weeks": 51,
+        "playtime_last_two_weeks": 0,
         "playtime_at_review": 1076,
         "last_played": 1761625350
       },
@@ -11990,7 +11990,7 @@
         "num_games_owned": 179,
         "num_reviews": 84,
         "playtime_forever": 1051,
-        "playtime_last_two_weeks": 531,
+        "playtime_last_two_weeks": 470,
         "playtime_at_review": 362,
         "deck_playtime_at_review": 362,
         "last_played": 1762665009
@@ -16819,10 +16819,10 @@
         "steamid": "76561199140355390",
         "num_games_owned": 0,
         "num_reviews": 1,
-        "playtime_forever": 1081,
-        "playtime_last_two_weeks": 30,
+        "playtime_forever": 1115,
+        "playtime_last_two_weeks": 64,
         "playtime_at_review": 1050,
-        "last_played": 1762831712
+        "last_played": 1762833763
       },
       "language": "english",
       "review": "best cozy game out there!!!! i would have loved to have more levels and mysterious to solve :((( please keep updating the game with new tasks!!!!\n",
@@ -16917,7 +16917,7 @@
       "recommendationid": "205306282",
       "author": {
         "steamid": "76561199209234849",
-        "num_games_owned": 195,
+        "num_games_owned": 196,
         "num_reviews": 12,
         "playtime_forever": 312,
         "playtime_last_two_weeks": 0,
@@ -19446,7 +19446,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 16926,
-        "playtime_last_two_weeks": 5004,
+        "playtime_last_two_weeks": 4868,
         "playtime_at_review": 7540,
         "last_played": 1761923911
       },
@@ -23650,7 +23650,7 @@
       "author": {
         "steamid": "76561198234637556",
         "num_games_owned": 0,
-        "num_reviews": 7,
+        "num_reviews": 8,
         "playtime_forever": 631,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 625,
@@ -27604,7 +27604,7 @@
       "author": {
         "steamid": "76561198264375358",
         "num_games_owned": 482,
-        "num_reviews": 52,
+        "num_reviews": 53,
         "playtime_forever": 363,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 363,
@@ -29506,7 +29506,7 @@
       "recommendationid": "203344975",
       "author": {
         "steamid": "76561199170491736",
-        "num_games_owned": 275,
+        "num_games_owned": 276,
         "num_reviews": 26,
         "playtime_forever": 676,
         "playtime_last_two_weeks": 0,
@@ -32835,7 +32835,7 @@
       "recommendationid": "203180122",
       "author": {
         "steamid": "76561199225307966",
-        "num_games_owned": 179,
+        "num_games_owned": 180,
         "num_reviews": 8,
         "playtime_forever": 610,
         "playtime_last_two_weeks": 0,
@@ -32962,11 +32962,11 @@
         "steamid": "76561198085859564",
         "num_games_owned": 0,
         "num_reviews": 5,
-        "playtime_forever": 1822,
-        "playtime_last_two_weeks": 801,
+        "playtime_forever": 1867,
+        "playtime_last_two_weeks": 846,
         "playtime_at_review": 607,
         "deck_playtime_at_review": 607,
-        "last_played": 1762803065
+        "last_played": 1762839207
       },
       "language": "german",
       "review": "what a beautiful game! love the graphics and the cute furniture, it has a nice cozy gameplay and a really interesting backstory",
@@ -33986,7 +33986,7 @@
       "recommendationid": "203116888",
       "author": {
         "steamid": "76561199229838244",
-        "num_games_owned": 0,
+        "num_games_owned": 48,
         "num_reviews": 2,
         "playtime_forever": 460,
         "playtime_last_two_weeks": 0,
@@ -34236,7 +34236,7 @@
       "recommendationid": "203102296",
       "author": {
         "steamid": "76561199735455531",
-        "num_games_owned": 36,
+        "num_games_owned": 37,
         "num_reviews": 1,
         "playtime_forever": 616,
         "playtime_last_two_weeks": 0,
@@ -36439,7 +36439,7 @@
       "recommendationid": "203033357",
       "author": {
         "steamid": "76561198803158595",
-        "num_games_owned": 175,
+        "num_games_owned": 176,
         "num_reviews": 68,
         "playtime_forever": 827,
         "playtime_last_two_weeks": 0,
@@ -40443,7 +40443,7 @@
       "recommendationid": "205567127",
       "author": {
         "steamid": "76561199105738526",
-        "num_games_owned": 63,
+        "num_games_owned": 64,
         "num_reviews": 8,
         "playtime_forever": 712,
         "playtime_last_two_weeks": 2,
@@ -42445,7 +42445,7 @@
       "recommendationid": "203181985",
       "author": {
         "steamid": "76561199554813617",
-        "num_games_owned": 145,
+        "num_games_owned": 147,
         "num_reviews": 3,
         "playtime_forever": 582,
         "playtime_last_two_weeks": 0,
@@ -43420,8 +43420,8 @@
       "recommendationid": "203022533",
       "author": {
         "steamid": "76561198254944913",
-        "num_games_owned": 8400,
-        "num_reviews": 1235,
+        "num_games_owned": 8401,
+        "num_reviews": 1237,
         "playtime_forever": 217,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 217,
@@ -43597,10 +43597,10 @@
         "steamid": "76561198815868990",
         "num_games_owned": 68,
         "num_reviews": 2,
-        "playtime_forever": 4179,
-        "playtime_last_two_weeks": 2184,
+        "playtime_forever": 4300,
+        "playtime_last_two_weeks": 2306,
         "playtime_at_review": 1003,
-        "last_played": 1762615223
+        "last_played": 1762839763
       },
       "language": "schinese",
       "review": "好游戏 喜欢像素风和装修房子的可以闭眼入了 一开始看到有的评论说不值这个价格还有点忐忑 但玩下来感觉是物超所值 很多故事的文案都写的很细腻 家具种类很多可以照顾到很多种风格的装修 希望可以多增加点可以改变颜色的家具 超级期待后续的更新♪(^∇^*)",
@@ -44571,8 +44571,8 @@
       "recommendationid": "203421512",
       "author": {
         "steamid": "76561198367471798",
-        "num_games_owned": 28326,
-        "num_reviews": 6981,
+        "num_games_owned": 28328,
+        "num_reviews": 7004,
         "playtime_forever": 1420,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 259,
@@ -44946,7 +44946,7 @@
       "recommendationid": "203509699",
       "author": {
         "steamid": "76561198071347724",
-        "num_games_owned": 1787,
+        "num_games_owned": 1788,
         "num_reviews": 469,
         "playtime_forever": 116,
         "playtime_last_two_weeks": 0,
@@ -45121,7 +45121,7 @@
       "recommendationid": "203166942",
       "author": {
         "steamid": "76561198137321424",
-        "num_games_owned": 361,
+        "num_games_owned": 363,
         "num_reviews": 2,
         "playtime_forever": 374,
         "playtime_last_two_weeks": 0,
@@ -45700,9 +45700,9 @@
         "num_games_owned": 140,
         "num_reviews": 10,
         "playtime_forever": 3382,
-        "playtime_last_two_weeks": 303,
+        "playtime_last_two_weeks": 244,
         "playtime_at_review": 662,
-        "last_played": 1762773535
+        "last_played": 1762838575
       },
       "language": "schinese",
       "review": "已经开始催更了，快点更新。我要主线！剧情！地图好多地方都打不开！为什么不能进电影院！我要大房子可以装修换颜色！公告板上的内容扩展！样板间房型扩展！！！！！！！！！！！！！！！！！！",
@@ -51025,7 +51025,7 @@
       "author": {
         "steamid": "76561198989253727",
         "num_games_owned": 0,
-        "num_reviews": 39,
+        "num_reviews": 40,
         "playtime_forever": 968,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 968,
@@ -54461,7 +54461,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 1208,
-        "playtime_last_two_weeks": 630,
+        "playtime_last_two_weeks": 507,
         "playtime_at_review": 440,
         "last_played": 1762246866
       },
@@ -59665,10 +59665,10 @@
         "steamid": "76561198869883108",
         "num_games_owned": 204,
         "num_reviews": 41,
-        "playtime_forever": 346,
-        "playtime_last_two_weeks": 346,
+        "playtime_forever": 376,
+        "playtime_last_two_weeks": 381,
         "playtime_at_review": 346,
-        "last_played": 1762718188
+        "last_played": 1762838134
       },
       "language": "brazilian",
       "review": "BOM DEMAISSS tinha que ter um bilhão de horas de duração",
@@ -59690,10 +59690,10 @@
         "steamid": "76561199656347335",
         "num_games_owned": 0,
         "num_reviews": 1,
-        "playtime_forever": 3570,
-        "playtime_last_two_weeks": 862,
+        "playtime_forever": 3573,
+        "playtime_last_two_weeks": 866,
         "playtime_at_review": 3429,
-        "last_played": 1762828710
+        "last_played": 1762838395
       },
       "language": "schinese",
       "review": "好玩爱玩",
@@ -59867,7 +59867,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 1292,
-        "playtime_last_two_weeks": 440,
+        "playtime_last_two_weeks": 312,
         "playtime_at_review": 852,
         "last_played": 1761649185
       },
@@ -61742,10 +61742,10 @@
         "steamid": "76561198040404520",
         "num_games_owned": 178,
         "num_reviews": 20,
-        "playtime_forever": 26409,
-        "playtime_last_two_weeks": 495,
+        "playtime_forever": 26436,
+        "playtime_last_two_weeks": 522,
         "playtime_at_review": 25678,
-        "last_played": 1762529520
+        "last_played": 1762836349
       },
       "language": "schinese",
       "review": "非常好玩",
@@ -62887,31 +62887,6 @@
       "primarily_steam_deck": false
     },
     {
-      "recommendationid": "208778650",
-      "author": {
-        "steamid": "76561199210867509",
-        "num_games_owned": 0,
-        "num_reviews": 12,
-        "playtime_forever": 67,
-        "playtime_last_two_weeks": 67,
-        "playtime_at_review": 67,
-        "last_played": 1762666681
-      },
-      "language": "schinese",
-      "review": "不推荐",
-      "timestamp_created": 1762666914,
-      "timestamp_updated": 1762666914,
-      "voted_up": false,
-      "votes_up": 6,
-      "votes_funny": 0,
-      "weighted_vote_score": "0.548363804817199707",
-      "comment_count": 0,
-      "steam_purchase": true,
-      "received_for_free": false,
-      "written_during_early_access": false,
-      "primarily_steam_deck": false
-    },
-    {
       "recommendationid": "203003209",
       "author": {
         "steamid": "76561199626676635",
@@ -62955,6 +62930,31 @@
       "votes_up": 2,
       "votes_funny": 0,
       "weighted_vote_score": "0.526854217052459717",
+      "comment_count": 0,
+      "steam_purchase": true,
+      "received_for_free": false,
+      "written_during_early_access": false,
+      "primarily_steam_deck": false
+    },
+    {
+      "recommendationid": "208778650",
+      "author": {
+        "steamid": "76561199210867509",
+        "num_games_owned": 0,
+        "num_reviews": 12,
+        "playtime_forever": 67,
+        "playtime_last_two_weeks": 67,
+        "playtime_at_review": 67,
+        "last_played": 1762666681
+      },
+      "language": "schinese",
+      "review": "不推荐",
+      "timestamp_created": 1762666914,
+      "timestamp_updated": 1762666914,
+      "voted_up": false,
+      "votes_up": 6,
+      "votes_funny": 0,
+      "weighted_vote_score": "0.526564061641693115",
       "comment_count": 0,
       "steam_purchase": true,
       "received_for_free": false,
@@ -66995,7 +66995,7 @@
       "recommendationid": "203403604",
       "author": {
         "steamid": "76561198301380398",
-        "num_games_owned": 820,
+        "num_games_owned": 821,
         "num_reviews": 7,
         "playtime_forever": 262,
         "playtime_last_two_weeks": 0,
@@ -67498,7 +67498,7 @@
         "num_games_owned": 0,
         "num_reviews": 3,
         "playtime_forever": 891,
-        "playtime_last_two_weeks": 42,
+        "playtime_last_two_weeks": 26,
         "playtime_at_review": 540,
         "last_played": 1761690131
       },
@@ -67848,7 +67848,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 550,
-        "playtime_last_two_weeks": 19,
+        "playtime_last_two_weeks": 0,
         "playtime_at_review": 550,
         "last_played": 1761623432
       },
