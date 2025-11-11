@@ -1,6 +1,6 @@
 {
   "appid": "1135690",
-  "fetched_at": "2025-11-11T03:08:31.752Z",
+  "fetched_at": "2025-11-11T03:18:56.471Z",
   "count": 336,
   "query_summary": {
     "num_reviews": 100,
@@ -254,7 +254,7 @@
       "voted_up": true,
       "votes_up": 3,
       "votes_funny": 0,
-      "weighted_vote_score": "0.575603961944580078",
+      "weighted_vote_score": "0.573960185050964355",
       "comment_count": 0,
       "steam_purchase": true,
       "received_for_free": false,
@@ -1193,7 +1193,7 @@
       "author": {
         "steamid": "76561198392450770",
         "num_games_owned": 414,
-        "num_reviews": 58,
+        "num_reviews": 59,
         "playtime_forever": 224,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 224,
@@ -1470,7 +1470,7 @@
         "num_games_owned": 0,
         "num_reviews": 17,
         "playtime_forever": 238,
-        "playtime_last_two_weeks": 65,
+        "playtime_last_two_weeks": 32,
         "playtime_at_review": 238,
         "last_played": 1761653866
       },

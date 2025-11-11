@@ -1,6 +1,6 @@
 {
   "appid": "2589500",
-  "fetched_at": "2025-11-11T03:05:07.782Z",
+  "fetched_at": "2025-11-11T03:14:54.111Z",
   "count": 415,
   "query_summary": {
     "num_reviews": 100,
@@ -1075,7 +1075,7 @@
         "num_games_owned": 0,
         "num_reviews": 5,
         "playtime_forever": 641,
-        "playtime_last_two_weeks": 642,
+        "playtime_last_two_weeks": 583,
         "playtime_at_review": 641,
         "last_played": 1762397348
       },
@@ -2076,7 +2076,7 @@
         "num_games_owned": 0,
         "num_reviews": 5,
         "playtime_forever": 372,
-        "playtime_last_two_weeks": 254,
+        "playtime_last_two_weeks": 233,
         "playtime_at_review": 232,
         "last_played": 1761781948
       },
@@ -2251,7 +2251,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 299,
-        "playtime_last_two_weeks": 224,
+        "playtime_last_two_weeks": 174,
         "playtime_at_review": 184,
         "last_played": 1761791598
       },
@@ -2276,7 +2276,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 529,
-        "playtime_last_two_weeks": 25,
+        "playtime_last_two_weeks": 19,
         "playtime_at_review": 510,
         "last_played": 1762316883
       },
@@ -2301,7 +2301,7 @@
         "num_games_owned": 0,
         "num_reviews": 6,
         "playtime_forever": 1045,
-        "playtime_last_two_weeks": 24,
+        "playtime_last_two_weeks": 0,
         "playtime_at_review": 1020,
         "last_played": 1761618919
       },
@@ -2401,7 +2401,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 1164,
-        "playtime_last_two_weeks": 87,
+        "playtime_last_two_weeks": 67,
         "playtime_at_review": 1076,
         "last_played": 1761625350
       },
@@ -4252,7 +4252,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 4299,
-        "playtime_last_two_weeks": 407,
+        "playtime_last_two_weeks": 373,
         "playtime_at_review": 2888,
         "last_played": 1762767586
       },
@@ -6204,7 +6204,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 1208,
-        "playtime_last_two_weeks": 712,
+        "playtime_last_two_weeks": 646,
         "playtime_at_review": 440,
         "last_played": 1762246866
       },
@@ -6628,10 +6628,10 @@
         "steamid": "76561199656347335",
         "num_games_owned": 0,
         "num_reviews": 1,
-        "playtime_forever": 3568,
-        "playtime_last_two_weeks": 860,
+        "playtime_forever": 3570,
+        "playtime_last_two_weeks": 862,
         "playtime_at_review": 3429,
-        "last_played": 1762822785
+        "last_played": 1762828710
       },
       "language": "schinese",
       "review": "好玩爱玩",
@@ -7239,9 +7239,9 @@
       "timestamp_created": 1762666914,
       "timestamp_updated": 1762666914,
       "voted_up": false,
-      "votes_up": 5,
+      "votes_up": 6,
       "votes_funny": 0,
-      "weighted_vote_score": "0.528858542442321777",
+      "weighted_vote_score": "0.548363804817199707",
       "comment_count": 0,
       "steam_purchase": true,
       "received_for_free": false,
@@ -7680,7 +7680,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 526,
-        "playtime_last_two_weeks": 450,
+        "playtime_last_two_weeks": 439,
         "playtime_at_review": 526,
         "last_played": 1762052613
       },
