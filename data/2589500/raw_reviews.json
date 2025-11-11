@@ -1,6 +1,6 @@
 {
   "appid": "2589500",
-  "fetched_at": "2025-11-11T02:32:53.835Z",
+  "fetched_at": "2025-11-11T03:05:07.782Z",
   "count": 415,
   "query_summary": {
     "num_reviews": 100,
@@ -8879,7 +8879,7 @@
       "recommendationid": "203169239",
       "author": {
         "steamid": "76561198100605852",
-        "num_games_owned": 662,
+        "num_games_owned": 663,
         "num_reviews": 91,
         "playtime_forever": 512,
         "playtime_last_two_weeks": 0,
