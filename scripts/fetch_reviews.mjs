@@ -35,8 +35,8 @@ async function fetchPage(appid, cursor = '*') {
   url.searchParams.set('purchase_type', 'all');
   url.searchParams.set('num_per_page', '100');
   url.searchParams.set('cursor', cursor);
-  // 使用 all，完整抓取历史评论；包含“离题评论活动”避免被隐藏
-  url.searchParams.set('filter', 'all');
+  // 使用 recent，配合极大 day_range 允许从最新一路翻页到最早
+  url.searchParams.set('filter', 'recent');
   // Steam 的评论接口在未指定 day_range 时，通常仅返回一个“近期窗口”（~几百条）。
   // 这里将 day_range 设为极大值，确保游标可以遍历至最早的评论。
   // 参考社区实践：9223372036854775807（约等于 Long.MaxValue）。
@@ -54,6 +54,7 @@ async function fetchPage(appid, cursor = '*') {
 
 async function fetchAll(appid) {
   const all = [];
+  const seen = new Set();
   let cursor = '*';
   let page = 0;
   let firstQuerySummary = null;
@@ -74,6 +75,7 @@ async function fetchAll(appid) {
     const batch = resp.reviews ?? [];
     if (batch.length === 0) break;
     all.push(...batch);
+    for (const r of batch) { if (r && r.recommendationid) seen.add(r.recommendationid); }
     cursor = resp.cursor;
     page += 1;
     // 达到目标页数则提前结束，避免不必要的分页请求
@@ -81,7 +83,7 @@ async function fetchAll(appid) {
       console.log(`Reached targetPages=${targetPages}, stopping early.`);
       break;
     }
-    console.log(`Page ${page}: ${batch.length} reviews, cursor=${cursor?.slice(0, 24) || ''}...`);
+    console.log(`Page ${page}: ${batch.length} reviews (unique so far: ${seen.size}), cursor=${cursor?.slice(0, 24) || ''}...`);
     // 控制速率，避免被限流
     await delay(delayMs);
   }
