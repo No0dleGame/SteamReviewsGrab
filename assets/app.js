@@ -149,6 +149,10 @@ async function loadSummary(appid) {
       },
       options: {
         responsive: true,
+        maintainAspectRatio: true,
+        aspectRatio: 2.2,
+        animation: false,
+        resizeDelay: 100,
         plugins: { legend: { display: false } },
         scales: {
           x: { grid: { display: false } },
@@ -204,6 +208,11 @@ async function loadSummary(appid) {
           }]
         },
         options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          aspectRatio: 2.0,
+          animation: false,
+          resizeDelay: 100,
           cutout: '45%',
           plugins: {
             legend: {
@@ -519,6 +528,7 @@ function attachFilterEvents() {
     };
     if (searchBtn) searchBtn.addEventListener('click', doSearch);
     searchInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') doSearch(); });
+    searchInput.addEventListener('input', debounce(doSearch, 300));
   }
   pageLeft.addEventListener('click', () => {
     if (state.page > 1) {
@@ -621,6 +631,7 @@ function renderList() {
   } else {
     list.classList.toggle('hide-lang', !state.showLang);
     list.innerHTML = '';
+    const frag = document.createDocumentFragment();
     pageItems.forEach(r => {
       const li = document.createElement('li');
       li.classList.add(r.voted_up ? 'positive' : 'negative');
@@ -644,8 +655,9 @@ function renderList() {
         </div>
         <div class="snippet">${highlighted}</div>
       `;
-      list.appendChild(li);
+      frag.appendChild(li);
     });
+    list.appendChild(frag);
   }
   pageInfo.textContent = `第 ${state.page} / ${totalPages} 页（共 ${state.filtered.length} 条）`;
   const listTotalEl = document.getElementById('listTotal');

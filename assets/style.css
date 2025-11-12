@@ -42,8 +42,8 @@ main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
 .stats .grid { max-width: 1000px; }
 .card { background: var(--panel); border: 1px solid var(--border); padding: 14px; border-radius: 10px; }
-.label { color: var(--muted); font-size: 13px; }
-.value { font-size: 22px; font-weight: 600; margin-top: 6px; color: var(--accent); }
+.label { color: var(--muted); font-size: 14px; }
+.value { font-size: 22px; font-weight: 600; margin-top: 8px; color: var(--accent); }
 .meta { margin-top: 12px; color: var(--muted); }
 
 .chart, .list { margin-top: 20px; }
@@ -164,6 +164,12 @@ footer { padding: 14px 20px; color: var(--muted); border-top: 1px solid var(--bo
 /* 新增：搜索“确定”按钮样式，与筛选区一致 */
 .filters button { background: var(--panel); border: 1px solid var(--border); color: var(--text); padding: 6px 10px; border-radius: 8px; cursor: pointer; }
 .filters button:hover { background: rgba(255,255,255,0.06); }
+/* 交互控件可见焦点态，提升可访问性 */
+.filters select:focus-visible,
+.filters input[type="text"]:focus-visible,
+.filters input[type="number"]:focus-visible,
+.pager button:focus-visible,
+.filters button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* 新增：将“确定”按钮嵌入输入框内部 */
 .filters .search-wrap { position: relative; display: inline-block; }
@@ -171,4 +177,13 @@ footer { padding: 14px 20px; color: var(--muted); border-top: 1px solid var(--bo
 .filters .search-wrap .in-input {
   position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
   padding: 4px 10px; border-radius: 6px;
+}
+
+/* 图表画布在容器内自适应宽度（高度由元素属性控制） */
+.chart canvas,
+.panel canvas { width: 100%; }
+
+@media (max-width: 480px) {
+  .grid { grid-template-columns: 1fr; }
+  .split { grid-template-columns: 1fr; }
 }
