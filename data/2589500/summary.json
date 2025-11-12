@@ -1,17 +1,17 @@
 {
   "appid": "2589500",
-  "fetched_at": "2025-11-11T05:52:12.909Z",
+  "fetched_at": "2025-11-12T06:46:33.198Z",
   "counts": {
     "total": 2735,
     "positive": 2645,
     "negative": 90
   },
-  "counts_this_month": 81,
+  "counts_this_month": 82,
   "positive_rate": 0.9670932358318098,
   "language_distribution": [
     {
       "language": "english",
-      "count": 1235
+      "count": 1234
     },
     {
       "language": "schinese",
@@ -54,6 +54,10 @@
       "count": 13
     },
     {
+      "language": "ukrainian",
+      "count": 6
+    },
+    {
       "language": "turkish",
       "count": 6
     },
@@ -64,10 +68,6 @@
     {
       "language": "dutch",
       "count": 6
-    },
-    {
-      "language": "ukrainian",
-      "count": 5
     },
     {
       "language": "swedish",
@@ -269,7 +269,7 @@
     },
     {
       "word": "my",
-      "count": 315
+      "count": 314
     },
     {
       "word": "小镇",
@@ -364,7 +364,7 @@
       },
       {
         "word": "my",
-        "count": 305
+        "count": 304
       },
       {
         "word": "me",
@@ -467,10 +467,6 @@
         "count": 140
       },
       {
-        "word": "only",
-        "count": 140
-      },
-      {
         "word": "had",
         "count": 140
       },
@@ -480,6 +476,10 @@
       },
       {
         "word": "good",
+        "count": 139
+      },
+      {
+        "word": "only",
         "count": 139
       },
       {
@@ -1105,248 +1105,6 @@
         "count": 1
       }
     ],
-    "brazilian": [
-      {
-        "word": "de",
-        "count": 56
-      },
-      {
-        "word": "que",
-        "count": 51
-      },
-      {
-        "word": "jogo",
-        "count": 39
-      },
-      {
-        "word": "muito",
-        "count": 31
-      },
-      {
-        "word": "um",
-        "count": 25
-      },
-      {
-        "word": "com",
-        "count": 24
-      },
-      {
-        "word": "mais",
-        "count": 22
-      },
-      {
-        "word": "para",
-        "count": 20
-      },
-      {
-        "word": "hist",
-        "count": 19
-      },
-      {
-        "word": "ria",
-        "count": 16
-      },
-      {
-        "word": "unpacking",
-        "count": 15
-      },
-      {
-        "word": "do",
-        "count": 15
-      },
-      {
-        "word": "os",
-        "count": 14
-      },
-      {
-        "word": "em",
-        "count": 14
-      },
-      {
-        "word": "uma",
-        "count": 14
-      },
-      {
-        "word": "rios",
-        "count": 13
-      },
-      {
-        "word": "ainda",
-        "count": 13
-      },
-      {
-        "word": "me",
-        "count": 13
-      },
-      {
-        "word": "mas",
-        "count": 12
-      },
-      {
-        "word": "tem",
-        "count": 12
-      },
-      {
-        "word": "es",
-        "count": 11
-      },
-      {
-        "word": "bem",
-        "count": 11
-      },
-      {
-        "word": "eu",
-        "count": 10
-      },
-      {
-        "word": "mist",
-        "count": 10
-      },
-      {
-        "word": "decora",
-        "count": 10
-      },
-      {
-        "word": "se",
-        "count": 10
-      },
-      {
-        "word": "divertido",
-        "count": 10
-      },
-      {
-        "word": "da",
-        "count": 9
-      },
-      {
-        "word": "personagens",
-        "count": 9
-      },
-      {
-        "word": "jogar",
-        "count": 9
-      },
-      {
-        "word": "horas",
-        "count": 9
-      },
-      {
-        "word": "esse",
-        "count": 8
-      },
-      {
-        "word": "house",
-        "count": 8
-      },
-      {
-        "word": "voc",
-        "count": 8
-      },
-      {
-        "word": "melhor",
-        "count": 7
-      },
-      {
-        "word": "al",
-        "count": 7
-      },
-      {
-        "word": "tudo",
-        "count": 7
-      },
-      {
-        "word": "cidade",
-        "count": 7
-      },
-      {
-        "word": "estou",
-        "count": 7
-      },
-      {
-        "word": "rio",
-        "count": 7
-      },
-      {
-        "word": "por",
-        "count": 7
-      },
-      {
-        "word": "isso",
-        "count": 6
-      },
-      {
-        "word": "ter",
-        "count": 6
-      },
-      {
-        "word": "whisper",
-        "count": 6
-      },
-      {
-        "word": "experi",
-        "count": 6
-      },
-      {
-        "word": "tempo",
-        "count": 6
-      },
-      {
-        "word": "ncia",
-        "count": 6
-      },
-      {
-        "word": "pt",
-        "count": 5
-      },
-      {
-        "word": "vai",
-        "count": 5
-      },
-      {
-        "word": "pra",
-        "count": 5
-      },
-      {
-        "word": "como",
-        "count": 5
-      },
-      {
-        "word": "joguinho",
-        "count": 5
-      },
-      {
-        "word": "quem",
-        "count": 5
-      },
-      {
-        "word": "cozy",
-        "count": 5
-      },
-      {
-        "word": "bastante",
-        "count": 5
-      },
-      {
-        "word": "casas",
-        "count": 5
-      },
-      {
-        "word": "dos",
-        "count": 5
-      },
-      {
-        "word": "cada",
-        "count": 5
-      },
-      {
-        "word": "relaxante",
-        "count": 5
-      },
-      {
-        "word": "decorar",
-        "count": 5
-      }
-    ],
     "german": [
       {
         "word": "und",
@@ -1589,6 +1347,248 @@
         "count": 4
       }
     ],
+    "brazilian": [
+      {
+        "word": "de",
+        "count": 56
+      },
+      {
+        "word": "que",
+        "count": 51
+      },
+      {
+        "word": "jogo",
+        "count": 39
+      },
+      {
+        "word": "muito",
+        "count": 31
+      },
+      {
+        "word": "um",
+        "count": 25
+      },
+      {
+        "word": "com",
+        "count": 24
+      },
+      {
+        "word": "mais",
+        "count": 22
+      },
+      {
+        "word": "para",
+        "count": 20
+      },
+      {
+        "word": "hist",
+        "count": 19
+      },
+      {
+        "word": "ria",
+        "count": 16
+      },
+      {
+        "word": "unpacking",
+        "count": 15
+      },
+      {
+        "word": "do",
+        "count": 15
+      },
+      {
+        "word": "os",
+        "count": 14
+      },
+      {
+        "word": "em",
+        "count": 14
+      },
+      {
+        "word": "uma",
+        "count": 14
+      },
+      {
+        "word": "rios",
+        "count": 13
+      },
+      {
+        "word": "ainda",
+        "count": 13
+      },
+      {
+        "word": "me",
+        "count": 13
+      },
+      {
+        "word": "mas",
+        "count": 12
+      },
+      {
+        "word": "tem",
+        "count": 12
+      },
+      {
+        "word": "es",
+        "count": 11
+      },
+      {
+        "word": "bem",
+        "count": 11
+      },
+      {
+        "word": "eu",
+        "count": 10
+      },
+      {
+        "word": "mist",
+        "count": 10
+      },
+      {
+        "word": "decora",
+        "count": 10
+      },
+      {
+        "word": "se",
+        "count": 10
+      },
+      {
+        "word": "divertido",
+        "count": 10
+      },
+      {
+        "word": "da",
+        "count": 9
+      },
+      {
+        "word": "personagens",
+        "count": 9
+      },
+      {
+        "word": "jogar",
+        "count": 9
+      },
+      {
+        "word": "horas",
+        "count": 9
+      },
+      {
+        "word": "esse",
+        "count": 8
+      },
+      {
+        "word": "house",
+        "count": 8
+      },
+      {
+        "word": "voc",
+        "count": 8
+      },
+      {
+        "word": "melhor",
+        "count": 7
+      },
+      {
+        "word": "al",
+        "count": 7
+      },
+      {
+        "word": "tudo",
+        "count": 7
+      },
+      {
+        "word": "cidade",
+        "count": 7
+      },
+      {
+        "word": "estou",
+        "count": 7
+      },
+      {
+        "word": "rio",
+        "count": 7
+      },
+      {
+        "word": "por",
+        "count": 7
+      },
+      {
+        "word": "isso",
+        "count": 6
+      },
+      {
+        "word": "ter",
+        "count": 6
+      },
+      {
+        "word": "whisper",
+        "count": 6
+      },
+      {
+        "word": "experi",
+        "count": 6
+      },
+      {
+        "word": "tempo",
+        "count": 6
+      },
+      {
+        "word": "ncia",
+        "count": 6
+      },
+      {
+        "word": "pt",
+        "count": 5
+      },
+      {
+        "word": "vai",
+        "count": 5
+      },
+      {
+        "word": "pra",
+        "count": 5
+      },
+      {
+        "word": "como",
+        "count": 5
+      },
+      {
+        "word": "joguinho",
+        "count": 5
+      },
+      {
+        "word": "quem",
+        "count": 5
+      },
+      {
+        "word": "cozy",
+        "count": 5
+      },
+      {
+        "word": "bastante",
+        "count": 5
+      },
+      {
+        "word": "casas",
+        "count": 5
+      },
+      {
+        "word": "dos",
+        "count": 5
+      },
+      {
+        "word": "cada",
+        "count": 5
+      },
+      {
+        "word": "relaxante",
+        "count": 5
+      },
+      {
+        "word": "decorar",
+        "count": 5
+      }
+    ],
     "spanish": [
       {
         "word": "que",
@@ -1829,6 +1829,32 @@
       {
         "word": "demo",
         "count": 4
+      }
+    ],
+    "ukrainian": [
+      {
+        "word": "spoiler",
+        "count": 2
+      },
+      {
+        "word": "whisper",
+        "count": 1
+      },
+      {
+        "word": "house",
+        "count": 1
+      },
+      {
+        "word": "add",
+        "count": 1
+      },
+      {
+        "word": "ukrainian",
+        "count": 1
+      },
+      {
+        "word": "language",
+        "count": 1
       }
     ],
     "russian": [
@@ -2342,28 +2368,6 @@
       },
       {
         "word": "kupcie",
-        "count": 1
-      }
-    ],
-    "ukrainian": [
-      {
-        "word": "whisper",
-        "count": 1
-      },
-      {
-        "word": "house",
-        "count": 1
-      },
-      {
-        "word": "add",
-        "count": 1
-      },
-      {
-        "word": "ukrainian",
-        "count": 1
-      },
-      {
-        "word": "language",
         "count": 1
       }
     ],
@@ -4644,8 +4648,8 @@
     "num_reviews": 100,
     "review_score": 9,
     "review_score_desc": "Overwhelmingly Positive",
-    "total_positive": 2645,
+    "total_positive": 2653,
     "total_negative": 90,
-    "total_reviews": 2735
+    "total_reviews": 2743
   }
 }

@@ -1,21 +1,21 @@
 {
   "appid": "2589500",
-  "fetched_at": "2025-11-11T05:52:12.909Z",
+  "fetched_at": "2025-11-12T06:46:33.198Z",
   "count": 2735,
   "query_summary": {
     "num_reviews": 100,
     "review_score": 9,
     "review_score_desc": "Overwhelmingly Positive",
-    "total_positive": 2645,
+    "total_positive": 2653,
     "total_negative": 90,
-    "total_reviews": 2735
+    "total_reviews": 2743
   },
   "reviews": [
     {
       "recommendationid": "203302918",
       "author": {
         "steamid": "76561198013478206",
-        "num_games_owned": 657,
+        "num_games_owned": 656,
         "num_reviews": 34,
         "playtime_forever": 724,
         "playtime_last_two_weeks": 0,
@@ -66,7 +66,7 @@
       "author": {
         "steamid": "76561198840350415",
         "num_games_owned": 1091,
-        "num_reviews": 323,
+        "num_reviews": 324,
         "playtime_forever": 320,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 118,
@@ -241,7 +241,7 @@
       "author": {
         "steamid": "76561198045380427",
         "num_games_owned": 5616,
-        "num_reviews": 698,
+        "num_reviews": 699,
         "playtime_forever": 402,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 402,
@@ -340,7 +340,7 @@
       "recommendationid": "205533316",
       "author": {
         "steamid": "76561198331555490",
-        "num_games_owned": 1793,
+        "num_games_owned": 1798,
         "num_reviews": 1019,
         "playtime_forever": 356,
         "playtime_last_two_weeks": 0,
@@ -555,7 +555,7 @@
       "voted_up": true,
       "votes_up": 45,
       "votes_funny": 0,
-      "weighted_vote_score": "0.814254820346832275",
+      "weighted_vote_score": "0.813969314098358154",
       "comment_count": 0,
       "steam_purchase": false,
       "received_for_free": false,
@@ -663,10 +663,61 @@
       "primarily_steam_deck": false
     },
     {
+      "recommendationid": "202972316",
+      "author": {
+        "steamid": "76561198348484411",
+        "num_games_owned": 347,
+        "num_reviews": 46,
+        "playtime_forever": 139,
+        "playtime_last_two_weeks": 0,
+        "playtime_at_review": 59,
+        "last_played": 1756598804
+      },
+      "language": "german",
+      "review": "Das Spiel ist wie Unpacking nur mit Kundenaufträgen aus der Stadt zum einrichten, spielerisch geil und die Möbel sind unfassbar gut gemacht, ebenfalls kann man mit fast allem Interagieren. Nebenbei kann man die Stadt nach Anomalien absuchen und eine menge looten und erkunden, mal gucken wie es noch weiter geht. Macht bock 8.74/10 \n\nMüsst ihr wissen",
+      "timestamp_created": 1756288239,
+      "timestamp_updated": 1756290932,
+      "voted_up": true,
+      "votes_up": 29,
+      "votes_funny": 4,
+      "weighted_vote_score": "0.739213109016418457",
+      "comment_count": 0,
+      "steam_purchase": true,
+      "received_for_free": false,
+      "written_during_early_access": false,
+      "primarily_steam_deck": false
+    },
+    {
+      "recommendationid": "206771915",
+      "author": {
+        "steamid": "76561198054470684",
+        "num_games_owned": 422,
+        "num_reviews": 9,
+        "playtime_forever": 386,
+        "playtime_last_two_weeks": 0,
+        "playtime_at_review": 386,
+        "deck_playtime_at_review": 11,
+        "last_played": 1760436985
+      },
+      "language": "english",
+      "review": "Such a pleasure to play! If you ever liked games like Unpacking where you get to see cute pixel item by pixel item pop out of a box and then decide 100% yourself where you want to place them, all while being under no time pressure at all - this one's for you! I loved the anomalies all around, the little plant and alchemy puzzles had me buzzing as well. It's such a chill and pretty game whether it's for achievement hunters (that sweet ping sound!) or for relaxing furniture collecting and room building enthusiasts! I really enjoyed this game.",
+      "timestamp_created": 1760522178,
+      "timestamp_updated": 1760522178,
+      "voted_up": true,
+      "votes_up": 22,
+      "votes_funny": 0,
+      "weighted_vote_score": "0.737734675407409668",
+      "comment_count": 0,
+      "steam_purchase": false,
+      "received_for_free": false,
+      "written_during_early_access": false,
+      "primarily_steam_deck": false
+    },
+    {
       "recommendationid": "202972514",
       "author": {
         "steamid": "76561198207484137",
-        "num_games_owned": 9293,
+        "num_games_owned": 9295,
         "num_reviews": 216,
         "playtime_forever": 732,
         "playtime_last_two_weeks": 0,
@@ -738,61 +789,10 @@
       "primarily_steam_deck": false
     },
     {
-      "recommendationid": "202972316",
-      "author": {
-        "steamid": "76561198348484411",
-        "num_games_owned": 347,
-        "num_reviews": 46,
-        "playtime_forever": 139,
-        "playtime_last_two_weeks": 0,
-        "playtime_at_review": 59,
-        "last_played": 1756598804
-      },
-      "language": "german",
-      "review": "Das Spiel ist wie Unpacking nur mit Kundenaufträgen aus der Stadt zum einrichten, spielerisch geil und die Möbel sind unfassbar gut gemacht, ebenfalls kann man mit fast allem Interagieren. Nebenbei kann man die Stadt nach Anomalien absuchen und eine menge looten und erkunden, mal gucken wie es noch weiter geht. Macht bock 8.74/10 \n\nMüsst ihr wissen",
-      "timestamp_created": 1756288239,
-      "timestamp_updated": 1756290932,
-      "voted_up": true,
-      "votes_up": 28,
-      "votes_funny": 4,
-      "weighted_vote_score": "0.733616054058074951",
-      "comment_count": 0,
-      "steam_purchase": true,
-      "received_for_free": false,
-      "written_during_early_access": false,
-      "primarily_steam_deck": false
-    },
-    {
-      "recommendationid": "206771915",
-      "author": {
-        "steamid": "76561198054470684",
-        "num_games_owned": 422,
-        "num_reviews": 9,
-        "playtime_forever": 386,
-        "playtime_last_two_weeks": 0,
-        "playtime_at_review": 386,
-        "deck_playtime_at_review": 11,
-        "last_played": 1760436985
-      },
-      "language": "english",
-      "review": "Such a pleasure to play! If you ever liked games like Unpacking where you get to see cute pixel item by pixel item pop out of a box and then decide 100% yourself where you want to place them, all while being under no time pressure at all - this one's for you! I loved the anomalies all around, the little plant and alchemy puzzles had me buzzing as well. It's such a chill and pretty game whether it's for achievement hunters (that sweet ping sound!) or for relaxing furniture collecting and room building enthusiasts! I really enjoyed this game.",
-      "timestamp_created": 1760522178,
-      "timestamp_updated": 1760522178,
-      "voted_up": true,
-      "votes_up": 21,
-      "votes_funny": 0,
-      "weighted_vote_score": "0.730671107769012451",
-      "comment_count": 0,
-      "steam_purchase": false,
-      "received_for_free": false,
-      "written_during_early_access": false,
-      "primarily_steam_deck": false
-    },
-    {
       "recommendationid": "203304180",
       "author": {
         "steamid": "76561198367894395",
-        "num_games_owned": 1553,
+        "num_games_owned": 1556,
         "num_reviews": 987,
         "playtime_forever": 261,
         "playtime_last_two_weeks": 0,
@@ -1169,7 +1169,7 @@
       "author": {
         "steamid": "76561199466272411",
         "num_games_owned": 136,
-        "num_reviews": 14,
+        "num_reviews": 15,
         "playtime_forever": 599,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 599,
@@ -1180,7 +1180,7 @@
       "timestamp_created": 1760790412,
       "timestamp_updated": 1760790570,
       "voted_up": true,
-      "votes_up": 12,
+      "votes_up": 13,
       "votes_funny": 0,
       "weighted_vote_score": "0.682496070861816406",
       "comment_count": 0,
@@ -1219,7 +1219,7 @@
       "author": {
         "steamid": "76561199300475252",
         "num_games_owned": 369,
-        "num_reviews": 242,
+        "num_reviews": 243,
         "playtime_forever": 262,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 261,
@@ -1268,7 +1268,7 @@
       "recommendationid": "203305190",
       "author": {
         "steamid": "76561199034104505",
-        "num_games_owned": 410,
+        "num_games_owned": 0,
         "num_reviews": 82,
         "playtime_forever": 495,
         "playtime_last_two_weeks": 0,
@@ -1460,6 +1460,31 @@
       "weighted_vote_score": "0.669925451278686523",
       "comment_count": 0,
       "steam_purchase": true,
+      "received_for_free": false,
+      "written_during_early_access": false,
+      "primarily_steam_deck": false
+    },
+    {
+      "recommendationid": "207230102",
+      "author": {
+        "steamid": "76561198043786771",
+        "num_games_owned": 748,
+        "num_reviews": 12,
+        "playtime_forever": 345,
+        "playtime_last_two_weeks": 0,
+        "playtime_at_review": 345,
+        "last_played": 1760972735
+      },
+      "language": "english",
+      "review": "It's like if Unpacking was set in a whole city and had cute additional story beats threaded throughout. Also, spooky. Not in a bad way. This is such a cute game!",
+      "timestamp_created": 1761046002,
+      "timestamp_updated": 1761046002,
+      "voted_up": true,
+      "votes_up": 12,
+      "votes_funny": 0,
+      "weighted_vote_score": "0.668508291244506836",
+      "comment_count": 0,
+      "steam_purchase": false,
       "received_for_free": false,
       "written_during_early_access": false,
       "primarily_steam_deck": false
@@ -1690,26 +1715,26 @@
       "primarily_steam_deck": false
     },
     {
-      "recommendationid": "207230102",
+      "recommendationid": "208977104",
       "author": {
-        "steamid": "76561198043786771",
-        "num_games_owned": 748,
-        "num_reviews": 12,
-        "playtime_forever": 345,
-        "playtime_last_two_weeks": 0,
-        "playtime_at_review": 345,
-        "last_played": 1760972735
+        "steamid": "76561198105621379",
+        "num_games_owned": 516,
+        "num_reviews": 53,
+        "playtime_forever": 433,
+        "playtime_last_two_weeks": 433,
+        "playtime_at_review": 396,
+        "last_played": 1762895512
       },
-      "language": "english",
-      "review": "It's like if Unpacking was set in a whole city and had cute additional story beats threaded throughout. Also, spooky. Not in a bad way. This is such a cute game!",
-      "timestamp_created": 1761046002,
-      "timestamp_updated": 1761046002,
+      "language": "ukrainian",
+      "review": "На початку гри я рилась по смітникам, а закінчила житловим магнатом з купою квартир в місті, щоб дізнатись, що [spoiler] це все матриця та не справжнє. [/spoiler]\nСмак розчарування майже як в житті, топ, рекомендую!",
+      "timestamp_created": 1762887059,
+      "timestamp_updated": 1762887090,
       "voted_up": true,
-      "votes_up": 11,
+      "votes_up": 13,
       "votes_funny": 0,
-      "weighted_vote_score": "0.657142877578735352",
+      "weighted_vote_score": "0.677456974983215332",
       "comment_count": 0,
-      "steam_purchase": false,
+      "steam_purchase": true,
       "received_for_free": false,
       "written_during_early_access": false,
       "primarily_steam_deck": false
@@ -1790,35 +1815,10 @@
       "primarily_steam_deck": false
     },
     {
-      "recommendationid": "207200470",
-      "author": {
-        "steamid": "76561198118512491",
-        "num_games_owned": 0,
-        "num_reviews": 17,
-        "playtime_forever": 345,
-        "playtime_last_two_weeks": 0,
-        "playtime_at_review": 275,
-        "last_played": 1761195716
-      },
-      "language": "english",
-      "review": "The only whisper here is my mouse begging for mercy. Clicky clicky clack, baby.",
-      "timestamp_created": 1760997683,
-      "timestamp_updated": 1760997683,
-      "voted_up": true,
-      "votes_up": 41,
-      "votes_funny": 43,
-      "weighted_vote_score": "0.797860205173492432",
-      "comment_count": 0,
-      "steam_purchase": true,
-      "received_for_free": false,
-      "written_during_early_access": false,
-      "primarily_steam_deck": false
-    },
-    {
       "recommendationid": "203028120",
       "author": {
         "steamid": "76561199028925771",
-        "num_games_owned": 665,
+        "num_games_owned": 668,
         "num_reviews": 128,
         "playtime_forever": 619,
         "playtime_last_two_weeks": 0,
@@ -1969,7 +1969,7 @@
       "author": {
         "steamid": "76561198204043497",
         "num_games_owned": 1985,
-        "num_reviews": 1030,
+        "num_reviews": 1033,
         "playtime_forever": 121,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 121,
@@ -2294,7 +2294,7 @@
       "author": {
         "steamid": "76561198095969956",
         "num_games_owned": 425,
-        "num_reviews": 16,
+        "num_reviews": 17,
         "playtime_forever": 719,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 719,
@@ -2394,7 +2394,7 @@
       "author": {
         "steamid": "76561198262420015",
         "num_games_owned": 1492,
-        "num_reviews": 43,
+        "num_reviews": 44,
         "playtime_forever": 578,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 578,
@@ -2569,7 +2569,7 @@
       "author": {
         "steamid": "76561198986096824",
         "num_games_owned": 623,
-        "num_reviews": 367,
+        "num_reviews": 368,
         "playtime_forever": 457,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 457,
@@ -2744,8 +2744,8 @@
       "recommendationid": "203993426",
       "author": {
         "steamid": "76561199100028854",
-        "num_games_owned": 1343,
-        "num_reviews": 91,
+        "num_games_owned": 1344,
+        "num_reviews": 93,
         "playtime_forever": 459,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 459,
@@ -2845,7 +2845,7 @@
       "author": {
         "steamid": "76561198032026772",
         "num_games_owned": 0,
-        "num_reviews": 6,
+        "num_reviews": 7,
         "playtime_forever": 67,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 67,
@@ -3546,7 +3546,7 @@
       "recommendationid": "203386118",
       "author": {
         "steamid": "76561198045529881",
-        "num_games_owned": 979,
+        "num_games_owned": 981,
         "num_reviews": 239,
         "playtime_forever": 665,
         "playtime_last_two_weeks": 0,
@@ -4198,7 +4198,7 @@
       "recommendationid": "204166973",
       "author": {
         "steamid": "76561198105029221",
-        "num_games_owned": 424,
+        "num_games_owned": 426,
         "num_reviews": 62,
         "playtime_forever": 373,
         "playtime_last_two_weeks": 0,
@@ -4623,7 +4623,7 @@
       "recommendationid": "203232759",
       "author": {
         "steamid": "76561198042566385",
-        "num_games_owned": 142,
+        "num_games_owned": 143,
         "num_reviews": 12,
         "playtime_forever": 365,
         "playtime_last_two_weeks": 0,
@@ -4748,7 +4748,7 @@
       "recommendationid": "203201300",
       "author": {
         "steamid": "76561199226586433",
-        "num_games_owned": 119,
+        "num_games_owned": 122,
         "num_reviews": 22,
         "playtime_forever": 354,
         "playtime_last_two_weeks": 0,
@@ -4823,8 +4823,8 @@
       "recommendationid": "203232751",
       "author": {
         "steamid": "76561198970863413",
-        "num_games_owned": 5860,
-        "num_reviews": 1985,
+        "num_games_owned": 5861,
+        "num_reviews": 1988,
         "playtime_forever": 211,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 211,
@@ -5124,7 +5124,7 @@
       "recommendationid": "203108532",
       "author": {
         "steamid": "76561199563407657",
-        "num_games_owned": 170,
+        "num_games_owned": 172,
         "num_reviews": 104,
         "playtime_forever": 678,
         "playtime_last_two_weeks": 0,
@@ -5376,7 +5376,7 @@
       "author": {
         "steamid": "76561198095893667",
         "num_games_owned": 195,
-        "num_reviews": 20,
+        "num_reviews": 19,
         "playtime_forever": 789,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 789,
@@ -5600,7 +5600,7 @@
       "recommendationid": "203344741",
       "author": {
         "steamid": "76561198264381830",
-        "num_games_owned": 357,
+        "num_games_owned": 359,
         "num_reviews": 9,
         "playtime_forever": 420,
         "playtime_last_two_weeks": 0,
@@ -6303,7 +6303,7 @@
       "recommendationid": "205524911",
       "author": {
         "steamid": "76561198807496047",
-        "num_games_owned": 180,
+        "num_games_owned": 182,
         "num_reviews": 61,
         "playtime_forever": 317,
         "playtime_last_two_weeks": 0,
@@ -6729,7 +6729,7 @@
       "author": {
         "steamid": "76561198286224592",
         "num_games_owned": 0,
-        "num_reviews": 31,
+        "num_reviews": 32,
         "playtime_forever": 858,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 858,
@@ -6928,7 +6928,7 @@
       "recommendationid": "203705546",
       "author": {
         "steamid": "76561199848714606",
-        "num_games_owned": 46,
+        "num_games_owned": 47,
         "num_reviews": 17,
         "playtime_forever": 813,
         "playtime_last_two_weeks": 0,
@@ -7629,7 +7629,7 @@
       "author": {
         "steamid": "76561199773806487",
         "num_games_owned": 98,
-        "num_reviews": 38,
+        "num_reviews": 39,
         "playtime_forever": 847,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 847,
@@ -7928,7 +7928,7 @@
       "recommendationid": "203083979",
       "author": {
         "steamid": "76561198050521235",
-        "num_games_owned": 715,
+        "num_games_owned": 717,
         "num_reviews": 3,
         "playtime_forever": 439,
         "playtime_last_two_weeks": 0,
@@ -8481,7 +8481,7 @@
       "author": {
         "steamid": "76561198871950326",
         "num_games_owned": 89,
-        "num_reviews": 5,
+        "num_reviews": 6,
         "playtime_forever": 560,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 291,
@@ -8830,8 +8830,8 @@
       "recommendationid": "204413459",
       "author": {
         "steamid": "76561198102576613",
-        "num_games_owned": 1340,
-        "num_reviews": 390,
+        "num_games_owned": 1342,
+        "num_reviews": 391,
         "playtime_forever": 43,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 43,
@@ -8980,7 +8980,7 @@
       "recommendationid": "203450703",
       "author": {
         "steamid": "76561198397639672",
-        "num_games_owned": 48,
+        "num_games_owned": 49,
         "num_reviews": 6,
         "playtime_forever": 1590,
         "playtime_last_two_weeks": 1,
@@ -9131,7 +9131,7 @@
       "author": {
         "steamid": "76561198334974858",
         "num_games_owned": 0,
-        "num_reviews": 4,
+        "num_reviews": 5,
         "playtime_forever": 356,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 334,
@@ -9232,7 +9232,7 @@
       "author": {
         "steamid": "76561198225770776",
         "num_games_owned": 496,
-        "num_reviews": 44,
+        "num_reviews": 45,
         "playtime_forever": 74,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 74,
@@ -9332,7 +9332,7 @@
       "recommendationid": "203484000",
       "author": {
         "steamid": "76561199011593363",
-        "num_games_owned": 354,
+        "num_games_owned": 355,
         "num_reviews": 174,
         "playtime_forever": 424,
         "playtime_last_two_weeks": 0,
@@ -9457,7 +9457,7 @@
       "recommendationid": "202986313",
       "author": {
         "steamid": "76561198003916298",
-        "num_games_owned": 438,
+        "num_games_owned": 439,
         "num_reviews": 140,
         "playtime_forever": 295,
         "playtime_last_two_weeks": 0,
@@ -9857,7 +9857,7 @@
       "recommendationid": "207688573",
       "author": {
         "steamid": "76561199441483064",
-        "num_games_owned": 187,
+        "num_games_owned": 188,
         "num_reviews": 8,
         "playtime_forever": 840,
         "playtime_last_two_weeks": 0,
@@ -10134,7 +10134,7 @@
       "recommendationid": "206152830",
       "author": {
         "steamid": "76561198984656750",
-        "num_games_owned": 298,
+        "num_games_owned": 300,
         "num_reviews": 478,
         "playtime_forever": 572,
         "playtime_last_two_weeks": 0,
@@ -10159,8 +10159,8 @@
       "recommendationid": "203055116",
       "author": {
         "steamid": "76561199098195080",
-        "num_games_owned": 733,
-        "num_reviews": 189,
+        "num_games_owned": 734,
+        "num_reviews": 193,
         "playtime_forever": 474,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 474,
@@ -10210,7 +10210,7 @@
       "author": {
         "steamid": "76561198059346900",
         "num_games_owned": 0,
-        "num_reviews": 1230,
+        "num_reviews": 1234,
         "playtime_forever": 207,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 207,
@@ -11337,7 +11337,7 @@
       "recommendationid": "208205438",
       "author": {
         "steamid": "76561199330331556",
-        "num_games_owned": 98,
+        "num_games_owned": 99,
         "num_reviews": 2,
         "playtime_forever": 677,
         "playtime_last_two_weeks": 677,
@@ -11537,7 +11537,7 @@
       "recommendationid": "207937729",
       "author": {
         "steamid": "76561199483262726",
-        "num_games_owned": 103,
+        "num_games_owned": 105,
         "num_reviews": 7,
         "playtime_forever": 3061,
         "playtime_last_two_weeks": 0,
@@ -12738,7 +12738,7 @@
       "recommendationid": "207178203",
       "author": {
         "steamid": "76561198138347562",
-        "num_games_owned": 263,
+        "num_games_owned": 264,
         "num_reviews": 136,
         "playtime_forever": 483,
         "playtime_last_two_weeks": 0,
@@ -13088,7 +13088,7 @@
       "recommendationid": "207008431",
       "author": {
         "steamid": "76561199112366498",
-        "num_games_owned": 79,
+        "num_games_owned": 83,
         "num_reviews": 3,
         "playtime_forever": 1911,
         "playtime_last_two_weeks": 0,
@@ -13388,7 +13388,7 @@
       "recommendationid": "206838816",
       "author": {
         "steamid": "76561198392380995",
-        "num_games_owned": 98,
+        "num_games_owned": 103,
         "num_reviews": 11,
         "playtime_forever": 345,
         "playtime_last_two_weeks": 0,
@@ -13513,7 +13513,7 @@
       "recommendationid": "206710876",
       "author": {
         "steamid": "76561198412228072",
-        "num_games_owned": 487,
+        "num_games_owned": 488,
         "num_reviews": 91,
         "playtime_forever": 1470,
         "playtime_last_two_weeks": 0,
@@ -13839,7 +13839,7 @@
       "author": {
         "steamid": "76561199037728160",
         "num_games_owned": 0,
-        "num_reviews": 1,
+        "num_reviews": 2,
         "playtime_forever": 1047,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 242,
@@ -15114,7 +15114,7 @@
       "author": {
         "steamid": "76561198412857912",
         "num_games_owned": 159,
-        "num_reviews": 37,
+        "num_reviews": 38,
         "playtime_forever": 2305,
         "playtime_last_two_weeks": 56,
         "playtime_at_review": 215,
@@ -15213,7 +15213,7 @@
       "recommendationid": "205983134",
       "author": {
         "steamid": "76561198963270048",
-        "num_games_owned": 204,
+        "num_games_owned": 205,
         "num_reviews": 20,
         "playtime_forever": 444,
         "playtime_last_two_weeks": 0,
@@ -16040,7 +16040,7 @@
       "recommendationid": "205746003",
       "author": {
         "steamid": "76561198382680060",
-        "num_games_owned": 83,
+        "num_games_owned": 84,
         "num_reviews": 27,
         "playtime_forever": 483,
         "playtime_last_two_weeks": 0,
@@ -16968,7 +16968,7 @@
       "author": {
         "steamid": "76561198413774055",
         "num_games_owned": 0,
-        "num_reviews": 7,
+        "num_reviews": 8,
         "playtime_forever": 3529,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 2914,
@@ -20419,7 +20419,7 @@
       "recommendationid": "204336544",
       "author": {
         "steamid": "76561199097303729",
-        "num_games_owned": 145,
+        "num_games_owned": 147,
         "num_reviews": 25,
         "playtime_forever": 541,
         "playtime_last_two_weeks": 140,
@@ -20720,7 +20720,7 @@
       "recommendationid": "204279495",
       "author": {
         "steamid": "76561198320987536",
-        "num_games_owned": 116,
+        "num_games_owned": 119,
         "num_reviews": 17,
         "playtime_forever": 569,
         "playtime_last_two_weeks": 0,
@@ -21446,7 +21446,7 @@
       "recommendationid": "204145375",
       "author": {
         "steamid": "76561198163699243",
-        "num_games_owned": 141,
+        "num_games_owned": 142,
         "num_reviews": 20,
         "playtime_forever": 255,
         "playtime_last_two_weeks": 0,
@@ -22724,7 +22724,7 @@
       "recommendationid": "203936950",
       "author": {
         "steamid": "76561198998970527",
-        "num_games_owned": 2189,
+        "num_games_owned": 2193,
         "num_reviews": 373,
         "playtime_forever": 225,
         "playtime_last_two_weeks": 0,
@@ -25976,7 +25976,7 @@
       "recommendationid": "203615167",
       "author": {
         "steamid": "76561198170853339",
-        "num_games_owned": 322,
+        "num_games_owned": 323,
         "num_reviews": 7,
         "playtime_forever": 442,
         "playtime_last_two_weeks": 0,
@@ -26501,7 +26501,7 @@
       "recommendationid": "203547570",
       "author": {
         "steamid": "76561199173025415",
-        "num_games_owned": 805,
+        "num_games_owned": 806,
         "num_reviews": 567,
         "playtime_forever": 202,
         "playtime_last_two_weeks": 0,
@@ -27051,8 +27051,8 @@
       "recommendationid": "203488820",
       "author": {
         "steamid": "76561199340801633",
-        "num_games_owned": 1209,
-        "num_reviews": 256,
+        "num_games_owned": 1211,
+        "num_reviews": 257,
         "playtime_forever": 465,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 465,
@@ -27126,7 +27126,7 @@
       "recommendationid": "203485646",
       "author": {
         "steamid": "76561198132957936",
-        "num_games_owned": 124,
+        "num_games_owned": 125,
         "num_reviews": 7,
         "playtime_forever": 435,
         "playtime_last_two_weeks": 28,
@@ -27253,7 +27253,7 @@
       "author": {
         "steamid": "76561199543642744",
         "num_games_owned": 0,
-        "num_reviews": 9,
+        "num_reviews": 11,
         "playtime_forever": 1040,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 1040,
@@ -27603,7 +27603,7 @@
       "recommendationid": "203455167",
       "author": {
         "steamid": "76561198264375358",
-        "num_games_owned": 482,
+        "num_games_owned": 483,
         "num_reviews": 53,
         "playtime_forever": 363,
         "playtime_last_two_weeks": 0,
@@ -27778,7 +27778,7 @@
       "recommendationid": "203445836",
       "author": {
         "steamid": "76561199401633879",
-        "num_games_owned": 57,
+        "num_games_owned": 58,
         "num_reviews": 8,
         "playtime_forever": 609,
         "playtime_last_two_weeks": 0,
@@ -29983,7 +29983,7 @@
       "recommendationid": "203316943",
       "author": {
         "steamid": "76561199083647619",
-        "num_games_owned": 190,
+        "num_games_owned": 191,
         "num_reviews": 20,
         "playtime_forever": 1072,
         "playtime_last_two_weeks": 0,
@@ -30158,7 +30158,7 @@
       "recommendationid": "203309018",
       "author": {
         "steamid": "76561198327648769",
-        "num_games_owned": 184,
+        "num_games_owned": 185,
         "num_reviews": 102,
         "playtime_forever": 2027,
         "playtime_last_two_weeks": 0,
@@ -30334,7 +30334,7 @@
       "recommendationid": "203304553",
       "author": {
         "steamid": "76561198983257489",
-        "num_games_owned": 103,
+        "num_games_owned": 105,
         "num_reviews": 3,
         "playtime_forever": 658,
         "playtime_last_two_weeks": 0,
@@ -30784,8 +30784,8 @@
       "recommendationid": "203279920",
       "author": {
         "steamid": "76561198085743568",
-        "num_games_owned": 302,
-        "num_reviews": 58,
+        "num_games_owned": 303,
+        "num_reviews": 59,
         "playtime_forever": 1148,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 794,
@@ -30884,7 +30884,7 @@
       "recommendationid": "203271122",
       "author": {
         "steamid": "76561198361694146",
-        "num_games_owned": 83,
+        "num_games_owned": 84,
         "num_reviews": 21,
         "playtime_forever": 2985,
         "playtime_last_two_weeks": 0,
@@ -31010,7 +31010,7 @@
       "author": {
         "steamid": "76561198833296725",
         "num_games_owned": 12233,
-        "num_reviews": 1938,
+        "num_reviews": 1940,
         "playtime_forever": 370,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 370,
@@ -31209,8 +31209,8 @@
       "recommendationid": "203254336",
       "author": {
         "steamid": "76561199022863183",
-        "num_games_owned": 223,
-        "num_reviews": 43,
+        "num_games_owned": 224,
+        "num_reviews": 44,
         "playtime_forever": 198,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 198,
@@ -32060,7 +32060,7 @@
       "author": {
         "steamid": "76561198889629859",
         "num_games_owned": 373,
-        "num_reviews": 32,
+        "num_reviews": 33,
         "playtime_forever": 1032,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 307,
@@ -32311,7 +32311,7 @@
       "author": {
         "steamid": "76561198023370504",
         "num_games_owned": 242,
-        "num_reviews": 23,
+        "num_reviews": 24,
         "playtime_forever": 372,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 201,
@@ -32635,7 +32635,7 @@
       "recommendationid": "203187064",
       "author": {
         "steamid": "76561198428660057",
-        "num_games_owned": 529,
+        "num_games_owned": 531,
         "num_reviews": 16,
         "playtime_forever": 491,
         "playtime_last_two_weeks": 0,
@@ -33311,7 +33311,7 @@
       "recommendationid": "203158083",
       "author": {
         "steamid": "76561198335104523",
-        "num_games_owned": 190,
+        "num_games_owned": 191,
         "num_reviews": 8,
         "playtime_forever": 719,
         "playtime_last_two_weeks": 0,
@@ -33736,8 +33736,8 @@
       "recommendationid": "203128009",
       "author": {
         "steamid": "76561198953610390",
-        "num_games_owned": 2472,
-        "num_reviews": 322,
+        "num_games_owned": 2474,
+        "num_reviews": 324,
         "playtime_forever": 127,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 127,
@@ -33761,7 +33761,7 @@
       "recommendationid": "203127311",
       "author": {
         "steamid": "76561198886174029",
-        "num_games_owned": 366,
+        "num_games_owned": 368,
         "num_reviews": 38,
         "playtime_forever": 543,
         "playtime_last_two_weeks": 0,
@@ -33811,7 +33811,7 @@
       "recommendationid": "203124193",
       "author": {
         "steamid": "76561198906914364",
-        "num_games_owned": 209,
+        "num_games_owned": 268,
         "num_reviews": 9,
         "playtime_forever": 385,
         "playtime_last_two_weeks": 0,
@@ -34061,7 +34061,7 @@
       "recommendationid": "203116077",
       "author": {
         "steamid": "76561199524792278",
-        "num_games_owned": 52,
+        "num_games_owned": 54,
         "num_reviews": 2,
         "playtime_forever": 383,
         "playtime_last_two_weeks": 0,
@@ -34461,7 +34461,7 @@
       "recommendationid": "203095561",
       "author": {
         "steamid": "76561198143999123",
-        "num_games_owned": 685,
+        "num_games_owned": 686,
         "num_reviews": 57,
         "playtime_forever": 500,
         "playtime_last_two_weeks": 0,
@@ -35013,7 +35013,7 @@
       "recommendationid": "203059929",
       "author": {
         "steamid": "76561198812699647",
-        "num_games_owned": 201,
+        "num_games_owned": 202,
         "num_reviews": 7,
         "playtime_forever": 464,
         "playtime_last_two_weeks": 0,
@@ -35439,7 +35439,7 @@
       "recommendationid": "203051420",
       "author": {
         "steamid": "76561198332810987",
-        "num_games_owned": 69,
+        "num_games_owned": 70,
         "num_reviews": 9,
         "playtime_forever": 352,
         "playtime_last_two_weeks": 0,
@@ -35489,7 +35489,7 @@
       "recommendationid": "203051375",
       "author": {
         "steamid": "76561198815730216",
-        "num_games_owned": 253,
+        "num_games_owned": 254,
         "num_reviews": 12,
         "playtime_forever": 524,
         "playtime_last_two_weeks": 0,
@@ -35664,7 +35664,7 @@
       "recommendationid": "203049332",
       "author": {
         "steamid": "76561198445608982",
-        "num_games_owned": 139,
+        "num_games_owned": 140,
         "num_reviews": 10,
         "playtime_forever": 734,
         "playtime_last_two_weeks": 0,
@@ -35739,7 +35739,7 @@
       "recommendationid": "203048252",
       "author": {
         "steamid": "76561198449874753",
-        "num_games_owned": 423,
+        "num_games_owned": 424,
         "num_reviews": 53,
         "playtime_forever": 246,
         "playtime_last_two_weeks": 0,
@@ -35989,7 +35989,7 @@
       "recommendationid": "203043919",
       "author": {
         "steamid": "76561198059460515",
-        "num_games_owned": 466,
+        "num_games_owned": 467,
         "num_reviews": 6,
         "playtime_forever": 467,
         "playtime_last_two_weeks": 10,
@@ -36864,7 +36864,7 @@
       "recommendationid": "203022003",
       "author": {
         "steamid": "76561198275138875",
-        "num_games_owned": 244,
+        "num_games_owned": 245,
         "num_reviews": 13,
         "playtime_forever": 163,
         "playtime_last_two_weeks": 0,
@@ -37189,7 +37189,7 @@
       "recommendationid": "202997174",
       "author": {
         "steamid": "76561198905266575",
-        "num_games_owned": 83,
+        "num_games_owned": 85,
         "num_reviews": 5,
         "playtime_forever": 431,
         "playtime_last_two_weeks": 0,
@@ -37615,7 +37615,7 @@
       "author": {
         "steamid": "76561198134892002",
         "num_games_owned": 148,
-        "num_reviews": 41,
+        "num_reviews": 42,
         "playtime_forever": 453,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 251,
@@ -37914,8 +37914,8 @@
       "recommendationid": "204152622",
       "author": {
         "steamid": "76561198370061003",
-        "num_games_owned": 9881,
-        "num_reviews": 1061,
+        "num_games_owned": 9882,
+        "num_reviews": 1062,
         "playtime_forever": 527,
         "playtime_last_two_weeks": 228,
         "playtime_at_review": 93,
@@ -38141,7 +38141,7 @@
       "author": {
         "steamid": "76561198129308801",
         "num_games_owned": 2470,
-        "num_reviews": 1850,
+        "num_reviews": 1852,
         "playtime_forever": 192,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 192,
@@ -38315,8 +38315,8 @@
       "recommendationid": "206250287",
       "author": {
         "steamid": "76561198075232662",
-        "num_games_owned": 526,
-        "num_reviews": 118,
+        "num_games_owned": 527,
+        "num_reviews": 119,
         "playtime_forever": 607,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 607,
@@ -38467,10 +38467,10 @@
         "steamid": "76561198772317554",
         "num_games_owned": 0,
         "num_reviews": 1,
-        "playtime_forever": 46,
-        "playtime_last_two_weeks": 46,
+        "playtime_forever": 49,
+        "playtime_last_two_weeks": 49,
         "playtime_at_review": 45,
-        "last_played": 1762775359
+        "last_played": 1762861758
       },
       "language": "japanese",
       "review": "開始30分ほどでまったく進めなくなりました。\n部屋ごとの家具配置度が保存されず、部屋を移動するたびに0％からやり直し。\n一度ゲームを閉じて「続きから始める」を押したら画面が真っ暗になり再開できず。\n最悪です。",
@@ -38541,7 +38541,7 @@
       "author": {
         "steamid": "76561198352904549",
         "num_games_owned": 411,
-        "num_reviews": 23,
+        "num_reviews": 24,
         "playtime_forever": 588,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 545,
@@ -38956,7 +38956,7 @@
       "votes_up": 3,
       "votes_funny": 0,
       "weighted_vote_score": "0.523809552192687988",
-      "comment_count": 0,
+      "comment_count": 1,
       "steam_purchase": true,
       "received_for_free": false,
       "written_during_early_access": false,
@@ -38991,7 +38991,7 @@
       "recommendationid": "204644790",
       "author": {
         "steamid": "76561198090022207",
-        "num_games_owned": 2288,
+        "num_games_owned": 2290,
         "num_reviews": 1299,
         "playtime_forever": 5817,
         "playtime_last_two_weeks": 0,
@@ -39041,7 +39041,7 @@
       "recommendationid": "203611240",
       "author": {
         "steamid": "76561198845272948",
-        "num_games_owned": 1038,
+        "num_games_owned": 1037,
         "num_reviews": 541,
         "playtime_forever": 266,
         "playtime_last_two_weeks": 0,
@@ -39541,7 +39541,7 @@
       "recommendationid": "203423065",
       "author": {
         "steamid": "76561198149740077",
-        "num_games_owned": 2048,
+        "num_games_owned": 2052,
         "num_reviews": 358,
         "playtime_forever": 240,
         "playtime_last_two_weeks": 0,
@@ -39718,7 +39718,7 @@
       "author": {
         "steamid": "76561199118729993",
         "num_games_owned": 1636,
-        "num_reviews": 84,
+        "num_reviews": 85,
         "playtime_forever": 46,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 46,
@@ -39921,7 +39921,7 @@
         "num_games_owned": 0,
         "num_reviews": 3,
         "playtime_forever": 351,
-        "playtime_last_two_weeks": 183,
+        "playtime_last_two_weeks": 126,
         "playtime_at_review": 351,
         "last_played": 1761833034
       },
@@ -40046,7 +40046,7 @@
         "num_games_owned": 0,
         "num_reviews": 1,
         "playtime_forever": 2320,
-        "playtime_last_two_weeks": 525,
+        "playtime_last_two_weeks": 411,
         "playtime_at_review": 935,
         "last_played": 1762526263
       },
@@ -40718,7 +40718,7 @@
       "recommendationid": "205095076",
       "author": {
         "steamid": "76561198946366731",
-        "num_games_owned": 1086,
+        "num_games_owned": 1093,
         "num_reviews": 20,
         "playtime_forever": 536,
         "playtime_last_two_weeks": 0,
@@ -41194,8 +41194,8 @@
       "recommendationid": "204059312",
       "author": {
         "steamid": "76561198371252113",
-        "num_games_owned": 1265,
-        "num_reviews": 598,
+        "num_games_owned": 1267,
+        "num_reviews": 602,
         "playtime_forever": 315,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 315,
@@ -41769,8 +41769,8 @@
       "recommendationid": "203497359",
       "author": {
         "steamid": "76561198962561054",
-        "num_games_owned": 965,
-        "num_reviews": 388,
+        "num_games_owned": 968,
+        "num_reviews": 391,
         "playtime_forever": 306,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 306,
@@ -41794,7 +41794,7 @@
       "recommendationid": "203496648",
       "author": {
         "steamid": "76561198856601739",
-        "num_games_owned": 856,
+        "num_games_owned": 859,
         "num_reviews": 66,
         "playtime_forever": 325,
         "playtime_last_two_weeks": 0,
@@ -42046,7 +42046,7 @@
       "author": {
         "steamid": "76561198159842040",
         "num_games_owned": 307,
-        "num_reviews": 115,
+        "num_reviews": 116,
         "playtime_forever": 314,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 63,
@@ -42670,7 +42670,7 @@
       "recommendationid": "203116772",
       "author": {
         "steamid": "76561198356938492",
-        "num_games_owned": 236,
+        "num_games_owned": 239,
         "num_reviews": 16,
         "playtime_forever": 338,
         "playtime_last_two_weeks": 0,
@@ -42821,7 +42821,7 @@
       "author": {
         "steamid": "76561198967156280",
         "num_games_owned": 0,
-        "num_reviews": 17,
+        "num_reviews": 18,
         "playtime_forever": 792,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 574,
@@ -43021,7 +43021,7 @@
       "author": {
         "steamid": "76561198130062976",
         "num_games_owned": 139,
-        "num_reviews": 47,
+        "num_reviews": 48,
         "playtime_forever": 439,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 439,
@@ -43170,7 +43170,7 @@
       "recommendationid": "202980465",
       "author": {
         "steamid": "76561198423611406",
-        "num_games_owned": 771,
+        "num_games_owned": 772,
         "num_reviews": 62,
         "playtime_forever": 376,
         "playtime_last_two_weeks": 0,
@@ -43420,8 +43420,8 @@
       "recommendationid": "203022533",
       "author": {
         "steamid": "76561198254944913",
-        "num_games_owned": 8401,
-        "num_reviews": 1237,
+        "num_games_owned": 8406,
+        "num_reviews": 1239,
         "playtime_forever": 217,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 217,
@@ -43545,7 +43545,7 @@
       "recommendationid": "205754982",
       "author": {
         "steamid": "76561198974080783",
-        "num_games_owned": 41,
+        "num_games_owned": 44,
         "num_reviews": 3,
         "playtime_forever": 1289,
         "playtime_last_two_weeks": 251,
@@ -43645,7 +43645,7 @@
       "recommendationid": "204859266",
       "author": {
         "steamid": "76561198322821915",
-        "num_games_owned": 614,
+        "num_games_owned": 616,
         "num_reviews": 28,
         "playtime_forever": 366,
         "playtime_last_two_weeks": 131,
@@ -43946,7 +43946,7 @@
       "author": {
         "steamid": "76561198406695341",
         "num_games_owned": 3539,
-        "num_reviews": 784,
+        "num_reviews": 785,
         "playtime_forever": 220,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 139,
@@ -43970,8 +43970,8 @@
       "recommendationid": "203605334",
       "author": {
         "steamid": "76561198422022423",
-        "num_games_owned": 1079,
-        "num_reviews": 350,
+        "num_games_owned": 1080,
+        "num_reviews": 354,
         "playtime_forever": 811,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 424,
@@ -44445,7 +44445,7 @@
       "recommendationid": "203304494",
       "author": {
         "steamid": "76561199560415750",
-        "num_games_owned": 34,
+        "num_games_owned": 35,
         "num_reviews": 1,
         "playtime_forever": 363,
         "playtime_last_two_weeks": 0,
@@ -44571,8 +44571,8 @@
       "recommendationid": "203421512",
       "author": {
         "steamid": "76561198367471798",
-        "num_games_owned": 28328,
-        "num_reviews": 7004,
+        "num_games_owned": 28338,
+        "num_reviews": 7075,
         "playtime_forever": 1420,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 259,
@@ -44596,8 +44596,8 @@
       "recommendationid": "204785977",
       "author": {
         "steamid": "76561198087855543",
-        "num_games_owned": 214,
-        "num_reviews": 51,
+        "num_games_owned": 215,
+        "num_reviews": 52,
         "playtime_forever": 25,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 25,
@@ -44746,8 +44746,8 @@
       "recommendationid": "205592576",
       "author": {
         "steamid": "76561198000918877",
-        "num_games_owned": 2391,
-        "num_reviews": 86,
+        "num_games_owned": 2396,
+        "num_reviews": 87,
         "playtime_forever": 1160,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 715,
@@ -44796,7 +44796,7 @@
       "recommendationid": "205240660",
       "author": {
         "steamid": "76561199099760010",
-        "num_games_owned": 233,
+        "num_games_owned": 236,
         "num_reviews": 26,
         "playtime_forever": 498,
         "playtime_last_two_weeks": 0,
@@ -44896,7 +44896,7 @@
       "recommendationid": "203987630",
       "author": {
         "steamid": "76561198159105495",
-        "num_games_owned": 271,
+        "num_games_owned": 272,
         "num_reviews": 6,
         "playtime_forever": 617,
         "playtime_last_two_weeks": 0,
@@ -44946,7 +44946,7 @@
       "recommendationid": "203509699",
       "author": {
         "steamid": "76561198071347724",
-        "num_games_owned": 1788,
+        "num_games_owned": 1789,
         "num_reviews": 469,
         "playtime_forever": 116,
         "playtime_last_two_weeks": 0,
@@ -45372,7 +45372,7 @@
       "author": {
         "steamid": "76561198074059236",
         "num_games_owned": 0,
-        "num_reviews": 13,
+        "num_reviews": 14,
         "playtime_forever": 715,
         "playtime_last_two_weeks": 38,
         "playtime_at_review": 465,
@@ -45697,7 +45697,7 @@
       "recommendationid": "203375050",
       "author": {
         "steamid": "76561198313454213",
-        "num_games_owned": 140,
+        "num_games_owned": 142,
         "num_reviews": 10,
         "playtime_forever": 3382,
         "playtime_last_two_weeks": 244,
@@ -45772,7 +45772,7 @@
       "recommendationid": "203250758",
       "author": {
         "steamid": "76561198043097933",
-        "num_games_owned": 1116,
+        "num_games_owned": 1117,
         "num_reviews": 56,
         "playtime_forever": 427,
         "playtime_last_two_weeks": 0,
@@ -46097,7 +46097,7 @@
       "recommendationid": "205611041",
       "author": {
         "steamid": "76561198838897239",
-        "num_games_owned": 198,
+        "num_games_owned": 202,
         "num_reviews": 26,
         "playtime_forever": 1545,
         "playtime_last_two_weeks": 0,
@@ -46972,7 +46972,7 @@
       "recommendationid": "208627379",
       "author": {
         "steamid": "76561198140222557",
-        "num_games_owned": 174,
+        "num_games_owned": 175,
         "num_reviews": 34,
         "playtime_forever": 336,
         "playtime_last_two_weeks": 336,
@@ -47073,7 +47073,7 @@
       "recommendationid": "203605715",
       "author": {
         "steamid": "76561198994417678",
-        "num_games_owned": 191,
+        "num_games_owned": 192,
         "num_reviews": 25,
         "playtime_forever": 1267,
         "playtime_last_two_weeks": 0,
@@ -47398,7 +47398,7 @@
       "recommendationid": "203363562",
       "author": {
         "steamid": "76561198035900006",
-        "num_games_owned": 23653,
+        "num_games_owned": 23659,
         "num_reviews": 10,
         "playtime_forever": 429,
         "playtime_last_two_weeks": 0,
@@ -47473,7 +47473,7 @@
       "recommendationid": "208179964",
       "author": {
         "steamid": "76561198151647246",
-        "num_games_owned": 506,
+        "num_games_owned": 507,
         "num_reviews": 41,
         "playtime_forever": 442,
         "playtime_last_two_weeks": 0,
@@ -49974,7 +49974,7 @@
       "recommendationid": "202975238",
       "author": {
         "steamid": "76561198114071676",
-        "num_games_owned": 262,
+        "num_games_owned": 263,
         "num_reviews": 13,
         "playtime_forever": 4032,
         "playtime_last_two_weeks": 251,
@@ -50024,7 +50024,7 @@
       "recommendationid": "202978430",
       "author": {
         "steamid": "76561198310613455",
-        "num_games_owned": 587,
+        "num_games_owned": 589,
         "num_reviews": 35,
         "playtime_forever": 68,
         "playtime_last_two_weeks": 0,
@@ -50849,7 +50849,7 @@
       "recommendationid": "202972084",
       "author": {
         "steamid": "76561199498190916",
-        "num_games_owned": 49,
+        "num_games_owned": 50,
         "num_reviews": 3,
         "playtime_forever": 383,
         "playtime_last_two_weeks": 0,
@@ -51025,7 +51025,7 @@
       "author": {
         "steamid": "76561198989253727",
         "num_games_owned": 0,
-        "num_reviews": 40,
+        "num_reviews": 42,
         "playtime_forever": 968,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 968,
@@ -51099,7 +51099,7 @@
       "recommendationid": "203645329",
       "author": {
         "steamid": "76561198319835216",
-        "num_games_owned": 109,
+        "num_games_owned": 110,
         "num_reviews": 13,
         "playtime_forever": 339,
         "playtime_last_two_weeks": 0,
@@ -51174,7 +51174,7 @@
       "recommendationid": "203141698",
       "author": {
         "steamid": "76561198014242978",
-        "num_games_owned": 272,
+        "num_games_owned": 273,
         "num_reviews": 12,
         "playtime_forever": 582,
         "playtime_last_two_weeks": 0,
@@ -51775,7 +51775,7 @@
       "recommendationid": "203390692",
       "author": {
         "steamid": "76561198837563924",
-        "num_games_owned": 76,
+        "num_games_owned": 77,
         "num_reviews": 13,
         "playtime_forever": 414,
         "playtime_last_two_weeks": 0,
@@ -51800,7 +51800,7 @@
       "recommendationid": "207172647",
       "author": {
         "steamid": "76561198815691534",
-        "num_games_owned": 121,
+        "num_games_owned": 122,
         "num_reviews": 80,
         "playtime_forever": 648,
         "playtime_last_two_weeks": 0,
@@ -52476,7 +52476,7 @@
       "recommendationid": "203179310",
       "author": {
         "steamid": "76561199813088060",
-        "num_games_owned": 8,
+        "num_games_owned": 9,
         "num_reviews": 8,
         "playtime_forever": 635,
         "playtime_last_two_weeks": 0,
@@ -52877,7 +52877,7 @@
       "recommendationid": "203049905",
       "author": {
         "steamid": "76561198283027845",
-        "num_games_owned": 645,
+        "num_games_owned": 646,
         "num_reviews": 19,
         "playtime_forever": 572,
         "playtime_last_two_weeks": 0,
@@ -53329,7 +53329,7 @@
       "recommendationid": "206106798",
       "author": {
         "steamid": "76561199682259764",
-        "num_games_owned": 69,
+        "num_games_owned": 70,
         "num_reviews": 3,
         "playtime_forever": 356,
         "playtime_last_two_weeks": 0,
@@ -53404,7 +53404,7 @@
       "recommendationid": "205788212",
       "author": {
         "steamid": "76561198996412004",
-        "num_games_owned": 51,
+        "num_games_owned": 52,
         "num_reviews": 2,
         "playtime_forever": 1192,
         "playtime_last_two_weeks": 0,
@@ -53882,7 +53882,7 @@
       "recommendationid": "208857740",
       "author": {
         "steamid": "76561199079579171",
-        "num_games_owned": 101,
+        "num_games_owned": 102,
         "num_reviews": 5,
         "playtime_forever": 590,
         "playtime_last_two_weeks": 590,
@@ -54183,7 +54183,7 @@
       "recommendationid": "203679077",
       "author": {
         "steamid": "76561198148372765",
-        "num_games_owned": 48,
+        "num_games_owned": 47,
         "num_reviews": 1,
         "playtime_forever": 483,
         "playtime_last_two_weeks": 0,
@@ -55084,7 +55084,7 @@
       "recommendationid": "204379456",
       "author": {
         "steamid": "76561198344576924",
-        "num_games_owned": 272,
+        "num_games_owned": 273,
         "num_reviews": 104,
         "playtime_forever": 291,
         "playtime_last_two_weeks": 0,
@@ -55159,7 +55159,7 @@
       "recommendationid": "203304862",
       "author": {
         "steamid": "76561198453262153",
-        "num_games_owned": 859,
+        "num_games_owned": 860,
         "num_reviews": 52,
         "playtime_forever": 339,
         "playtime_last_two_weeks": 0,
@@ -55334,7 +55334,7 @@
       "recommendationid": "204032435",
       "author": {
         "steamid": "76561199040462601",
-        "num_games_owned": 559,
+        "num_games_owned": 561,
         "num_reviews": 224,
         "playtime_forever": 376,
         "playtime_last_two_weeks": 0,
@@ -55435,7 +55435,7 @@
       "author": {
         "steamid": "76561199680601412",
         "num_games_owned": 0,
-        "num_reviews": 14,
+        "num_reviews": 15,
         "playtime_forever": 104,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 104,
@@ -56060,7 +56060,7 @@
       "author": {
         "steamid": "76561198265383390",
         "num_games_owned": 0,
-        "num_reviews": 50,
+        "num_reviews": 51,
         "playtime_forever": 83,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 83,
@@ -56136,7 +56136,7 @@
       "author": {
         "steamid": "76561198025322055",
         "num_games_owned": 1052,
-        "num_reviews": 474,
+        "num_reviews": 475,
         "playtime_forever": 371,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 251,
@@ -56585,7 +56585,7 @@
       "recommendationid": "203354225",
       "author": {
         "steamid": "76561198177756117",
-        "num_games_owned": 241,
+        "num_games_owned": 242,
         "num_reviews": 20,
         "playtime_forever": 553,
         "playtime_last_two_weeks": 0,
@@ -57837,7 +57837,7 @@
       "recommendationid": "206089880",
       "author": {
         "steamid": "76561198806633214",
-        "num_games_owned": 176,
+        "num_games_owned": 178,
         "num_reviews": 43,
         "playtime_forever": 284,
         "playtime_last_two_weeks": 0,
@@ -58137,7 +58137,7 @@
       "recommendationid": "203923795",
       "author": {
         "steamid": "76561199226386573",
-        "num_games_owned": 65,
+        "num_games_owned": 66,
         "num_reviews": 3,
         "playtime_forever": 1082,
         "playtime_last_two_weeks": 0,
@@ -58437,7 +58437,7 @@
       "recommendationid": "204541095",
       "author": {
         "steamid": "76561198278627589",
-        "num_games_owned": 110,
+        "num_games_owned": 112,
         "num_reviews": 5,
         "playtime_forever": 369,
         "playtime_last_two_weeks": 0,
@@ -59162,7 +59162,7 @@
       "recommendationid": "203288989",
       "author": {
         "steamid": "76561198048485479",
-        "num_games_owned": 334,
+        "num_games_owned": 335,
         "num_reviews": 8,
         "playtime_forever": 585,
         "playtime_last_two_weeks": 0,
@@ -59388,7 +59388,7 @@
       "recommendationid": "203048810",
       "author": {
         "steamid": "76561198833465786",
-        "num_games_owned": 58,
+        "num_games_owned": 59,
         "num_reviews": 3,
         "playtime_forever": 397,
         "playtime_last_two_weeks": 0,
@@ -61139,7 +61139,7 @@
       "recommendationid": "203234923",
       "author": {
         "steamid": "76561198974740665",
-        "num_games_owned": 168,
+        "num_games_owned": 169,
         "num_reviews": 23,
         "playtime_forever": 541,
         "playtime_last_two_weeks": 0,
@@ -61214,8 +61214,8 @@
       "recommendationid": "203192601",
       "author": {
         "steamid": "76561198002606504",
-        "num_games_owned": 778,
-        "num_reviews": 144,
+        "num_games_owned": 782,
+        "num_reviews": 145,
         "playtime_forever": 321,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 212,
@@ -61389,7 +61389,7 @@
       "recommendationid": "203167743",
       "author": {
         "steamid": "76561198792384072",
-        "num_games_owned": 13,
+        "num_games_owned": 14,
         "num_reviews": 1,
         "playtime_forever": 1208,
         "playtime_last_two_weeks": 0,
@@ -62165,7 +62165,7 @@
       "recommendationid": "206199185",
       "author": {
         "steamid": "76561199098891749",
-        "num_games_owned": 102,
+        "num_games_owned": 103,
         "num_reviews": 1,
         "playtime_forever": 319,
         "playtime_last_two_weeks": 0,
@@ -63241,8 +63241,8 @@
       "recommendationid": "204985282",
       "author": {
         "steamid": "76561198977306274",
-        "num_games_owned": 108,
-        "num_reviews": 11,
+        "num_games_owned": 109,
+        "num_reviews": 12,
         "playtime_forever": 413,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 204,
@@ -63516,7 +63516,7 @@
       "recommendationid": "203188838",
       "author": {
         "steamid": "76561199037248801",
-        "num_games_owned": 61,
+        "num_games_owned": 62,
         "num_reviews": 16,
         "playtime_forever": 395,
         "playtime_last_two_weeks": 0,
@@ -63691,7 +63691,7 @@
       "recommendationid": "203411416",
       "author": {
         "steamid": "76561199222700574",
-        "num_games_owned": 27,
+        "num_games_owned": 30,
         "num_reviews": 3,
         "playtime_forever": 973,
         "playtime_last_two_weeks": 0,
@@ -63942,7 +63942,7 @@
       "author": {
         "steamid": "76561198223630720",
         "num_games_owned": 581,
-        "num_reviews": 31,
+        "num_reviews": 32,
         "playtime_forever": 1053,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 697,
@@ -64117,7 +64117,7 @@
       "author": {
         "steamid": "76561199052290178",
         "num_games_owned": 0,
-        "num_reviews": 244,
+        "num_reviews": 245,
         "playtime_forever": 869,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 445,
@@ -65091,7 +65091,7 @@
       "recommendationid": "203098534",
       "author": {
         "steamid": "76561198280158700",
-        "num_games_owned": 69,
+        "num_games_owned": 70,
         "num_reviews": 6,
         "playtime_forever": 788,
         "playtime_last_two_weeks": 0,
@@ -65491,7 +65491,7 @@
       "recommendationid": "207163786",
       "author": {
         "steamid": "76561199098847708",
-        "num_games_owned": 64,
+        "num_games_owned": 65,
         "num_reviews": 10,
         "playtime_forever": 414,
         "playtime_last_two_weeks": 0,
@@ -66595,8 +66595,8 @@
       "recommendationid": "203430093",
       "author": {
         "steamid": "76561198213926936",
-        "num_games_owned": 250,
-        "num_reviews": 54,
+        "num_games_owned": 251,
+        "num_reviews": 55,
         "playtime_forever": 574,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 475,
@@ -66695,7 +66695,7 @@
       "recommendationid": "204424261",
       "author": {
         "steamid": "76561199011843688",
-        "num_games_owned": 257,
+        "num_games_owned": 258,
         "num_reviews": 1,
         "playtime_forever": 1165,
         "playtime_last_two_weeks": 0,
@@ -66995,7 +66995,7 @@
       "recommendationid": "203403604",
       "author": {
         "steamid": "76561198301380398",
-        "num_games_owned": 821,
+        "num_games_owned": 822,
         "num_reviews": 7,
         "playtime_forever": 262,
         "playtime_last_two_weeks": 0,
@@ -68320,7 +68320,7 @@
       "recommendationid": "203234271",
       "author": {
         "steamid": "76561198043339378",
-        "num_games_owned": 454,
+        "num_games_owned": 456,
         "num_reviews": 82,
         "playtime_forever": 298,
         "playtime_last_two_weeks": 0,
@@ -68420,8 +68420,8 @@
       "recommendationid": "202974701",
       "author": {
         "steamid": "76561198078178546",
-        "num_games_owned": 1351,
-        "num_reviews": 650,
+        "num_games_owned": 1357,
+        "num_reviews": 654,
         "playtime_forever": 296,
         "playtime_last_two_weeks": 0,
         "playtime_at_review": 296,
