@@ -942,7 +942,12 @@ function renderList() {
   }
   pageInfo.textContent = `第 ${state.page} / ${totalPages} 页（共 ${state.filtered.length} 条）`;
   const listTotalEl = document.getElementById('listTotal');
-  if (listTotalEl) listTotalEl.textContent = `共 ${state.filtered.length} 条`;
+  if (listTotalEl) {
+    const total = state.raw.length;
+    const current = state.filtered.length;
+    const pct = total > 0 ? ((current / total) * 100).toFixed(1) + '%' : '0.0%';
+    listTotalEl.textContent = `共 ${current} 条 (${pct})`;
+  }
   // 更新数字分页显示：左、当前、右
   pageCurrent.textContent = String(state.page);
   // 左页
