@@ -35,46 +35,61 @@
       </section>
 
       <section class="chart">
-        <h2>语言分布</h2>
-        <div class="filters">
-          <label>时间：
-            <select id="distTimeSelect">
-              <option value="all">全部</option>
-              <option value="month">一月内</option>
-              <option value="week">一周内</option>
-            </select>
-          </label>
+        <div class="section-header">
+          <h2>语言分布</h2>
+          <button class="btn-toggle" data-target="chartBody" aria-label="切换显示"><i>▼</i></button>
         </div>
-        <canvas id="langChart" height="120"></canvas>
-        <div class="split">
-          <div class="panel">
-            <h3>语言饼图</h3>
-            <div class="filters">
-              <label>时间：
-                <select id="pieTimeSelect">
-                  <option value="all">全部</option>
-                  <option value="month">一月内</option>
-                  <option value="week">一周内</option>
-                </select>
-              </label>
-            </div>
-            <canvas id="langPie" height="160"></canvas>
+        <div id="chartBody">
+          <div class="filters">
+            <label>时间：
+              <select id="distTimeSelect">
+                <option value="all">全部</option>
+                <option value="month">一月内</option>
+                <option value="week">一周内</option>
+              </select>
+            </label>
           </div>
-          <div class="panel">
-            <h3>按语言词云</h3>
-            <div class="filters">
-              <label>语言：
-                <select id="cloudLangSelect"></select>
-              </label>
-              <label>时间：
-                <select id="cloudTimeSelect">
-                  <option value="all">全部</option>
-                  <option value="month">一月内</option>
-                  <option value="week">一周内</option>
-                </select>
-              </label>
+          <canvas id="langChart" height="120"></canvas>
+          <div class="split">
+            <div class="panel">
+              <div class="panel-header">
+                <h3>语言饼图</h3>
+                <button class="btn-toggle" data-target="pieBody" aria-label="切换显示"><i>▼</i></button>
+              </div>
+              <div id="pieBody">
+                <div class="filters">
+                  <label>时间：
+                    <select id="pieTimeSelect">
+                      <option value="all">全部</option>
+                      <option value="month">一月内</option>
+                      <option value="week">一周内</option>
+                    </select>
+                  </label>
+                </div>
+                <canvas id="langPie" height="160"></canvas>
+              </div>
             </div>
-            <div id="wordCloud" class="cloud"></div>
+            <div class="panel">
+              <div class="panel-header">
+                <h3>按语言词云</h3>
+                <button class="btn-toggle" data-target="cloudBody" aria-label="切换显示"><i>▼</i></button>
+              </div>
+              <div id="cloudBody">
+                <div class="filters">
+                  <label>语言：
+                    <select id="cloudLangSelect"></select>
+                  </label>
+                  <label>时间：
+                    <select id="cloudTimeSelect">
+                      <option value="all">全部</option>
+                      <option value="month">一月内</option>
+                      <option value="week">一周内</option>
+                    </select>
+                  </label>
+                </div>
+                <div id="wordCloud" class="cloud"></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -113,6 +128,7 @@
               <button id="searchBtn" class="in-input">确定</button>
             </span>
           </label>
+          <button id="resetFiltersBtn" class="btn-reset">重置</button>
           <label>
             显示语言：
             <input type="checkbox" id="toggleLangBadge" checked />
@@ -145,5 +161,6 @@
     </footer>
 
     <script src="assets/app.js"></script>
+    <button id="backToTop" class="back-to-top" aria-label="回到顶部">↑</button>
   </body>
   </html>

@@ -35,6 +35,8 @@ header p { margin: 0; color: var(--muted); }
 .app-switch select { padding: 6px 8px; border-radius: 6px; background: var(--panel); color: var(--text); border: 1px solid var(--border); }
 
 main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
+.section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.section-header h2 { margin: 0; font-size: 18px; }
 .stats h2, .chart h2, .list h2 { margin: 0 0 12px; font-size: 18px; }
 .section-title { display: flex; align-items: baseline; gap: 8px; }
 .section-title .subcount { color: var(--muted); font-size: 14px; }
@@ -49,7 +51,8 @@ main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
 .chart, .list { margin-top: 20px; }
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
 .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 12px; }
-.panel h3 { margin: 0 0 8px; font-size: 16px; }
+.panel-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.panel-header h3 { margin: 0; font-size: 16px; }
 .panel .filters { margin-bottom: 8px; }
 .panel .filters select { padding: 6px 8px; border-radius: 6px; background: var(--panel); color: var(--text); border: 1px solid var(--border); }
 .top-list { list-style: none; padding: 0; margin: 0; }
@@ -75,7 +78,28 @@ main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
 /* 语言徽章跟随情绪变色（低饱和度） */
 .top-list li.positive .lang { color: var(--good-muted); background: rgba(131,182,159,0.12); border-color: var(--good-border-tint); }
 .top-list li.negative .lang { color: var(--bad-muted); background: rgba(209,147,147,0.12); border-color: var(--bad-border-tint); }
-/* 右侧：点赞/时长/日期分项 */
+/* 右侧：操作区（复制按钮 + 元数据） */
+.right-actions { display: flex; align-items: center; gap: 12px; }
+.btn-copy {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-copy:hover {
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+  border-color: var(--muted);
+}
+.btn-copy.copied {
+  border-color: var(--good-muted);
+  color: var(--good-muted);
+}
+
 .meta-row { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 12px; }
 /* 右侧信息采用与语言徽章一致的外观 */
 .meta-item {
@@ -98,7 +122,7 @@ main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
 .muted { color: var(--muted); }
 
 .controls { margin-top: 20px; }
-.filters { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+.filters { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
 .filters label { background: var(--panel); border: 1px solid var(--border); padding: 8px 10px; border-radius: 8px; }
 .filters select {
   appearance: none;
@@ -164,6 +188,9 @@ footer { padding: 14px 20px; color: var(--muted); border-top: 1px solid var(--bo
 /* 新增：搜索“确定”按钮样式，与筛选区一致 */
 .filters button { background: var(--panel); border: 1px solid var(--border); color: var(--text); padding: 6px 10px; border-radius: 8px; cursor: pointer; }
 .filters button:hover { background: rgba(255,255,255,0.06); }
+.btn-reset { color: var(--muted) !important; border-style: dashed !important; }
+.btn-reset:hover { color: var(--text) !important; border-style: solid !important; border-color: var(--accent) !important; }
+
 /* 交互控件可见焦点态，提升可访问性 */
 .filters select:focus-visible,
 .filters input[type="text"]:focus-visible,
@@ -183,7 +210,40 @@ footer { padding: 14px 20px; color: var(--muted); border-top: 1px solid var(--bo
 .chart canvas,
 .panel canvas { width: 100%; }
 
+.btn-toggle {
+  background: transparent; border: 1px solid var(--border); color: var(--muted);
+  width: 24px; height: 24px; border-radius: 4px; display: flex; align-items: center; justify-content: center;
+  cursor: pointer; transition: all 0.2s;
+}
+.btn-toggle:hover { background: rgba(255,255,255,0.06); color: var(--text); }
+.btn-toggle i { font-style: normal; font-size: 12px; transition: transform 0.3s; }
+.btn-toggle.collapsed i { transform: rotate(-90deg); }
+
+.hidden-section { display: none !important; }
+
+.toggle-more, .toggle-less {
+  background: none; border: none; padding: 0; color: var(--accent); cursor: pointer; font-size: 14px; margin-left: 6px;
+  text-decoration: underline; text-underline-offset: 2px;
+}
+.toggle-more:hover, .toggle-less:hover { color: #fff; }
+
+.hidden { display: none !important; }
+
+.back-to-top {
+  position: fixed; bottom: 30px; right: 30px;
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--panel); border: 1px solid var(--border);
+  color: var(--text); font-size: 20px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; pointer-events: none; transition: opacity 0.3s, transform 0.3s;
+  z-index: 999;
+}
+.back-to-top.show { opacity: 1; pointer-events: auto; }
+.back-to-top:hover { background: var(--accent); color: #fff; transform: translateY(-4px); border-color: var(--accent); }
+
 @media (max-width: 480px) {
   .grid { grid-template-columns: 1fr; }
   .split { grid-template-columns: 1fr; }
+  .top-line { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .right-actions { width: 100%; justify-content: space-between; }
 }
