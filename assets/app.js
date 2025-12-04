@@ -858,6 +858,8 @@ function updateFiltered() {
 
   if (state.sort === 'latest') {
     arr.sort((a, b) => (b.timestamp_created || 0) - (a.timestamp_created || 0));
+  } else if (state.sort === 'playtime') {
+    arr.sort((a, b) => (b.author?.playtime_forever || 0) - (a.author?.playtime_forever || 0));
   } else {
     arr.sort((a, b) => (b.votes_up || 0) - (a.votes_up || 0));
   }
