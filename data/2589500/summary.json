@@ -1,13 +1,13 @@
 {
   "appid": "2589500",
-  "fetched_at": "2025-12-01T02:10:28.327Z",
+  "fetched_at": "2025-12-08T01:55:46.698Z",
   "counts": {
-    "total": 3261,
-    "positive": 3168,
+    "total": 3260,
+    "positive": 3167,
     "negative": 93
   },
   "counts_this_month": 5,
-  "positive_rate": 0.9714811407543699,
+  "positive_rate": 0.9714723926380369,
   "language_distribution": [
     {
       "language": "english",
@@ -15,7 +15,7 @@
     },
     {
       "language": "schinese",
-      "count": 1342
+      "count": 1341
     },
     {
       "language": "japanese",
@@ -175,7 +175,7 @@
   "sentiment_distribution": [
     {
       "label": "好评",
-      "count": 3168
+      "count": 3167
     },
     {
       "label": "差评",
@@ -197,7 +197,7 @@
     },
     {
       "word": "游戏",
-      "count": 1146
+      "count": 1145
     },
     {
       "word": "more",
@@ -241,7 +241,7 @@
     },
     {
       "word": "喜欢",
-      "count": 441
+      "count": 440
     },
     {
       "word": "story",
@@ -277,7 +277,7 @@
     },
     {
       "word": "希望",
-      "count": 326
+      "count": 325
     },
     {
       "word": "小镇",
@@ -550,7 +550,7 @@
     "schinese": [
       {
         "word": "游戏",
-        "count": 1144
+        "count": 1143
       },
       {
         "word": "好玩",
@@ -566,7 +566,7 @@
       },
       {
         "word": "喜欢",
-        "count": 441
+        "count": 440
       },
       {
         "word": "非常",
@@ -582,7 +582,7 @@
       },
       {
         "word": "希望",
-        "count": 314
+        "count": 313
       },
       {
         "word": "主线",
@@ -606,7 +606,7 @@
       },
       {
         "word": "有点",
-        "count": 246
+        "count": 245
       },
       {
         "word": "就是",
@@ -681,15 +681,15 @@
         "count": 166
       },
       {
-        "word": "后续",
-        "count": 165
-      },
-      {
         "word": "时候",
         "count": 164
       },
       {
         "word": "的小",
+        "count": 164
+      },
+      {
+        "word": "后续",
         "count": 164
       },
       {
@@ -713,12 +713,12 @@
         "count": 155
       },
       {
-        "word": "什么",
+        "word": "画风",
         "count": 154
       },
       {
-        "word": "画风",
-        "count": 154
+        "word": "什么",
+        "count": 153
       },
       {
         "word": "如果",
@@ -4868,8 +4868,8 @@
     "num_reviews": 100,
     "review_score": 9,
     "review_score_desc": "Overwhelmingly Positive",
-    "total_positive": 3167,
-    "total_negative": 93,
-    "total_reviews": 3260
+    "total_positive": 3235,
+    "total_negative": 96,
+    "total_reviews": 3331
   }
 }
