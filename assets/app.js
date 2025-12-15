@@ -559,6 +559,59 @@ function formatDateShort(d) {
   return `${yy}/${MM}/${DD} ${hh}:${mm}`;
 }
 
+function updateWeeklyStats() {
+  const weeklyEl = document.getElementById('weekly');
+  const lastWeeklyEl = document.getElementById('lastWeekly');
+  const ratioEl = document.getElementById('weeklyRatio');
+  if (!weeklyEl || !ratioEl) return;
+
+  const reviews = state.raw || [];
+  const fetchedAt = state.fetchedAtMs || Date.now();
+  const oneWeekMs = 7 * 24 * 3600 * 1000;
+
+  // 本周：[fetchedAt - 7d, fetchedAt]
+  // 上周：[fetchedAt - 14d, fetchedAt - 7d)
+  const thisWeekStart = fetchedAt - oneWeekMs;
+  const lastWeekStart = fetchedAt - 2 * oneWeekMs;
+
+  let thisWeekCount = 0;
+  let lastWeekCount = 0;
+
+  for (const r of reviews) {
+    const ts = (r.timestamp_created || r.timestamp_updated || 0) * 1000;
+    // 忽略未来时间（虽然理论上不应该有）
+    if (ts > fetchedAt) continue;
+
+    if (ts >= thisWeekStart) {
+      thisWeekCount++;
+    } else if (ts >= lastWeekStart) {
+      lastWeekCount++;
+    }
+  }
+
+  weeklyEl.textContent = formatNumber(thisWeekCount);
+  if (lastWeeklyEl) lastWeeklyEl.textContent = formatNumber(lastWeekCount);
+
+  let ratioStr = '--';
+  // 重置样式
+  ratioEl.className = 'value';
+
+  if (lastWeekCount > 0) {
+    const diff = thisWeekCount - lastWeekCount;
+    const pct = (diff / lastWeekCount) * 100;
+    const sign = pct > 0 ? '+' : '';
+    ratioStr = `${sign}${pct.toFixed(1)}%`;
+    if (pct > 0) ratioEl.classList.add('positive');
+    else if (pct < 0) ratioEl.classList.add('negative');
+  } else if (thisWeekCount > 0) {
+    ratioStr = '∞'; // 上周为0，本周有数据
+    ratioEl.classList.add('positive');
+  } else {
+    ratioStr = '0%';
+  }
+  ratioEl.textContent = ratioStr;
+}
+
 async function loadRaw(appid) {
   try {
     const raw = await fetchJsonSequential([
@@ -567,6 +620,7 @@ async function loadRaw(appid) {
     ]);
     state.raw = Array.isArray(raw.reviews) ? raw.reviews : [];
     updateFiltered();
+    updateWeeklyStats();
     clampPage();
     renderList();
     // 原始数据加载后，刷新词云以启用时间窗口筛选
