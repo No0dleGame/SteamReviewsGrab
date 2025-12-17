@@ -121,6 +121,19 @@ main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
 .snippet mark { background: rgba(78,161,255,0.22); color: var(--text); border-radius: 4px; padding: 0 2px; }
 .top-list li.positive .snippet { color: #d6e4df; }
 .top-list li.negative .snippet { color: #e3d6d6; }
+.toggle-more, .toggle-less {
+  background: transparent;
+  border: none;
+  color: var(--accent);
+  cursor: pointer;
+  padding: 0 4px;
+  font-size: inherit;
+  display: inline-block;
+  margin-left: 4px;
+}
+.toggle-more:hover, .toggle-less:hover {
+  text-decoration: underline;
+}
 .muted { color: var(--muted); }
 
 .controls { margin-top: 20px; }
@@ -259,5 +272,8 @@ main { padding: 20px; max-width: clamp(960px, 92vw, 1400px); margin: 0 auto; }
   transform: rotate(-90deg);
 }
 .hidden-section {
+  display: none !important;
+}
+.hidden {
   display: none !important;
 }
