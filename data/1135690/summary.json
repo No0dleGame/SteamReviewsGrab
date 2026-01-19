@@ -1,17 +1,17 @@
 {
   "appid": "1135690",
-  "fetched_at": "2026-01-19T02:15:04.010Z",
+  "fetched_at": "2026-01-19T02:38:36.197Z",
   "counts": {
-    "total": 38434,
-    "positive": 35837,
+    "total": 38435,
+    "positive": 35838,
     "negative": 2597
   },
-  "counts_this_month": 379,
-  "positive_rate": 0.932429619607639,
+  "counts_this_month": 380,
+  "positive_rate": 0.9324313776505789,
   "language_distribution": [
     {
       "language": "english",
-      "count": 25317
+      "count": 25318
     },
     {
       "language": "schinese",
@@ -175,7 +175,7 @@
   "sentiment_distribution": [
     {
       "label": "好评",
-      "count": 35837
+      "count": 35838
     },
     {
       "label": "差评",
@@ -185,7 +185,7 @@
   "top_words": [
     {
       "word": "game",
-      "count": 29750
+      "count": 29751
     },
     {
       "word": "you",
@@ -225,7 +225,7 @@
     },
     {
       "word": "love",
-      "count": 4556
+      "count": 4557
     },
     {
       "word": "play",
@@ -265,7 +265,7 @@
     },
     {
       "word": "good",
-      "count": 3278
+      "count": 3279
     },
     {
       "word": "through",
@@ -550,7 +550,7 @@
     "english": [
       {
         "word": "game",
-        "count": 28605
+        "count": 28606
       },
       {
         "word": "you",
@@ -590,7 +590,7 @@
       },
       {
         "word": "love",
-        "count": 4386
+        "count": 4387
       },
       {
         "word": "my",
@@ -630,7 +630,7 @@
       },
       {
         "word": "good",
-        "count": 3092
+        "count": 3093
       },
       {
         "word": "its",
@@ -666,7 +666,7 @@
       },
       {
         "word": "get",
-        "count": 2753
+        "count": 2754
       },
       {
         "word": "one",
@@ -674,7 +674,7 @@
       },
       {
         "word": "much",
-        "count": 2582
+        "count": 2583
       },
       {
         "word": "only",
@@ -762,11 +762,11 @@
       },
       {
         "word": "games",
-        "count": 1827
+        "count": 1828
       },
       {
         "word": "has",
-        "count": 1699
+        "count": 1700
       },
       {
         "word": "want",
@@ -2851,11 +2851,11 @@
         "count": 74
       },
       {
-        "word": "ki",
+        "word": "ke",
         "count": 69
       },
       {
-        "word": "ke",
+        "word": "ki",
         "count": 69
       },
       {
