@@ -1,21 +1,21 @@
 {
   "appid": "2589500",
-  "fetched_at": "2026-01-12T02:07:16.116Z",
+  "fetched_at": "2026-01-19T02:07:44.951Z",
   "counts": {
-    "total": 3874,
-    "positive": 3759,
+    "total": 3888,
+    "positive": 3773,
     "negative": 115
   },
-  "counts_this_month": 216,
-  "positive_rate": 0.9703149199793495,
+  "counts_this_month": 230,
+  "positive_rate": 0.9704218106995884,
   "language_distribution": [
     {
       "language": "english",
-      "count": 1740
+      "count": 1749
     },
     {
       "language": "schinese",
-      "count": 1546
+      "count": 1551
     },
     {
       "language": "tchinese",
@@ -135,7 +135,7 @@
       "recommendationid": "203371641",
       "language": "schinese",
       "voted_up": true,
-      "votes_up": 107,
+      "votes_up": 108,
       "playtime_hours": 37.96666666666667,
       "review_snippet": "内容太少了，不仅是剧情，房型、家具种类、可互动建筑都太少，地图空空的，比如地毯店旁边的车，很适合做店铺或者剧情的类地标竟然只能戳一下。无论是盲盒还是图鉴能不能做个收集度的百分比条有时候以为抽全了但是差一个，因为UI做的不明显又分不清那是黑色家具还是没抽出来的，盲盒比较有创意但是没有做出盲盒的精髓，纯疲惫式抽家具，要不咱们把基础家具直接售卖，盲盒做成真盲盒，分成几个主题盲盒，内容是一些特别有设计的家"
     },
@@ -175,7 +175,7 @@
   "sentiment_distribution": [
     {
       "label": "好评",
-      "count": 3759
+      "count": 3773
     },
     {
       "label": "差评",
@@ -185,11 +185,11 @@
   "top_words": [
     {
       "word": "game",
-      "count": 2512
+      "count": 2515
     },
     {
       "word": "you",
-      "count": 1560
+      "count": 1562
     },
     {
       "word": "won",
@@ -197,7 +197,7 @@
     },
     {
       "word": "游戏",
-      "count": 1307
+      "count": 1308
     },
     {
       "word": "more",
@@ -209,15 +209,15 @@
     },
     {
       "word": "好玩",
-      "count": 725
+      "count": 727
     },
     {
       "word": "装修",
-      "count": 687
+      "count": 691
     },
     {
       "word": "unpacking",
-      "count": 663
+      "count": 664
     },
     {
       "word": "there",
@@ -233,7 +233,7 @@
     },
     {
       "word": "love",
-      "count": 591
+      "count": 594
     },
     {
       "word": "fun",
@@ -245,11 +245,11 @@
     },
     {
       "word": "喜欢",
-      "count": 517
+      "count": 518
     },
     {
       "word": "cute",
-      "count": 504
+      "count": 505
     },
     {
       "word": "cozy",
@@ -281,7 +281,7 @@
     },
     {
       "word": "主线",
-      "count": 373
+      "count": 375
     },
     {
       "word": "items",
@@ -293,7 +293,7 @@
     },
     {
       "word": "希望",
-      "count": 360
+      "count": 361
     },
     {
       "word": "some",
@@ -308,11 +308,11 @@
     "english": [
       {
         "word": "game",
-        "count": 2431
+        "count": 2434
       },
       {
         "word": "you",
-        "count": 1515
+        "count": 1517
       },
       {
         "word": "won",
@@ -336,11 +336,11 @@
       },
       {
         "word": "unpacking",
-        "count": 581
+        "count": 582
       },
       {
         "word": "love",
-        "count": 574
+        "count": 577
       },
       {
         "word": "fun",
@@ -352,7 +352,7 @@
       },
       {
         "word": "cute",
-        "count": 484
+        "count": 485
       },
       {
         "word": "cozy",
@@ -516,7 +516,7 @@
       },
       {
         "word": "great",
-        "count": 180
+        "count": 181
       },
       {
         "word": "even",
@@ -550,11 +550,11 @@
     "schinese": [
       {
         "word": "游戏",
-        "count": 1301
+        "count": 1302
       },
       {
         "word": "好玩",
-        "count": 702
+        "count": 704
       },
       {
         "word": "家具",
@@ -562,11 +562,11 @@
       },
       {
         "word": "装修",
-        "count": 687
+        "count": 691
       },
       {
         "word": "喜欢",
-        "count": 516
+        "count": 517
       },
       {
         "word": "非常",
@@ -574,7 +574,7 @@
       },
       {
         "word": "主线",
-        "count": 373
+        "count": 375
       },
       {
         "word": "剧情",
@@ -582,7 +582,7 @@
       },
       {
         "word": "希望",
-        "count": 345
+        "count": 346
       },
       {
         "word": "小镇",
@@ -590,11 +590,11 @@
       },
       {
         "word": "但是",
-        "count": 309
+        "count": 310
       },
       {
         "word": "更新",
-        "count": 307
+        "count": 308
       },
       {
         "word": "感觉",
@@ -606,7 +606,7 @@
       },
       {
         "word": "有点",
-        "count": 281
+        "count": 282
       },
       {
         "word": "就是",
@@ -630,11 +630,11 @@
       },
       {
         "word": "像素",
-        "count": 259
+        "count": 260
       },
       {
         "word": "玩家",
-        "count": 252
+        "count": 253
       },
       {
         "word": "物品",
@@ -642,7 +642,7 @@
       },
       {
         "word": "真的",
-        "count": 249
+        "count": 250
       },
       {
         "word": "一些",
@@ -662,7 +662,7 @@
       },
       {
         "word": "任务",
-        "count": 213
+        "count": 214
       },
       {
         "word": "玩法",
@@ -674,15 +674,15 @@
       },
       {
         "word": "故事",
-        "count": 199
+        "count": 200
+      },
+      {
+        "word": "收纳",
+        "count": 192
       },
       {
         "word": "小时",
         "count": 192
-      },
-      {
-        "word": "收纳",
-        "count": 191
       },
       {
         "word": "整理",
@@ -726,7 +726,7 @@
       },
       {
         "word": "自由",
-        "count": 169
+        "count": 170
       },
       {
         "word": "如果",
@@ -745,12 +745,12 @@
         "count": 165
       },
       {
-        "word": "期待",
+        "word": "很好",
         "count": 157
       },
       {
-        "word": "很好",
-        "count": 156
+        "word": "期待",
+        "count": 157
       },
       {
         "word": "地图",
@@ -4942,8 +4942,8 @@
     "num_reviews": 100,
     "review_score": 9,
     "review_score_desc": "Overwhelmingly Positive",
-    "total_positive": 3767,
-    "total_negative": 115,
-    "total_reviews": 3882
+    "total_positive": 3824,
+    "total_negative": 117,
+    "total_reviews": 3941
   }
 }
