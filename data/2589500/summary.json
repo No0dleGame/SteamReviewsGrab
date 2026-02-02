@@ -1,17 +1,17 @@
 {
   "appid": "2589500",
-  "fetched_at": "2026-01-27T01:51:20.303Z",
+  "fetched_at": "2026-02-02T02:36:09.831Z",
   "counts": {
-    "total": 3995,
-    "positive": 3876,
+    "total": 3994,
+    "positive": 3875,
     "negative": 119
   },
-  "counts_this_month": 339,
-  "positive_rate": 0.9702127659574468,
+  "counts_this_month": 0,
+  "positive_rate": 0.9702053079619429,
   "language_distribution": [
     {
       "language": "english",
-      "count": 1808
+      "count": 1807
     },
     {
       "language": "schinese",
@@ -148,20 +148,20 @@
       "review_snippet": "A game about helping sort their house/business, but with a mystery looming in the background. It looks beautiful, and it is so much fun to uncover more and more. No missable achievements and completio"
     },
     {
+      "recommendationid": "214625379",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 72,
+      "playtime_hours": 5.283333333333333,
+      "review_snippet": "从玩法上来说，这个游戏并不复杂。\n核心内容基本围绕着收纳整理、房间规划以及简单的推进机制展开，你不需要频繁操作，也不会有手速或反应方面的压力。更多时候，你是在整理物品、调整摆放位置，让一个空间从混乱变得有序。\n\n如果只看玩法本身，它其实是偏轻的。\n但让我愿意继续玩下去的，并不是“整理本身有多爽”，而是它在整理的过程中，慢慢塞进了一些情绪和故事。\n\n这些故事并不是用大段剧情直接讲给你听的。\n更多是通"
+    },
+    {
       "recommendationid": "203171838",
       "language": "english",
       "voted_up": true,
       "votes_up": 71,
       "playtime_hours": 6.366666666666666,
       "review_snippet": "i would recommend this game, but i do have complicated feelings about it. \nthis game is incredibly charming and reeaallyyy fun. the unpacking mechanics are so nice and having the different levels make"
-    },
-    {
-      "recommendationid": "214625379",
-      "language": "schinese",
-      "voted_up": true,
-      "votes_up": 70,
-      "playtime_hours": 5.283333333333333,
-      "review_snippet": "从玩法上来说，这个游戏并不复杂。\n核心内容基本围绕着收纳整理、房间规划以及简单的推进机制展开，你不需要频繁操作，也不会有手速或反应方面的压力。更多时候，你是在整理物品、调整摆放位置，让一个空间从混乱变得有序。\n\n如果只看玩法本身，它其实是偏轻的。\n但让我愿意继续玩下去的，并不是“整理本身有多爽”，而是它在整理的过程中，慢慢塞进了一些情绪和故事。\n\n这些故事并不是用大段剧情直接讲给你听的。\n更多是通"
     },
     {
       "recommendationid": "203720668",
@@ -175,7 +175,7 @@
   "sentiment_distribution": [
     {
       "label": "好评",
-      "count": 3876
+      "count": 3875
     },
     {
       "label": "差评",
@@ -185,11 +185,11 @@
   "top_words": [
     {
       "word": "game",
-      "count": 2620
+      "count": 2619
     },
     {
       "word": "you",
-      "count": 1634
+      "count": 1633
     },
     {
       "word": "won",
@@ -237,7 +237,7 @@
     },
     {
       "word": "fun",
-      "count": 581
+      "count": 580
     },
     {
       "word": "story",
@@ -308,11 +308,11 @@
     "english": [
       {
         "word": "game",
-        "count": 2536
+        "count": 2535
       },
       {
         "word": "you",
-        "count": 1589
+        "count": 1588
       },
       {
         "word": "won",
@@ -344,7 +344,7 @@
       },
       {
         "word": "fun",
-        "count": 562
+        "count": 561
       },
       {
         "word": "story",
@@ -424,7 +424,7 @@
       },
       {
         "word": "games",
-        "count": 254
+        "count": 253
       },
       {
         "word": "play",
@@ -444,19 +444,19 @@
       },
       {
         "word": "decorate",
-        "count": 230
+        "count": 229
       },
       {
         "word": "has",
         "count": 229
       },
       {
-        "word": "town",
+        "word": "art",
         "count": 228
       },
       {
-        "word": "art",
-        "count": 228
+        "word": "town",
+        "count": 227
       },
       {
         "word": "up",
@@ -488,7 +488,7 @@
       },
       {
         "word": "want",
-        "count": 202
+        "count": 201
       },
       {
         "word": "furniture",
@@ -500,11 +500,11 @@
       },
       {
         "word": "good",
-        "count": 200
+        "count": 199
       },
       {
         "word": "too",
-        "count": 195
+        "count": 194
       },
       {
         "word": "relaxing",
@@ -515,10 +515,6 @@
         "count": 188
       },
       {
-        "word": "great",
-        "count": 183
-      },
-      {
         "word": "even",
         "count": 182
       },
@@ -527,8 +523,12 @@
         "count": 182
       },
       {
+        "word": "great",
+        "count": 181
+      },
+      {
         "word": "which",
-        "count": 177
+        "count": 176
       },
       {
         "word": "its",
@@ -4994,8 +4994,8 @@
     "num_reviews": 100,
     "review_score": 9,
     "review_score_desc": "Overwhelmingly Positive",
-    "total_positive": 3876,
-    "total_negative": 119,
-    "total_reviews": 3995
+    "total_positive": 3911,
+    "total_negative": 125,
+    "total_reviews": 4036
   }
 }
