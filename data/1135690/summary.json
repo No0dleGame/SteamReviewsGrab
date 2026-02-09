@@ -1,17 +1,17 @@
 {
   "appid": "1135690",
-  "fetched_at": "2026-02-02T05:04:05.560Z",
+  "fetched_at": "2026-02-09T02:43:58.141Z",
   "counts": {
-    "total": 38538,
-    "positive": 35933,
-    "negative": 2605
+    "total": 38539,
+    "positive": 35935,
+    "negative": 2604
   },
-  "counts_this_month": 15,
-  "positive_rate": 0.9324043800923764,
+  "counts_this_month": 22,
+  "positive_rate": 0.9324320817872804,
   "language_distribution": [
     {
       "language": "english",
-      "count": 25379
+      "count": 25380
     },
     {
       "language": "schinese",
@@ -23,7 +23,7 @@
     },
     {
       "language": "koreana",
-      "count": 1160
+      "count": 1162
     },
     {
       "language": "german",
@@ -31,11 +31,11 @@
     },
     {
       "language": "russian",
-      "count": 1042
+      "count": 1041
     },
     {
       "language": "spanish",
-      "count": 1019
+      "count": 1018
     },
     {
       "language": "turkish",
@@ -143,7 +143,7 @@
       "recommendationid": "105872130",
       "language": "english",
       "voted_up": false,
-      "votes_up": 547,
+      "votes_up": 546,
       "playtime_hours": 10.75,
       "review_snippet": "For 20 bucks its quite not worth a buy. I've completed the story in less than three hours and I've really took my time. I know it's an indie game from a small studio, but I've already played more than"
     },
@@ -175,33 +175,33 @@
   "sentiment_distribution": [
     {
       "label": "好评",
-      "count": 35933
+      "count": 35935
     },
     {
       "label": "差评",
-      "count": 2605
+      "count": 2604
     }
   ],
   "top_words": [
     {
       "word": "game",
-      "count": 29813
+      "count": 29809
     },
     {
       "word": "you",
-      "count": 13385
+      "count": 13383
     },
     {
       "word": "story",
-      "count": 7523
+      "count": 7520
     },
     {
       "word": "relaxing",
-      "count": 6301
+      "count": 6299
     },
     {
       "word": "more",
-      "count": 5923
+      "count": 5922
     },
     {
       "word": "me",
@@ -209,7 +209,7 @@
     },
     {
       "word": "fun",
-      "count": 4894
+      "count": 4895
     },
     {
       "word": "like",
@@ -217,11 +217,11 @@
     },
     {
       "word": "there",
-      "count": 4807
+      "count": 4805
     },
     {
       "word": "cute",
-      "count": 4663
+      "count": 4662
     },
     {
       "word": "love",
@@ -241,7 +241,7 @@
     },
     {
       "word": "de",
-      "count": 4040
+      "count": 4037
     },
     {
       "word": "unpacking",
@@ -249,11 +249,11 @@
     },
     {
       "word": "have",
-      "count": 3961
+      "count": 3960
     },
     {
       "word": "would",
-      "count": 3941
+      "count": 3940
     },
     {
       "word": "short",
@@ -269,7 +269,7 @@
     },
     {
       "word": "through",
-      "count": 3178
+      "count": 3177
     },
     {
       "word": "its",
@@ -285,7 +285,7 @@
     },
     {
       "word": "time",
-      "count": 3050
+      "count": 3047
     },
     {
       "word": "life",
@@ -297,7 +297,7 @@
     },
     {
       "word": "que",
-      "count": 2904
+      "count": 2900
     },
     {
       "word": "recommend",
@@ -320,7 +320,7 @@
       },
       {
         "word": "物品",
-        "count": 770
+        "count": 771
       },
       {
         "word": "喜欢",
@@ -456,7 +456,7 @@
       },
       {
         "word": "放在",
-        "count": 312
+        "count": 313
       },
       {
         "word": "很多",
@@ -508,7 +508,7 @@
       },
       {
         "word": "地方",
-        "count": 269
+        "count": 270
       },
       {
         "word": "强迫",
@@ -550,31 +550,31 @@
     "english": [
       {
         "word": "game",
-        "count": 28670
+        "count": 28666
       },
       {
         "word": "you",
-        "count": 12964
+        "count": 12962
       },
       {
         "word": "story",
-        "count": 7217
+        "count": 7214
       },
       {
         "word": "relaxing",
-        "count": 6051
+        "count": 6049
       },
       {
         "word": "more",
-        "count": 5733
+        "count": 5732
       },
       {
         "word": "fun",
-        "count": 4766
+        "count": 4767
       },
       {
         "word": "there",
-        "count": 4702
+        "count": 4700
       },
       {
         "word": "like",
@@ -582,7 +582,7 @@
       },
       {
         "word": "cute",
-        "count": 4475
+        "count": 4474
       },
       {
         "word": "play",
@@ -606,11 +606,11 @@
       },
       {
         "word": "would",
-        "count": 3838
+        "count": 3837
       },
       {
         "word": "have",
-        "count": 3835
+        "count": 3834
       },
       {
         "word": "short",
@@ -626,7 +626,7 @@
       },
       {
         "word": "through",
-        "count": 3120
+        "count": 3119
       },
       {
         "word": "good",
@@ -646,7 +646,7 @@
       },
       {
         "word": "time",
-        "count": 2966
+        "count": 2963
       },
       {
         "word": "life",
@@ -674,7 +674,7 @@
       },
       {
         "word": "much",
-        "count": 2589
+        "count": 2588
       },
       {
         "word": "only",
@@ -710,7 +710,7 @@
       },
       {
         "word": "when",
-        "count": 2346
+        "count": 2345
       },
       {
         "word": "great",
@@ -726,7 +726,7 @@
       },
       {
         "word": "wish",
-        "count": 2102
+        "count": 2101
       },
       {
         "word": "too",
@@ -778,7 +778,7 @@
       },
       {
         "word": "cozy",
-        "count": 1658
+        "count": 1659
       },
       {
         "word": "played",
@@ -1760,19 +1760,19 @@
     "spanish": [
       {
         "word": "que",
-        "count": 1095
+        "count": 1091
       },
       {
         "word": "de",
-        "count": 1004
+        "count": 1001
       },
       {
         "word": "es",
-        "count": 716
+        "count": 713
       },
       {
         "word": "juego",
-        "count": 660
+        "count": 657
       },
       {
         "word": "la",
@@ -1780,11 +1780,11 @@
       },
       {
         "word": "el",
-        "count": 526
+        "count": 525
       },
       {
         "word": "un",
-        "count": 513
+        "count": 511
       },
       {
         "word": "muy",
@@ -1792,11 +1792,11 @@
       },
       {
         "word": "lo",
-        "count": 482
+        "count": 478
       },
       {
         "word": "en",
-        "count": 442
+        "count": 441
       },
       {
         "word": "me",
@@ -1804,7 +1804,7 @@
       },
       {
         "word": "no",
-        "count": 341
+        "count": 340
       },
       {
         "word": "una",
@@ -1812,7 +1812,7 @@
       },
       {
         "word": "para",
-        "count": 289
+        "count": 287
       },
       {
         "word": "pero",
@@ -1824,7 +1824,7 @@
       },
       {
         "word": "los",
-        "count": 233
+        "count": 232
       },
       {
         "word": "historia",
@@ -1840,11 +1840,11 @@
       },
       {
         "word": "se",
-        "count": 211
+        "count": 210
       },
       {
         "word": "te",
-        "count": 205
+        "count": 204
       },
       {
         "word": "por",
@@ -1852,7 +1852,7 @@
       },
       {
         "word": "como",
-        "count": 151
+        "count": 150
       },
       {
         "word": "este",
@@ -1939,24 +1939,16 @@
         "count": 72
       },
       {
-        "word": "solo",
-        "count": 70
-      },
-      {
         "word": "esta",
         "count": 70
       },
       {
-        "word": "bien",
-        "count": 68
+        "word": "solo",
+        "count": 69
       },
       {
         "word": "bonito",
         "count": 68
-      },
-      {
-        "word": "cada",
-        "count": 67
       },
       {
         "word": "bueno",
@@ -1967,8 +1959,12 @@
         "count": 67
       },
       {
-        "word": "porque",
-        "count": 65
+        "word": "bien",
+        "count": 67
+      },
+      {
+        "word": "cada",
+        "count": 66
       },
       {
         "word": "ha",
@@ -1977,6 +1973,10 @@
       {
         "word": "precio",
         "count": 65
+      },
+      {
+        "word": "porque",
+        "count": 64
       },
       {
         "word": "tu",
@@ -2728,11 +2728,11 @@
     "turkish": [
       {
         "word": "bir",
-        "count": 759
+        "count": 757
       },
       {
         "word": "oyun",
-        "count": 557
+        "count": 555
       },
       {
         "word": "ok",
@@ -2784,14 +2784,14 @@
       },
       {
         "word": "daha",
-        "count": 120
-      },
-      {
-        "word": "sa",
-        "count": 120
+        "count": 119
       },
       {
         "word": "yerle",
+        "count": 119
+      },
+      {
+        "word": "sa",
         "count": 119
       },
       {
@@ -2808,7 +2808,7 @@
       },
       {
         "word": "nda",
-        "count": 97
+        "count": 96
       },
       {
         "word": "kadar",
@@ -2824,7 +2824,7 @@
       },
       {
         "word": "chill",
-        "count": 89
+        "count": 88
       },
       {
         "word": "var",
@@ -2919,7 +2919,7 @@
         "count": 48
       },
       {
-        "word": "olmas",
+        "word": "sakin",
         "count": 48
       },
       {
@@ -2927,7 +2927,7 @@
         "count": 48
       },
       {
-        "word": "sakin",
+        "word": "olmas",
         "count": 47
       },
       {
@@ -2951,11 +2951,11 @@
         "count": 44
       },
       {
-        "word": "biraz",
-        "count": 44
+        "word": "ekten",
+        "count": 43
       },
       {
-        "word": "ekten",
+        "word": "biraz",
         "count": 43
       },
       {
@@ -2963,7 +2963,7 @@
         "count": 42
       },
       {
-        "word": "tek",
+        "word": "tavsiye",
         "count": 42
       }
     ],
@@ -6844,8 +6844,8 @@
     "num_reviews": 100,
     "review_score": 8,
     "review_score_desc": "Very Positive",
-    "total_positive": 35932,
-    "total_negative": 2605,
-    "total_reviews": 38537
+    "total_positive": 35984,
+    "total_negative": 2612,
+    "total_reviews": 38596
   }
 }
