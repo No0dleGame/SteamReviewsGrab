@@ -1,17 +1,17 @@
 {
   "appid": "2589500",
-  "fetched_at": "2026-05-04T03:36:45.280Z",
+  "fetched_at": "2026-05-11T03:54:35.761Z",
   "counts": {
     "total": 4941,
-    "positive": 4796,
-    "negative": 145
+    "positive": 4797,
+    "negative": 144
   },
   "counts_this_month": 13,
-  "positive_rate": 0.9706537138231127,
+  "positive_rate": 0.970856102003643,
   "language_distribution": [
     {
       "language": "english",
-      "count": 2170
+      "count": 2171
     },
     {
       "language": "schinese",
@@ -38,11 +38,11 @@
       "count": 75
     },
     {
-      "language": "russian",
-      "count": 58
+      "language": "german",
+      "count": 57
     },
     {
-      "language": "german",
+      "language": "russian",
       "count": 57
     },
     {
@@ -175,11 +175,11 @@
   "sentiment_distribution": [
     {
       "label": "好评",
-      "count": 4796
+      "count": 4797
     },
     {
       "label": "差评",
-      "count": 145
+      "count": 144
     }
   ],
   "top_words": [
@@ -308,7 +308,7 @@
     "english": [
       {
         "word": "game",
-        "count": 2974
+        "count": 2975
       },
       {
         "word": "you",
@@ -320,7 +320,7 @@
       },
       {
         "word": "more",
-        "count": 960
+        "count": 961
       },
       {
         "word": "there",
@@ -348,7 +348,7 @@
       },
       {
         "word": "story",
-        "count": 636
+        "count": 637
       },
       {
         "word": "cute",
@@ -472,7 +472,7 @@
       },
       {
         "word": "what",
-        "count": 252
+        "count": 253
       },
       {
         "word": "playing",
@@ -524,7 +524,7 @@
       },
       {
         "word": "great",
-        "count": 214
+        "count": 215
       },
       {
         "word": "about",
@@ -536,7 +536,7 @@
       },
       {
         "word": "which",
-        "count": 203
+        "count": 204
       },
       {
         "word": "pixel",
@@ -2286,14 +2286,10 @@
       },
       {
         "word": "game",
-        "count": 4
+        "count": 3
       },
       {
         "word": "love",
-        "count": 2
-      },
-      {
-        "word": "what",
         "count": 2
       },
       {
@@ -2330,62 +2326,6 @@
       },
       {
         "word": "nice",
-        "count": 1
-      },
-      {
-        "word": "exactly",
-        "count": 1
-      },
-      {
-        "word": "promised",
-        "count": 1
-      },
-      {
-        "word": "which",
-        "count": 1
-      },
-      {
-        "word": "great",
-        "count": 1
-      },
-      {
-        "word": "looking",
-        "count": 1
-      },
-      {
-        "word": "forward",
-        "count": 1
-      },
-      {
-        "word": "more",
-        "count": 1
-      },
-      {
-        "word": "quests",
-        "count": 1
-      },
-      {
-        "word": "new",
-        "count": 1
-      },
-      {
-        "word": "story",
-        "count": 1
-      },
-      {
-        "word": "expanded",
-        "count": 1
-      },
-      {
-        "word": "map",
-        "count": 1
-      },
-      {
-        "word": "waiting",
-        "count": 1
-      },
-      {
-        "word": "dlc",
         "count": 1
       },
       {
@@ -2458,6 +2398,10 @@
       },
       {
         "word": "find",
+        "count": 1
+      },
+      {
+        "word": "what",
         "count": 1
       },
       {
@@ -5410,8 +5354,8 @@
     "num_reviews": 100,
     "review_score": 9,
     "review_score_desc": "Overwhelmingly Positive",
-    "total_positive": 4796,
-    "total_negative": 145,
-    "total_reviews": 4941
+    "total_positive": 4825,
+    "total_negative": 146,
+    "total_reviews": 4971
   }
 }
