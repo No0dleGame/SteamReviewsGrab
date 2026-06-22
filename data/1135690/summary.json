@@ -1,93 +1,93 @@
 {
   "appid": "1135690",
-  "fetched_at": "2026-06-15T04:58:15.971Z",
+  "fetched_at": "2026-06-22T04:54:40.402Z",
   "counts": {
-    "total": 39961,
-    "positive": 37252,
-    "negative": 2709
+    "total": 20391,
+    "positive": 18548,
+    "negative": 1843
   },
-  "counts_this_month": 246,
-  "positive_rate": 0.9322089036810891,
+  "counts_this_month": 139,
+  "positive_rate": 0.9096169878868128,
   "language_distribution": [
     {
       "language": "english",
-      "count": 26178
+      "count": 13825
     },
     {
       "language": "schinese",
-      "count": 3650
+      "count": 1862
     },
     {
       "language": "brazilian",
-      "count": 1552
-    },
-    {
-      "language": "koreana",
-      "count": 1205
+      "count": 754
     },
     {
       "language": "german",
-      "count": 1113
+      "count": 615
+    },
+    {
+      "language": "koreana",
+      "count": 518
     },
     {
       "language": "russian",
-      "count": 1100
+      "count": 505
     },
     {
       "language": "spanish",
-      "count": 1077
-    },
-    {
-      "language": "turkish",
-      "count": 982
+      "count": 449
     },
     {
       "language": "french",
-      "count": 751
+      "count": 416
+    },
+    {
+      "language": "turkish",
+      "count": 351
     },
     {
       "language": "tchinese",
-      "count": 476
-    },
-    {
-      "language": "polish",
-      "count": 356
+      "count": 228
     },
     {
       "language": "japanese",
-      "count": 220
+      "count": 176
+    },
+    {
+      "language": "polish",
+      "count": 128
     },
     {
       "language": "latam",
-      "count": 200
+      "count": 96
     },
     {
       "language": "ukrainian",
-      "count": 156
+      "count": 81
     },
     {
       "language": "italian",
-      "count": 149
-    },
-    {
-      "language": "swedish",
-      "count": 143
+      "count": 71
     },
     {
       "language": "thai",
-      "count": 141
+      "count": 62
     },
     {
       "language": "dutch",
-      "count": 105
+      "count": 53
+    },
+    {
+      "language": "swedish",
+      "count": 47
     },
     {
       "language": "finnish",
-      "count": 88
+      "count": 38
     },
     {
       "language": "czech",
-      "count": 79
+      "count": 37
     }
   ],
   "top_helpful_reviews": [
@@ -108,28 +108,12 @@
       "review_snippet": "---{ Graphics }---\n☐ You forget what reality is\n☑ Beautiful\n☐ Good\n☐ Decent\n☐ Bad\n☐ Don‘t look too long at it\n☐ MS-DOS\n\n---{ Gameplay }---\n☑ Very good\n☐ Good\n☐ It's just gameplay\n☐ Mehh\n☐ Watch paint "
     },
     {
-      "recommendationid": "102188931",
-      "language": "english",
-      "voted_up": true,
-      "votes_up": 792,
-      "playtime_hours": 3.3333333333333335,
-      "review_snippet": "I won't give this a thumbs down because I did enjoy it. However $30AUD for about 3 hours of gameplay is pretty steep. I am hoping that there will be more content released."
-    },
-    {
       "recommendationid": "118168535",
       "language": "english",
       "voted_up": false,
       "votes_up": 744,
       "playtime_hours": 6.316666666666666,
       "review_snippet": "This game is VERY good, however, you pay too much for too little and the devs also said there are no plans for future updates with new content or mod support so I really wouldn't recommend, it's overp"
-    },
-    {
-      "recommendationid": "102077043",
-      "language": "schinese",
-      "voted_up": true,
-      "votes_up": 596,
-      "playtime_hours": 2.15,
-      "review_snippet": "这也忒贵了吧啊啊啊"
     },
     {
       "recommendationid": "103094983",
@@ -170,889 +154,905 @@
       "votes_up": 492,
       "playtime_hours": 20.066666666666666,
       "review_snippet": "I really did enjoy the game, i have played it through twice, but to pay $28AUD for a game this small really makes it hard to recommend to others. A game like this would need very regular updates to ke"
+    },
+    {
+      "recommendationid": "108194459",
+      "language": "schinese",
+      "voted_up": true,
+      "votes_up": 477,
+      "playtime_hours": 2.5833333333333335,
+      "review_snippet": "我花了两个半小时打完了一个收拾家里的游戏，也不愿意起身丢个垃圾"
+    },
+    {
+      "recommendationid": "123500849",
+      "language": "english",
+      "voted_up": false,
+      "votes_up": 437,
+      "playtime_hours": 6.533333333333333,
+      "review_snippet": "There is zero replayability with this game and you finish in just a few hours, which makes me realize it's not worth the $20. If there were frequent updates with new rooms or content, it might be wort"
     }
   ],
   "sentiment_distribution": [
     {
       "label": "好评",
-      "count": 37252
+      "count": 18548
     },
     {
       "label": "差评",
-      "count": 2709
+      "count": 1843
     }
   ],
   "top_words": [
     {
       "word": "game",
-      "count": 30647
+      "count": 24986
     },
     {
       "word": "you",
-      "count": 13843
+      "count": 12761
     },
     {
       "word": "story",
-      "count": 7735
-    },
-    {
-      "word": "relaxing",
-      "count": 6480
+      "count": 6985
     },
     {
       "word": "more",
-      "count": 6051
-    },
-    {
-      "word": "me",
-      "count": 5184
-    },
-    {
-      "word": "fun",
-      "count": 5055
-    },
-    {
-      "word": "like",
-      "count": 5002
+      "count": 5183
     },
     {
       "word": "there",
-      "count": 4911
+      "count": 4449
     },
     {
-      "word": "cute",
-      "count": 4797
+      "word": "relaxing",
+      "count": 4379
     },
     {
-      "word": "love",
-      "count": 4702
+      "word": "like",
+      "count": 4270
     },
     {
-      "word": "play",
-      "count": 4674
-    },
-    {
-      "word": "my",
-      "count": 4518
+      "word": "me",
+      "count": 4253
     },
     {
       "word": "can",
-      "count": 4418
+      "count": 4022
+    },
+    {
+      "word": "play",
+      "count": 4016
     },
     {
       "word": "de",
-      "count": 4306
+      "count": 3785
     },
     {
       "word": "unpacking",
-      "count": 4171
+      "count": 3735
     },
     {
       "word": "have",
-      "count": 4051
+      "count": 3684
+    },
+    {
+      "word": "my",
+      "count": 3665
     },
     {
       "word": "would",
-      "count": 4026
+      "count": 3626
+    },
+    {
+      "word": "fun",
+      "count": 3609
+    },
+    {
+      "word": "love",
+      "count": 3440
     },
     {
       "word": "short",
-      "count": 3939
+      "count": 3249
     },
     {
-      "word": "hours",
-      "count": 3393
-    },
-    {
-      "word": "good",
-      "count": 3378
+      "word": "cute",
+      "count": 3237
     },
     {
       "word": "through",
-      "count": 3290
+      "count": 3111
     },
     {
-      "word": "its",
-      "count": 3260
-    },
-    {
-      "word": "little",
-      "count": 3195
+      "word": "hours",
+      "count": 3029
     },
     {
       "word": "all",
-      "count": 3192
+      "count": 2895
     },
     {
-      "word": "time",
-      "count": 3135
+      "word": "little",
+      "count": 2873
     },
     {
       "word": "life",
-      "count": 3134
+      "count": 2849
     },
     {
-      "word": "que",
-      "count": 3084
+      "word": "time",
+      "count": 2805
     },
     {
       "word": "about",
-      "count": 3027
+      "count": 2769
+    },
+    {
+      "word": "que",
+      "count": 2730
+    },
+    {
+      "word": "get",
+      "count": 2666
+    },
+    {
+      "word": "things",
+      "count": 2658
     },
     {
       "word": "recommend",
-      "count": 2958
+      "count": 2629
     }
   ],
   "top_words_by_language": {
     "schinese": [
       {
         "word": "游戏",
-        "count": 2750
+        "count": 2294
       },
       {
         "word": "东西",
-        "count": 1024
+        "count": 899
       },
       {
         "word": "物品",
-        "count": 838
+        "count": 776
       },
       {
         "word": "自己",
-        "count": 806
+        "count": 733
       },
       {
         "word": "喜欢",
-        "count": 799
-      },
-      {
-        "word": "整理",
-        "count": 650
+        "count": 590
       },
       {
         "word": "房间",
-        "count": 650
-      },
-      {
-        "word": "好玩",
-        "count": 641
-      },
-      {
-        "word": "什么",
-        "count": 625
-      },
-      {
-        "word": "时候",
-        "count": 601
-      },
-      {
-        "word": "但是",
-        "count": 577
-      },
-      {
-        "word": "就是",
-        "count": 573
-      },
-      {
-        "word": "非常",
-        "count": 570
-      },
-      {
-        "word": "生活",
         "count": 559
       },
       {
-        "word": "真的",
-        "count": 558
+        "word": "整理",
+        "count": 538
       },
       {
-        "word": "治愈",
-        "count": 534
+        "word": "什么",
+        "count": 528
+      },
+      {
+        "word": "时候",
+        "count": 515
+      },
+      {
+        "word": "生活",
+        "count": 510
+      },
+      {
+        "word": "但是",
+        "count": 502
+      },
+      {
+        "word": "就是",
+        "count": 474
+      },
+      {
+        "word": "真的",
+        "count": 463
+      },
+      {
+        "word": "非常",
+        "count": 448
       },
       {
         "word": "这个",
-        "count": 525
-      },
-      {
-        "word": "的游",
-        "count": 499
-      },
-      {
-        "word": "收拾",
-        "count": 488
-      },
-      {
-        "word": "的时",
-        "count": 484
-      },
-      {
-        "word": "收纳",
-        "count": 470
+        "count": 447
       },
       {
         "word": "主角",
-        "count": 465
+        "count": 428
       },
       {
-        "word": "感觉",
-        "count": 439
+        "word": "的时",
+        "count": 421
       },
       {
-        "word": "有点",
-        "count": 437
+        "word": "的游",
+        "count": 385
       },
       {
-        "word": "最后",
-        "count": 422
+        "word": "收拾",
+        "count": 382
       },
       {
         "word": "还是",
-        "count": 419
+        "count": 381
       },
       {
-        "word": "故事",
-        "count": 414
-      },
-      {
-        "word": "摆放",
-        "count": 404
-      },
-      {
-        "word": "的小",
-        "count": 391
-      },
-      {
-        "word": "己的",
-        "count": 389
-      },
-      {
-        "word": "解压",
-        "count": 388
-      },
-      {
-        "word": "小时",
-        "count": 387
-      },
-      {
-        "word": "搬家",
+        "word": "最后",
         "count": 376
       },
       {
-        "word": "女主",
-        "count": 375
+        "word": "收纳",
+        "count": 372
       },
       {
-        "word": "细节",
+        "word": "感觉",
+        "count": 371
+      },
+      {
+        "word": "摆放",
         "count": 364
       },
       {
+        "word": "己的",
+        "count": 363
+      },
+      {
+        "word": "治愈",
+        "count": 352
+      },
+      {
+        "word": "故事",
+        "count": 351
+      },
+      {
+        "word": "有点",
+        "count": 351
+      },
+      {
+        "word": "的小",
+        "count": 345
+      },
+      {
+        "word": "搬家",
+        "count": 338
+      },
+      {
+        "word": "女主",
+        "count": 338
+      },
+      {
+        "word": "小时",
+        "count": 335
+      },
+      {
         "word": "的人",
-        "count": 360
-      },
-      {
-        "word": "有些",
-        "count": 350
-      },
-      {
-        "word": "放在",
-        "count": 329
-      },
-      {
-        "word": "很多",
         "count": 322
       },
       {
-        "word": "知道",
-        "count": 313
+        "word": "细节",
+        "count": 321
+      },
+      {
+        "word": "有些",
+        "count": 320
+      },
+      {
+        "word": "好玩",
+        "count": 316
+      },
+      {
+        "word": "放在",
+        "count": 303
       },
       {
         "word": "玩家",
-        "count": 308
+        "count": 293
       },
       {
-        "word": "流程",
-        "count": 306
+        "word": "很多",
+        "count": 292
       },
       {
         "word": "是一",
-        "count": 302
+        "count": 280
       },
       {
-        "word": "的一",
-        "count": 301
+        "word": "知道",
+        "count": 275
       },
       {
-        "word": "人生",
-        "count": 301
-      },
-      {
-        "word": "成就",
-        "count": 298
+        "word": "解压",
+        "count": 273
       },
       {
         "word": "了一",
-        "count": 296
-      },
-      {
-        "word": "通关",
-        "count": 289
-      },
-      {
-        "word": "时间",
-        "count": 288
+        "count": 267
       },
       {
         "word": "有一",
-        "count": 287
+        "count": 263
       },
       {
-        "word": "地方",
-        "count": 284
-      },
-      {
-        "word": "温馨",
-        "count": 277
-      },
-      {
-        "word": "小游",
-        "count": 274
-      },
-      {
-        "word": "个人",
-        "count": 274
-      },
-      {
-        "word": "主人",
-        "count": 274
-      },
-      {
-        "word": "开始",
-        "count": 268
-      },
-      {
-        "word": "的房",
-        "count": 266
-      },
-      {
-        "word": "强迫",
-        "count": 265
-      },
-      {
-        "word": "的东",
+        "word": "人生",
         "count": 262
       },
       {
-        "word": "个游",
-        "count": 261
+        "word": "地方",
+        "count": 260
+      },
+      {
+        "word": "成就",
+        "count": 258
+      },
+      {
+        "word": "的一",
+        "count": 257
+      },
+      {
+        "word": "主人",
+        "count": 256
+      },
+      {
+        "word": "流程",
+        "count": 255
+      },
+      {
+        "word": "时间",
+        "count": 248
+      },
+      {
+        "word": "通关",
+        "count": 246
+      },
+      {
+        "word": "开始",
+        "count": 244
+      },
+      {
+        "word": "一些",
+        "count": 234
+      },
+      {
+        "word": "的房",
+        "count": 234
+      },
+      {
+        "word": "个人",
+        "count": 234
+      },
+      {
+        "word": "的东",
+        "count": 231
+      },
+      {
+        "word": "不知",
+        "count": 229
+      },
+      {
+        "word": "过程",
+        "count": 225
+      },
+      {
+        "word": "一点",
+        "count": 221
       }
     ],
     "english": [
       {
         "word": "game",
-        "count": 29464
+        "count": 24186
       },
       {
         "word": "you",
-        "count": 13399
+        "count": 12370
       },
       {
         "word": "story",
-        "count": 7422
-      },
-      {
-        "word": "relaxing",
-        "count": 6229
+        "count": 6723
       },
       {
         "word": "more",
-        "count": 5857
-      },
-      {
-        "word": "fun",
-        "count": 4922
-      },
-      {
-        "word": "like",
-        "count": 4863
+        "count": 5047
       },
       {
         "word": "there",
-        "count": 4804
+        "count": 4357
       },
       {
-        "word": "cute",
-        "count": 4609
+        "word": "relaxing",
+        "count": 4238
+      },
+      {
+        "word": "like",
+        "count": 4167
       },
       {
         "word": "play",
-        "count": 4546
-      },
-      {
-        "word": "love",
-        "count": 4527
-      },
-      {
-        "word": "my",
-        "count": 4342
-      },
-      {
-        "word": "can",
-        "count": 4273
-      },
-      {
-        "word": "me",
-        "count": 4170
-      },
-      {
-        "word": "would",
         "count": 3920
       },
       {
-        "word": "have",
-        "count": 3916
+        "word": "can",
+        "count": 3901
       },
       {
-        "word": "short",
-        "count": 3780
+        "word": "have",
+        "count": 3576
+      },
+      {
+        "word": "my",
+        "count": 3558
+      },
+      {
+        "word": "would",
+        "count": 3534
+      },
+      {
+        "word": "fun",
+        "count": 3511
+      },
+      {
+        "word": "me",
+        "count": 3467
+      },
+      {
+        "word": "love",
+        "count": 3344
       },
       {
         "word": "unpacking",
-        "count": 3560
+        "count": 3176
       },
       {
-        "word": "hours",
-        "count": 3293
+        "word": "short",
+        "count": 3145
+      },
+      {
+        "word": "cute",
+        "count": 3144
       },
       {
         "word": "through",
-        "count": 3228
+        "count": 3054
       },
       {
-        "word": "good",
-        "count": 3189
-      },
-      {
-        "word": "its",
-        "count": 3168
-      },
-      {
-        "word": "little",
-        "count": 3106
+        "word": "hours",
+        "count": 2943
       },
       {
         "word": "all",
-        "count": 3098
+        "count": 2816
       },
       {
-        "word": "time",
-        "count": 3046
+        "word": "little",
+        "count": 2807
       },
       {
         "word": "life",
-        "count": 3037
+        "count": 2768
       },
       {
-        "word": "about",
-        "count": 2951
-      },
-      {
-        "word": "recommend",
-        "count": 2889
-      },
-      {
-        "word": "things",
-        "count": 2859
-      },
-      {
-        "word": "get",
-        "count": 2835
-      },
-      {
-        "word": "one",
+        "word": "time",
         "count": 2728
       },
       {
-        "word": "much",
-        "count": 2650
+        "word": "about",
+        "count": 2699
       },
       {
-        "word": "only",
-        "count": 2584
+        "word": "things",
+        "count": 2601
       },
       {
-        "word": "what",
-        "count": 2574
+        "word": "get",
+        "count": 2591
+      },
+      {
+        "word": "recommend",
+        "count": 2572
+      },
+      {
+        "word": "its",
+        "count": 2468
       },
       {
         "word": "items",
-        "count": 2562
+        "count": 2444
+      },
+      {
+        "word": "one",
+        "count": 2436
+      },
+      {
+        "word": "what",
+        "count": 2351
       },
       {
         "word": "price",
-        "count": 2517
+        "count": 2344
+      },
+      {
+        "word": "only",
+        "count": 2338
+      },
+      {
+        "word": "much",
+        "count": 2313
       },
       {
         "word": "how",
-        "count": 2479
+        "count": 2283
       },
       {
         "word": "some",
-        "count": 2477
+        "count": 2281
       },
       {
         "word": "your",
-        "count": 2462
+        "count": 2224
       },
       {
         "word": "worth",
-        "count": 2428
+        "count": 2185
       },
       {
         "word": "when",
-        "count": 2416
-      },
-      {
-        "word": "great",
-        "count": 2410
+        "count": 2147
       },
       {
         "word": "they",
-        "count": 2328
+        "count": 2133
+      },
+      {
+        "word": "good",
+        "count": 2123
       },
       {
         "word": "out",
-        "count": 2244
+        "count": 2026
       },
       {
-        "word": "too",
-        "count": 2175
-      },
-      {
-        "word": "wish",
-        "count": 2153
-      },
-      {
-        "word": "nice",
-        "count": 2024
+        "word": "great",
+        "count": 1910
       },
       {
         "word": "where",
-        "count": 2012
+        "count": 1877
+      },
+      {
+        "word": "too",
+        "count": 1855
       },
       {
         "word": "up",
-        "count": 2009
-      },
-      {
-        "word": "do",
-        "count": 2007
-      },
-      {
-        "word": "way",
-        "count": 2001
+        "count": 1845
       },
       {
         "word": "sale",
-        "count": 1925
+        "count": 1806
       },
       {
-        "word": "games",
-        "count": 1914
+        "word": "do",
+        "count": 1804
+      },
+      {
+        "word": "way",
+        "count": 1788
       },
       {
         "word": "also",
-        "count": 1905
+        "count": 1768
       },
       {
-        "word": "cozy",
-        "count": 1807
+        "word": "games",
+        "count": 1680
+      },
+      {
+        "word": "wish",
+        "count": 1647
       },
       {
         "word": "has",
-        "count": 1748
+        "count": 1602
       },
       {
         "word": "even",
-        "count": 1729
+        "count": 1599
       },
       {
-        "word": "want",
-        "count": 1715
-      },
-      {
-        "word": "played",
-        "count": 1656
+        "word": "nice",
+        "count": 1570
       },
       {
         "word": "no",
-        "count": 1644
+        "count": 1495
+      },
+      {
+        "word": "think",
+        "count": 1490
+      },
+      {
+        "word": "place",
+        "count": 1475
+      },
+      {
+        "word": "want",
+        "count": 1470
       }
     ],
     "brazilian": [
       {
         "word": "de",
-        "count": 1533
-      },
-      {
-        "word": "jogo",
-        "count": 1380
+        "count": 1350
       },
       {
         "word": "que",
-        "count": 1332
+        "count": 1204
+      },
+      {
+        "word": "jogo",
+        "count": 1134
       },
       {
         "word": "muito",
-        "count": 928
+        "count": 694
       },
       {
         "word": "um",
-        "count": 795
+        "count": 693
       },
       {
         "word": "uma",
-        "count": 728
+        "count": 649
       },
       {
         "word": "com",
-        "count": 444
+        "count": 397
       },
       {
         "word": "em",
-        "count": 432
-      },
-      {
-        "word": "relaxante",
-        "count": 428
-      },
-      {
-        "word": "mas",
-        "count": 425
-      },
-      {
-        "word": "para",
-        "count": 401
+        "count": 377
       },
       {
         "word": "hist",
-        "count": 391
+        "count": 363
       },
       {
-        "word": "mais",
-        "count": 379
+        "word": "mas",
+        "count": 362
       },
       {
         "word": "ria",
-        "count": 375
-      },
-      {
-        "word": "da",
-        "count": 361
-      },
-      {
-        "word": "eu",
-        "count": 358
-      },
-      {
-        "word": "pra",
-        "count": 353
-      },
-      {
-        "word": "do",
         "count": 350
       },
       {
-        "word": "se",
-        "count": 341
+        "word": "para",
+        "count": 349
       },
       {
-        "word": "bom",
-        "count": 329
+        "word": "da",
+        "count": 328
+      },
+      {
+        "word": "mais",
+        "count": 326
+      },
+      {
+        "word": "do",
+        "count": 322
+      },
+      {
+        "word": "se",
+        "count": 311
       },
       {
         "word": "voc",
-        "count": 325
+        "count": 311
+      },
+      {
+        "word": "eu",
+        "count": 294
+      },
+      {
+        "word": "pra",
+        "count": 289
       },
       {
         "word": "por",
-        "count": 308
-      },
-      {
-        "word": "bem",
-        "count": 302
+        "count": 282
       },
       {
         "word": "os",
-        "count": 298
+        "count": 279
       },
       {
-        "word": "jogar",
-        "count": 263
+        "word": "relaxante",
+        "count": 270
+      },
+      {
+        "word": "bem",
+        "count": 255
       },
       {
         "word": "no",
-        "count": 253
+        "count": 224
+      },
+      {
+        "word": "jogar",
+        "count": 222
       },
       {
         "word": "vida",
-        "count": 211
-      },
-      {
-        "word": "esse",
-        "count": 207
+        "count": 187
       },
       {
         "word": "tem",
-        "count": 205
+        "count": 186
       },
       {
-        "word": "recomendo",
-        "count": 196
-      },
-      {
-        "word": "tempo",
-        "count": 192
-      },
-      {
-        "word": "vel",
-        "count": 189
+        "word": "bom",
+        "count": 178
       },
       {
         "word": "ele",
-        "count": 189
-      },
-      {
-        "word": "me",
-        "count": 184
+        "count": 174
       },
       {
         "word": "como",
-        "count": 179
-      },
-      {
-        "word": "coisas",
-        "count": 169
-      },
-      {
-        "word": "na",
         "count": 167
       },
       {
-        "word": "fofo",
-        "count": 155
+        "word": "esse",
+        "count": 164
+      },
+      {
+        "word": "recomendo",
+        "count": 162
+      },
+      {
+        "word": "vel",
+        "count": 160
+      },
+      {
+        "word": "tempo",
+        "count": 159
+      },
+      {
+        "word": "coisas",
+        "count": 153
+      },
+      {
+        "word": "na",
+        "count": 151
       },
       {
         "word": "cada",
-        "count": 149
-      },
-      {
-        "word": "vale",
-        "count": 145
-      },
-      {
-        "word": "ser",
-        "count": 145
-      },
-      {
-        "word": "curto",
-        "count": 143
-      },
-      {
-        "word": "ou",
-        "count": 139
-      },
-      {
-        "word": "tudo",
         "count": 138
       },
       {
+        "word": "me",
+        "count": 137
+      },
+      {
+        "word": "ou",
+        "count": 133
+      },
+      {
         "word": "objetos",
-        "count": 137
-      },
-      {
-        "word": "isso",
-        "count": 137
-      },
-      {
-        "word": "pena",
-        "count": 132
-      },
-      {
-        "word": "mudan",
-        "count": 132
-      },
-      {
-        "word": "unpacking",
         "count": 131
       },
       {
-        "word": "horas",
-        "count": 127
+        "word": "ser",
+        "count": 126
       },
       {
-        "word": "vai",
-        "count": 124
+        "word": "mudan",
+        "count": 125
       },
       {
-        "word": "dos",
-        "count": 123
-      },
-      {
-        "word": "pre",
+        "word": "isso",
         "count": 122
       },
       {
-        "word": "sem",
-        "count": 122
-      },
-      {
-        "word": "organizar",
+        "word": "unpacking",
         "count": 121
       },
       {
-        "word": "personagem",
-        "count": 115
+        "word": "vale",
+        "count": 120
       },
       {
-        "word": "legal",
-        "count": 114
+        "word": "tudo",
+        "count": 119
       },
       {
-        "word": "casa",
+        "word": "sem",
         "count": 113
+      },
+      {
+        "word": "vai",
+        "count": 112
+      },
+      {
+        "word": "dos",
+        "count": 111
+      },
+      {
+        "word": "horas",
+        "count": 110
+      },
+      {
+        "word": "personagem",
+        "count": 109
+      },
+      {
+        "word": "pena",
+        "count": 108
+      },
+      {
+        "word": "curto",
+        "count": 107
+      },
+      {
+        "word": "organizar",
+        "count": 107
+      },
+      {
+        "word": "ao",
+        "count": 107
       },
       {
         "word": "ncia",
-        "count": 113
+        "count": 105
       },
       {
-        "word": "game",
-        "count": 113
+        "word": "pre",
+        "count": 101
+      },
+      {
+        "word": "promo",
+        "count": 98
+      },
+      {
+        "word": "quem",
+        "count": 96
+      },
+      {
+        "word": "simples",
+        "count": 96
       }
     ],
     "japanese": [
-      {
-        "word": "spoiler",
-        "count": 12
-      },
       {
         "word": "se",
         "count": 10
       },
       {
-        "word": "bgm",
-        "count": 9
-      },
-      {
-        "word": "game",
-        "count": 8
+        "word": "spoiler",
+        "count": 10
       },
       {
         "word": "gif",
         "count": 7
       },
       {
+        "word": "bgm",
+        "count": 7
+      },
+      {
+        "word": "game",
+        "count": 7
+      },
+      {
         "word": "you",
         "count": 7
       },
@@ -1062,7 +1062,7 @@
       },
       {
         "word": "play",
-        "count": 5
+        "count": 4
       },
       {
         "word": "steam",
@@ -1146,10 +1146,6 @@
       },
       {
         "word": "home",
-        "count": 2
-      },
-      {
-        "word": "good",
         "count": 2
       },
       {
@@ -1271,51 +1267,43 @@
       {
         "word": "ng",
         "count": 1
+      },
+      {
+        "word": "pv",
+        "count": 1
       }
     ],
     "koreana": [
       {
         "word": "dlc",
-        "count": 207
-      },
-      {
-        "word": "td",
-        "count": 28
-      },
-      {
-        "word": "tr",
-        "count": 14
-      },
-      {
-        "word": "spoiler",
-        "count": 10
-      },
-      {
-        "word": "unpacking",
-        "count": 9
-      },
-      {
-        "word": "game",
-        "count": 9
-      },
-      {
-        "word": "asmr",
-        "count": 9
+        "count": 180
       },
       {
         "word": "bgm",
         "count": 9
       },
       {
+        "word": "unpacking",
+        "count": 8
+      },
+      {
+        "word": "spoiler",
+        "count": 8
+      },
+      {
         "word": "gif",
         "count": 5
       },
       {
-        "word": "more",
+        "word": "game",
         "count": 5
       },
       {
-        "word": "good",
+        "word": "asmr",
+        "count": 5
+      },
+      {
+        "word": "more",
         "count": 5
       },
       {
@@ -1335,19 +1323,7 @@
         "count": 3
       },
       {
-        "word": "my",
-        "count": 3
-      },
-      {
         "word": "up",
-        "count": 3
-      },
-      {
-        "word": "pc",
-        "count": 3
-      },
-      {
-        "word": "story",
         "count": 3
       },
       {
@@ -1367,6 +1343,10 @@
         "count": 2
       },
       {
+        "word": "my",
+        "count": 2
+      },
+      {
         "word": "house",
         "count": 2
       },
@@ -1383,15 +1363,11 @@
         "count": 2
       },
       {
+        "word": "pc",
+        "count": 2
+      },
+      {
         "word": "ost",
-        "count": 2
-      },
-      {
-        "word": "unpack",
-        "count": 2
-      },
-      {
-        "word": "life",
         "count": 2
       },
       {
@@ -1399,7 +1375,7 @@
         "count": 2
       },
       {
-        "word": "only",
+        "word": "story",
         "count": 2
       },
       {
@@ -1427,19 +1403,7 @@
         "count": 2
       },
       {
-        "word": "please",
-        "count": 2
-      },
-      {
         "word": "code",
-        "count": 2
-      },
-      {
-        "word": "like",
-        "count": 2
-      },
-      {
-        "word": "table",
         "count": 2
       },
       {
@@ -1513,905 +1477,905 @@
       {
         "word": "fps",
         "count": 1
+      },
+      {
+        "word": "st",
+        "count": 1
+      },
+      {
+        "word": "wii",
+        "count": 1
+      },
+      {
+        "word": "lgbt",
+        "count": 1
+      },
+      {
+        "word": "glass",
+        "count": 1
+      },
+      {
+        "word": "masquerade",
+        "count": 1
+      },
+      {
+        "word": "we",
+        "count": 1
+      },
+      {
+        "word": "unpack",
+        "count": 1
+      },
+      {
+        "word": "our",
+        "count": 1
+      },
+      {
+        "word": "life",
+        "count": 1
       }
     ],
     "turkish": [
       {
         "word": "bir",
-        "count": 765
+        "count": 598
       },
       {
         "word": "oyun",
-        "count": 551
-      },
-      {
-        "word": "ok",
-        "count": 382
+        "count": 360
       },
       {
         "word": "ve",
-        "count": 346
+        "count": 282
+      },
+      {
+        "word": "ok",
+        "count": 264
       },
       {
         "word": "de",
-        "count": 234
-      },
-      {
-        "word": "zel",
-        "count": 223
-      },
-      {
-        "word": "ama",
-        "count": 220
+        "count": 197
       },
       {
         "word": "da",
-        "count": 209
-      },
-      {
-        "word": "bu",
-        "count": 199
+        "count": 158
       },
       {
         "word": "yalar",
-        "count": 174
+        "count": 152
       },
       {
-        "word": "tatl",
-        "count": 150
+        "word": "ama",
+        "count": 149
       },
       {
-        "word": "yerle",
-        "count": 135
+        "word": "bu",
+        "count": 149
       },
       {
-        "word": "yor",
-        "count": 132
+        "word": "zel",
+        "count": 128
       },
       {
         "word": "ba",
-        "count": 129
+        "count": 104
+      },
+      {
+        "word": "yerle",
+        "count": 102
+      },
+      {
+        "word": "yor",
+        "count": 101
       },
       {
         "word": "ya",
-        "count": 127
-      },
-      {
-        "word": "daha",
-        "count": 122
-      },
-      {
-        "word": "sa",
-        "count": 121
-      },
-      {
-        "word": "al",
-        "count": 110
-      },
-      {
-        "word": "oyunu",
-        "count": 106
-      },
-      {
-        "word": "ta",
         "count": 100
       },
       {
-        "word": "kadar",
-        "count": 99
-      },
-      {
-        "word": "rahatlat",
-        "count": 98
-      },
-      {
-        "word": "nda",
+        "word": "tatl",
         "count": 97
       },
       {
-        "word": "gibi",
-        "count": 90
-      },
-      {
-        "word": "chill",
+        "word": "al",
         "count": 88
       },
       {
-        "word": "na",
+        "word": "daha",
+        "count": 87
+      },
+      {
+        "word": "sa",
+        "count": 85
+      },
+      {
+        "word": "ta",
+        "count": 84
+      },
+      {
+        "word": "nda",
         "count": 81
       },
       {
+        "word": "kadar",
+        "count": 79
+      },
+      {
+        "word": "oyunu",
+        "count": 75
+      },
+      {
+        "word": "gibi",
+        "count": 73
+      },
+      {
+        "word": "na",
+        "count": 68
+      },
+      {
         "word": "oldu",
-        "count": 79
-      },
-      {
-        "word": "kafa",
-        "count": 79
-      },
-      {
-        "word": "var",
-        "count": 78
-      },
-      {
-        "word": "ge",
-        "count": 77
+        "count": 65
       },
       {
         "word": "ne",
-        "count": 76
+        "count": 58
       },
       {
-        "word": "ke",
-        "count": 70
+        "word": "var",
+        "count": 58
       },
       {
         "word": "ki",
-        "count": 69
+        "count": 56
       },
       {
-        "word": "en",
-        "count": 67
-      },
-      {
-        "word": "bi",
-        "count": 66
-      },
-      {
-        "word": "im",
-        "count": 64
-      },
-      {
-        "word": "iyi",
-        "count": 63
-      },
-      {
-        "word": "her",
-        "count": 61
-      },
-      {
-        "word": "hayat",
-        "count": 60
+        "word": "ge",
+        "count": 54
       },
       {
         "word": "ger",
-        "count": 59
+        "count": 54
       },
       {
-        "word": "ben",
-        "count": 57
+        "word": "rahatlat",
+        "count": 53
       },
       {
-        "word": "yeni",
-        "count": 57
-      },
-      {
-        "word": "yorum",
-        "count": 57
-      },
-      {
-        "word": "oyunun",
-        "count": 55
-      },
-      {
-        "word": "sonra",
+        "word": "her",
         "count": 52
       },
       {
-        "word": "ar",
+        "word": "yeni",
+        "count": 52
+      },
+      {
+        "word": "en",
         "count": 51
       },
       {
-        "word": "sakin",
-        "count": 51
+        "word": "oyunun",
+        "count": 50
       },
       {
-        "word": "saat",
-        "count": 51
+        "word": "hayat",
+        "count": 50
       },
       {
-        "word": "hikaye",
+        "word": "ke",
+        "count": 49
+      },
+      {
+        "word": "im",
+        "count": 49
+      },
+      {
+        "word": "ben",
         "count": 48
       },
       {
-        "word": "olmas",
-        "count": 48
-      },
-      {
-        "word": "oynad",
-        "count": 48
+        "word": "chill",
+        "count": 45
       },
       {
         "word": "unpacking",
-        "count": 47
+        "count": 45
       },
       {
-        "word": "zaman",
-        "count": 46
-      },
-      {
-        "word": "lar",
-        "count": 46
-      },
-      {
-        "word": "fazla",
-        "count": 46
+        "word": "yorum",
+        "count": 44
       },
       {
         "word": "ekten",
-        "count": 46
+        "count": 44
       },
       {
-        "word": "ho",
-        "count": 46
+        "word": "ar",
+        "count": 43
+      },
+      {
+        "word": "kafa",
+        "count": 43
+      },
+      {
+        "word": "hikaye",
+        "count": 42
+      },
+      {
+        "word": "sonra",
+        "count": 41
+      },
+      {
+        "word": "olmas",
+        "count": 41
       },
       {
         "word": "olarak",
-        "count": 46
+        "count": 41
+      },
+      {
+        "word": "fazla",
+        "count": 40
+      },
+      {
+        "word": "sakin",
+        "count": 39
+      },
+      {
+        "word": "zaman",
+        "count": 37
+      },
+      {
+        "word": "lar",
+        "count": 37
+      },
+      {
+        "word": "sadece",
+        "count": 37
+      },
+      {
+        "word": "oyunlar",
+        "count": 37
       },
       {
         "word": "biraz",
-        "count": 46
+        "count": 37
       },
       {
-        "word": "re",
-        "count": 42
+        "word": "iyi",
+        "count": 37
+      },
+      {
+        "word": "farkl",
+        "count": 36
+      },
+      {
+        "word": "tek",
+        "count": 36
+      },
+      {
+        "word": "iniz",
+        "count": 36
       }
     ],
     "french": [
       {
         "word": "de",
-        "count": 1079
-      },
-      {
-        "word": "jeu",
-        "count": 849
+        "count": 992
       },
       {
         "word": "et",
-        "count": 814
+        "count": 729
       },
       {
-        "word": "est",
-        "count": 727
+        "word": "jeu",
+        "count": 723
       },
       {
         "word": "le",
-        "count": 720
+        "count": 652
+      },
+      {
+        "word": "est",
+        "count": 646
       },
       {
         "word": "un",
-        "count": 617
+        "count": 543
       },
       {
         "word": "une",
-        "count": 451
+        "count": 391
       },
       {
         "word": "les",
-        "count": 421
-      },
-      {
-        "word": "pour",
-        "count": 417
+        "count": 389
       },
       {
         "word": "la",
-        "count": 412
+        "count": 387
+      },
+      {
+        "word": "pour",
+        "count": 375
       },
       {
         "word": "en",
-        "count": 398
-      },
-      {
-        "word": "tr",
-        "count": 380
+        "count": 370
       },
       {
         "word": "je",
-        "count": 349
+        "count": 316
       },
       {
-        "word": "mais",
-        "count": 327
+        "word": "tr",
+        "count": 315
       },
       {
         "word": "ce",
-        "count": 324
+        "count": 283
+      },
+      {
+        "word": "mais",
+        "count": 277
       },
       {
         "word": "pas",
-        "count": 303
+        "count": 272
       },
       {
         "word": "que",
-        "count": 292
+        "count": 263
       },
       {
         "word": "des",
-        "count": 270
+        "count": 243
       },
       {
         "word": "qui",
-        "count": 254
-      },
-      {
-        "word": "ai",
-        "count": 211
-      },
-      {
-        "word": "histoire",
-        "count": 207
-      },
-      {
-        "word": "du",
-        "count": 204
+        "count": 228
       },
       {
         "word": "vous",
-        "count": 196
-      },
-      {
-        "word": "il",
         "count": 189
       },
       {
+        "word": "ai",
+        "count": 186
+      },
+      {
+        "word": "histoire",
+        "count": 182
+      },
+      {
+        "word": "du",
+        "count": 177
+      },
+      {
         "word": "au",
-        "count": 179
+        "count": 171
+      },
+      {
+        "word": "il",
+        "count": 170
       },
       {
         "word": "me",
-        "count": 178
+        "count": 168
       },
       {
         "word": "vie",
-        "count": 172
+        "count": 158
       },
       {
         "word": "ne",
-        "count": 165
+        "count": 155
       },
       {
         "word": "plus",
-        "count": 164
-      },
-      {
-        "word": "peu",
-        "count": 163
+        "count": 150
       },
       {
         "word": "tout",
-        "count": 156
-      },
-      {
-        "word": "se",
-        "count": 153
-      },
-      {
-        "word": "dans",
         "count": 143
       },
       {
+        "word": "peu",
+        "count": 138
+      },
+      {
         "word": "avec",
-        "count": 141
-      },
-      {
-        "word": "bien",
-        "count": 140
-      },
-      {
-        "word": "objets",
         "count": 132
       },
       {
-        "word": "court",
-        "count": 131
+        "word": "se",
+        "count": 130
       },
       {
-        "word": "si",
+        "word": "dans",
+        "count": 129
+      },
+      {
+        "word": "bien",
         "count": 124
       },
       {
+        "word": "objets",
+        "count": 117
+      },
+      {
+        "word": "si",
+        "count": 112
+      },
+      {
         "word": "son",
-        "count": 123
-      },
-      {
-        "word": "petit",
-        "count": 121
-      },
-      {
-        "word": "trop",
-        "count": 120
-      },
-      {
-        "word": "vraiment",
         "count": 108
       },
       {
+        "word": "petit",
+        "count": 103
+      },
+      {
+        "word": "court",
+        "count": 97
+      },
+      {
+        "word": "vraiment",
+        "count": 95
+      },
+      {
         "word": "sans",
-        "count": 107
-      },
-      {
-        "word": "temps",
-        "count": 102
-      },
-      {
-        "word": "ou",
-        "count": 99
-      },
-      {
-        "word": "chill",
-        "count": 99
+        "count": 93
       },
       {
         "word": "sur",
-        "count": 97
+        "count": 91
+      },
+      {
+        "word": "temps",
+        "count": 91
       },
       {
         "word": "par",
-        "count": 97
+        "count": 89
       },
       {
         "word": "sa",
-        "count": 94
+        "count": 87
       },
       {
         "word": "ses",
-        "count": 91
+        "count": 87
       },
       {
-        "word": "game",
-        "count": 91
+        "word": "ou",
+        "count": 87
       },
       {
-        "word": "relaxant",
-        "count": 90
-      },
-      {
-        "word": "ranger",
-        "count": 85
+        "word": "trop",
+        "count": 82
       },
       {
         "word": "fait",
-        "count": 84
+        "count": 79
+      },
+      {
+        "word": "ranger",
+        "count": 78
       },
       {
         "word": "prix",
-        "count": 84
-      },
-      {
-        "word": "cartons",
-        "count": 82
-      },
-      {
-        "word": "recommande",
-        "count": 82
-      },
-      {
-        "word": "unpacking",
-        "count": 82
-      },
-      {
-        "word": "jeux",
-        "count": 81
+        "count": 77
       },
       {
         "word": "peut",
-        "count": 80
+        "count": 76
+      },
+      {
+        "word": "chill",
+        "count": 76
+      },
+      {
+        "word": "re",
+        "count": 74
+      },
+      {
+        "word": "cartons",
+        "count": 73
+      },
+      {
+        "word": "unpacking",
+        "count": 72
+      },
+      {
+        "word": "recommande",
+        "count": 68
+      },
+      {
+        "word": "travers",
+        "count": 67
+      },
+      {
+        "word": "jeux",
+        "count": 66
       }
     ],
     "spanish": [
       {
         "word": "que",
-        "count": 1133
+        "count": 983
       },
       {
         "word": "de",
-        "count": 1056
+        "count": 904
       },
       {
         "word": "es",
-        "count": 746
-      },
-      {
-        "word": "juego",
-        "count": 690
+        "count": 578
       },
       {
         "word": "la",
-        "count": 605
+        "count": 528
+      },
+      {
+        "word": "juego",
+        "count": 505
       },
       {
         "word": "el",
-        "count": 550
+        "count": 451
       },
       {
         "word": "un",
-        "count": 539
-      },
-      {
-        "word": "muy",
-        "count": 504
+        "count": 439
       },
       {
         "word": "lo",
-        "count": 498
+        "count": 405
       },
       {
         "word": "en",
-        "count": 453
+        "count": 400
+      },
+      {
+        "word": "muy",
+        "count": 321
       },
       {
         "word": "me",
-        "count": 447
-      },
-      {
-        "word": "no",
-        "count": 356
+        "count": 318
       },
       {
         "word": "una",
-        "count": 348
-      },
-      {
-        "word": "para",
         "count": 305
       },
       {
+        "word": "no",
+        "count": 293
+      },
+      {
+        "word": "para",
+        "count": 233
+      },
+      {
         "word": "pero",
-        "count": 283
-      },
-      {
-        "word": "con",
-        "count": 261
-      },
-      {
-        "word": "los",
-        "count": 245
-      },
-      {
-        "word": "historia",
-        "count": 239
-      },
-      {
-        "word": "si",
         "count": 222
       },
       {
-        "word": "relajante",
-        "count": 218
+        "word": "con",
+        "count": 222
+      },
+      {
+        "word": "los",
+        "count": 211
+      },
+      {
+        "word": "historia",
+        "count": 206
       },
       {
         "word": "te",
-        "count": 216
+        "count": 183
       },
       {
         "word": "se",
-        "count": 214
+        "count": 180
+      },
+      {
+        "word": "si",
+        "count": 180
       },
       {
         "word": "por",
-        "count": 204
-      },
-      {
-        "word": "como",
-        "count": 153
-      },
-      {
-        "word": "este",
-        "count": 145
-      },
-      {
-        "word": "las",
-        "count": 144
+        "count": 177
       },
       {
         "word": "su",
-        "count": 135
+        "count": 125
       },
       {
-        "word": "corto",
-        "count": 127
+        "word": "las",
+        "count": 120
+      },
+      {
+        "word": "relajante",
+        "count": 120
+      },
+      {
+        "word": "como",
+        "count": 119
       },
       {
         "word": "cosas",
-        "count": 124
-      },
-      {
-        "word": "todo",
         "count": 109
       },
       {
+        "word": "este",
+        "count": 107
+      },
+      {
         "word": "tiene",
-        "count": 106
+        "count": 94
       },
       {
-        "word": "al",
-        "count": 101
+        "word": "corto",
+        "count": 94
       },
       {
-        "word": "vida",
-        "count": 100
-      },
-      {
-        "word": "mi",
-        "count": 95
-      },
-      {
-        "word": "est",
+        "word": "todo",
         "count": 93
       },
       {
         "word": "sin",
-        "count": 92
-      },
-      {
-        "word": "objetos",
-        "count": 92
-      },
-      {
-        "word": "del",
-        "count": 92
-      },
-      {
-        "word": "entretenido",
-        "count": 92
-      },
-      {
-        "word": "mas",
-        "count": 91
-      },
-      {
-        "word": "mucho",
         "count": 88
       },
       {
-        "word": "poco",
+        "word": "vida",
+        "count": 86
+      },
+      {
+        "word": "objetos",
+        "count": 86
+      },
+      {
+        "word": "al",
         "count": 83
       },
       {
-        "word": "ordenar",
+        "word": "est",
         "count": 78
       },
       {
-        "word": "ya",
+        "word": "del",
+        "count": 77
+      },
+      {
+        "word": "poco",
         "count": 75
       },
       {
-        "word": "solo",
-        "count": 73
-      },
-      {
-        "word": "horas",
-        "count": 73
-      },
-      {
-        "word": "bonito",
-        "count": 73
-      },
-      {
-        "word": "esta",
-        "count": 71
-      },
-      {
-        "word": "cada",
-        "count": 70
-      },
-      {
-        "word": "bien",
-        "count": 70
-      },
-      {
-        "word": "porque",
-        "count": 69
-      },
-      {
-        "word": "bueno",
-        "count": 69
-      },
-      {
-        "word": "buen",
-        "count": 69
-      },
-      {
-        "word": "ha",
+        "word": "mas",
         "count": 68
       },
       {
-        "word": "precio",
+        "word": "solo",
         "count": 67
       },
       {
-        "word": "chill",
+        "word": "mi",
+        "count": 67
+      },
+      {
+        "word": "mucho",
+        "count": 66
+      },
+      {
+        "word": "ya",
+        "count": 64
+      },
+      {
+        "word": "horas",
+        "count": 62
+      },
+      {
+        "word": "precio",
+        "count": 61
+      },
+      {
+        "word": "entretenido",
+        "count": 61
+      },
+      {
+        "word": "porque",
         "count": 60
       },
       {
-        "word": "recomiendo",
-        "count": 60
-      },
-      {
-        "word": "tu",
+        "word": "ha",
         "count": 59
       },
       {
-        "word": "tan",
+        "word": "cada",
         "count": 58
       },
       {
+        "word": "bien",
+        "count": 55
+      },
+      {
+        "word": "ordenar",
+        "count": 52
+      },
+      {
         "word": "cuenta",
-        "count": 56
+        "count": 49
+      },
+      {
+        "word": "tu",
+        "count": 49
+      },
+      {
+        "word": "unpacking",
+        "count": 48
+      },
+      {
+        "word": "recomiendo",
+        "count": 48
+      },
+      {
+        "word": "esta",
+        "count": 47
+      },
+      {
+        "word": "algo",
+        "count": 47
+      },
+      {
+        "word": "he",
+        "count": 45
+      },
+      {
+        "word": "bonito",
+        "count": 45
+      },
+      {
+        "word": "ser",
+        "count": 43
       }
     ],
     "polish": [
       {
         "word": "na",
-        "count": 196
-      },
-      {
-        "word": "nie",
-        "count": 170
+        "count": 165
       },
       {
         "word": "si",
-        "count": 169
+        "count": 150
+      },
+      {
+        "word": "nie",
+        "count": 141
       },
       {
         "word": "gra",
-        "count": 145
+        "count": 110
       },
       {
         "word": "jest",
-        "count": 119
+        "count": 92
       },
       {
         "word": "do",
-        "count": 101
+        "count": 86
       },
       {
         "word": "ale",
-        "count": 93
-      },
-      {
-        "word": "game",
-        "count": 87
-      },
-      {
-        "word": "za",
-        "count": 80
-      },
-      {
-        "word": "am",
-        "count": 71
-      },
-      {
-        "word": "bardzo",
-        "count": 68
+        "count": 66
       },
       {
         "word": "mo",
-        "count": 67
+        "count": 63
       },
       {
-        "word": "jak",
-        "count": 65
+        "word": "am",
+        "count": 61
       },
       {
-        "word": "ca",
-        "count": 64
-      },
-      {
-        "word": "wi",
-        "count": 62
+        "word": "za",
+        "count": 60
       },
       {
         "word": "kt",
-        "count": 62
+        "count": 59
       },
       {
         "word": "co",
-        "count": 59
+        "count": 54
+      },
+      {
+        "word": "game",
+        "count": 53
+      },
+      {
+        "word": "wi",
+        "count": 52
+      },
+      {
+        "word": "jak",
+        "count": 51
       },
       {
         "word": "ci",
-        "count": 59
+        "count": 50
       },
       {
-        "word": "kr",
-        "count": 58
-      },
-      {
-        "word": "unpacking",
-        "count": 49
-      },
-      {
-        "word": "tka",
-        "count": 48
-      },
-      {
-        "word": "tak",
+        "word": "ca",
         "count": 47
       },
       {
-        "word": "dla",
+        "word": "unpacking",
+        "count": 45
+      },
+      {
+        "word": "bardzo",
         "count": 44
       },
       {
-        "word": "mi",
-        "count": 41
+        "word": "kr",
+        "count": 40
       },
       {
-        "word": "ma",
-        "count": 41
-      },
-      {
-        "word": "polecam",
-        "count": 39
-      },
-      {
-        "word": "po",
-        "count": 39
-      },
-      {
-        "word": "gry",
-        "count": 38
-      },
-      {
-        "word": "ka",
+        "word": "dla",
         "count": 37
       },
       {
-        "word": "przyjemna",
-        "count": 36
+        "word": "ka",
+        "count": 35
+      },
+      {
+        "word": "ma",
+        "count": 34
+      },
+      {
+        "word": "tak",
+        "count": 34
+      },
+      {
+        "word": "tka",
+        "count": 33
+      },
+      {
+        "word": "po",
+        "count": 32
+      },
+      {
+        "word": "mi",
+        "count": 31
       },
       {
         "word": "you",
-        "count": 34
-      },
-      {
-        "word": "relaksuj",
-        "count": 34
-      },
-      {
-        "word": "fajna",
         "count": 30
       },
       {
-        "word": "rzeczy",
-        "count": 29
-      },
-      {
-        "word": "re",
-        "count": 29
-      },
-      {
-        "word": "gierka",
-        "count": 29
-      },
-      {
-        "word": "gr",
-        "count": 29
-      },
-      {
-        "word": "czy",
+        "word": "gry",
         "count": 28
       },
       {
-        "word": "my",
-        "count": 27
+        "word": "rzeczy",
+        "count": 28
       },
       {
-        "word": "cej",
-        "count": 27
+        "word": "re",
+        "count": 28
       },
       {
-        "word": "te",
-        "count": 27
+        "word": "przyjemna",
+        "count": 25
       },
       {
-        "word": "uk",
-        "count": 26
+        "word": "polecam",
+        "count": 25
       },
       {
-        "word": "od",
+        "word": "czy",
         "count": 25
       },
       {
@@ -2419,649 +2383,661 @@
         "count": 24
       },
       {
-        "word": "ce",
+        "word": "uk",
         "count": 24
       },
       {
-        "word": "super",
+        "word": "od",
         "count": 24
       },
       {
-        "word": "mnie",
-        "count": 22
+        "word": "relaksuj",
+        "count": 24
       },
       {
-        "word": "tylko",
-        "count": 22
+        "word": "my",
+        "count": 23
       },
       {
-        "word": "tej",
-        "count": 22
+        "word": "gr",
+        "count": 23
       },
       {
-        "word": "bo",
+        "word": "cej",
         "count": 21
       },
       {
-        "word": "szkoda",
+        "word": "te",
         "count": 20
+      },
+      {
+        "word": "ce",
+        "count": 19
       },
       {
         "word": "gdy",
         "count": 19
       },
       {
-        "word": "ko",
-        "count": 19
-      },
-      {
-        "word": "em",
+        "word": "bo",
         "count": 18
       },
       {
-        "word": "ycia",
-        "count": 18
-      },
-      {
-        "word": "tego",
-        "count": 18
-      },
-      {
-        "word": "relaxing",
-        "count": 18
-      },
-      {
-        "word": "jednak",
-        "count": 17
-      },
-      {
-        "word": "short",
+        "word": "tylko",
         "count": 17
       },
       {
         "word": "przy",
         "count": 17
+      },
+      {
+        "word": "em",
+        "count": 16
+      },
+      {
+        "word": "ko",
+        "count": 16
+      },
+      {
+        "word": "ycia",
+        "count": 16
+      },
+      {
+        "word": "je",
+        "count": 16
+      },
+      {
+        "word": "jednak",
+        "count": 15
+      },
+      {
+        "word": "szkoda",
+        "count": 15
+      },
+      {
+        "word": "mnie",
+        "count": 15
+      },
+      {
+        "word": "cie",
+        "count": 15
+      },
+      {
+        "word": "osi",
+        "count": 14
+      },
+      {
+        "word": "tym",
+        "count": 14
+      },
+      {
+        "word": "kupi",
+        "count": 14
+      },
+      {
+        "word": "ni",
+        "count": 14
+      },
+      {
+        "word": "li",
+        "count": 14
       }
     ],
     "german": [
       {
         "word": "und",
-        "count": 1031
+        "count": 886
       },
       {
         "word": "es",
-        "count": 981
+        "count": 831
       },
       {
         "word": "spiel",
-        "count": 868
+        "count": 709
       },
       {
         "word": "das",
-        "count": 788
+        "count": 705
       },
       {
         "word": "ist",
-        "count": 786
+        "count": 670
       },
       {
         "word": "ich",
-        "count": 749
+        "count": 657
       },
       {
         "word": "die",
-        "count": 711
+        "count": 635
       },
       {
         "word": "man",
-        "count": 555
-      },
-      {
-        "word": "ein",
-        "count": 506
+        "count": 484
       },
       {
         "word": "zu",
-        "count": 505
+        "count": 430
+      },
+      {
+        "word": "ein",
+        "count": 429
       },
       {
         "word": "sehr",
-        "count": 457
+        "count": 348
       },
       {
         "word": "aber",
-        "count": 386
+        "count": 326
       },
       {
         "word": "nicht",
-        "count": 350
-      },
-      {
-        "word": "game",
-        "count": 323
+        "count": 315
       },
       {
         "word": "der",
-        "count": 313
+        "count": 286
       },
       {
         "word": "auch",
-        "count": 312
-      },
-      {
-        "word": "sch",
-        "count": 288
-      },
-      {
-        "word": "den",
-        "count": 255
+        "count": 275
       },
       {
         "word": "eine",
-        "count": 251
+        "count": 229
+      },
+      {
+        "word": "sch",
+        "count": 224
       },
       {
         "word": "mit",
-        "count": 250
+        "count": 220
       },
       {
-        "word": "viel",
-        "count": 225
+        "word": "den",
+        "count": 218
+      },
+      {
+        "word": "game",
+        "count": 217
       },
       {
         "word": "hat",
-        "count": 223
+        "count": 196
       },
       {
         "word": "sich",
-        "count": 215
+        "count": 194
       },
       {
         "word": "kann",
-        "count": 215
+        "count": 193
+      },
+      {
+        "word": "viel",
+        "count": 187
       },
       {
         "word": "nur",
-        "count": 191
-      },
-      {
-        "word": "story",
-        "count": 171
-      },
-      {
-        "word": "mehr",
-        "count": 171
-      },
-      {
-        "word": "stunden",
-        "count": 171
+        "count": 163
       },
       {
         "word": "wenn",
-        "count": 169
+        "count": 154
       },
       {
-        "word": "mir",
-        "count": 159
+        "word": "mehr",
+        "count": 150
       },
       {
-        "word": "im",
-        "count": 151
-      },
-      {
-        "word": "habe",
-        "count": 148
-      },
-      {
-        "word": "zum",
+        "word": "stunden",
         "count": 147
       },
       {
-        "word": "etwas",
-        "count": 144
+        "word": "story",
+        "count": 143
       },
       {
-        "word": "auf",
-        "count": 142
-      },
-      {
-        "word": "einfach",
-        "count": 142
-      },
-      {
-        "word": "spa",
-        "count": 139
-      },
-      {
-        "word": "nes",
-        "count": 138
-      },
-      {
-        "word": "nach",
+        "word": "mir",
         "count": 136
       },
       {
-        "word": "von",
-        "count": 135
-      },
-      {
-        "word": "wie",
-        "count": 135
-      },
-      {
-        "word": "preis",
-        "count": 133
-      },
-      {
-        "word": "noch",
+        "word": "im",
         "count": 132
       },
       {
-        "word": "gut",
+        "word": "habe",
         "count": 130
       },
       {
-        "word": "oder",
-        "count": 130
+        "word": "zum",
+        "count": 127
       },
       {
-        "word": "war",
-        "count": 126
-      },
-      {
-        "word": "mal",
+        "word": "auf",
         "count": 125
       },
       {
-        "word": "wirklich",
-        "count": 121
+        "word": "etwas",
+        "count": 125
       },
       {
-        "word": "durch",
-        "count": 121
+        "word": "wie",
+        "count": 124
       },
       {
-        "word": "dass",
-        "count": 120
+        "word": "oder",
+        "count": 119
       },
       {
-        "word": "leider",
+        "word": "einfach",
         "count": 118
       },
       {
-        "word": "super",
-        "count": 117
+        "word": "nach",
+        "count": 118
       },
       {
-        "word": "dem",
-        "count": 114
+        "word": "preis",
+        "count": 116
       },
       {
-        "word": "wird",
-        "count": 110
+        "word": "noch",
+        "count": 116
       },
       {
-        "word": "you",
-        "count": 110
+        "word": "spa",
+        "count": 116
       },
       {
-        "word": "kurz",
+        "word": "von",
+        "count": 115
+      },
+      {
+        "word": "war",
         "count": 109
       },
       {
-        "word": "dieses",
+        "word": "mal",
+        "count": 108
+      },
+      {
+        "word": "dem",
+        "count": 108
+      },
+      {
+        "word": "dass",
         "count": 107
       },
       {
-        "word": "geschichte",
+        "word": "wirklich",
         "count": 106
       },
       {
-        "word": "da",
+        "word": "durch",
+        "count": 105
+      },
+      {
+        "word": "gut",
         "count": 103
       },
       {
-        "word": "einen",
-        "count": 101
+        "word": "you",
+        "count": 103
+      },
+      {
+        "word": "wird",
+        "count": 100
+      },
+      {
+        "word": "nes",
+        "count": 100
+      },
+      {
+        "word": "da",
+        "count": 96
+      },
+      {
+        "word": "geschichte",
+        "count": 96
+      },
+      {
+        "word": "dieses",
+        "count": 93
+      },
+      {
+        "word": "leider",
+        "count": 92
+      },
+      {
+        "word": "erz",
+        "count": 88
+      },
+      {
+        "word": "unpacking",
+        "count": 86
+      },
+      {
+        "word": "mich",
+        "count": 85
       }
     ],
     "tchinese": [
       {
         "word": "遊戲",
-        "count": 364
+        "count": 264
       },
       {
         "word": "物品",
-        "count": 174
+        "count": 140
       },
       {
         "word": "整理",
-        "count": 146
+        "count": 112
       },
       {
         "word": "東西",
-        "count": 128
-      },
-      {
-        "word": "房間",
-        "count": 113
+        "count": 104
       },
       {
         "word": "主角",
-        "count": 110
+        "count": 93
+      },
+      {
+        "word": "房間",
+        "count": 84
       },
       {
         "word": "喜歡",
-        "count": 89
-      },
-      {
-        "word": "故事",
-        "count": 87
-      },
-      {
-        "word": "一個",
-        "count": 85
+        "count": 73
       },
       {
         "word": "關卡",
-        "count": 82
+        "count": 63
       },
       {
-        "word": "非常",
-        "count": 70
+        "word": "一個",
+        "count": 59
       },
       {
-        "word": "自己",
-        "count": 70
+        "word": "故事",
+        "count": 59
       },
       {
         "word": "的小",
-        "count": 67
-      },
-      {
-        "word": "的遊",
-        "count": 66
+        "count": 53
       },
       {
         "word": "有些",
-        "count": 62
-      },
-      {
-        "word": "真的",
-        "count": 59
-      },
-      {
-        "word": "好玩",
-        "count": 59
-      },
-      {
-        "word": "的人",
-        "count": 59
-      },
-      {
-        "word": "就是",
-        "count": 55
-      },
-      {
-        "word": "擺放",
-        "count": 55
-      },
-      {
-        "word": "搬家",
-        "count": 55
-      },
-      {
-        "word": "什麼",
-        "count": 55
-      },
-      {
-        "word": "療癒",
         "count": 52
       },
       {
-        "word": "沒有",
+        "word": "非常",
+        "count": 51
+      },
+      {
+        "word": "自己",
+        "count": 50
+      },
+      {
+        "word": "擺放",
         "count": 48
       },
       {
-        "word": "時間",
+        "word": "的人",
+        "count": 48
+      },
+      {
+        "word": "的遊",
         "count": 47
       },
       {
-        "word": "的物",
+        "word": "真的",
         "count": 45
       },
       {
-        "word": "成就",
-        "count": 45
+        "word": "就是",
+        "count": 43
       },
       {
-        "word": "小遊",
-        "count": 44
-      },
-      {
-        "word": "有點",
-        "count": 44
-      },
-      {
-        "word": "是一",
-        "count": 44
-      },
-      {
-        "word": "但是",
-        "count": 44
-      },
-      {
-        "word": "細節",
-        "count": 44
+        "word": "沒有",
+        "count": 41
       },
       {
         "word": "不同",
-        "count": 44
+        "count": 39
       },
       {
-        "word": "小時",
-        "count": 42
+        "word": "時間",
+        "count": 36
       },
       {
-        "word": "人生",
-        "count": 42
-      },
-      {
-        "word": "希望",
-        "count": 41
-      },
-      {
-        "word": "如果",
-        "count": 41
-      },
-      {
-        "word": "放在",
-        "count": 40
-      },
-      {
-        "word": "人的",
-        "count": 40
-      },
-      {
-        "word": "很多",
-        "count": 40
+        "word": "搬家",
+        "count": 36
       },
       {
         "word": "過程",
-        "count": 39
+        "count": 35
       },
       {
-        "word": "迫症",
-        "count": 39
-      },
-      {
-        "word": "時候",
-        "count": 38
-      },
-      {
-        "word": "開始",
-        "count": 36
+        "word": "有點",
+        "count": 35
       },
       {
         "word": "角的",
-        "count": 36
+        "count": 35
       },
       {
-        "word": "劇情",
-        "count": 36
+        "word": "什麼",
+        "count": 35
       },
       {
-        "word": "強迫",
-        "count": 36
+        "word": "的物",
+        "count": 35
+      },
+      {
+        "word": "細節",
+        "count": 35
+      },
+      {
+        "word": "放在",
+        "count": 34
+      },
+      {
+        "word": "成就",
+        "count": 33
+      },
+      {
+        "word": "小遊",
+        "count": 32
       },
       {
         "word": "玩家",
-        "count": 35
+        "count": 32
       },
       {
-        "word": "適合",
-        "count": 35
+        "word": "但是",
+        "count": 32
       },
       {
-        "word": "覺得",
-        "count": 35
+        "word": "時候",
+        "count": 32
+      },
+      {
+        "word": "人的",
+        "count": 32
+      },
+      {
+        "word": "很多",
+        "count": 32
       },
       {
         "word": "品的",
-        "count": 34
+        "count": 31
+      },
+      {
+        "word": "是一",
+        "count": 31
+      },
+      {
+        "word": "如果",
+        "count": 31
+      },
+      {
+        "word": "小時",
+        "count": 31
+      },
+      {
+        "word": "迫症",
+        "count": 31
+      },
+      {
+        "word": "人生",
+        "count": 31
+      },
+      {
+        "word": "開始",
+        "count": 30
+      },
+      {
+        "word": "覺得",
+        "count": 29
+      },
+      {
+        "word": "有趣",
+        "count": 28
+      },
+      {
+        "word": "療癒",
+        "count": 28
+      },
+      {
+        "word": "強迫",
+        "count": 28
+      },
+      {
+        "word": "發現",
+        "count": 27
       },
       {
         "word": "間的",
-        "count": 34
+        "count": 27
+      },
+      {
+        "word": "希望",
+        "count": 27
       },
       {
         "word": "個人",
-        "count": 34
+        "count": 27
+      },
+      {
+        "word": "劇情",
+        "count": 27
+      },
+      {
+        "word": "生活",
+        "count": 26
+      },
+      {
+        "word": "會有",
+        "count": 26
+      },
+      {
+        "word": "適合",
+        "count": 25
+      },
+      {
+        "word": "的故",
+        "count": 25
+      },
+      {
+        "word": "遊玩",
+        "count": 24
+      },
+      {
+        "word": "還是",
+        "count": 24
       },
       {
         "word": "的房",
-        "count": 33
-      },
-      {
-        "word": "很好",
-        "count": 33
-      },
-      {
-        "word": "感覺",
-        "count": 32
-      },
-      {
-        "word": "小品",
-        "count": 32
-      },
-      {
-        "word": "這個",
-        "count": 32
-      },
-      {
-        "word": "物件",
-        "count": 32
-      },
-      {
-        "word": "可愛",
-        "count": 32
+        "count": 24
       }
     ],
     "italian": [
       {
         "word": "di",
-        "count": 136
+        "count": 123
       },
       {
         "word": "che",
-        "count": 125
-      },
-      {
-        "word": "gioco",
-        "count": 100
+        "count": 113
       },
       {
         "word": "per",
-        "count": 100
+        "count": 88
       },
       {
         "word": "un",
-        "count": 99
+        "count": 87
       },
       {
         "word": "il",
-        "count": 96
+        "count": 86
       },
       {
-        "word": "la",
-        "count": 73
+        "word": "gioco",
+        "count": 75
       },
       {
         "word": "non",
-        "count": 72
+        "count": 69
       },
       {
-        "word": "molto",
-        "count": 71
+        "word": "la",
+        "count": 64
       },
       {
         "word": "ma",
-        "count": 60
-      },
-      {
-        "word": "una",
-        "count": 60
-      },
-      {
-        "word": "rilassante",
         "count": 53
       },
       {
-        "word": "si",
-        "count": 39
+        "word": "una",
+        "count": 53
       },
       {
-        "word": "con",
+        "word": "molto",
+        "count": 49
+      },
+      {
+        "word": "si",
+        "count": 38
+      },
+      {
+        "word": "rilassante",
         "count": 33
       },
       {
         "word": "se",
-        "count": 30
+        "count": 28
       },
       {
-        "word": "come",
-        "count": 30
-      },
-      {
-        "word": "oggetti",
-        "count": 30
-      },
-      {
-        "word": "carino",
-        "count": 29
-      },
-      {
-        "word": "storia",
-        "count": 29
-      },
-      {
-        "word": "davvero",
-        "count": 29
+        "word": "con",
+        "count": 28
       },
       {
         "word": "sono",
-        "count": 28
+        "count": 27
       },
       {
-        "word": "bello",
-        "count": 28
+        "word": "oggetti",
+        "count": 27
       },
       {
-        "word": "gli",
-        "count": 26
-      },
-      {
-        "word": "pi",
+        "word": "come",
         "count": 26
       },
       {
@@ -3070,46 +3046,38 @@
       },
       {
         "word": "le",
-        "count": 25
+        "count": 24
       },
       {
-        "word": "mi",
+        "word": "gli",
+        "count": 24
+      },
+      {
+        "word": "davvero",
+        "count": 24
+      },
+      {
+        "word": "storia",
         "count": 23
       },
       {
-        "word": "da",
+        "word": "pi",
         "count": 22
       },
       {
-        "word": "questo",
-        "count": 20
+        "word": "mi",
+        "count": 19
       },
       {
-        "word": "ci",
-        "count": 20
+        "word": "questo",
+        "count": 18
+      },
+      {
+        "word": "da",
+        "count": 18
       },
       {
         "word": "ha",
-        "count": 19
-      },
-      {
-        "word": "lo",
-        "count": 19
-      },
-      {
-        "word": "poco",
-        "count": 18
-      },
-      {
-        "word": "ogni",
-        "count": 18
-      },
-      {
-        "word": "del",
-        "count": 18
-      },
-      {
-        "word": "po",
         "count": 17
       },
       {
@@ -3117,7 +3085,15 @@
         "count": 17
       },
       {
-        "word": "euro",
+        "word": "del",
+        "count": 17
+      },
+      {
+        "word": "ci",
+        "count": 17
+      },
+      {
+        "word": "carino",
         "count": 16
       },
       {
@@ -3125,15 +3101,15 @@
         "count": 16
       },
       {
-        "word": "solo",
+        "word": "lo",
         "count": 16
       },
       {
-        "word": "game",
+        "word": "ogni",
         "count": 16
       },
       {
-        "word": "troppo",
+        "word": "poco",
         "count": 15
       },
       {
@@ -3141,11 +3117,15 @@
         "count": 15
       },
       {
-        "word": "ore",
-        "count": 15
+        "word": "euro",
+        "count": 14
       },
       {
-        "word": "anche",
+        "word": "solo",
+        "count": 14
+      },
+      {
+        "word": "ore",
         "count": 14
       },
       {
@@ -3153,19 +3133,15 @@
         "count": 14
       },
       {
-        "word": "consiglio",
+        "word": "bello",
         "count": 14
       },
       {
-        "word": "mettere",
-        "count": 14
-      },
-      {
-        "word": "ad",
+        "word": "po",
         "count": 13
       },
       {
-        "word": "fatto",
+        "word": "anche",
         "count": 13
       },
       {
@@ -3173,27 +3149,27 @@
         "count": 13
       },
       {
-        "word": "tempo",
+        "word": "consiglio",
         "count": 13
       },
       {
+        "word": "mettere",
+        "count": 13
+      },
+      {
+        "word": "ad",
+        "count": 12
+      },
+      {
+        "word": "tempo",
+        "count": 12
+      },
+      {
+        "word": "fatto",
+        "count": 11
+      },
+      {
         "word": "protagonista",
-        "count": 12
-      },
-      {
-        "word": "bellissimo",
-        "count": 12
-      },
-      {
-        "word": "dura",
-        "count": 11
-      },
-      {
-        "word": "cose",
-        "count": 11
-      },
-      {
-        "word": "chi",
         "count": 11
       },
       {
@@ -3201,141 +3177,97 @@
         "count": 11
       },
       {
-        "word": "breve",
+        "word": "senza",
         "count": 11
       },
       {
+        "word": "dura",
+        "count": 10
+      },
+      {
+        "word": "troppo",
+        "count": 10
+      },
+      {
+        "word": "cose",
+        "count": 10
+      },
+      {
+        "word": "tutto",
+        "count": 10
+      },
+      {
+        "word": "breve",
+        "count": 10
+      },
+      {
         "word": "casa",
-        "count": 11
+        "count": 10
+      },
+      {
+        "word": "unpacking",
+        "count": 10
       }
     ],
     "russian": [
       {
         "word": "unpacking",
-        "count": 58
-      },
-      {
-        "word": "game",
-        "count": 34
+        "count": 54
       },
       {
         "word": "spoiler",
-        "count": 26
+        "count": 24
+      },
+      {
+        "word": "game",
+        "count": 15
       },
       {
         "word": "https",
-        "count": 21
+        "count": 14
       },
       {
         "word": "com",
-        "count": 19
+        "count": 13
       },
       {
         "word": "steamcommunity",
-        "count": 12
+        "count": 9
       },
       {
         "word": "sharedfiles",
-        "count": 12
+        "count": 9
       },
       {
         "word": "filedetails",
-        "count": 12
+        "count": 9
       },
       {
         "word": "id",
-        "count": 12
-      },
-      {
-        "word": "good",
-        "count": 11
-      },
-      {
-        "word": "url",
-        "count": 10
-      },
-      {
-        "word": "cozy",
-        "count": 8
-      },
-      {
-        "word": "chill",
-        "count": 8
+        "count": 9
       },
       {
         "word": "list",
         "count": 7
       },
       {
-        "word": "quote",
-        "count": 6
-      },
-      {
         "word": "code",
         "count": 6
       },
       {
-        "word": "life",
+        "word": "url",
         "count": 6
       },
       {
-        "word": "games",
-        "count": 5
-      },
-      {
-        "word": "relax",
-        "count": 5
-      },
-      {
-        "word": "cute",
-        "count": 5
-      },
-      {
-        "word": "relaxing",
-        "count": 5
-      },
-      {
-        "word": "beautiful",
-        "count": 5
-      },
-      {
-        "word": "youtube",
-        "count": 5
-      },
-      {
-        "word": "short",
-        "count": 5
-      },
-      {
-        "word": "store",
-        "count": 4
-      },
-      {
-        "word": "steampowered",
-        "count": 4
-      },
-      {
-        "word": "curator",
-        "count": 4
+        "word": "cozy",
+        "count": 6
       },
       {
         "word": "steam",
         "count": 4
       },
       {
-        "word": "girl",
-        "count": 4
-      },
-      {
-        "word": "you",
-        "count": 4
-      },
-      {
-        "word": "nice",
-        "count": 4
-      },
-      {
-        "word": "my",
+        "word": "games",
         "count": 4
       },
       {
@@ -3343,19 +3275,7 @@
         "count": 4
       },
       {
-        "word": "gameplay",
-        "count": 4
-      },
-      {
         "word": "who",
-        "count": 4
-      },
-      {
-        "word": "love",
-        "count": 4
-      },
-      {
-        "word": "little",
         "count": 4
       },
       {
@@ -3363,19 +3283,23 @@
         "count": 4
       },
       {
-        "word": "what",
-        "count": 4
-      },
-      {
-        "word": "bad",
-        "count": 4
-      },
-      {
-        "word": "nintendo",
+        "word": "store",
         "count": 3
       },
       {
-        "word": "great",
+        "word": "steampowered",
+        "count": 3
+      },
+      {
+        "word": "curator",
+        "count": 3
+      },
+      {
+        "word": "girl",
+        "count": 3
+      },
+      {
+        "word": "nintendo",
         "count": 3
       },
       {
@@ -3383,27 +3307,7 @@
         "count": 3
       },
       {
-        "word": "dlc",
-        "count": 3
-      },
-      {
-        "word": "win",
-        "count": 3
-      },
-      {
-        "word": "one",
-        "count": 3
-      },
-      {
-        "word": "best",
-        "count": 3
-      },
-      {
-        "word": "ever",
-        "count": 3
-      },
-      {
-        "word": "played",
+        "word": "gameplay",
         "count": 3
       },
       {
@@ -3411,15 +3315,11 @@
         "count": 3
       },
       {
-        "word": "story",
+        "word": "life",
         "count": 3
       },
       {
-        "word": "ve",
-        "count": 3
-      },
-      {
-        "word": "work",
+        "word": "little",
         "count": 3
       },
       {
@@ -3427,20 +3327,8 @@
         "count": 3
       },
       {
-        "word": "www",
-        "count": 3
-      },
-      {
-        "word": "watch",
-        "count": 3
-      },
-      {
-        "word": "more",
-        "count": 3
-      },
-      {
-        "word": "better",
-        "count": 3
+        "word": "quote",
+        "count": 2
       },
       {
         "word": "ds",
@@ -3449,13 +3337,121 @@
       {
         "word": "gif",
         "count": 2
+      },
+      {
+        "word": "great",
+        "count": 2
+      },
+      {
+        "word": "relax",
+        "count": 2
+      },
+      {
+        "word": "has",
+        "count": 2
+      },
+      {
+        "word": "there",
+        "count": 2
+      },
+      {
+        "word": "you",
+        "count": 2
+      },
+      {
+        "word": "put",
+        "count": 2
+      },
+      {
+        "word": "things",
+        "count": 2
+      },
+      {
+        "word": "started",
+        "count": 2
+      },
+      {
+        "word": "dlc",
+        "count": 2
+      },
+      {
+        "word": "sound",
+        "count": 2
+      },
+      {
+        "word": "your",
+        "count": 2
+      },
+      {
+        "word": "best",
+        "count": 2
+      },
+      {
+        "word": "ever",
+        "count": 2
+      },
+      {
+        "word": "played",
+        "count": 2
+      },
+      {
+        "word": "simple",
+        "count": 2
+      },
+      {
+        "word": "about",
+        "count": 2
+      },
+      {
+        "word": "main",
+        "count": 2
+      },
+      {
+        "word": "through",
+        "count": 2
+      },
+      {
+        "word": "beautiful",
+        "count": 2
+      },
+      {
+        "word": "sims",
+        "count": 2
+      },
+      {
+        "word": "story",
+        "count": 2
+      },
+      {
+        "word": "ve",
+        "count": 2
+      },
+      {
+        "word": "want",
+        "count": 2
+      },
+      {
+        "word": "everything",
+        "count": 2
+      },
+      {
+        "word": "work",
+        "count": 2
+      },
+      {
+        "word": "her",
+        "count": 2
+      },
+      {
+        "word": "while",
+        "count": 2
+      },
+      {
+        "word": "youtube",
+        "count": 2
       }
     ],
     "ukrainian": [
-      {
-        "word": "game",
-        "count": 13
-      },
       {
         "word": "unpacking",
         "count": 12
@@ -3466,35 +3462,15 @@
       },
       {
         "word": "spoiler",
-        "count": 10
-      },
-      {
-        "word": "relaxing",
         "count": 8
       },
       {
-        "word": "best",
-        "count": 3
+        "word": "game",
+        "count": 4
       },
       {
-        "word": "cool",
-        "count": 3
-      },
-      {
-        "word": "like",
-        "count": 3
-      },
-      {
-        "word": "short",
-        "count": 3
-      },
-      {
-        "word": "cozy",
-        "count": 3
-      },
-      {
-        "word": "hours",
-        "count": 3
+        "word": "relaxing",
+        "count": 4
       },
       {
         "word": "storytelling",
@@ -3509,39 +3485,7 @@
         "count": 2
       },
       {
-        "word": "such",
-        "count": 2
-      },
-      {
-        "word": "way",
-        "count": 2
-      },
-      {
-        "word": "my",
-        "count": 2
-      },
-      {
         "word": "your",
-        "count": 2
-      },
-      {
-        "word": "lot",
-        "count": 2
-      },
-      {
-        "word": "recommend",
-        "count": 2
-      },
-      {
-        "word": "wish",
-        "count": 2
-      },
-      {
-        "word": "sale",
-        "count": 2
-      },
-      {
-        "word": "love",
         "count": 2
       },
       {
@@ -3597,6 +3541,10 @@
         "count": 1
       },
       {
+        "word": "such",
+        "count": 1
+      },
+      {
         "word": "complex",
         "count": 1
       },
@@ -3614,6 +3562,18 @@
       },
       {
         "word": "emotional",
+        "count": 1
+      },
+      {
+        "word": "best",
+        "count": 1
+      },
+      {
+        "word": "way",
+        "count": 1
+      },
+      {
+        "word": "my",
         "count": 1
       },
       {
@@ -3665,7 +3625,15 @@
         "count": 1
       },
       {
+        "word": "lot",
+        "count": 1
+      },
+      {
         "word": "details",
+        "count": 1
+      },
+      {
+        "word": "cool",
         "count": 1
       },
       {
@@ -3685,295 +3653,307 @@
         "count": 1
       },
       {
+        "word": "recommend",
+        "count": 1
+      },
+      {
         "word": "good",
         "count": 1
       },
       {
+        "word": "like",
+        "count": 1
+      },
+      {
         "word": "how",
+        "count": 1
+      },
+      {
+        "word": "developers",
+        "count": 1
+      },
+      {
+        "word": "tell",
+        "count": 1
+      },
+      {
+        "word": "you",
+        "count": 1
+      },
+      {
+        "word": "life",
+        "count": 1
+      },
+      {
+        "word": "story",
+        "count": 1
+      },
+      {
+        "word": "its",
         "count": 1
       }
     ],
     "latam": [
       {
         "word": "que",
-        "count": 215
+        "count": 181
       },
       {
         "word": "de",
-        "count": 202
+        "count": 172
       },
       {
         "word": "es",
-        "count": 144
+        "count": 113
       },
       {
         "word": "juego",
-        "count": 142
-      },
-      {
-        "word": "la",
-        "count": 133
+        "count": 110
       },
       {
         "word": "un",
-        "count": 129
+        "count": 104
       },
       {
         "word": "el",
-        "count": 127
+        "count": 102
+      },
+      {
+        "word": "la",
+        "count": 102
       },
       {
         "word": "en",
-        "count": 98
-      },
-      {
-        "word": "me",
-        "count": 92
+        "count": 77
       },
       {
         "word": "lo",
-        "count": 92
+        "count": 75
       },
       {
-        "word": "muy",
-        "count": 83
+        "word": "me",
+        "count": 68
       },
       {
         "word": "no",
-        "count": 80
+        "count": 65
       },
       {
         "word": "para",
-        "count": 74
-      },
-      {
-        "word": "una",
-        "count": 66
+        "count": 60
       },
       {
         "word": "los",
-        "count": 65
+        "count": 60
       },
       {
         "word": "td",
         "count": 60
       },
       {
-        "word": "pero",
-        "count": 59
+        "word": "una",
+        "count": 57
+      },
+      {
+        "word": "muy",
+        "count": 55
       },
       {
         "word": "si",
-        "count": 53
-      },
-      {
-        "word": "se",
-        "count": 50
-      },
-      {
-        "word": "te",
-        "count": 49
-      },
-      {
-        "word": "historia",
         "count": 46
       },
       {
-        "word": "con",
+        "word": "pero",
         "count": 45
       },
       {
-        "word": "relajante",
+        "word": "se",
         "count": 43
       },
       {
+        "word": "te",
+        "count": 41
+      },
+      {
+        "word": "historia",
+        "count": 41
+      },
+      {
+        "word": "con",
+        "count": 41
+      },
+      {
         "word": "como",
-        "count": 37
-      },
-      {
-        "word": "por",
-        "count": 32
-      },
-      {
-        "word": "del",
         "count": 29
       },
       {
-        "word": "este",
+        "word": "relajante",
+        "count": 29
+      },
+      {
+        "word": "por",
         "count": 27
       },
       {
-        "word": "al",
-        "count": 27
-      },
-      {
-        "word": "mucho",
+        "word": "del",
         "count": 26
-      },
-      {
-        "word": "mas",
-        "count": 24
       },
       {
         "word": "tr",
         "count": 24
       },
       {
-        "word": "ordenar",
+        "word": "al",
         "count": 23
       },
       {
         "word": "est",
-        "count": 23
+        "count": 22
+      },
+      {
+        "word": "este",
+        "count": 20
       },
       {
         "word": "algo",
-        "count": 22
-      },
-      {
-        "word": "corto",
-        "count": 22
-      },
-      {
-        "word": "tiene",
-        "count": 21
-      },
-      {
-        "word": "more",
-        "count": 21
-      },
-      {
-        "word": "mi",
         "count": 20
       },
       {
-        "word": "unpacking",
+        "word": "mucho",
         "count": 20
       },
       {
-        "word": "cosas",
-        "count": 19
-      },
-      {
-        "word": "bonito",
-        "count": 19
+        "word": "mas",
+        "count": 20
       },
       {
         "word": "objetos",
-        "count": 19
+        "count": 18
       },
       {
-        "word": "esta",
-        "count": 19
+        "word": "ordenar",
+        "count": 17
       },
       {
         "word": "sin",
-        "count": 18
+        "count": 17
       },
       {
-        "word": "rato",
-        "count": 18
+        "word": "cosas",
+        "count": 17
       },
       {
-        "word": "poco",
-        "count": 18
+        "word": "mi",
+        "count": 16
       },
       {
         "word": "las",
-        "count": 17
+        "count": 16
+      },
+      {
+        "word": "rato",
+        "count": 16
       },
       {
         "word": "aunque",
-        "count": 17
-      },
-      {
-        "word": "pasar",
         "count": 16
       },
       {
         "word": "buen",
-        "count": 16
+        "count": 15
       },
       {
-        "word": "bien",
-        "count": 16
+        "word": "corto",
+        "count": 15
+      },
+      {
+        "word": "poco",
+        "count": 15
+      },
+      {
+        "word": "unpacking",
+        "count": 15
+      },
+      {
+        "word": "esta",
+        "count": 15
       },
       {
         "word": "tu",
-        "count": 16
+        "count": 15
+      },
+      {
+        "word": "tiene",
+        "count": 14
+      },
+      {
+        "word": "bonito",
+        "count": 14
       },
       {
         "word": "le",
-        "count": 16
-      },
-      {
-        "word": "lindo",
-        "count": 15
+        "count": 14
       },
       {
         "word": "su",
-        "count": 15
+        "count": 13
       },
       {
         "word": "bastante",
-        "count": 15
+        "count": 13
       },
       {
-        "word": "chill",
-        "count": 15
+        "word": "pasar",
+        "count": 13
       },
       {
-        "word": "juegos",
-        "count": 15
+        "word": "cada",
+        "count": 13
+      },
+      {
+        "word": "bien",
+        "count": 13
       },
       {
         "word": "gusta",
-        "count": 14
+        "count": 12
       },
       {
-        "word": "precio",
-        "count": 14
+        "word": "tiempo",
+        "count": 12
+      },
+      {
+        "word": "recomiendo",
+        "count": 12
+      },
+      {
+        "word": "juegos",
+        "count": 12
+      },
+      {
+        "word": "th",
+        "count": 12
       }
     ],
     "portuguese": [
       {
         "word": "jogo",
-        "count": 31
+        "count": 21
       },
       {
         "word": "que",
-        "count": 22
+        "count": 18
       },
       {
         "word": "de",
-        "count": 14
-      },
-      {
-        "word": "muito",
-        "count": 13
-      },
-      {
-        "word": "game",
         "count": 12
       },
       {
+        "word": "muito",
+        "count": 9
+      },
+      {
         "word": "uma",
-        "count": 11
-      },
-      {
-        "word": "hist",
-        "count": 11
-      },
-      {
-        "word": "mais",
-        "count": 10
-      },
-      {
-        "word": "um",
-        "count": 10
-      },
-      {
-        "word": "relaxante",
         "count": 9
       },
       {
@@ -3981,43 +3961,27 @@
         "count": 9
       },
       {
-        "word": "bom",
+        "word": "mais",
         "count": 9
       },
       {
+        "word": "hist",
+        "count": 9
+      },
+      {
+        "word": "game",
+        "count": 7
+      },
+      {
+        "word": "relaxante",
+        "count": 6
+      },
+      {
         "word": "para",
-        "count": 8
-      },
-      {
-        "word": "com",
-        "count": 8
-      },
-      {
-        "word": "cozy",
-        "count": 8
-      },
-      {
-        "word": "mas",
-        "count": 7
-      },
-      {
-        "word": "ter",
-        "count": 7
-      },
-      {
-        "word": "do",
         "count": 6
       },
       {
-        "word": "bem",
-        "count": 6
-      },
-      {
-        "word": "se",
-        "count": 6
-      },
-      {
-        "word": "ria",
+        "word": "um",
         "count": 6
       },
       {
@@ -4029,11 +3993,23 @@
         "count": 6
       },
       {
+        "word": "bem",
+        "count": 5
+      },
+      {
         "word": "em",
         "count": 5
       },
       {
-        "word": "horas",
+        "word": "com",
+        "count": 5
+      },
+      {
+        "word": "se",
+        "count": 5
+      },
+      {
+        "word": "bom",
         "count": 5
       },
       {
@@ -4045,11 +4021,11 @@
         "count": 4
       },
       {
-        "word": "no",
+        "word": "do",
         "count": 4
       },
       {
-        "word": "vel",
+        "word": "no",
         "count": 4
       },
       {
@@ -4057,7 +4033,11 @@
         "count": 4
       },
       {
-        "word": "recomendo",
+        "word": "ria",
+        "count": 4
+      },
+      {
+        "word": "ter",
         "count": 4
       },
       {
@@ -4073,22 +4053,6 @@
         "count": 4
       },
       {
-        "word": "relaxing",
-        "count": 4
-      },
-      {
-        "word": "cute",
-        "count": 4
-      },
-      {
-        "word": "jogar",
-        "count": 4
-      },
-      {
-        "word": "super",
-        "count": 4
-      },
-      {
         "word": "gostei",
         "count": 3
       },
@@ -4097,11 +4061,11 @@
         "count": 3
       },
       {
-        "word": "gr",
+        "word": "es",
         "count": 3
       },
       {
-        "word": "es",
+        "word": "mas",
         "count": 3
       },
       {
@@ -4109,11 +4073,11 @@
         "count": 3
       },
       {
-        "word": "por",
+        "word": "cativante",
         "count": 3
       },
       {
-        "word": "cativante",
+        "word": "cozy",
         "count": 3
       },
       {
@@ -4137,11 +4101,7 @@
         "count": 3
       },
       {
-        "word": "incr",
-        "count": 3
-      },
-      {
-        "word": "good",
+        "word": "relaxing",
         "count": 3
       },
       {
@@ -4149,8 +4109,8 @@
         "count": 3
       },
       {
-        "word": "short",
-        "count": 3
+        "word": "gr",
+        "count": 2
       },
       {
         "word": "miss",
@@ -4165,15 +4125,55 @@
         "count": 2
       },
       {
-        "word": "umas",
+        "word": "vel",
         "count": 2
       },
       {
-        "word": "zerar",
+        "word": "horas",
         "count": 2
       },
       {
-        "word": "pagar",
+        "word": "pode",
+        "count": 2
+      },
+      {
+        "word": "promo",
+        "count": 2
+      },
+      {
+        "word": "perfeito",
+        "count": 2
+      },
+      {
+        "word": "loved",
+        "count": 2
+      },
+      {
+        "word": "gameplay",
+        "count": 2
+      },
+      {
+        "word": "music",
+        "count": 2
+      },
+      {
+        "word": "nice",
+        "count": 2
+      },
+      {
+        "word": "tempo",
+        "count": 2
+      },
+      {
+        "word": "podia",
+        "count": 2
+      },
+      {
+        "word": "como",
+        "count": 2
+      },
+      {
+        "word": "coisas",
         "count": 2
       }
     ],
@@ -4183,35 +4183,23 @@
         "count": 13
       },
       {
-        "word": "nagyon",
-        "count": 10
-      },
-      {
         "word": "hogy",
         "count": 8
       },
       {
-        "word": "egy",
+        "word": "nagyon",
         "count": 7
       },
       {
-        "word": "game",
-        "count": 7
+        "word": "egy",
+        "count": 6
       },
       {
         "word": "sz",
         "count": 5
       },
       {
-        "word": "tudom",
-        "count": 5
-      },
-      {
-        "word": "ez",
-        "count": 5
-      },
-      {
-        "word": "aj",
+        "word": "game",
         "count": 5
       },
       {
@@ -4219,20 +4207,16 @@
         "count": 5
       },
       {
-        "word": "sok",
-        "count": 4
-      },
-      {
         "word": "azt",
         "count": 4
       },
       {
-        "word": "rt",
+        "word": "tudom",
         "count": 4
       },
       {
-        "word": "nlani",
-        "count": 4
+        "word": "sok",
+        "count": 3
       },
       {
         "word": "nk",
@@ -4243,11 +4227,11 @@
         "count": 3
       },
       {
-        "word": "let",
+        "word": "ezt",
         "count": 3
       },
       {
-        "word": "ezt",
+        "word": "rt",
         "count": 3
       },
       {
@@ -4259,35 +4243,19 @@
         "count": 3
       },
       {
-        "word": "szerepl",
-        "count": 3
-      },
-      {
-        "word": "volt",
-        "count": 3
-      },
-      {
         "word": "ban",
         "count": 3
       },
       {
-        "word": "meg",
+        "word": "ez",
         "count": 3
       },
       {
-        "word": "good",
+        "word": "aj",
         "count": 3
       },
       {
-        "word": "megnyugtat",
-        "count": 3
-      },
-      {
-        "word": "aki",
-        "count": 3
-      },
-      {
-        "word": "annak",
+        "word": "nlani",
         "count": 3
       },
       {
@@ -4304,6 +4272,10 @@
       },
       {
         "word": "gis",
+        "count": 2
+      },
+      {
+        "word": "let",
         "count": 2
       },
       {
@@ -4359,6 +4331,10 @@
         "count": 2
       },
       {
+        "word": "szerepl",
+        "count": 2
+      },
+      {
         "word": "mag",
         "count": 2
       },
@@ -4371,7 +4347,15 @@
         "count": 2
       },
       {
-        "word": "cozy",
+        "word": "volt",
+        "count": 2
+      },
+      {
+        "word": "meg",
+        "count": 2
+      },
+      {
+        "word": "good",
         "count": 2
       },
       {
@@ -4380,10 +4364,6 @@
       },
       {
         "word": "relaxing",
-        "count": 2
-      },
-      {
-        "word": "kis",
         "count": 2
       },
       {
@@ -4403,11 +4383,11 @@
         "count": 2
       },
       {
-        "word": "val",
+        "word": "aki",
         "count": 2
       },
       {
-        "word": "nincs",
+        "word": "annak",
         "count": 2
       },
       {
@@ -4415,145 +4395,105 @@
         "count": 2
       },
       {
-        "word": "minden",
+        "word": "hely",
+        "count": 2
+      },
+      {
+        "word": "re",
+        "count": 2
+      },
+      {
+        "word": "ha",
+        "count": 2
+      },
+      {
+        "word": "akarsz",
+        "count": 2
+      },
+      {
+        "word": "url",
+        "count": 2
+      },
+      {
+        "word": "https",
         "count": 2
       }
     ],
     "czech": [
       {
         "word": "je",
-        "count": 36
+        "count": 27
       },
       {
         "word": "na",
-        "count": 33
+        "count": 21
       },
       {
         "word": "game",
-        "count": 32
-      },
-      {
-        "word": "se",
-        "count": 30
+        "count": 21
       },
       {
         "word": "hra",
-        "count": 26
+        "count": 18
       },
       {
-        "word": "kter",
+        "word": "se",
         "count": 18
       },
       {
         "word": "ale",
-        "count": 18
-      },
-      {
-        "word": "jsem",
-        "count": 17
-      },
-      {
-        "word": "si",
-        "count": 17
-      },
-      {
-        "word": "za",
         "count": 16
       },
       {
-        "word": "love",
-        "count": 16
-      },
-      {
-        "word": "co",
+        "word": "kter",
         "count": 15
       },
       {
-        "word": "kr",
-        "count": 13
+        "word": "jsem",
+        "count": 14
       },
       {
-        "word": "do",
-        "count": 13
+        "word": "si",
+        "count": 12
+      },
+      {
+        "word": "za",
+        "count": 11
+      },
+      {
+        "word": "love",
+        "count": 11
+      },
+      {
+        "word": "kr",
+        "count": 10
       },
       {
         "word": "mi",
-        "count": 13
-      },
-      {
-        "word": "tak",
-        "count": 13
-      },
-      {
-        "word": "ho",
         "count": 10
       },
       {
-        "word": "ch",
+        "word": "co",
         "count": 10
+      },
+      {
+        "word": "do",
+        "count": 9
       },
       {
         "word": "you",
-        "count": 10
+        "count": 9
       },
       {
-        "word": "kdy",
+        "word": "tak",
         "count": 9
       },
       {
         "word": "jak",
-        "count": 9
-      },
-      {
-        "word": "cute",
-        "count": 9
-      },
-      {
-        "word": "edm",
-        "count": 9
-      },
-      {
-        "word": "po",
         "count": 8
       },
       {
-        "word": "nebo",
-        "count": 8
-      },
-      {
-        "word": "tu",
-        "count": 8
-      },
-      {
-        "word": "nen",
-        "count": 8
-      },
-      {
-        "word": "relaxing",
-        "count": 8
-      },
-      {
-        "word": "more",
-        "count": 8
-      },
-      {
-        "word": "pro",
-        "count": 8
-      },
-      {
-        "word": "le",
-        "count": 8
-      },
-      {
-        "word": "mo",
-        "count": 7
-      },
-      {
-        "word": "tk",
-        "count": 7
-      },
-      {
-        "word": "hru",
+        "word": "ho",
         "count": 7
       },
       {
@@ -4561,237 +4501,237 @@
         "count": 7
       },
       {
-        "word": "hry",
-        "count": 7
-      },
-      {
-        "word": "ne",
-        "count": 7
-      },
-      {
-        "word": "doporu",
-        "count": 7
-      },
-      {
-        "word": "uji",
-        "count": 7
-      },
-      {
-        "word": "fajn",
-        "count": 7
-      },
-      {
         "word": "me",
         "count": 7
-      },
-      {
-        "word": "ty",
-        "count": 7
-      },
-      {
-        "word": "st",
-        "count": 7
-      },
-      {
-        "word": "ov",
-        "count": 6
-      },
-      {
-        "word": "hr",
-        "count": 6
       },
       {
         "word": "toho",
         "count": 6
       },
       {
-        "word": "ln",
+        "word": "ch",
         "count": 6
+      },
+      {
+        "word": "hru",
+        "count": 6
+      },
+      {
+        "word": "hry",
+        "count": 6
+      },
+      {
+        "word": "tu",
+        "count": 6
+      },
+      {
+        "word": "fajn",
+        "count": 6
+      },
+      {
+        "word": "po",
+        "count": 5
+      },
+      {
+        "word": "tk",
+        "count": 5
       },
       {
         "word": "ci",
-        "count": 6
+        "count": 5
       },
       {
         "word": "have",
-        "count": 6
+        "count": 5
+      },
+      {
+        "word": "can",
+        "count": 5
+      },
+      {
+        "word": "more",
+        "count": 5
       },
       {
         "word": "uj",
-        "count": 6
-      },
-      {
-        "word": "em",
         "count": 5
       },
       {
-        "word": "en",
+        "word": "edm",
         "count": 5
       },
       {
-        "word": "would",
+        "word": "ty",
         "count": 5
+      },
+      {
+        "word": "pro",
+        "count": 5
+      },
+      {
+        "word": "pln",
+        "count": 4
+      },
+      {
+        "word": "hr",
+        "count": 4
+      },
+      {
+        "word": "mo",
+        "count": 4
+      },
+      {
+        "word": "grafika",
+        "count": 4
+      },
+      {
+        "word": "hudba",
+        "count": 4
+      },
+      {
+        "word": "achievementy",
+        "count": 4
+      },
+      {
+        "word": "cena",
+        "count": 4
+      },
+      {
+        "word": "content",
+        "count": 4
+      },
+      {
+        "word": "la",
+        "count": 4
+      },
+      {
+        "word": "unpacking",
+        "count": 4
       },
       {
         "word": "story",
-        "count": 5
+        "count": 4
       },
       {
         "word": "moc",
-        "count": 5
+        "count": 4
+      },
+      {
+        "word": "kdy",
+        "count": 4
       },
       {
         "word": "skv",
-        "count": 5
+        "count": 4
       },
       {
         "word": "jen",
-        "count": 5
+        "count": 4
       },
       {
-        "word": "hem",
-        "count": 5
+        "word": "cenu",
+        "count": 4
       },
       {
-        "word": "jsou",
-        "count": 5
+        "word": "zaj",
+        "count": 4
       },
       {
-        "word": "short",
-        "count": 5
+        "word": "mav",
+        "count": 4
+      },
+      {
+        "word": "sn",
+        "count": 4
+      },
+      {
+        "word": "doporu",
+        "count": 4
+      },
+      {
+        "word": "uji",
+        "count": 4
+      },
+      {
+        "word": "celkov",
+        "count": 4
+      },
+      {
+        "word": "nen",
+        "count": 4
       }
     ],
     "swedish": [
       {
         "word": "game",
-        "count": 68
-      },
-      {
-        "word": "relaxing",
-        "count": 23
-      },
-      {
-        "word": "det",
-        "count": 21
-      },
-      {
-        "word": "love",
-        "count": 21
-      },
-      {
-        "word": "story",
-        "count": 19
+        "count": 35
       },
       {
         "word": "you",
-        "count": 18
+        "count": 16
       },
       {
-        "word": "more",
-        "count": 17
-      },
-      {
-        "word": "cute",
-        "count": 17
-      },
-      {
-        "word": "att",
+        "word": "det",
         "count": 15
+      },
+      {
+        "word": "story",
+        "count": 14
       },
       {
         "word": "short",
-        "count": 15
-      },
-      {
-        "word": "och",
-        "count": 13
-      },
-      {
-        "word": "cozy",
-        "count": 13
-      },
-      {
-        "word": "play",
-        "count": 13
-      },
-      {
-        "word": "its",
-        "count": 13
-      },
-      {
-        "word": "want",
-        "count": 12
-      },
-      {
-        "word": "fun",
-        "count": 12
-      },
-      {
-        "word": "like",
         "count": 11
       },
       {
-        "word": "over",
+        "word": "more",
+        "count": 11
+      },
+      {
+        "word": "love",
+        "count": 10
+      },
+      {
+        "word": "relaxing",
+        "count": 10
+      },
+      {
+        "word": "och",
         "count": 9
       },
       {
-        "word": "would",
+        "word": "att",
         "count": 9
       },
       {
-        "word": "nice",
+        "word": "play",
         "count": 9
       },
       {
-        "word": "wish",
-        "count": 9
+        "word": "want",
+        "count": 8
       },
       {
         "word": "jag",
-        "count": 9
-      },
-      {
-        "word": "spel",
-        "count": 9
+        "count": 8
       },
       {
         "word": "spelet",
-        "count": 8
-      },
-      {
-        "word": "only",
-        "count": 8
-      },
-      {
-        "word": "little",
-        "count": 8
-      },
-      {
-        "word": "get",
-        "count": 8
+        "count": 7
       },
       {
         "word": "all",
-        "count": 8
-      },
-      {
-        "word": "unpacking",
-        "count": 8
-      },
-      {
-        "word": "too",
         "count": 7
       },
       {
-        "word": "me",
+        "word": "fun",
         "count": 7
       },
       {
-        "word": "time",
+        "word": "would",
         "count": 7
       },
       {
-        "word": "good",
+        "word": "wish",
         "count": 7
       },
       {
@@ -4799,31 +4739,27 @@
         "count": 6
       },
       {
-        "word": "super",
+        "word": "only",
         "count": 6
       },
       {
-        "word": "sweet",
+        "word": "too",
         "count": 6
       },
       {
-        "word": "about",
+        "word": "little",
         "count": 6
       },
       {
-        "word": "loved",
+        "word": "get",
         "count": 6
       },
       {
-        "word": "when",
+        "word": "cute",
         "count": 6
       },
       {
-        "word": "calming",
-        "count": 6
-      },
-      {
-        "word": "then",
+        "word": "unpacking",
         "count": 6
       },
       {
@@ -4831,27 +4767,19 @@
         "count": 6
       },
       {
-        "word": "var",
-        "count": 5
-      },
-      {
         "word": "see",
         "count": 5
       },
       {
-        "word": "characters",
+        "word": "me",
         "count": 5
       },
       {
-        "word": "life",
+        "word": "about",
         "count": 5
       },
       {
-        "word": "through",
-        "count": 5
-      },
-      {
-        "word": "much",
+        "word": "like",
         "count": 5
       },
       {
@@ -4859,54 +4787,126 @@
         "count": 5
       },
       {
-        "word": "great",
+        "word": "when",
         "count": 5
       },
       {
-        "word": "perfect",
+        "word": "over",
         "count": 5
       },
       {
-        "word": "have",
+        "word": "nice",
         "count": 5
+      },
+      {
+        "word": "its",
+        "count": 5
+      },
+      {
+        "word": "var",
+        "count": 4
+      },
+      {
+        "word": "cozy",
+        "count": 4
+      },
+      {
+        "word": "storytelling",
+        "count": 4
+      },
+      {
+        "word": "music",
+        "count": 4
+      },
+      {
+        "word": "characters",
+        "count": 4
+      },
+      {
+        "word": "through",
+        "count": 4
+      },
+      {
+        "word": "much",
+        "count": 4
+      },
+      {
+        "word": "we",
+        "count": 4
+      },
+      {
+        "word": "our",
+        "count": 4
+      },
+      {
+        "word": "loved",
+        "count": 4
+      },
+      {
+        "word": "do",
+        "count": 4
+      },
+      {
+        "word": "after",
+        "count": 4
+      },
+      {
+        "word": "while",
+        "count": 4
+      },
+      {
+        "word": "again",
+        "count": 4
+      },
+      {
+        "word": "time",
+        "count": 4
+      },
+      {
+        "word": "unpack",
+        "count": 4
+      },
+      {
+        "word": "your",
+        "count": 4
+      },
+      {
+        "word": "where",
+        "count": 4
+      },
+      {
+        "word": "though",
+        "count": 4
+      },
+      {
+        "word": "one",
+        "count": 4
       },
       {
         "word": "worth",
-        "count": 5
+        "count": 4
       },
       {
-        "word": "levels",
-        "count": 5
+        "word": "can",
+        "count": 4
+      },
+      {
+        "word": "typ",
+        "count": 4
+      },
+      {
+        "word": "har",
+        "count": 4
       },
       {
         "word": "spelat",
-        "count": 5
-      },
-      {
-        "word": "inte",
-        "count": 5
-      },
-      {
-        "word": "ett",
-        "count": 5
-      },
-      {
-        "word": "ldigt",
-        "count": 5
-      },
-      {
-        "word": "kort",
-        "count": 5
-      },
-      {
-        "word": "man",
-        "count": 5
+        "count": 4
       }
     ],
     "romanian": [
       {
         "word": "game",
-        "count": 10
+        "count": 8
       },
       {
         "word": "you",
@@ -4941,10 +4941,6 @@
         "count": 2
       },
       {
-        "word": "great",
-        "count": 2
-      },
-      {
         "word": "em",
         "count": 2
       },
@@ -4958,10 +4954,6 @@
       },
       {
         "word": "price",
-        "count": 2
-      },
-      {
-        "word": "yes",
         "count": 2
       },
       {
@@ -5065,6 +5057,10 @@
         "count": 1
       },
       {
+        "word": "great",
+        "count": 1
+      },
+      {
         "word": "stuff",
         "count": 1
       },
@@ -5143,111 +5139,63 @@
       {
         "word": "call",
         "count": 1
+      },
+      {
+        "word": "yes",
+        "count": 1
       }
     ],
     "dutch": [
       {
         "word": "game",
-        "count": 101
+        "count": 88
       },
       {
         "word": "you",
-        "count": 49
+        "count": 48
       },
       {
         "word": "het",
-        "count": 38
+        "count": 25
       },
       {
         "word": "fun",
-        "count": 28
-      },
-      {
-        "word": "een",
-        "count": 26
-      },
-      {
-        "word": "de",
-        "count": 26
-      },
-      {
-        "word": "more",
         "count": 24
       },
       {
-        "word": "leuk",
+        "word": "more",
+        "count": 21
+      },
+      {
+        "word": "de",
         "count": 20
       },
       {
         "word": "short",
-        "count": 19
-      },
-      {
-        "word": "spel",
-        "count": 19
-      },
-      {
-        "word": "relaxing",
-        "count": 19
-      },
-      {
-        "word": "ik",
         "count": 18
       },
       {
         "word": "me",
-        "count": 18
-      },
-      {
-        "word": "je",
         "count": 17
       },
       {
-        "word": "can",
-        "count": 17
-      },
-      {
-        "word": "like",
+        "word": "een",
         "count": 16
-      },
-      {
-        "word": "story",
-        "count": 16
-      },
-      {
-        "word": "hours",
-        "count": 16
-      },
-      {
-        "word": "maar",
-        "count": 15
       },
       {
         "word": "get",
         "count": 15
       },
       {
-        "word": "play",
+        "word": "story",
         "count": 15
       },
       {
-        "word": "en",
-        "count": 14
+        "word": "can",
+        "count": 15
       },
       {
-        "word": "its",
-        "count": 14
-      },
-      {
-        "word": "heel",
-        "count": 13
-      },
-      {
-        "word": "levels",
-        "count": 13
-      },
-      {
-        "word": "there",
+        "word": "like",
         "count": 13
       },
       {
@@ -5255,19 +5203,7 @@
         "count": 13
       },
       {
-        "word": "wel",
-        "count": 13
-      },
-      {
-        "word": "dat",
-        "count": 12
-      },
-      {
-        "word": "love",
-        "count": 12
-      },
-      {
-        "word": "good",
+        "word": "play",
         "count": 12
       },
       {
@@ -5275,7 +5211,27 @@
         "count": 12
       },
       {
-        "word": "euro",
+        "word": "there",
+        "count": 12
+      },
+      {
+        "word": "its",
+        "count": 12
+      },
+      {
+        "word": "hours",
+        "count": 12
+      },
+      {
+        "word": "levels",
+        "count": 11
+      },
+      {
+        "word": "ik",
+        "count": 11
+      },
+      {
+        "word": "je",
         "count": 11
       },
       {
@@ -5283,47 +5239,15 @@
         "count": 11
       },
       {
-        "word": "out",
-        "count": 11
-      },
-      {
-        "word": "cute",
-        "count": 11
-      },
-      {
-        "word": "have",
-        "count": 11
-      },
-      {
         "word": "when",
         "count": 10
       },
       {
-        "word": "my",
+        "word": "out",
         "count": 10
       },
       {
-        "word": "had",
-        "count": 10
-      },
-      {
-        "word": "recommend",
-        "count": 10
-      },
-      {
-        "word": "sale",
-        "count": 10
-      },
-      {
-        "word": "much",
-        "count": 10
-      },
-      {
-        "word": "van",
-        "count": 9
-      },
-      {
-        "word": "achievements",
+        "word": "good",
         "count": 9
       },
       {
@@ -5331,11 +5255,31 @@
         "count": 9
       },
       {
-        "word": "do",
+        "word": "had",
+        "count": 9
+      },
+      {
+        "word": "cute",
+        "count": 9
+      },
+      {
+        "word": "recommend",
         "count": 9
       },
       {
         "word": "price",
+        "count": 9
+      },
+      {
+        "word": "sale",
+        "count": 9
+      },
+      {
+        "word": "much",
+        "count": 9
+      },
+      {
+        "word": "spel",
         "count": 9
       },
       {
@@ -5343,15 +5287,23 @@
         "count": 9
       },
       {
-        "word": "only",
+        "word": "relaxing",
         "count": 9
       },
       {
-        "word": "voor",
+        "word": "have",
+        "count": 9
+      },
+      {
+        "word": "en",
         "count": 8
       },
       {
-        "word": "echt",
+        "word": "van",
+        "count": 8
+      },
+      {
+        "word": "achievements",
         "count": 8
       },
       {
@@ -5359,7 +5311,7 @@
         "count": 8
       },
       {
-        "word": "playing",
+        "word": "my",
         "count": 8
       },
       {
@@ -5367,65 +5319,101 @@
         "count": 8
       },
       {
+        "word": "only",
+        "count": 8
+      },
+      {
         "word": "nice",
         "count": 8
       },
       {
-        "word": "over",
-        "count": 8
+        "word": "heel",
+        "count": 7
+      },
+      {
+        "word": "maar",
+        "count": 7
+      },
+      {
+        "word": "euro",
+        "count": 7
+      },
+      {
+        "word": "echt",
+        "count": 7
+      },
+      {
+        "word": "all",
+        "count": 7
+      },
+      {
+        "word": "quite",
+        "count": 7
+      },
+      {
+        "word": "money",
+        "count": 7
+      },
+      {
+        "word": "love",
+        "count": 7
+      },
+      {
+        "word": "again",
+        "count": 7
+      },
+      {
+        "word": "do",
+        "count": 7
+      },
+      {
+        "word": "too",
+        "count": 7
+      },
+      {
+        "word": "still",
+        "count": 7
+      },
+      {
+        "word": "see",
+        "count": 7
+      },
+      {
+        "word": "lot",
+        "count": 7
       },
       {
         "word": "waard",
-        "count": 7
-      },
-      {
-        "word": "te",
-        "count": 7
-      },
-      {
-        "word": "finished",
-        "count": 7
+        "count": 6
       }
     ],
     "finnish": [
       {
         "word": "game",
-        "count": 66
-      },
-      {
-        "word": "relaxing",
-        "count": 22
+        "count": 59
       },
       {
         "word": "you",
-        "count": 22
+        "count": 21
       },
       {
-        "word": "peli",
-        "count": 18
+        "word": "relaxing",
+        "count": 14
       },
       {
         "word": "more",
-        "count": 15
+        "count": 14
       },
       {
-        "word": "story",
-        "count": 12
-      },
-      {
-        "word": "ja",
-        "count": 12
-      },
-      {
-        "word": "fun",
-        "count": 12
-      },
-      {
-        "word": "nice",
-        "count": 11
+        "word": "peli",
+        "count": 13
       },
       {
         "word": "can",
+        "count": 11
+      },
+      {
+        "word": "story",
         "count": 11
       },
       {
@@ -5433,23 +5421,11 @@
         "count": 11
       },
       {
-        "word": "cute",
-        "count": 11
-      },
-      {
         "word": "short",
-        "count": 10
-      },
-      {
-        "word": "love",
-        "count": 10
-      },
-      {
-        "word": "there",
         "count": 9
       },
       {
-        "word": "ei",
+        "word": "there",
         "count": 9
       },
       {
@@ -5457,11 +5433,23 @@
         "count": 9
       },
       {
+        "word": "nice",
+        "count": 8
+      },
+      {
+        "word": "ei",
+        "count": 8
+      },
+      {
         "word": "much",
         "count": 8
       },
       {
-        "word": "have",
+        "word": "ja",
+        "count": 8
+      },
+      {
+        "word": "fun",
         "count": 8
       },
       {
@@ -5469,19 +5457,15 @@
         "count": 8
       },
       {
-        "word": "my",
-        "count": 7
+        "word": "cute",
+        "count": 8
       },
       {
         "word": "price",
         "count": 7
       },
       {
-        "word": "time",
-        "count": 7
-      },
-      {
-        "word": "games",
+        "word": "love",
         "count": 7
       },
       {
@@ -5489,19 +5473,7 @@
         "count": 7
       },
       {
-        "word": "super",
-        "count": 7
-      },
-      {
         "word": "would",
-        "count": 7
-      },
-      {
-        "word": "recommend",
-        "count": 7
-      },
-      {
-        "word": "good",
         "count": 7
       },
       {
@@ -5509,15 +5481,19 @@
         "count": 6
       },
       {
-        "word": "me",
-        "count": 6
-      },
-      {
-        "word": "lyhyt",
+        "word": "my",
         "count": 6
       },
       {
         "word": "unpacking",
+        "count": 6
+      },
+      {
+        "word": "time",
+        "count": 6
+      },
+      {
+        "word": "have",
         "count": 6
       },
       {
@@ -5541,15 +5517,15 @@
         "count": 6
       },
       {
-        "word": "great",
+        "word": "super",
         "count": 6
       },
       {
-        "word": "some",
+        "word": "recommend",
         "count": 6
       },
       {
-        "word": "quite",
+        "word": "me",
         "count": 5
       },
       {
@@ -5561,27 +5537,15 @@
         "count": 5
       },
       {
-        "word": "play",
+        "word": "games",
         "count": 5
       },
       {
-        "word": "see",
+        "word": "great",
         "count": 5
       },
       {
-        "word": "tosi",
-        "count": 5
-      },
-      {
-        "word": "cozy",
-        "count": 5
-      },
-      {
-        "word": "one",
-        "count": 5
-      },
-      {
-        "word": "played",
+        "word": "some",
         "count": 5
       },
       {
@@ -5589,11 +5553,7 @@
         "count": 5
       },
       {
-        "word": "liian",
-        "count": 5
-      },
-      {
-        "word": "hyv",
+        "word": "good",
         "count": 5
       },
       {
@@ -5602,6 +5562,10 @@
       },
       {
         "word": "had",
+        "count": 4
+      },
+      {
+        "word": "quite",
         "count": 4
       },
       {
@@ -5625,49 +5589,77 @@
         "count": 4
       },
       {
+        "word": "play",
+        "count": 4
+      },
+      {
+        "word": "see",
+        "count": 4
+      },
+      {
         "word": "what",
+        "count": 4
+      },
+      {
+        "word": "way",
+        "count": 4
+      },
+      {
+        "word": "worth",
+        "count": 4
+      },
+      {
+        "word": "one",
+        "count": 4
+      },
+      {
+        "word": "your",
+        "count": 4
+      },
+      {
+        "word": "played",
+        "count": 4
+      },
+      {
+        "word": "its",
+        "count": 4
+      },
+      {
+        "word": "liian",
         "count": 4
       }
     ],
     "vietnamese": [
       {
         "word": "ng",
-        "count": 33
+        "count": 20
       },
       {
         "word": "game",
-        "count": 23
-      },
-      {
-        "word": "nh",
-        "count": 19
-      },
-      {
-        "word": "th",
-        "count": 12
-      },
-      {
-        "word": "ch",
         "count": 11
       },
       {
-        "word": "chill",
-        "count": 9
+        "word": "nh",
+        "count": 10
       },
       {
-        "word": "gi",
+        "word": "ch",
+        "count": 8
+      },
+      {
+        "word": "th",
+        "count": 8
+      },
+      {
+        "word": "chill",
         "count": 6
       },
       {
         "word": "kh",
-        "count": 5
+        "count": 4
       },
       {
         "word": "ti",
-        "count": 3
-      },
-      {
-        "word": "dlc",
         "count": 3
       },
       {
@@ -5675,47 +5667,15 @@
         "count": 3
       },
       {
-        "word": "cu",
-        "count": 3
-      },
-      {
-        "word": "tr",
-        "count": 3
-      },
-      {
         "word": "me",
         "count": 2
       },
       {
-        "word": "love",
+        "word": "cu",
         "count": 2
       },
       {
-        "word": "cho",
-        "count": 2
-      },
-      {
-        "word": "mu",
-        "count": 2
-      },
-      {
-        "word": "ra",
-        "count": 2
-      },
-      {
-        "word": "chuy",
-        "count": 2
-      },
-      {
-        "word": "trong",
-        "count": 2
-      },
-      {
-        "word": "khi",
-        "count": 2
-      },
-      {
-        "word": "cute",
+        "word": "tr",
         "count": 2
       },
       {
@@ -5728,10 +5688,6 @@
       },
       {
         "word": "nhi",
-        "count": 2
-      },
-      {
-        "word": "nhma",
         "count": 2
       },
       {
@@ -5764,6 +5720,10 @@
       },
       {
         "word": "short",
+        "count": 1
+      },
+      {
+        "word": "love",
         "count": 1
       },
       {
@@ -5811,6 +5771,10 @@
         "count": 1
       },
       {
+        "word": "dlc",
+        "count": 1
+      },
+      {
         "word": "something",
         "count": 1
       },
@@ -5820,6 +5784,22 @@
       },
       {
         "word": "worth",
+        "count": 1
+      },
+      {
+        "word": "cho",
+        "count": 1
+      },
+      {
+        "word": "gi",
+        "count": 1
+      },
+      {
+        "word": "mu",
+        "count": 1
+      },
+      {
+        "word": "ra",
         "count": 1
       },
       {
@@ -5835,7 +5815,19 @@
         "count": 1
       },
       {
+        "word": "chuy",
+        "count": 1
+      },
+      {
         "word": "qua",
+        "count": 1
+      },
+      {
+        "word": "trong",
+        "count": 1
+      },
+      {
+        "word": "khi",
         "count": 1
       },
       {
@@ -5848,6 +5840,10 @@
       },
       {
         "word": "light",
+        "count": 1
+      },
+      {
+        "word": "cute",
         "count": 1
       },
       {
@@ -5869,63 +5865,59 @@
       {
         "word": "objects",
         "count": 1
+      },
+      {
+        "word": "puzzles",
+        "count": 1
       }
     ],
     "thai": [
-      {
-        "word": "game",
-        "count": 20
-      },
       {
         "word": "spoiler",
         "count": 12
       },
       {
-        "word": "good",
+        "word": "game",
         "count": 10
       },
       {
         "word": "dlc",
-        "count": 6
+        "count": 5
       },
       {
-        "word": "story",
-        "count": 6
-      },
-      {
-        "word": "unpack",
-        "count": 6
+        "word": "good",
+        "count": 5
       },
       {
         "word": "relaxing",
         "count": 5
       },
       {
-        "word": "gameplay",
+        "word": "unpack",
         "count": 5
       },
       {
-        "word": "love",
-        "count": 5
+        "word": "gameplay",
+        "count": 4
+      },
+      {
+        "word": "story",
+        "count": 4
       },
       {
         "word": "unpacking",
-        "count": 4
+        "count": 3
       },
       {
         "word": "like",
-        "count": 4
-      },
-      {
-        "word": "play",
-        "count": 4
-      },
-      {
-        "word": "you",
-        "count": 4
+        "count": 3
       },
       {
         "word": "easy",
+        "count": 3
+      },
+      {
+        "word": "play",
         "count": 3
       },
       {
@@ -5933,11 +5925,7 @@
         "count": 3
       },
       {
-        "word": "fun",
-        "count": 3
-      },
-      {
-        "word": "relax",
+        "word": "you",
         "count": 3
       },
       {
@@ -5946,10 +5934,6 @@
       },
       {
         "word": "achievement",
-        "count": 2
-      },
-      {
-        "word": "cozy",
         "count": 2
       },
       {
@@ -5977,11 +5961,7 @@
         "count": 2
       },
       {
-        "word": "music",
-        "count": 2
-      },
-      {
-        "word": "demo",
+        "word": "fun",
         "count": 2
       },
       {
@@ -6005,23 +5985,7 @@
         "count": 2
       },
       {
-        "word": "cute",
-        "count": 2
-      },
-      {
-        "word": "will",
-        "count": 2
-      },
-      {
-        "word": "every",
-        "count": 2
-      },
-      {
-        "word": "my",
-        "count": 2
-      },
-      {
-        "word": "nice",
+        "word": "relax",
         "count": 2
       },
       {
@@ -6034,6 +5998,10 @@
       },
       {
         "word": "ti",
+        "count": 1
+      },
+      {
+        "word": "cozy",
         "count": 1
       },
       {
@@ -6111,16 +6079,48 @@
       {
         "word": "unique",
         "count": 1
+      },
+      {
+        "word": "interesting",
+        "count": 1
+      },
+      {
+        "word": "illustrations",
+        "count": 1
+      },
+      {
+        "word": "there",
+        "count": 1
+      },
+      {
+        "word": "background",
+        "count": 1
+      },
+      {
+        "word": "music",
+        "count": 1
+      },
+      {
+        "word": "which",
+        "count": 1
+      },
+      {
+        "word": "fix",
+        "count": 1
+      },
+      {
+        "word": "https",
+        "count": 1
       }
     ],
     "danish": [
       {
-        "word": "game",
-        "count": 40
+        "word": "you",
+        "count": 37
       },
       {
-        "word": "you",
-        "count": 38
+        "word": "game",
+        "count": 25
       },
       {
         "word": "your",
@@ -6131,55 +6131,35 @@
         "count": 12
       },
       {
-        "word": "love",
-        "count": 12
-      },
-      {
-        "word": "good",
-        "count": 11
-      },
-      {
         "word": "more",
-        "count": 11
-      },
-      {
-        "word": "have",
         "count": 10
       },
       {
-        "word": "cozy",
+        "word": "have",
+        "count": 9
+      },
+      {
+        "word": "love",
         "count": 9
       },
       {
         "word": "can",
-        "count": 9
-      },
-      {
-        "word": "there",
-        "count": 9
-      },
-      {
-        "word": "like",
-        "count": 9
-      },
-      {
-        "word": "fun",
-        "count": 9
+        "count": 8
       },
       {
         "word": "things",
         "count": 8
       },
       {
-        "word": "relaxing",
+        "word": "there",
         "count": 8
       },
       {
-        "word": "story",
+        "word": "still",
         "count": 7
       },
       {
-        "word": "still",
+        "word": "like",
         "count": 7
       },
       {
@@ -6195,23 +6175,19 @@
         "count": 7
       },
       {
-        "word": "det",
-        "count": 7
-      },
-      {
-        "word": "one",
+        "word": "story",
         "count": 6
       },
       {
-        "word": "short",
-        "count": 6
-      },
-      {
-        "word": "bit",
+        "word": "good",
         "count": 6
       },
       {
         "word": "then",
+        "count": 6
+      },
+      {
+        "word": "fun",
         "count": 6
       },
       {
@@ -6223,19 +6199,7 @@
         "count": 6
       },
       {
-        "word": "got",
-        "count": 6
-      },
-      {
-        "word": "spil",
-        "count": 6
-      },
-      {
-        "word": "only",
-        "count": 5
-      },
-      {
-        "word": "played",
+        "word": "one",
         "count": 5
       },
       {
@@ -6243,19 +6207,11 @@
         "count": 5
       },
       {
-        "word": "moving",
+        "word": "short",
         "count": 5
       },
       {
-        "word": "little",
-        "count": 5
-      },
-      {
-        "word": "when",
-        "count": 5
-      },
-      {
-        "word": "its",
+        "word": "bit",
         "count": 5
       },
       {
@@ -6271,16 +6227,12 @@
         "count": 5
       },
       {
-        "word": "er",
-        "count": 5
+        "word": "only",
+        "count": 4
       },
       {
-        "word": "great",
-        "count": 5
-      },
-      {
-        "word": "hyggeligt",
-        "count": 5
+        "word": "cozy",
+        "count": 4
       },
       {
         "word": "way",
@@ -6291,7 +6243,7 @@
         "count": 4
       },
       {
-        "word": "such",
+        "word": "moving",
         "count": 4
       },
       {
@@ -6299,11 +6251,7 @@
         "count": 4
       },
       {
-        "word": "cute",
-        "count": 4
-      },
-      {
-        "word": "do",
+        "word": "little",
         "count": 4
       },
       {
@@ -6315,7 +6263,15 @@
         "count": 4
       },
       {
+        "word": "when",
+        "count": 4
+      },
+      {
         "word": "other",
+        "count": 4
+      },
+      {
+        "word": "its",
         "count": 4
       },
       {
@@ -6323,27 +6279,7 @@
         "count": 4
       },
       {
-        "word": "recommend",
-        "count": 4
-      },
-      {
         "word": "hours",
-        "count": 4
-      },
-      {
-        "word": "play",
-        "count": 4
-      },
-      {
-        "word": "how",
-        "count": 4
-      },
-      {
-        "word": "would",
-        "count": 4
-      },
-      {
-        "word": "also",
         "count": 4
       },
       {
@@ -6353,67 +6289,61 @@
       {
         "word": "you're",
         "count": 4
-      }
-    ],
-    "norwegian": [
-      {
-        "word": "game",
-        "count": 27
       },
       {
-        "word": "relaxing",
-        "count": 13
+        "word": "room",
+        "count": 4
       },
       {
-        "word": "good",
-        "count": 9
+        "word": "stuff",
+        "count": 4
       },
       {
-        "word": "story",
-        "count": 9
+        "word": "got",
+        "count": 4
       },
       {
-        "word": "nice",
-        "count": 8
+        "word": "played",
+        "count": 3
       },
       {
-        "word": "more",
-        "count": 7
+        "word": "times",
+        "count": 3
+      },
+      {
+        "word": "unpacking",
+        "count": 3
+      },
+      {
+        "word": "after",
+        "count": 3
+      },
+      {
+        "word": "such",
+        "count": 3
+      },
+      {
+        "word": "my",
+        "count": 3
+      },
+      {
+        "word": "time",
+        "count": 3
       },
       {
         "word": "cute",
-        "count": 6
+        "count": 3
       },
       {
-        "word": "fun",
-        "count": 6
+        "word": "do",
+        "count": 3
       },
       {
-        "word": "chill",
-        "count": 4
+        "word": "need",
+        "count": 3
       },
       {
-        "word": "bit",
-        "count": 4
-      },
-      {
-        "word": "there",
-        "count": 4
-      },
-      {
-        "word": "cozy",
-        "count": 4
-      },
-      {
-        "word": "too",
-        "count": 4
-      },
-      {
-        "word": "you",
-        "count": 4
-      },
-      {
-        "word": "recommend",
+        "word": "stress",
         "count": 3
       },
       {
@@ -6421,7 +6351,45 @@
         "count": 3
       },
       {
-        "word": "wish",
+        "word": "tells",
+        "count": 3
+      }
+    ],
+    "norwegian": [
+      {
+        "word": "game",
+        "count": 14
+      },
+      {
+        "word": "story",
+        "count": 8
+      },
+      {
+        "word": "relaxing",
+        "count": 6
+      },
+      {
+        "word": "good",
+        "count": 6
+      },
+      {
+        "word": "nice",
+        "count": 5
+      },
+      {
+        "word": "recommend",
+        "count": 3
+      },
+      {
+        "word": "fun",
+        "count": 3
+      },
+      {
+        "word": "bit",
+        "count": 3
+      },
+      {
+        "word": "there",
         "count": 3
       },
       {
@@ -6433,7 +6401,7 @@
         "count": 3
       },
       {
-        "word": "my",
+        "word": "more",
         "count": 3
       },
       {
@@ -6441,31 +6409,7 @@
         "count": 3
       },
       {
-        "word": "need",
-        "count": 3
-      },
-      {
-        "word": "its",
-        "count": 3
-      },
-      {
-        "word": "love",
-        "count": 3
-      },
-      {
-        "word": "one",
-        "count": 3
-      },
-      {
-        "word": "spillet",
-        "count": 3
-      },
-      {
-        "word": "er",
-        "count": 3
-      },
-      {
-        "word": "og",
+        "word": "you",
         "count": 3
       },
       {
@@ -6473,19 +6417,7 @@
         "count": 2
       },
       {
-        "word": "loved",
-        "count": 2
-      },
-      {
         "word": "bought",
-        "count": 2
-      },
-      {
-        "word": "such",
-        "count": 2
-      },
-      {
-        "word": "calming",
         "count": 2
       },
       {
@@ -6493,7 +6425,11 @@
         "count": 2
       },
       {
-        "word": "music",
+        "word": "me",
+        "count": 2
+      },
+      {
+        "word": "cute",
         "count": 2
       },
       {
@@ -6509,11 +6445,7 @@
         "count": 2
       },
       {
-        "word": "short",
-        "count": 2
-      },
-      {
-        "word": "comforting",
+        "word": "wish",
         "count": 2
       },
       {
@@ -6521,15 +6453,11 @@
         "count": 2
       },
       {
-        "word": "were",
-        "count": 2
-      },
-      {
         "word": "get",
         "count": 2
       },
       {
-        "word": "much",
+        "word": "too",
         "count": 2
       },
       {
@@ -6545,7 +6473,7 @@
         "count": 2
       },
       {
-        "word": "while",
+        "word": "its",
         "count": 2
       },
       {
@@ -6553,40 +6481,20 @@
         "count": 2
       },
       {
-        "word": "amazing",
-        "count": 2
-      },
-      {
-        "word": "time",
-        "count": 2
-      },
-      {
         "word": "oven",
         "count": 2
       },
       {
-        "word": "stuff",
+        "word": "one",
         "count": 2
       },
       {
-        "word": "should",
-        "count": 2
+        "word": "chill",
+        "count": 1
       },
       {
-        "word": "litt",
-        "count": 2
-      },
-      {
-        "word": "koselig",
-        "count": 2
-      },
-      {
-        "word": "dette",
-        "count": 2
-      },
-      {
-        "word": "avslappende",
-        "count": 2
+        "word": "loved",
+        "count": 1
       },
       {
         "word": "before",
@@ -6595,35 +6503,115 @@
       {
         "word": "trying",
         "count": 1
+      },
+      {
+        "word": "out",
+        "count": 1
+      },
+      {
+        "word": "myself",
+        "count": 1
+      },
+      {
+        "word": "proved",
+        "count": 1
+      },
+      {
+        "word": "such",
+        "count": 1
+      },
+      {
+        "word": "sound",
+        "count": 1
+      },
+      {
+        "word": "everything",
+        "count": 1
+      },
+      {
+        "word": "calming",
+        "count": 1
+      },
+      {
+        "word": "touch",
+        "count": 1
+      },
+      {
+        "word": "pros",
+        "count": 1
+      },
+      {
+        "word": "destressing",
+        "count": 1
+      },
+      {
+        "word": "personaly",
+        "count": 1
+      },
+      {
+        "word": "music",
+        "count": 1
+      },
+      {
+        "word": "artstyle",
+        "count": 1
+      },
+      {
+        "word": "possibilitys",
+        "count": 1
+      },
+      {
+        "word": "wholesome",
+        "count": 1
+      },
+      {
+        "word": "achievement",
+        "count": 1
+      },
+      {
+        "word": "saves",
+        "count": 1
+      },
+      {
+        "word": "players",
+        "count": 1
+      },
+      {
+        "word": "secrets",
+        "count": 1
+      },
+      {
+        "word": "cons",
+        "count": 1
+      },
+      {
+        "word": "short",
+        "count": 1
+      },
+      {
+        "word": "storys",
+        "count": 1
+      },
+      {
+        "word": "same",
+        "count": 1
       }
     ],
     "indonesian": [
-      {
-        "word": "game",
-        "count": 4
-      },
       {
         "word": "you",
         "count": 3
       },
       {
-        "word": "santai",
-        "count": 3
-      },
-      {
-        "word": "cozy",
-        "count": 2
-      },
-      {
-        "word": "yang",
-        "count": 2
-      },
-      {
-        "word": "unsur",
+        "word": "game",
         "count": 2
       },
       {
         "word": "definitive",
+        "count": 1
+      },
+      {
+        "word": "cozy",
         "count": 1
       },
       {
@@ -6697,170 +6685,6 @@
       {
         "word": "telling",
         "count": 1
-      },
-      {
-        "word": "nan",
-        "count": 1
-      },
-      {
-        "word": "namun",
-        "count": 1
-      },
-      {
-        "word": "terdapat",
-        "count": 1
-      },
-      {
-        "word": "lgbtq",
-        "count": 1
-      },
-      {
-        "word": "di",
-        "count": 1
-      },
-      {
-        "word": "dalamnya",
-        "count": 1
-      },
-      {
-        "word": "sungguh",
-        "count": 1
-      },
-      {
-        "word": "peak",
-        "count": 1
-      },
-      {
-        "word": "banget",
-        "count": 1
-      },
-      {
-        "word": "menurut",
-        "count": 1
-      },
-      {
-        "word": "gua",
-        "count": 1
-      },
-      {
-        "word": "pribadi",
-        "count": 1
-      },
-      {
-        "word": "tau",
-        "count": 1
-      },
-      {
-        "word": "dari",
-        "count": 1
-      },
-      {
-        "word": "teman",
-        "count": 1
-      },
-      {
-        "word": "dan",
-        "count": 1
-      },
-      {
-        "word": "kecanduan",
-        "count": 1
-      },
-      {
-        "word": "plisss",
-        "count": 1
-      },
-      {
-        "word": "gamenya",
-        "count": 1
-      },
-      {
-        "word": "menyenangkan",
-        "count": 1
-      },
-      {
-        "word": "bangett",
-        "count": 1
-      },
-      {
-        "word": "seeru",
-        "count": 1
-      },
-      {
-        "word": "dimainkan",
-        "count": 1
-      },
-      {
-        "word": "saat",
-        "count": 1
-      }
-    ],
-    "bulgarian": [
-      {
-        "word": "easily",
-        "count": 1
-      },
-      {
-        "word": "one",
-        "count": 1
-      },
-      {
-        "word": "best",
-        "count": 1
-      },
-      {
-        "word": "its",
-        "count": 1
-      },
-      {
-        "word": "kind",
-        "count": 1
-      },
-      {
-        "word": "games",
-        "count": 1
-      },
-      {
-        "word": "out",
-        "count": 1
-      },
-      {
-        "word": "there",
-        "count": 1
-      }
-    ],
-    "greek": [
-      {
-        "word": "nice",
-        "count": 1
-      },
-      {
-        "word": "chillin",
-        "count": 1
-      },
-      {
-        "word": "game",
-        "count": 1
-      },
-      {
-        "word": "einai",
-        "count": 1
-      },
-      {
-        "word": "polu",
-        "count": 1
-      },
-      {
-        "word": "diaskedastiko",
-        "count": 1
-      },
-      {
-        "word": "cute",
-        "count": 1
-      },
-      {
-        "word": "relaxing",
-        "count": 1
       }
     ]
   },
@@ -6868,8 +6692,8 @@
     "num_reviews": 100,
     "review_score": 8,
     "review_score_desc": "Very Positive",
-    "total_positive": 37252,
-    "total_negative": 2710,
-    "total_reviews": 39962
+    "total_positive": 37317,
+    "total_negative": 2715,
+    "total_reviews": 40032
   }
 }
